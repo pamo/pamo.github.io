@@ -1,0 +1,109 @@
+/* $TITLE **********************************************************************
+
+Style rules for pamo github page
+Jump to individual sections by searching for "$SECTION TITLE"
+
+ *******************************************************************************/
+
+/* $CONTENTS *******************************************************************
+ * Imports
+ * Mixins
+ * Variables
+ * Base
+ * Layout
+ *******************************************************************************/
+
+/* $IMPORTS *******************************************************************/
+
+@import "bourbon/bourbon";
+
+/* $MIXINS ********************************************************************/
+
+/* $VARIABLES *****************************************************************/
+
+$base:            #f5f5f5;
+$primary:         #666666;
+$secondary:       #999999;
+$emphasis:        #333333;
+$lightborder:     #eeeeee;
+$medborder:       #dddddd;
+$darkborder:      #cccccc;
+$blockquote:      #f6f6f6;
+
+/* $BASE ********************************************************************/
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: $base;
+    color: $primary;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+/* $LAYOUT ********************************************************************/
+
+header, section, footer {
+  @include container;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header-wrapper {
+  border-bottom: 2px solid $lightborder;
+}
+
+.site-title {
+  @include span-columns(4 alpha, 12);
+}
+
+nav {
+  @include span-columns(8 omega, 12);
+  text-align: right;
+}
+
+aside {
+  @include span-columns(4 alpha, 12);
+  border-top: 2px solid $medborder;
+  min-height: 5em;
+  padding-top: 1em;
+}
+
+article {
+  @include span-columns(8 omega, 12);
+  border-top: 2px solid $lightborder;
+  margin-bottom: 3em;
+  padding-top: 1em;
+}
+
+section.single article {
+  padding-top: 0;
+}
+
+li {
+  @include clearfix;
+}
+
+.footer-wrapper {
+  border-top: 2px solid $lightborder;
+  margin-top: 2em;
+}
+
+footer {
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.social {
+  @include span-columns(8 alpha,12);
+}
+
+.contact {
+  @include span-columns(4 omega,12);
+}
+
+hr {
+  border: 1px solid $lightborder;
+}
