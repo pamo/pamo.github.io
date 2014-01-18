@@ -46,7 +46,6 @@ body {
 /* $LAYOUT ********************************************************************/
 
 header, section, footer {
-  @include container;
   padding-left: 0;
   padding-right: 0;
 }
@@ -56,23 +55,19 @@ header, section, footer {
 }
 
 .site-title {
-  @include span-columns(4 alpha, 12);
 }
 
 nav {
-  @include span-columns(8 omega, 12);
   text-align: right;
 }
 
 aside {
-  @include span-columns(4 alpha, 12);
   border-top: 2px solid $medborder;
   min-height: 5em;
   padding-top: 1em;
 }
 
 article {
-  @include span-columns(8 omega, 12);
   border-top: 2px solid $lightborder;
   margin-bottom: 3em;
   padding-top: 1em;
@@ -83,7 +78,6 @@ section.single article {
 }
 
 li {
-  @include clearfix;
 }
 
 .footer-wrapper {
@@ -97,11 +91,9 @@ footer {
 }
 
 .social {
-  @include span-columns(8 alpha,12);
 }
 
 .contact {
-  @include span-columns(4 omega,12);
 }
 
 hr {
