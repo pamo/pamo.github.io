@@ -1,0 +1,13 @@
+{% include header.html %}
+
+<section class="post">
+<h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+<aside>
+<h4>{{ page.date | date_to_long_string }}</h4>
+</aside>
+<article>
+{{ content }}
+</article>
+</section>
+
+{% include footer.html %}
