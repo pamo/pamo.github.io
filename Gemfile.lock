@@ -40,6 +40,9 @@ GEM
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     maruku (0.7.0)
+    neat (1.5.0)
+      bourbon (>= 2.1)
+      sass (>= 3.2)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
@@ -66,3 +69,5 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   github-pages
+  neat
+  sass
