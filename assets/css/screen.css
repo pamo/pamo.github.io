@@ -138,19 +138,11 @@ header:after, section:after, footer:after, .container:after {
 }
 
 /* line 87, ../sass/screen.scss */
-footer {
-  padding-bottom: 2.5em;
-  padding-top: 2.5em;
-  border-top: 1px solid #b4b4b4;
-  margin-top: 2em;
-}
-
-/* line 94, ../sass/screen.scss */
 hr {
   border: 1px solid #b4b4b4;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .main-bio {
   width: 66.10169%;
   float: right;
@@ -158,5 +150,6 @@ hr {
   *margin-left: -1em;
   display: inline;
   margin: 10px 0 10px 0;
+  top: 50%;
   position: fixed;
 }
