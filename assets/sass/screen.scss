@@ -84,13 +84,6 @@ header, section, footer, .container {
     @include blur-effect(3px, 0.95);
 }
 
-footer{
-  padding-bottom: 2.5em;
-  padding-top: 2.5em;
-  border-top: 1px solid $lightborder;
-  margin-top: 2em;
-}
-
 hr {
   border: 1px solid $lightborder;
 }
@@ -98,5 +91,6 @@ hr {
 .main-bio{
     @include span-columns(8 omega, 12);
     margin: 10px 0 10px 0;
+    top: 50%;
     position: fixed;
 }
