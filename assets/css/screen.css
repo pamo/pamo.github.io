@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Amaranth:regular,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,bold,bolditalic);
 /* $TITLE **********************************************************************
 
 Style rules for pamo github page
@@ -81,22 +83,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* $MIXINS ********************************************************************/
 /* $SUSY GRID **********************************************************************/
 /* $VARIABLES *****************************************************************/
+/* line 61, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
 /* $BASE ********************************************************************/
-/* line 53, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 html, body {
   height: 100%;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 body {
   color: black;
   font-size: 1em;
   margin: 0;
-  font-family: Consolas, Inconsolata, Monaco, monospace;
+  font-family: 'Cabin', Helvetica, arial, sans-serif;
+}
+
+/* line 72, ../sass/screen.scss */
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+/* line 76, ../sass/screen.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* line 80, ../sass/screen.scss */
+p {
+  font-size: 1.1875em;
+  line-height: 1.26316em;
 }
 
 /* $LAYOUT ********************************************************************/
-/* line 66, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 header, section, footer, .container {
   *zoom: 1;
   max-width: 59em;
@@ -107,6 +138,7 @@ header, section, footer, .container {
   margin-right: auto;
   padding-left: 0;
   padding-right: 0;
+  font-family: 'Amaranth', sans-serif;
 }
 /* line 38, ../../../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 header:after, section:after, footer:after, .container:after {
@@ -115,7 +147,7 @@ header:after, section:after, footer:after, .container:after {
   clear: both;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .container:before {
   content: "";
   left: 0;
@@ -137,12 +169,12 @@ header:after, section:after, footer:after, .container:after {
   opacity: 0.95;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 hr {
   border: 1px solid #b4b4b4;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .main-bio {
   width: 66.10169%;
   float: right;

@@ -22,6 +22,12 @@ Jump to individual sections by searching for "$SECTION TITLE"
 @import "compass/utilities/general/clearfix";
 @import "susy";
 
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Amaranth:regular,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,bold,bolditalic);
+@import "socicon";
+
+
 /* $MIXINS ********************************************************************/
 @import "blur-effect";
 
@@ -49,16 +55,32 @@ $medborder:       rgb(39, 40, 34);
 $darkborder:      rgb(40,40,40);
 $blockquote:      $base;
 
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
+
 /* $BASE ********************************************************************/
 html, body {
   height: 100%;
 }
 
 body {
-  color: $primary;
+  color: $base;
   font-size: 1em;
   margin: 0;
-  font-family: Consolas, Inconsolata, Monaco, monospace;
+  font-family: 'Cabin', Helvetica, arial, sans-serif;
+}
+
+h1{
+  @include adjust-font-size-to(48px);
+}
+
+h2{
+  @include adjust-font-size-to(24px);
+}
+
+p{
+  @include adjust-font-size-to(19px);
 }
 
 /* $LAYOUT ********************************************************************/
@@ -67,6 +89,7 @@ header, section, footer, .container {
     @include container;
     padding-left: 0;
     padding-right: 0;
+    font-family: 'Amaranth', sans-serif;
 }
 
 .container:before{

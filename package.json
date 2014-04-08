@@ -1,0 +1,11 @@
+{
+  "name": "pamo.github.io",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-autoprefixer": "~0.6.3",
+    "grunt": "^0.4.4",
+    "grunt-jekyll": "~0.4.1",
+    "grunt-sass": "~0.9.0"
+  }
+}

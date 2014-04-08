@@ -57,3 +57,7 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+# Created by http://www.gitignore.io
+
+### Jekyll ###
+_site/
