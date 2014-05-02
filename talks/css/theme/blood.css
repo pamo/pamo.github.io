@@ -146,6 +146,9 @@ body {
 .reveal .slide-number {
   color: #aa2233; }
 
+p {
+  color: #bf7300; }
+
 .reveal p {
   font-weight: 300;
   text-shadow: 1px 1px #222222; }
