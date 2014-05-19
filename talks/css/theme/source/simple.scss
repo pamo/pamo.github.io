@@ -32,9 +32,17 @@ $backgroundColor: #fff;
 $linkColor: #00008B;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$imgBorder: 0;
 
-
-
+ul.grid{
+    @include outer-container;
+    @include fill-parent;
+    text-align: center;
+    margin: 0 auto;
+    li {
+        @include span-columns(2);
+    }
+}
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
