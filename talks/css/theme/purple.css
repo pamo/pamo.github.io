@@ -55,6 +55,18 @@ section.columnized {
     section.columnized article:last-child {
       margin-right: 0; }
 
+section.three img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  section.three img:last-child {
+    margin-right: 0; }
+  section.three img:nth-child(3n) {
+    margin-right: 0; }
+  section.three img:nth-child(3n+1) {
+    clear: left; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/

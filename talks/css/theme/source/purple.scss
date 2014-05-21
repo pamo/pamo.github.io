@@ -69,6 +69,12 @@ section.columnized {
     aside { @include span-columns(4); }
     article { @include span-columns(6); }
 }
+section.three{
+    img{
+        @include span-columns(4);
+        @include omega(3n);
+    }
+}
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
