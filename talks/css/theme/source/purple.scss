@@ -49,16 +49,14 @@ $selectionBackgroundColor: #FF5E99;
 $selectionColor: #fff;
 
 ul.grid{
-    @include outer-container;
+    text-align:center;
     @include fill-parent;
-    text-align: center;
     li {
-        @include span-columns(2);
+        @include span-columns(1 of 6, block-collapse);
     }
     li.two {
-        @include span-columns(5);
+        @include span-columns(2 of 4);
     }
-
 }
 
 .caution{
@@ -66,7 +64,12 @@ ul.grid{
     font-size: 36px;
     color: #db5c39;
 }
-
+section.columnized {
+    @include outer-container;
+    aside { @include span-columns(2); }
+    article { @include span-columns(8); }
+}
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+

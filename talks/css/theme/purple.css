@@ -11,27 +11,19 @@
   box-sizing: border-box; }
 
 ul.grid {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center; }
-  ul.grid:after {
-    content: "";
-    display: table;
-    clear: both; }
+  text-align: center;
+  width: 100%; }
   ul.grid li {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 14.70196%; }
+    width: 17.47153%; }
     ul.grid li:last-child {
-      margin-right: 0; }
+      width: 12.64237%; }
   ul.grid li.two {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%; }
+    margin-right: 7.42297%;
+    width: 46.28851%; }
     ul.grid li.two:last-child {
       margin-right: 0; }
 
@@ -39,6 +31,29 @@ ul.grid {
   font-family: 'Raleway';
   font-size: 36px;
   color: #db5c39; }
+
+section.columnized {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section.columnized:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section.columnized aside {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%; }
+    section.columnized aside:last-child {
+      margin-right: 0; }
+  section.columnized article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    section.columnized article:last-child {
+      margin-right: 0; }
 
 /*********************************************
  * GLOBAL STYLES
