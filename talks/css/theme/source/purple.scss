@@ -66,8 +66,8 @@ ul.grid{
 }
 section.columnized {
     @include outer-container;
-    aside { @include span-columns(2); }
-    article { @include span-columns(8); }
+    aside { @include span-columns(4); }
+    article { @include span-columns(6); }
 }
 // Theme template ------------------------------
 @import "../template/theme";
