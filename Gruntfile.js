@@ -30,15 +30,15 @@ module.exports = function(grunt) {
 				options: {
 					pretty: true,
 					data: {
-						debug: false
+                        debug: true
 					}
 				},
 				files: [{
 					expand: true,
-					cwd: '<%= app %>/',
-					src: ['**/*.jade', '!**/header.jade', '!**/footer.jade'],
+					cwd: '',
+					src: ['**/*.jade', '!**/header.jade', '!**/footer.jade', '!bower_components/**/*.jade','!node_modules/**/*.jade'],
 					ext: '.html',
-					dest: '<%= app %>/'
+					dest: ''
 				}]
 			}
 		},
@@ -94,7 +94,7 @@ module.exports = function(grunt) {
 		},
 
 		useminPrepare: {
-			html: ['<%= app %>/index.html'],
+			html: ['index.html'],
 			options: {
 				dest: '<%= dist %>'
 			}
