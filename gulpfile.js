@@ -39,15 +39,23 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    gulp.src('_scss/main.scss')
+    gulp.src(['_scss/main.scss'])
         .pipe(sass({
-            includePaths: ['scss', 'bower_components/foundation/scss'],
+            includePaths: ['scss'],
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
-        .pipe(browserSync.reload({stream:true}))
+        .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('css'));
+    gulp.src(['bower_components/foundation/scss/foundation.scss'])
+        .pipe(sass({
+            includePaths: ['bower_components/foundation/scss'],
+            onError: browserSync.notify
+        }))
+        .pipe(gulp.dest('_site/css/foundation'))
+        .pipe(browserSync.reload({stream: true}))
+        .pipe(gulp.dest('css/foundation'));
 });
 
 /**
