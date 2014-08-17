@@ -27,7 +27,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['copy','sass', 'jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -48,14 +48,14 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('css'));
-    gulp.src(['bower_components/foundation/scss/foundation.scss'])
+    gulp.src(['bower_components/foundation/scss/foundation.scss','bower_components/font-awesome/scss/font-awesome.scss'])
         .pipe(sass({
-            includePaths: ['bower_components/foundation/scss'],
+            includePaths: ['bower_components/'],
             onError: browserSync.notify
         }))
-        .pipe(gulp.dest('_site/css/foundation'))
+        .pipe(gulp.dest('_site/css/lib'))
         .pipe(browserSync.reload({stream: true}))
-        .pipe(gulp.dest('css/foundation'));
+        .pipe(gulp.dest('css/lib'));
 });
 
 /**
@@ -67,6 +67,11 @@ gulp.task('watch', function () {
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
+gulp.task('copy', function(){
+    gulp.src(['bower_components/**/*.js'])
+        .pipe(gulp.dest('_site/js/lib'))
+        .pipe(gulp.dest('js/lib'));
+});
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
