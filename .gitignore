@@ -13,7 +13,6 @@ _site/
 
 ### Sass ###
 .sass-cache
-css/
 
 ### Bower ###
 bower_components
