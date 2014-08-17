@@ -1,6 +1,4 @@
-title: Pamela Ocampo
+name: Poco a poco
 markdown: redcarpet
-safe: true
-lsi: false
-pygments: true
-timezone: America/Los_Angeles
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]

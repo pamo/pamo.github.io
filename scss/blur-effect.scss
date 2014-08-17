@@ -1,9 +1,0 @@
-@mixin blur-effect($radius, $opacity){
-    z-index: -1;
-    -webkit-filter: blur($radius);
-    -moz-filter: blur($radius);
-    -o-filter: blur($radius);
-    -ms-filter: blur($radius);
-    filter: blur($radius);
-    opacity: $opacity;
-}
