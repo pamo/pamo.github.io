@@ -4,3 +4,15 @@
 body {
     background: white;
 }
+
+ul.social{
+    width: 100%;
+    list-style: none;
+    display: inline;
+    text-align: center;
+    li {
+        float: left;
+        padding: 0 5px 0 5px;
+        font-size: 2em;
+    }
+}

@@ -17,23 +17,11 @@ body {
   font-size: small;
   text-align: center; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
 h1 {
   margin-bottom: 1em; }
 
 p {
   margin: 1em 0; }
-
-a {
-  color: #00a; }
-
-a:hover {
-  color: #000; }
-
-a:visited {
-  color: #a0a; }
 
 /*****************************************************************************/
 /*
@@ -47,18 +35,12 @@ a:visited {
 .posts li {
   line-height: 1.75em; }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%; }
-
 /*****************************************************************************/
 /*
 /* Site
 /*
 /*****************************************************************************/
 .site {
-  font-size: 115%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
@@ -69,11 +51,7 @@ a:visited {
   text-decoration: none; }
 
 .title {
-  display: inline-block;
-  margin-bottom: 2em; }
-
-.title a {
-  color: #a00; }
+  display: inline-block; }
 
 .title a:hover {
   color: #000; }
@@ -88,27 +66,12 @@ a:visited {
 .meta {
   color: #aaa; }
 
-.footer {
+footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 2px solid #eee;
   margin-top: 2em;
   overflow: hidden; }
-
-.footer .contact {
-  float: left;
-  margin-right: 3em; }
-
-.footer .contact a {
-  color: #8085C1; }
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -0.2em;
-  float: right; }
-
-.footer .rss img {
-  border: 0; }
 
 /*****************************************************************************/
 /*
@@ -397,3 +360,13 @@ a:visited {
 /* Literal.Number.Integer.Long */
 body {
   background: white; }
+
+ul.social {
+  width: 100%;
+  list-style: none;
+  display: inline;
+  text-align: center; }
+  ul.social li {
+    float: left;
+    padding: 0 5px 0 5px;
+    font-size: 2em; }

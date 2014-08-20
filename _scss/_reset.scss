@@ -18,16 +18,8 @@ body {
     font-size: small;
     text-align: center;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%; }
-
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
@@ -44,9 +36,6 @@ a:visited { color: #a0a; }
 }
 
 .posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
 }
 
 /*****************************************************************************/
@@ -56,7 +45,6 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-    font-size: 115%;
     text-align: justify;
     width: 42em;
     margin: 3em auto 2em;
@@ -70,11 +58,9 @@ a:visited { color: #a0a; }
 
 .title {
     display: inline-block;
-    margin-bottom: 2em;
 }
 
 .title a {
-    color: #a00;
 }
 
 .title a:hover {
@@ -94,31 +80,12 @@ a:visited { color: #a0a; }
     color: #aaa;
 }
 
-.footer {
+footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px solid #eee;
+    border-top: 2px solid #eee;
     margin-top: 2em;
     overflow: hidden;
-}
-
-.footer .contact {
-    float: left;
-    margin-right: 3em;
-}
-
-.footer .contact a {
-    color: #8085C1;
-}
-
-.footer .rss {
-    margin-top: 1.1em;
-    margin-right: -.2em;
-    float: right;
-}
-
-.footer .rss img {
-    border: 0;
 }
 
 /*****************************************************************************/
