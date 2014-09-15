@@ -1,6 +1,9 @@
 @import "reset";
 @import "syntax";
 
+$serif: 'Lusitana', serif;
+$serif-2: 'Merriweather', serif;
+$sans-serif: 'Merriweather Sans', sans-serif;
 body {
     background: white;
 }
@@ -18,9 +21,7 @@ ul.social{
 }
 
 article {
-    $serif: 'Lusitana', serif;
-    $serif-2: 'Merriweather', serif;
-    $sans-serif: 'Merriweather Sans', sans-serif;
+    font-family: $serif-2;
 
     &:after {
         content:"";
@@ -30,7 +31,7 @@ article {
 
     text-align: left;
 
-    .type {
+    .post-category {
         border-bottom: 1px solid;
         display: inline-block;
         font-family: $sans-serif;
@@ -113,6 +114,10 @@ article {
             top: -1px;
             right: -12px;
         }
+    }
+
+    li{
+        font-size: .75em;
     }
 
     .display-inline {

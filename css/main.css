@@ -365,12 +365,13 @@ ul.social {
     font-size: 2em; }
 
 article {
+  font-family: 'Merriweather', serif;
   text-align: left; }
   article:after {
     content: "";
     display: table;
     clear: both; }
-  article .type {
+  article .post-category {
     border-bottom: 1px solid;
     display: inline-block;
     font-family: 'Merriweather Sans', sans-serif;
@@ -435,6 +436,8 @@ article {
       font-size: 1.5em;
       top: -1px;
       right: -12px; }
+  article li {
+    font-size: 0.75em; }
   article .display-inline {
     display: inline; }
     article .display-inline + * {
