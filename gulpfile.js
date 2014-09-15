@@ -26,7 +26,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 });
 
 gulp.task('images', function(cb) {
-    gulp.src(['_site/images/**/*.png','_site/images/**/*.jpg','_site/images/**/*.gif','_site/images/**/*.jpeg']).pipe(imageop({
+    gulp.src(['images/**/*.png','images/**/*.jpg','images/**/*.gif','images/**/*.jpeg']).pipe(imageop({
         optimizationLevel: 5,
         progressive: true,
         interlaced: true
