@@ -1,4 +1,4 @@
-name: poco a poco
+name: Pamela Ocampo
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]

@@ -3,6 +3,7 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
+var imageop = require('gulp-image-optimization');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -24,10 +25,18 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
+gulp.task('images', function(cb) {
+    gulp.src(['_site/images/**/*.png','_site/images/**/*.jpg','_site/images/**/*.gif','_site/images/**/*.jpeg']).pipe(imageop({
+        optimizationLevel: 5,
+        progressive: true,
+        interlaced: true
+    })).pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
+});
+
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['copy','sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['copy','images', 'sass', 'jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -64,7 +73,7 @@ gulp.task('sass', function () {
  */
 gulp.task('watch', function () {
     gulp.watch(['_scss/*.scss', 'bower_components/**/*.scss'], ['sass']);
-    gulp.watch(['index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['*.yml', '*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 gulp.task('copy', function(){
@@ -75,6 +84,7 @@ gulp.task('copy', function(){
         .pipe(gulp.dest('_site/css/fonts/'))
         .pipe(gulp.dest('css/fonts'));
 });
+
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.

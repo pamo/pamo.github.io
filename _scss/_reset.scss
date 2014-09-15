@@ -13,12 +13,10 @@
 html, body { height: 100%; }
 
 body {
-    background-color: black;
     font: 13.34px Helvetica, Arial, sans-serif;
     font-size: small;
     text-align: center;
 }
-h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
 /*****************************************************************************/
@@ -26,17 +24,6 @@ p { margin: 1em 0; }
 /* Home
 /*
 /*****************************************************************************/
-.posts {
-    list-style-type: none;
-    margin-bottom: 2em;
-}
-
-.posts li {
-    line-height: 1.75em;
-}
-
-.posts span {
-}
 
 /*****************************************************************************/
 /*
@@ -46,7 +33,7 @@ p { margin: 1em 0; }
 
 .site {
     text-align: justify;
-    width: 42em;
+    max-width: 50em;
     margin: 3em auto 2em;
     line-height: 1.5em;
 }
@@ -57,7 +44,11 @@ p { margin: 1em 0; }
 }
 
 .title {
-    display: inline-block;
+    text-transform: lowercase;
+    display: block;
+    @media only screen and (min-width: 64.063em){
+        display: inline-block;
+    }
 }
 
 .title a {
