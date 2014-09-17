@@ -3,7 +3,7 @@
 /* Common
 /*
 /*****************************************************************************/
-
+$base-spacing: 1.4em;
 /* Global Reset */
 * {
     margin: 0;
@@ -16,6 +16,7 @@ body {
     font: 13.34px Helvetica, Arial, sans-serif;
     font-size: small;
     text-align: center;
+    margin: $base-spacing;
 }
 p { margin: 1em 0; }
 
@@ -60,7 +61,9 @@ p { margin: 1em 0; }
 
 .header a.extra {
     color: #aaa;
-    margin-left: 1em;
+    &:not(:first-of-type){
+        margin-left: 1em;
+    }
 }
 
 .header a.extra:hover {

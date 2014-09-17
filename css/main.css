@@ -14,7 +14,8 @@ html, body {
 body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center; }
+  text-align: center;
+  margin: 1.4em; }
 
 p {
   margin: 1em 0; }
@@ -50,8 +51,9 @@ p {
   color: #000; }
 
 .header a.extra {
-  color: #aaa;
-  margin-left: 1em; }
+  color: #aaa; }
+  .header a.extra:not(:first-of-type) {
+    margin-left: 1em; }
 
 .header a.extra:hover {
   color: #000; }
@@ -362,7 +364,7 @@ ul.social {
   ul.social li {
     float: left;
     padding: 0 5px 0 5px;
-    font-size: 2em; }
+    font-size: 1.5em; }
 
 article {
   font-family: 'Merriweather', serif;
