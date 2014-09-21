@@ -2,12 +2,13 @@
 layout: post
 category: conferences
 title: Powered by Java!..script.
+tags: [javascript, tech, conferences, node]
 ---
 
-![Java -- The Future](/images/pbjava.jpg)
+![Java -- The Future](/images/pbjs.jpg)
 
-The Manning Powered by Javascript workshop was a mini conference of the state of Javascript in today's web.
-At the end of the day, it was clear:
+The Manning Powered by Javascript workshop was a mini conference of the current state of Javascript.
+By the end of the day, it was clear:
 > Javascript can live everywhere today.
 
 Dan Shaw (@dshaw) started the day off with an overview of Node.js and it's potential to introduce
@@ -15,32 +16,37 @@ Javascript to every level of an application's tech stack.
 He described himself as previously being a _"mid-tier"_ developer where he primarily worked on
 applications with a Java backend and Javascript front-ends.
 
-However, he covered several instances where Node can create light-weight communication layers that can allow devices to be more responsive -- a key for the growing trend toward an Internet of Things and communicating with embedded devices.
-
 Dan described Javascript as a beauty and a beast because it's a approchable language, given that
 the cycle time between ideation and realization is very tight, but the time to "level-up" in proficiency is very long.
 
-The meat of Dan's talk focused on one of the biggest engineering challenges we face in building web applications: *dealing with legacy and monolithic services.*
+The meat of Dan's talk focused on one of the biggest engineering challenges we face in building web applications: *dealing with legacy and monolithic services* that are most often written in Java or PHP.
 
-Legacy APIs provided by Java or PHP systems are one of the
-biggest causes of a slow front-end experience and often delay the schedule to ship an application anywhere from 6 to 24 months.
+My introduction to the Javascript world and web app development has been with Angular serving data from a legacy APIs.
+Dan described this as a big cause of delaying an application launch anywhere from 6 to 24 months. I've also been witness to the evident slow front-end experience these services cause.
 
-### Front-end Back-end
+### Front-end back-end
 
 What Dan proposes is to build a Node "front-end back-end" as a middle tier between the legacy monolith to deliver front-end assets.
-This middle tier not only separates concerns -- like most microservices -- but it also gives front-end engineers an opportunity to 
-contribute to other layers of the stack and gives full-stack developers a break from having to switch contexts! This is an issue I've faced
-in a project where we were writign the middle tier service in Java and the front end application in Angular. Honing my object-oriented design skills
-is a on-going goal of mine, but I'm excited by learning more about front-end development and javascript. So although I appreciated the diversity
-of the work I was doing and skills I was learning, it got difficult to keep track of WHAT I was learning when I was switching contexts from one day to the
-next.
+Like most microservices, this middle tier allows us separate concerns between the front-end and backend data.
+Given that backend data stores only evolve when the business domain changes, an event that rarely occurs, we have the ability to change the way front-end assets evolve quickly and often.
 
-Another motivation: the backend is designed around the business domain, something that rarely evolves and when it does, it does it slowly
-However, front-end assets evolve rapidly!
+### Reduced context-switching
+My eyes lit up when Dan presented this idea, I know the feeling of context-switching between Java and Javascript all too well.
+As a new developer in the industry, it's hard to focus on honing best practices in an object-oriented language one day and then focusing on learning a new framework and the set of unwritten rules of another language.
+Switching contexts makes it difficult to keep track of the skills I'm learning on a day to day. Muscle confusion may be beneficial in some cases (#broscience) but, in my opinion, the there should be some time in between switching things up a bit to let things stick.
+
+By having Node in more layers of the stack, full-stack developers get a break from frequent context-switching and front-end engineers have the opportunity to contribute to more of the code base.
 
 ### Putting it into practice
 
-1.  Best to build an application around APIs and not data
-2.  Proxies all the way down
-3.  Test early and often. Set up a continous integration system -- especially since Javascript has so many quirks
+Dan's talk set the tone for a lot of what piqued my interest for the rest of the day and several of the Strange Loop sessions I attended.
+Javascript can live everywhere. I saw many examples where developers have been creating applications that provide a near-native experience.
 
+For example: my neighbor, Tomomi (@girlie_mac), demo-ed two applications that she created for fun to demonstrate the ability to hook into device APIs to use what's available in the browser.
+The first one was [Sushi Compass](http://vimeo.com/92208773) and the second was [CoreMob](https://github.com/coremob/camera).
+The major APIs leveraged among both were the phone's camera and GPS, LocalStorage/IndexDB, and File APIs to read and write.
+Another exciting example was @jergason's use of the Audio APIs to drop some beats and make [DOMstep](http://youtu.be/QAwbjMdXj-Y).
+
+Caching files locally also brough upon the notion of creating web applications without the need for a server.
+[DreamWriter.io](http://dreamwriter.io), for example, manages all user interaction with the client (browser) before ever having to communicate with a server -- and in Robert Feldman's (@rtfeldman) case, the only server he needed to communicate with was Dropbox, a third-party service.
+The biggest benefit of these near-native apps is the fact that there's no need to go through an installation process on both mobile and desktop. On desktop, however, Robert Feldman noted that the fluidity of context switching to a web app introduces a few extra steps, this being tabbing to a browser window and THEN a tab versus a native container.

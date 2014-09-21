@@ -99,6 +99,20 @@ footer {
 .post pre.terminal code {
   background-color: #333; }
 
+article blockquote {
+  border-left: 0; }
+  article blockquote p:before {
+    font-family: FontAwesome;
+    position: relative;
+    top: 0.2em;
+    content: "\f10d";
+    font-size: 4em;
+    margin-right: 0.2em; }
+article img {
+  max-height: 400px;
+  float: left;
+  margin-right: 1.4em; }
+
 .highlight {
   background: #ffffff; }
 
