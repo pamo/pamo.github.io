@@ -2,12 +2,12 @@
 layout: post
 category: conferences
 title: Powered by Java!..script.
-tags: [javascript, tech, conferences, node]
+tags: [javascript, tech, conferences, node, mobile, html5, microservices]
 ---
 
 ![Java -- The Future](/images/pbjs.jpg)
 
-The Manning Powered by Javascript workshop was a mini conference of the current state of Javascript.
+The [Manning Powered by Javascript](http://www.manning.com/poweredbyjavascript/) workshop was a mini conference of the current state of Javascript.
 By the end of the day, it was clear:
 > Javascript can live everywhere today.
 
@@ -40,9 +40,9 @@ By having Node in more layers of the stack, full-stack developers get a break fr
 ### Putting it into practice
 
 Dan's talk set the tone for a lot of what piqued my interest for the rest of the day and several of the Strange Loop sessions I attended.
-Javascript can live everywhere. I saw many examples where developers have been creating applications that provide a near-native experience.
+Javascript can live everywhere. I saw many examples where developers have been creating applications that provide a near-native experience on both mobile and desktop.
 
-For example: my neighbor, Tomomi (@girlie_mac), demo-ed two applications that she created for fun to demonstrate the ability to hook into device APIs to use what's available in the browser.
+For example: my neighbor, Tomomi Imura ([@girlie_mac](https://twitter.com/girlie_mac)), demo-ed two applications that she created for fun to demonstrate the ability to hook into device APIs to use what's available in the browser.
 The first one was [Sushi Compass](http://vimeo.com/92208773) and the second was [CoreMob](https://github.com/coremob/camera).
 The major APIs leveraged among both were the phone's camera and GPS, LocalStorage/IndexDB, and File APIs to read and write.
 Another exciting example was @jergason's use of the Audio APIs to drop some beats and make [DOMstep](http://youtu.be/QAwbjMdXj-Y).
@@ -50,3 +50,6 @@ Another exciting example was @jergason's use of the Audio APIs to drop some beat
 Caching files locally also brough upon the notion of creating web applications without the need for a server.
 [DreamWriter.io](http://dreamwriter.io), for example, manages all user interaction with the client (browser) before ever having to communicate with a server -- and in Robert Feldman's (@rtfeldman) case, the only server he needed to communicate with was Dropbox, a third-party service.
 The biggest benefit of these near-native apps is the fact that there's no need to go through an installation process on both mobile and desktop. On desktop, however, Robert Feldman noted that the fluidity of context switching to a web app introduces a few extra steps, this being tabbing to a browser window and THEN a tab versus a native container.
+
+Overall, my impressions of Powered by Javascript were great. It got me thinking of ways microservices can done differently in addition to motivating me to hone my javascript skills to
+build more web applications. There are other sessions that also impressed me during the day, but I'll save those for another post.
