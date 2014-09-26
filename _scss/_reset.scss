@@ -119,7 +119,9 @@ footer {
 .post pre.terminal code {
     background-color: #333;
 }
+
 article{
+
     blockquote {
         border-left: 0;
         p:before{
@@ -131,10 +133,18 @@ article{
             margin-right: 0.2em;
         }
     }
+
+    img {
+        margin-bottom: $base-spacing;
+    }
+}
+
+article.post{
     img {
         max-height: 400px;
         float: left;
         margin-right: $base-spacing;
+        margin-bottom: $base-spacing;
     }
 }
 

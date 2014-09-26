@@ -109,9 +109,13 @@ article blockquote {
     font-size: 4em;
     margin-right: 0.2em; }
 article img {
+  margin-bottom: 1.4em; }
+
+article.post img {
   max-height: 400px;
   float: left;
-  margin-right: 1.4em; }
+  margin-right: 1.4em;
+  margin-bottom: 1.4em; }
 
 .highlight {
   background: #ffffff; }
