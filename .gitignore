@@ -9,7 +9,7 @@ node_modules
 
 
 ### Jekyll ###
-_site/
+_site/**/*
 
 ### Sass ###
 .sass-cache
