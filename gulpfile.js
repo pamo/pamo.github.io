@@ -6,7 +6,10 @@ var cp          = require('child_process');
 var imageop = require('gulp-image-optimization');
 
 var messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
+    jekyllRebuild: '<span style="color: grey">Re-running:</span> $ jekyll build',
+    imageOptimization: '<span style="color: grey">Optimizing images</span>',
+    sass: '<span style="color: grey">Compiling Sass</span>'
 };
 
 /**
@@ -22,10 +25,12 @@ gulp.task('jekyll-build', function (done) {
  * Rebuild Jekyll & do page reload
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+    browserSync.notify(messages.jekyllRebuild);
     browserSync.reload();
 });
 
 gulp.task('images', function(cb) {
+    browserSync.notify(messages.imageOptimization);
     gulp.src(['images/**/*.png','images/**/*.jpg','images/**/*.gif','images/**/*.jpeg']).pipe(imageop({
         optimizationLevel: 5,
         progressive: true,
@@ -48,6 +53,7 @@ gulp.task('browser-sync', ['copy','images', 'sass', 'jekyll-build'], function() 
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
+    browserSync.notify(messages.sass);
     gulp.src(['_scss/**/*.scss'])
         .pipe(sass({
             includePaths: ['scss'],
