@@ -10,11 +10,11 @@ I've fled the nest and getting a taste of the traveling #consulantlife with a co
 
 I've been doing well so far in finding my groove. Safety and security for me comes in finding a routine. I quickly learned this at the beginning of my ThoughtWorks career. That adventure began in Raleigh, NC, a week in Chicago, IL, and a final 5 weeks in Bangalore, India.
 
-Within the first week during my stay in Bangalore, I found my gym, Gold's Gym, surprisingly, and picked up my lifting schedule where I had left off. I also find comfort in making a time and having a mental space where I could cook dinner and think about the events that had occured that day. So, I felt lucky in having a kitchen and finding my favorite grocery store, vegetable stands, and butcher within the neighborhood we lived in. 
+Within the first week during my stay in Bangalore, I found my gym, Gold's Gym, surprisingly, and picked up my lifting schedule where I had left off. I also find comfort in making a time and having a mental space where I could cook dinner and think about the events that had occurred that day. So, I felt lucky in having a kitchen and finding my favorite grocery store, vegetable stands, and butcher within the neighborhood we lived in. 
 
 The move to San Francisco was a reverse culture shock. I felt that I was just getting settled into Bangalore by the time it was time to go back "home." The stress was amplified given the knowledge of the difficulty (in 2013) of finding a place to live. That only took a month, and I found my little space of comfort in the Mission. Four Barrel and Dolores Park played a big part in my location choice and any time I return from a trip, I fall in love again.
 
-My Boston routine is coming to fruition, finding the groove and the routine has been a game in a way, and I sense that I'll have a lot of great opporuntities to explore here. Apart from working with a new team, a new client, in a different domain, there were a few routine things I had to compromise and get used to, such as being able to maintain a morning workout routine and working 4, 10 hour days, but things are starting to fall into place.
+My Boston routine is coming to fruition, finding the groove and the routine has been a game in a way, and I sense that I'll have a lot of great opportunities to explore here. Apart from working with a new team, a new client, in a different domain, there were a few routine things I had to compromise and get used to, such as being able to maintain a morning workout routine and working 4, 10 hour days, but things are starting to fall into place.
 
 In the last month I've: 
 
