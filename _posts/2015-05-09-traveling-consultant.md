@@ -4,7 +4,7 @@ title:  "Gotta be flexible"
 categories: travel, work
 ---
 
-It's been a month since I sat in the ThoughtWorks San Francisco office in middle of the Financial District of San Francisco knowing little that, the following week I would be in Thinking Cup, a coffee shop, on the outskirts of the Leather District in Boston, MA, writing the draft of this post. 
+It's been a month since I sat in the ThoughtWorks San Francisco office in middle of the Financial District of San Francisco knowing little that, the following week I would be in [Thinking Cup](http://www.thinkingcup.com/), a coffee shop, on the outskirts of the Leather District in Boston, MA, writing the draft of this post. 
 
 I've fled the nest and getting a taste of the traveling #consulantlife with a commute to the Beast Coast to build software for my current project. I've been afraid of taking on this role. That initial shock of shifting routines is always hard for me to digest for a few weeks. However, travel has been exciting! I love to wander new terrains and experience the difference in the thriving masses that inhabit cities.
 
@@ -28,4 +28,4 @@ In the last month I've:
 
 This weekend is my first weekend in Boston and it's off to a great start. After climbing outdoors in Mt. Saint Helena over Napa Valley last weekend, I had been hoping for the next chance to do it again. To my surprise, the night before my fly back east, I found a meetup group that was planning to drive up to New Hampshire for the day today to climb at [Rumney Rocks](http://en.wikipedia.org/wiki/Rumney,_New_Hampshire#Rumney_Rocks). The world-renowned destination was on my climbing bucket list and I'm glad I was able to go. In addition, I've made some new climbing friends and looking forward to the future outdoor opportunities to come.
 
-Jet lag and sleep are slowly lagging behind, but the promise of traveling adventures keep me going. This summer is completely undetermined and I'm lucky to have the option of going back home to San Francisco or anywhere that fits within that budget on the weekend.
+Getting over jet lag on a weekly basis has been lagging behind. Despite my nightly average of sleep being a hour less, the promise of traveling adventures keep me going. I'm lucky to have the option of going back home to San Francisco on the weekends, but also having the option to travel anywhere else within budget will make this summer completely undetermined. Vamonos!
