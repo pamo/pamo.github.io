@@ -16,6 +16,26 @@
         <link rel="stylesheet" href="/css/lib/font-awesome.css">
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- Social Media -->
+        <meta name="description" content="Pamela Ocampo Likes Coffee" />
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@pmocampo">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ post.content | strip_html | truncate:150 }}">
+        <meta name="twitter:creator" content="@pmocampo">
+        <meta name="twitter:image" content="http://likescoffee.com/images/background.jpg">
+
+        <!-- Open Graph data -->
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://likescoffee.com/" />
+        <meta property="og:image" content="http://likescoffee.com/images/background.jpg" />
+        <meta property="og:description" content="{{ post.content | strip_html | truncate:150 }}" /> 
+        <meta property="og:site_name" content="LikesCoffee" />
+        <meta property="fb:admins" content="1397070010" />
+
     </head>
     <body>
 
