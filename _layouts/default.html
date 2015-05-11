@@ -25,13 +25,18 @@
         <meta name="twitter:title" content="{{ page.title }}">
         <meta name="twitter:description" content="{{ content | strip_html | strip_newlines | truncate:150 }}">
         <meta name="twitter:creator" content="@pmocampo">
-        <meta name="twitter:image" content="http://likescoffee.com/images/background.jpg">
+        {% if page.image %}
+            <meta name="twitter:image:src" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"> 
+        {% endif %} 
 
         <!-- Open Graph data -->
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://likescoffee.com/" />
-        <meta property="og:image" content="http://likescoffee.com/images/background.jpg" />
+        {% if page.image %}
+            <meta name="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"> 
+        {% endif %} 
+        <meta property="" content="http://likescoffee.com/images/background.jpg" />
         <meta property="og:description" content="{{ content | strip_html | strip_newlines | truncate:150 }}" /> 
         <meta property="og:site_name" content="LikesCoffee" />
         <meta property="fb:admins" content="1397070010" />
