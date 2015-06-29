@@ -10,7 +10,7 @@ title: Pamela Ocampo
         <p class="date">{{ post.date | date_to_string }}</p>
         <h3 class="display-inline">{{ post.title }}</h3>
         <p>{{ post.content | strip_html | truncatewords:75}}</p>
-        <a href="{{ post.url }}" class="read-more">Read More <span>&rsaquo;</span></a>
+	<a href="{{ post.url }}" class="read-more">Read More<span>&rsaquo;</span></a>
         {% endfor %}
     </article>
 </div>

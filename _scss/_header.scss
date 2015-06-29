@@ -1,0 +1,31 @@
+.header {
+    &__link {
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: lowercase;
+	margin-bottom: $base-spacing*2;
+
+	&:hover {
+	    color: $black;
+	}
+
+	&--title {
+	    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	    font-size: $h1;
+	    line-height: $h1;
+	    display: inline-block;
+	    @media only screen and (max-width: 736px){
+		display: block;
+	    }
+	}
+
+	&--nav {
+	    color: $gray;
+	    border-right: 1px solid $gray;
+	    padding: 0 $base-spacing 0 $base-spacing;
+	    &:last-of-type {
+		border: 0;
+	    }
+	}
+    }
+}

@@ -1,0 +1,27 @@
+$serif: 'Lusitana', serif;
+$serif-2: 'Merriweather', serif;
+$sans-serif: 'Merriweather Sans', sans-serif;
+
+$black: #000;
+$light-gray: #ddd;
+$gray: #aaa;
+$dark-gray: #333;
+$base-spacing: 3px;
+$base-font-size: 12px;
+$h1: $base-font-size*2;
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+    font: $base-font-size $sans-serif, Helvetica, Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin: $base-spacing;
+}
+p { margin: $base-spacing 0; }
