@@ -291,58 +291,21 @@ p {
     .header__link--nav:last-of-type {
       border: 0; }
 
-/* standard */
-.post pre {
-  border: 1px solid #aaa;
-  background-color: #ddd;
-  padding: 0 3px; }
-
-.post ul, .post ol {
-  margin-left: 3px; }
-
-.post code {
-  border: 1px solid #aaa;
-  background-color: #ddd;
-  padding: 0 3px; }
-
-.post pre code {
-  border: none; }
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF; }
-
-.post pre.terminal code {
-  background-color: #333; }
-
-article blockquote {
-  border-left: 0; }
-  article blockquote p:before {
-    font-family: FontAwesome;
-    position: relative;
-    top: 0.2em;
-    content: "\f10d";
-    font-size: 4em;
-    margin-right: 0.2em; }
-article img {
-  margin-bottom: 3px; }
-
-.post img {
-  max-height: 400px;
-  float: left;
-  margin-right: 3px;
-  margin-bottom: 3px; }
-
-article {
+.post {
   font-family: 'Merriweather', serif;
   text-align: left; }
-  article:after {
+  .post .terminal {
+    padding: 3px;
+    border: 1px solid #000;
+    background-color: #333;
+    color: #FFF; }
+  .post:ul, .post:ol {
+    margin-left: 3px; }
+  .post:after {
     content: "";
     display: table;
     clear: both; }
-  article .post-category {
+  .post__category {
     border-bottom: 1px solid;
     display: inline-block;
     font-family: 'Merriweather Sans', sans-serif;
@@ -352,69 +315,52 @@ article {
     padding: 0.3em 0;
     text-align: left;
     text-transform: uppercase; }
-  article h1 {
+  .post blockquote {
+    border-left: 0; }
+    .post blockquote p:before {
+      font-family: FontAwesome;
+      position: relative;
+      top: 0.2em;
+      content: "\f10d";
+      font-size: 4em;
+      margin-right: 0.2em; }
+  .post img {
+    max-height: 400px;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 3px; }
+  .post__title {
     font-family: 'Lusitana', serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 0.5em; }
-  article h2 {
+  .post h2 {
     font-family: 'Merriweather', serif;
     font-style: italic;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.6em;
     margin-bottom: 0.9em; }
-  article code {
-    white-space: nowrap;
-    font-family: monaco;
-    background: #F7F7F7;
-    border: 1px solid #E0E0E0;
-    padding: 0.1em 0.4em;
-    font-size: 0.75em;
-    font-style: normal; }
-  article h3 {
+  .post h3 {
     font-family: 'Lusitana', serif;
     font-size: 1.4em;
     font-weight: 400;
     line-height: 1.3em;
     margin-bottom: 0.4em; }
-  article .date {
+  .post__date {
     font-family: 'Merriweather', serif;
     font-style: italic;
     font-size: 0.9em;
     margin-bottom: 0.3em; }
-  article p {
+  .post__content {
     font-family: 'Merriweather', serif;
     line-height: 1.6em;
     font-size: 0.9em;
     margin-bottom: 1.5em;
     word-wrap: break-word; }
-    article p span {
+    .post__content span {
       font-family: 'Merriweather Sans', sans-serif;
       font-weight: 700; }
-  article .read-more {
-    display: inline-block;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 700;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    margin-left: 0.2em;
-    position: relative; }
-    article .read-more span {
-      font-family: 'Lusitana', serif;
-      font-style: normal;
-      position: absolute;
-      font-size: 1.5em;
-      top: -1px;
-      right: -12px; }
-  article li {
-    font-size: 0.75em; }
-  article .display-inline {
-    display: inline; }
-    article .display-inline + * {
-      display: inline; }
-  article hr {
-    width: 3em; }
 
 .social {
   width: 100%;
@@ -444,3 +390,37 @@ body {
 
 .meta {
   color: #aaa; }
+
+.post__title {
+  display: inline; }
+  .post__title + * {
+    display: inline; }
+.post__link {
+  display: inline-block;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-left: 0.2em;
+  position: relative; }
+  .post__link span {
+    font-family: 'Lusitana', serif;
+    font-style: normal;
+    position: absolute;
+    font-size: 1.5em;
+    top: -1px;
+    right: -12px; }
+.post__description {
+  font-family: 'Merriweather', serif;
+  line-height: 1.6em;
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+  word-wrap: break-word; }
+.post__date {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 0.3em; }
+
+hr {
+  width: 2px; }

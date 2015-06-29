@@ -4,13 +4,13 @@ title: Pamela Ocampo
 ---
 <div id="home">
     <img src="images/background.jpg">
-    <article>
-        <h1>Words</h1>
-        {% for post in site.posts %}
-        <p class="date">{{ post.date | date_to_string }}</p>
-        <h3 class="display-inline">{{ post.title }}</h3>
-        <p>{{ post.content | strip_html | truncatewords:75}}</p>
-	<a href="{{ post.url }}" class="read-more">Read More<span>&rsaquo;</span></a>
-        {% endfor %}
-    </article>
+	<h1>Words</h1>
+	{% for post in site.posts %}
+	<div class="post">
+	    <p class="post__date">{{ post.date | date_to_string }}</p>
+	    <h3 class="post__title">{{ post.title }}</h3>
+	    <p class="post__description">{{ post.content | strip_html | truncatewords:75}}</p>
+	    <a href="{{ post.url }}" class="post__link">Read More<span>&rsaquo;</span></a>
+	</div>
+	{% endfor %}
 </div>

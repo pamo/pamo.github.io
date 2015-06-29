@@ -17,3 +17,51 @@ body {
 .meta {
     color: $gray;
 }
+
+.post {
+    &__title {
+	display: inline;
+	& + * {
+	    display: inline;
+	}
+    }
+
+    &__link {
+	display: inline-block;
+	font-family: $sans-serif;
+	font-weight: 700;
+	font-size: .8em;
+	text-transform: uppercase;
+	margin-left: .2em;
+	position: relative;
+
+	span {
+	    font-family: $serif;
+	    font-style: normal;
+	    position: absolute;
+	    font-size: 1.5em;
+	    top: -1px;
+	    right: -12px;
+	}
+    }
+
+    &__description {
+      font-family: $serif-2;
+      line-height: 1.6em;
+      font-size: .9em;
+      margin-bottom: 1.5em;
+      word-wrap: break-word;
+   }
+
+
+    &__date {
+	font-family: $serif-2;
+	font-style: italic;
+	font-size: .9em;
+	margin-bottom: .3em;
+    }
+}
+
+hr {
+    width: 2px;
+}

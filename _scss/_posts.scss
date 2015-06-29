@@ -1,168 +1,96 @@
-/* standard */
-.post pre {
-    border: 1px solid $gray;
-    background-color: $light-gray;
-    padding: 0 $base-spacing;
-}
+.post {
+   font-family: $serif-2;
+   text-align: left;
 
-.post ul, .post ol {
-    margin-left: $base-spacing;
-}
+   .terminal {
+      padding: $base-spacing;
+      border: 1px solid $black;
+      background-color: $dark-gray;
+      color: #FFF;
+   }
 
-.post code {
-    border: 1px solid $gray;
-    background-color: $light-gray;
-    padding: 0 $base-spacing;
-}
+   &:ul, &:ol {
+      margin-left: $base-spacing;
+   }
 
-.post pre code {
-    border: none;
-}
+   &:after {
+      content:"";
+      display:table;
+      clear:both;
+   }
 
-/* terminal */
-.post pre.terminal {
-    border: 1px solid $black;
-    background-color: $dark-gray;
-    color: #FFF;
-}
+   &__category {
+      border-bottom: 1px solid;
+      display: inline-block;
+      font-family: $sans-serif;
+      font-size: .7em;
+      font-weight: 700;
+      margin-bottom: 2em;
+      padding: .3em 0;
+      text-align: left;
+      text-transform: uppercase;
+   }
 
-.post pre.terminal code {
-    background-color: $dark-gray;
-}
+   blockquote {
+      border-left: 0;
+      p:before {
+	 font-family: FontAwesome;
+	 position: relative;
+	 top: 0.2em;
+	 content:"\f10d";
+	 font-size: 4em;
+	 margin-right: 0.2em;
+      }
+   }
 
-article {
-    blockquote {
-	border-left: 0;
-	p:before {
-	    font-family: FontAwesome;
-	    position: relative;
-	    top: 0.2em;
-	    content:"\f10d";
-	    font-size: 4em;
-	    margin-right: 0.2em;
-	}
-    }
+   img {
+      max-height: 400px;
+      float: left;
+      margin-right: $base-spacing;
+      margin-bottom: $base-spacing;
+   }
 
-    img {
-	margin-bottom: $base-spacing;
-    }
-}
+   &__title {
+      font-family: $serif;
+      font-size: $h1;
+      font-weight: 700;
+      margin-bottom: .5em;
+   }
 
-.post{
-    img {
-	max-height: 400px;
-	float: left;
-	margin-right: $base-spacing;
-	margin-bottom: $base-spacing;
-    }
-}article {
-    font-family: $serif-2;
+   h2 {
+      font-family: $serif-2;
+      font-style: italic;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 1.6em;
+      margin-bottom: .9em;
+   }
 
-    &:after {
-	content:"";
-	display:table;
-	clear:both;
-    }
+   h3 {
+      font-family: $serif;
+      font-size: 1.4em;
+      font-weight: 400;
+      line-height: 1.3em;
+      margin-bottom: .4em;
+   }
 
-    text-align: left;
+   &__date {
+      font-family: $serif-2;
+      font-style: italic;
+      font-size: .9em;
+      margin-bottom: .3em;
+   }
 
-    .post-category {
-	border-bottom: 1px solid;
-	display: inline-block;
-	font-family: $sans-serif;
-	font-size: .7em;
-	font-weight: 700;
-	margin-bottom: 2em;
-	padding: .3em 0;
-	text-align: left;
-	text-transform: uppercase;
-    }
+   &__content {
+      font-family: $serif-2;
+      line-height: 1.6em;
+      font-size: .9em;
+      margin-bottom: 1.5em;
+      word-wrap: break-word;
 
-    h1 {
-	font-family: $serif;
-	font-size: $h1;
-	font-weight: 700;
-	margin-bottom: .5em;
-    }
-
-    h2 {
-	font-family: $serif-2;
-	font-style: italic;
-	font-size: 1em;
-	font-weight: 400;
-	line-height: 1.6em;
-	margin-bottom: .9em;
-    }
-
-    code {
-	white-space: nowrap;
-	font-family: monaco;
-	background: #F7F7F7;
-	border: 1px solid #E0E0E0;
-	padding: .1em .4em;
-	font-size: .75em;
-	font-style: normal;
-    }
-
-    h3 {
-	font-family: $serif;
-	font-size: 1.4em;
-	font-weight: 400;
-	line-height: 1.3em;
-	margin-bottom: .4em;
-    }
-
-    .date {
-	font-family: $serif-2;
-	font-style: italic;
-	font-size: .9em;
-	margin-bottom: .3em;
-    }
-
-    p {
-	font-family: $serif-2;
-	line-height: 1.6em;
-	font-size: .9em;
-	margin-bottom: 1.5em;
-	word-wrap: break-word;
-
-	span {
-	    font-family: $sans-serif;
-	    font-weight: 700;
-	}
-    }
-
-    .read-more {
-	display: inline-block;
-	font-family: $sans-serif;
-	font-weight: 700;
-	font-size: .8em;
-	text-transform: uppercase;
-	margin-left: .2em;
-	position: relative;
-
-	span {
-	    font-family: $serif;
-	    font-style: normal;
-	    position: absolute;
-	    font-size: 1.5em;
-	    top: -1px;
-	    right: -12px;
-	}
-    }
-
-    li {
-	font-size: .75em;
-    }
-
-    .display-inline {
-	display: inline;
-	& + * {
-	    display: inline;
-	}
-    }
-
-    hr {
-	width: 3em;
-    }
+      span {
+	 font-family: $sans-serif;
+	 font-weight: 700;
+      }
+   }
 }
