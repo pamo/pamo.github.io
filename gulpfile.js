@@ -53,8 +53,7 @@ gulp.task('browser-sync', ['copy','images', 'sass', 'jekyll-build'], function() 
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    browserSync.notify(messages.sass);
-    gulp.src(['_scss/**/*.scss'])
+    return gulp.src(['_scss/**/*.scss', 'bower_components/**/*.scss'])
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify
@@ -63,14 +62,6 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('css'));
-    gulp.src(['bower_components/foundation/scss/foundation.scss','bower_components/font-awesome/scss/font-awesome.scss'])
-        .pipe(sass({
-            includePaths: ['bower_components/'],
-            onError: browserSync.notify
-        }))
-        .pipe(gulp.dest('_site/css/lib'))
-        .pipe(browserSync.reload({stream: true}))
-        .pipe(gulp.dest('css/lib'));
 });
 
 /**
