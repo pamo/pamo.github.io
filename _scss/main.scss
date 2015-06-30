@@ -1,10 +1,43 @@
-@import "common";
-@import "syntax";
+@import "variables";
+@import "typography";
 @import "header";
 @import "posts";
 @import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body { height: 100%; }
+
 body {
     background: white;
+    @include font_smoothing;
+    @include base_typography;
+    text-align: center;
+    margin: $base-spacing;
+}
+
+p { margin: $base-spacing 0; }
+
+h1 {
+    @include h1_style;
+}
+
+h2 {
+    @include h2_style;
+}
+
+h3 {
+    @include h3_style;
+}
+
+h4, h5, h6 {
+    @include heading;
+}
+a {
+    @include anchor;
 }
 
 .site {
@@ -14,12 +47,9 @@ body {
     line-height: $base-font-size;
 }
 
-.meta {
-    color: $gray;
-}
-
 .post {
     &__title {
+       @include h3;
 	display: inline;
 	& + * {
 	    display: inline;
@@ -64,4 +94,17 @@ body {
 
 hr {
     width: 2px;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  width: 100%;
+  &:before, &:after {
+     content: " ";
+     display: table;
+  }
+  &:after {
+     clear: both;
+  }
 }

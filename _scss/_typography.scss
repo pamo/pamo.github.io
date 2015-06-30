@@ -1,0 +1,111 @@
+$serif: 'Lusitana', serif;
+$serif-2: 'Merriweather', serif;
+$sans-serif: 'Merriweather Sans', sans-serif;
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin typography {
+  font-family: $sans-serif;
+}
+
+@mixin base_typography {
+  @include typography;
+  font-size: $base-font-size;
+  font-weight: normal;
+  font-style: normal;
+  line-height:  $base-font-size;
+}
+
+@mixin heading {
+  @include typography;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@mixin h1_style {
+  @include heading;
+  font-size: 51px;
+  line-height: 52px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+@mixin h2_style {
+  @include heading;
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: 900;
+}
+
+@mixin h3_style {
+  @include heading;
+  font-size: 19px
+  line-height: 27px
+}
+
+@mixin anchor {
+  color: $blue;
+  text-decoration: none;
+
+  &:visited {
+    color: $blue
+  }
+
+  &:hover {
+    color: darken($blue, 10%);
+  }
+
+  &:active {
+    color: darken($blue, 15%);
+  }
+}
+
+@mixin nav_anchor {
+  color: $dark-gray;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:visited {
+    color: $dark-gray;
+  }
+
+  &:hover {
+    color: darken($dark-gray, 10%);
+  }
+
+  &:active {
+    color: darken($dark-gray, 15%);
+  }
+}
+
+h1 {
+  @include h1_style;
+}
+
+h2 {
+  @include h2_style;
+}
+
+h3 {
+  @include h3_style;
+}
+
+h4, h5, h6 {
+  @include heading;
+}
+
+@mixin sub_header {
+  @include heading;
+  color: $dark-gray;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  display: inline-block;
+  border-top: 1px solid #d0d0d0;
+  padding: 7px 0 9px 0;
+  margin: $half-spacing-unit 0 $half-spacing-unit;
+}
