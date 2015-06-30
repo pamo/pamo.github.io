@@ -4,13 +4,13 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var imageop = require('gulp-image-optimization');
-var notify = require("gulp-notify");
+var notify = require('gulp-notify');
 
 var messages = {
-    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
-    jekyllRebuild: '<span style="color: grey">Re-running:</span> $ jekyll build',
-    imageOptimization: '<span style="color: grey">Optimizing images</span>',
-    sass: '<span style="color: grey">Compiling Sass</span>'
+    jekyllBuild: 'Running: $ jekyll build',
+    jekyllRebuild: 'Re-running: $ jekyll build',
+    imageOptimization: 'Optimizing images',
+    sass: 'Compiling Sass'
 };
 
 /**
