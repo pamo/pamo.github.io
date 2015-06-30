@@ -4,6 +4,7 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var imageop = require('gulp-image-optimization');
+var notify = require("gulp-notify");
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build',
@@ -18,6 +19,7 @@ var messages = {
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn('jekyll', ['build', '--drafts'], {stdio: 'inherit'})
+        .pipe(notify(messages.jekyllBuild))
         .on('close', done);
 });
 
@@ -35,7 +37,7 @@ gulp.task('images', function(cb) {
         optimizationLevel: 5,
         progressive: true,
         interlaced: true
-    })).pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
+    })).pipe(gulp.dest('_site/images')).pipe(notify(messages.imageOptimization)).on('end', cb).on('error', cb);
 });
 
 /**
@@ -62,7 +64,8 @@ gulp.task('sass', function () {
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream: true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('css'))
+        .pipe(notify(messages.sass));
 });
 
 /**
