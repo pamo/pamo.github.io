@@ -5,8 +5,8 @@
    .terminal {
       padding: $base-spacing;
       border: 1px solid $black;
-      background-color: $dark-gray;
-      color: #FFF;
+      background-color: $gray;
+      color: $white;
    }
 
    &:ul, &:ol {
@@ -51,8 +51,8 @@
    }
 
    &__title {
+      @include h1_style;
       font-family: $serif;
-      font-size: $h1;
       font-weight: 700;
       margin-bottom: .5em;
    }

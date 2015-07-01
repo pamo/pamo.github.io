@@ -7,6 +7,7 @@
 
 	&--title {
 	    @include h1_style;
+	    color: $aqua;
 	    display: inline-block;
 	    @media only screen and (max-width: 736px){
 		display: block;
@@ -18,6 +19,9 @@
 	    padding: 0 $base-spacing 0 $base-spacing;
 	    &:last-of-type {
 		border: 0;
+	    }
+	    &:visited, &:hover, &:active {
+		color: $gray;
 	    }
 	}
     }

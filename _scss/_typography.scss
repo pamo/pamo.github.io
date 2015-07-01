@@ -7,7 +7,7 @@ $sans-serif: 'Merriweather Sans', sans-serif;
 }
 
 @mixin typography {
-  font-family: $sans-serif;
+ font-family: $sans-serif;
 }
 
 @mixin base_typography {
@@ -19,9 +19,9 @@ $sans-serif: 'Merriweather Sans', sans-serif;
 }
 
 @mixin heading {
-  @include typography;
-  text-transform: uppercase;
+  font-family: $sans-serif;
   letter-spacing: 1px;
+  display: block;
 }
 
 @mixin h1_style {
@@ -41,8 +41,8 @@ $sans-serif: 'Merriweather Sans', sans-serif;
 
 @mixin h3_style {
   @include heading;
-  font-size: 19px
-  line-height: 27px
+  font-size: 19px;
+  line-height: 27px;
 }
 
 @mixin anchor {
@@ -50,7 +50,7 @@ $sans-serif: 'Merriweather Sans', sans-serif;
   text-decoration: none;
 
   &:visited {
-    color: $blue
+    color: $blue;
   }
 
   &:hover {
@@ -63,23 +63,35 @@ $sans-serif: 'Merriweather Sans', sans-serif;
 }
 
 @mixin nav_anchor {
-  color: $dark-gray;
+  color: $blue;
   font-size: 11px;
   letter-spacing: 1px;
   font-weight: 600;
   text-decoration: none;
 
   &:visited {
-    color: $dark-gray;
+    color: $blue;
   }
 
   &:hover {
-    color: darken($dark-gray, 10%);
+    color: darken($blue, 10%);
   }
 
   &:active {
-    color: darken($dark-gray, 15%);
+    color: darken($blue, 15%);
   }
+}
+
+@mixin sub_header {
+  @include heading;
+  color: $gray;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  display: inline-block;
+  border-top: 1px solid $silver;
+  padding: 7px 0 9px 0;
+  margin: $half-spacing-unit 0 $half-spacing-unit;
 }
 
 h1 {
@@ -95,17 +107,5 @@ h3 {
 }
 
 h4, h5, h6 {
-  @include heading;
-}
-
-@mixin sub_header {
-  @include heading;
-  color: $dark-gray;
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 18px;
-  display: inline-block;
-  border-top: 1px solid #d0d0d0;
-  padding: 7px 0 9px 0;
-  margin: $half-spacing-unit 0 $half-spacing-unit;
+  @include sub_header;
 }

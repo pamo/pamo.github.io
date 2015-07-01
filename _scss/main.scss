@@ -7,19 +7,22 @@
 * {
     margin: 0;
     padding: 0;
+    @include font-smoothing;
 }
 
 html, body { height: 100%; }
 
 body {
-    background: white;
+    background: $white;
     @include font_smoothing;
     @include base_typography;
     text-align: center;
     margin: $base-spacing;
 }
 
-p { margin: $base-spacing 0; }
+p { 
+  margin: 0 0 12px;
+}
 
 h1 {
     @include h1_style;
@@ -45,11 +48,18 @@ a {
     max-width: 700px;
     margin: $base-spacing auto;
     line-height: $base-font-size;
+
+    &__cover {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 100%;
+      height: auto;
+  }
 }
 
 .post {
     &__title {
-       @include h3;
+       @include h3_style;
 	display: inline;
 	& + * {
 	    display: inline;
@@ -82,7 +92,6 @@ a {
       margin-bottom: 1.5em;
       word-wrap: break-word;
    }
-
 
     &__date {
 	font-family: $serif-2;

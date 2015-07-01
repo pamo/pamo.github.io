@@ -19,7 +19,6 @@ var messages = {
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn('jekyll', ['build', '--drafts'], {stdio: 'inherit'})
-        .pipe(notify(messages.jekyllBuild))
         .on('close', done);
 });
 
@@ -33,17 +32,17 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 
 gulp.task('images', function(cb) {
     browserSync.notify(messages.imageOptimization);
-    gulp.src(['images/**/*.png','images/**/*.jpg','images/**/*.gif','images/**/*.jpeg']).pipe(imageop({
+    gulp.src(['images/**/*.png','images/**/*.jpg','images/**/*.gif','images/**/*.jpeg']).pipe(notify(messages.imageOptimization)).pipe(imageop({
         optimizationLevel: 5,
         progressive: true,
         interlaced: true
-    })).pipe(gulp.dest('_site/images')).pipe(notify(messages.imageOptimization)).on('end', cb).on('error', cb);
+    })).pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
 });
 
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['copy','images', 'sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['copy-fonts','images', 'sass', 'jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
@@ -56,7 +55,7 @@ gulp.task('browser-sync', ['copy','images', 'sass', 'jekyll-build'], function() 
  */
 gulp.task('sass', function () {
     browserSync.notify(messages.sass);   
-    return gulp.src(['_scss/**/*.scss', 'bower_components/**/*.scss'])
+    gulp.src(['_scss/main.scss'])
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify
@@ -73,15 +72,12 @@ gulp.task('sass', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch(['_scss/*.scss', 'bower_components/**/*.scss'], ['sass']);
+    gulp.watch(['_scss/*.scss'], ['sass']);
     gulp.watch(['*.yml', '*.html', '_layouts/*.html', '_posts/*', '_drafts/*'], ['jekyll-rebuild']);
 });
 
-gulp.task('copy', function(){
-    gulp.src(['bower_components/**/*.js'])
-        .pipe(gulp.dest('_site/js/lib'))
-        .pipe(gulp.dest('js/lib'));
-    gulp.src(['bower_components/font-awesome/fonts/*'])
+gulp.task('copy-fonts', function(){
+   gulp.src(['bower_components/font-awesome/fonts/*'])
         .pipe(gulp.dest('_site/css/fonts/'))
         .pipe(gulp.dest('css/fonts'));
 });
