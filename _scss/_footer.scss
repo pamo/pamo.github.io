@@ -1,19 +1,16 @@
 .social{
     width: 100%;
     list-style: none;
-    display: inline;
-    text-align: center;
     li {
 	float: left;
-	padding: 0 5px 0 5px;
+	padding: 0 $half-spacing-unit 0 $half-spacing-unit;
 	font-size: 1.5em;
     }
 }
 
 footer {
-    font-size: 80%;
     color: $gray;
-    border-top: 2px solid $silver;
+    border-top: 1px solid $silver;
     margin-top: $base-spacing;
-    overflow: hidden;
+    padding: $half-spacing-unit 0 $base-spacing 0;
 }

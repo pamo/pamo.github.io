@@ -1,6 +1,8 @@
 $base-spacing: 1.1em;
 $half-spacing-unit: $base-spacing/2;
-$base-font-size: 12px;
+$base-font-size: 100% !default;
+$base-line-height: 150% !default;
+
 // COLOR VARIABLES
 //
 // Cool

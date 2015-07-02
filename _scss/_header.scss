@@ -4,7 +4,6 @@
 	@include nav_anchor;
 	text-decoration: none;
 	text-transform: lowercase;
-	margin-bottom: $half-spacing-unit;
 
 	&--title {
 	    @include h1_style;

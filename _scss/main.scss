@@ -4,20 +4,35 @@
 @import "posts";
 @import "footer";
 
+@mixin box-sizing($type:border-box) {
+  -webkit-box-sizing: $type; // Android < 2.3, iOS < 4
+     -moz-box-sizing: $type; // Firefox < 29
+          box-sizing: $type; // Chrome, IE 8+, Opera, Safari 5.1
+}
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
 * {
     margin: 0;
     padding: 0;
     @include font-smoothing;
 }
 
-html, body { height: 100%; }
+html, body { 
+  font-size: $base-font-size; 
+  height: 100%; 
+}
 
 body {
     background: $white;
+    color: $black;
     @include font_smoothing;
     @include base_typography;
-    text-align: center;
-    margin: $base-spacing;
+    padding: 0 $base-spacing $base-spacing $base-spacing;
+    margin: 0;
+    line-height: $base-line-height; // Set to $base-line-height to take on browser default of 150%
 }
 
 p { 
@@ -50,8 +65,6 @@ a {
     line-height: $base-font-size;
 
     &__cover {
-      display: inline-block;
-      vertical-align: middle;
       max-width: 100%;
       height: auto;
   }

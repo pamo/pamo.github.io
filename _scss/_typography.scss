@@ -21,7 +21,6 @@ $sans-serif: 'Merriweather Sans', sans-serif;
 
 @mixin heading {
   font-family: $sans-serif;
-  letter-spacing: 1px;
   display: block;
 }
 
@@ -30,7 +29,6 @@ $sans-serif: 'Merriweather Sans', sans-serif;
   font-size: 51px;
   line-height: 52px;
   font-weight: 900;
-  letter-spacing: 1px;
 }
 
 @mixin h2_style {
@@ -66,7 +64,6 @@ $sans-serif: 'Merriweather Sans', sans-serif;
 @mixin nav_anchor {
   color: $blue;
   font-size: 11px;
-  letter-spacing: 1px;
   font-weight: 600;
   text-decoration: none;
 
