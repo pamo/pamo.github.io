@@ -8,6 +8,7 @@ $sans-serif: 'Merriweather Sans', sans-serif;
 
 @mixin typography {
  font-family: $sans-serif;
+ line-height: 1.6em;
 }
 
 @mixin base_typography {

@@ -21,7 +21,7 @@ body {
 }
 
 p { 
-  margin: 0 0 12px;
+  margin: 0 0 $base-spacing;
 }
 
 h1 {
@@ -57,9 +57,8 @@ a {
   }
 }
 
-.post {
+.postDescription {
     &__title {
-       @include h3_style;
 	display: inline;
 	& + * {
 	    display: inline;
@@ -81,15 +80,14 @@ a {
 	    position: absolute;
 	    font-size: 1.5em;
 	    top: -1px;
-	    right: -12px;
+	    right: -$base-spacing;
 	}
     }
 
-    &__description {
+    &__truncatedContent {
       font-family: $serif-2;
-      line-height: 1.6em;
       font-size: .9em;
-      margin-bottom: 1.5em;
+      margin-bottom: $base-spacing;
       word-wrap: break-word;
    }
 
@@ -97,12 +95,12 @@ a {
 	font-family: $serif-2;
 	font-style: italic;
 	font-size: .9em;
-	margin-bottom: .3em;
+	margin: $base-spacing 0 $half-spacing-unit 0;
     }
 }
 
 hr {
-    width: 2px;
+    width: 1px;
 }
 
 .row {

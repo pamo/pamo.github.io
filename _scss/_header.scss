@@ -1,9 +1,10 @@
 .header {
+    margin-bottom: $base-spacing;
     &__link {
 	@include nav_anchor;
 	text-decoration: none;
 	text-transform: lowercase;
-	margin-bottom: $base-spacing*2;
+	margin-bottom: $half-spacing-unit;
 
 	&--title {
 	    @include h1_style;
