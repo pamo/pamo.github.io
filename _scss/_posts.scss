@@ -1,4 +1,6 @@
 .post {
+   @include outer-container;
+
    font-family: $serif-2;
    text-align: left;
 
@@ -9,14 +11,12 @@
       color: $white;
    }
 
-   &:ul, &:ol {
-      margin-left: $base-spacing;
+   ul {
+      @extend %default-ul;
    }
 
-   &:after {
-      content:"";
-      display:table;
-      clear:both;
+   ol {
+      @extend %default-ol;
    }
 
    &__category {
@@ -36,10 +36,9 @@
       p:before {
 	 font-family: FontAwesome;
 	 position: relative;
-	 top: 0.2em;
 	 content:"\f10d";
-	 font-size: 4em;
-	 margin-right: 0.2em;
+	 font-size: $base-font-size*2;
+	 margin-right: $small-spacing;
       }
    }
 

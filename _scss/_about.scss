@@ -3,10 +3,6 @@
     @include outer-container();
     img {
       @include span-columns(4);
-      @include omega(3n);
-      @include media($desk) {
-	@include span-columns(4);
-      }
     }
   }
 

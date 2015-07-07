@@ -8,16 +8,6 @@
 @import "about";
 @import "footer";
 
-@mixin box-sizing($type:border-box) {
-  -webkit-box-sizing: $type; // Android < 2.3, iOS < 4
-     -moz-box-sizing: $type; // Firefox < 29
-          box-sizing: $type; // Chrome, IE 8+, Opera, Safari 5.1
-}
-
-*, *:before, *:after {
-  @include box-sizing(border-box);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -39,8 +29,8 @@ body {
     line-height: $base-line-height; // Set to $base-line-height to take on browser default of 150%
 }
 
-p { 
-  margin: 0 0 $base-spacing;
+p, div { 
+  margin: $base-spacing 0 $base-spacing 0;
 }
 
 h1 {
@@ -63,12 +53,28 @@ a {
     @include anchor;
 }
 
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  &%default-ul {
+    list-style-type: disc;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
+  }
+
+  &%default-ol {
+    list-style-type: decimal;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
+  }
+}
+
 .site {
     text-align: justify;
     max-width: 700px;
     margin: $base-spacing auto;
-    line-height: $base-font-size;
-
     &__cover {
       max-width: 100%;
       height: auto;
@@ -113,7 +119,7 @@ a {
 	font-family: $serif-2;
 	font-style: italic;
 	font-size: .9em;
-	margin: $base-spacing 0 $half-spacing-unit 0;
+	margin: $base-spacing 0 $small-spacing 0;
     }
 }
 
