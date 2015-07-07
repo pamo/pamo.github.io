@@ -10,6 +10,7 @@ node_modules
 
 ### Jekyll ###
 _site/**/*
+css/**/*
 
 ### Sass ###
 .sass-cache

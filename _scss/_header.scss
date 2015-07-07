@@ -6,11 +6,11 @@
 	text-transform: lowercase;
 
 	&--title {
-	    @include h1_style;
+	    @include h3_style;
 	    color: $aqua;
-	    display: inline-block;
-	    @media only screen and (max-width: 736px){
-		display: block;
+	    display: block;
+	    @include media($desk){
+		display: inline-block;
 	    }
 	}
 

@@ -5,6 +5,7 @@ var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var imageop = require('gulp-image-optimization');
 var notify = require('gulp-notify');
+var neat = require('node-neat').includePaths;
 
 var messages = {
     jekyllBuild: 'Running: $ jekyll build',
@@ -55,9 +56,10 @@ gulp.task('browser-sync', ['copy-fonts','images', 'sass', 'jekyll-build'], funct
  */
 gulp.task('sass', function () {
     browserSync.notify(messages.sass);   
-    gulp.src(['_scss/main.scss'])
+    gulp.src(['./_scss/main.scss'])
         .pipe(sass({
-            includePaths: ['scss'],
+            includePaths: ['./_scss'].concat(neat),
+            errLogToConsole: gulp.env.watch,
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
@@ -65,6 +67,7 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('css'))
         .pipe(notify(messages.sass));
+
 });
 
 /**
@@ -80,6 +83,10 @@ gulp.task('copy-fonts', function(){
    gulp.src(['bower_components/font-awesome/fonts/*'])
         .pipe(gulp.dest('_site/css/fonts/'))
         .pipe(gulp.dest('css/fonts'));
+
+   gulp.src(['bower_components/font-awesome/css/font-awesome.css'])
+        .pipe(gulp.dest('_site/css/lib/'))
+        .pipe(gulp.dest('css/lib'));
 });
 
 /**

@@ -1,0 +1,19 @@
+.about {
+  &__photoHeader {
+    @include outer-container();
+    img {
+      @include span-columns(4);
+      @include omega(3n);
+      @include media($desk) {
+	@include span-columns(4);
+      }
+    }
+  }
+
+  &__photoFooter {
+    @include outer-container();
+    img {
+      @include span-columns(12);
+    }
+  }
+}
