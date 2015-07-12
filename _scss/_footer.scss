@@ -1,7 +1,7 @@
 .footer {
     color: $gray;
     border-top: 1px solid $silver;
-    margin-top: $base-spacing;
+    margin: $base-spacing 0 $base-spacing 0;
     padding: $small-spacing 0 $base-spacing 0;
     &__social {
 	list-style: none;

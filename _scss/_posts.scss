@@ -54,6 +54,13 @@
       }
    }
 
+   .emoji {
+      vertical-align: top;
+      float: none;
+      max-width: none;
+      margin: 0;
+   }
+
    &__title {
       @include h1_style;
    }
@@ -72,6 +79,22 @@
       span {
 	 font-family: $sans-serif;
 	 font-weight: 700;
+      }
+   }
+
+   .instagram-media {
+      margin: $base-spacing auto $base-spacing;
+      padding: 0;
+      width: 100%;
+      border: 0;
+      border-radius: 3px;
+      box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15);
+   }
+
+   @include media($desk){
+      .instagram-media {
+	 width: 70%;
+	 width: calc(70%);
       }
    }
 }
