@@ -22,7 +22,7 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@pmocampo">
         <meta name="twitter:title" content="{{ page.title }}">
-        <meta name="twitter:description" content="{{ content | strip_html | truncate:150 }}">
+        <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate:150 }}">
         <meta name="twitter:creator" content="@pmocampo">
         {% if page.image %}
             <meta name="twitter:image:src" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"> 
@@ -35,7 +35,7 @@
         {% if page.image %}
             <meta name="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}"> 
         {% endif %}
-        <meta property="og:description" content="{{ content | strip_html | strip_newlines | truncate:150 }}" /> 
+        <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate:150 }}" /> 
         <meta property="og:site_name" content="Pamela Ocampo Likes Coffee" />
         <meta property="fb:admins" content="1397070010" />
     </head>
