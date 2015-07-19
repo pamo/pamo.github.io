@@ -11,9 +11,8 @@ extended until September, there was no question in buying a ticket.
 In an [interview with SFGate](http://www.sfgate.com/performance/article/Black-Virgins-Are-Not-for-Hipsters-1-woman-6232262.php),
 the actress, Echo Brown, describes her show well in that it gives people a healthy dose of humor while introducing heavy topics and subjects 
 in a different and surprising way in regards to common stereotypes about black women.
-<meta property="og:image" content="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11378992_1609526439335431_1899147371_n.jpg"/>
-<blockquote class="instagram-media" data-instgrm-version="4"><a href="https://instagram.com/p/5TqP5tJZNw/" target="_blank"><div style="background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC);"></div></a></blockquote>
-After the show, Echo answered questions and hoped that the biggest message the audience should come away with was) 
+<blockquote class="instagram-media" data-instgrm-version="4"><a href="https://instagram.com/p/5TqP5tJZNw/" target="_blank"><div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC);"></div></a></blockquote>
+After the show, Echo answered questions and hoped that the biggest message the audience should come away with was 
 the understanding of multi-dimensionality of black humanity.
 
 The play was a heavy and honest emotional roller-coaster, there were moments where I couldn't stop laughing out loud, such as one where Echo claimed:
