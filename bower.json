@@ -17,6 +17,8 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "~4.3.0"
+    "font-awesome": "~4.3.0",
+    "bourbon": "~4.2.3",
+    "neat": "~1.7.2"
   }
 }

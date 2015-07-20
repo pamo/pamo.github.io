@@ -5,7 +5,7 @@ var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var imageop = require('gulp-image-optimization');
 var notify = require('gulp-notify');
-var neat = require('node-neat').includePaths;
+var wiredep = require('wiredep').stream;
 
 var messages = {
     jekyllBuild: 'Running: $ jekyll build',
@@ -55,19 +55,21 @@ gulp.task('browser-sync', ['copy-fonts','images', 'sass', 'jekyll-build'], funct
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    browserSync.notify(messages.sass);   
+    browserSync.notify(messages.sass);
     gulp.src(['./_scss/main.scss'])
-        .pipe(sass({
-            includePaths: ['./_scss'].concat(neat),
+    .pipe(wiredep({
+       directory: 'bower_components'
+    }))
+      .pipe(sass({
+            includePaths: ['./_scss'],
             errLogToConsole: gulp.env.watch,
             onError: browserSync.notify
-        }))
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
-        .pipe(browserSync.reload({stream: true}))
-        .pipe(gulp.dest('css'))
-        .pipe(notify(messages.sass));
-
+      }))
+      .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+      .pipe(gulp.dest('_site/css'))
+      .pipe(browserSync.reload({stream: true}))
+      .pipe(gulp.dest('css'))
+      .pipe(notify(messages.sass));
 });
 
 /**
