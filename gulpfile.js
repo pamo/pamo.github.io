@@ -57,9 +57,8 @@ gulp.task('responsive', function(cb){
           suffix:'-500'
        }
    }]))
-   .pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
+   .pipe(gulp.dest('images')).on('end', cb).on('error', cb);
 });
-
 
 /**
  * Wait for jekyll-build, then launch the Server
