@@ -279,7 +279,7 @@ ul, ol {
   max-width: 700px;
   margin: 1.5em auto; }
   .site__cover {
-    max-width: 100%;
+    width: 100%;
     height: auto; }
 
 .postDescription__title {

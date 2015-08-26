@@ -16,6 +16,7 @@
     "gulp-imagemin": "^2.3.0",
     "gulp-notify": "^2.2.0",
     "gulp-purifycss": "^0.2.0",
+    "gulp-responsive": "^1.2.1",
     "gulp-sass": "^2.0.3",
     "imagemin-gifsicle": "^4.2.0",
     "imagemin-jpegtran": "^4.3.0",

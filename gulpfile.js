@@ -3,6 +3,7 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
+var responsive = require('gulp-responsive');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 var jpegtran = require('imagemin-jpegtran');
@@ -34,10 +35,11 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
-gulp.task('images', function(cb) {
+gulp.task('imagemin', function(cb) {
     browserSync.notify(messages.imageOptimization);
     gulp.src('images/*')
-    .pipe(notify(messages.imageOptimization)).pipe(imagemin({
+    .pipe(notify(messages.imageOptimization))
+    .pipe(imagemin({
        optimizationLevel: 7,
        progressive: true,
        svgoPlugins: [{removeViewBox: false}],
@@ -45,10 +47,24 @@ gulp.task('images', function(cb) {
     })).pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
 });
 
+gulp.task('responsive', function(cb){
+   gulp.src('images/*')
+   .pipe(responsive([{
+       name: '*.jpg',
+       width: 500,
+       withoutEnlargement: true,
+       rename: {
+          suffix:'-500'
+       }
+   }]))
+   .pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
+});
+
+
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['copy-fonts','images', 'sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['copy-fonts', 'responsive', 'imagemin', 'sass', 'jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'
