@@ -3,7 +3,10 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
-var imageop = require('gulp-image-optimization');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
+var jpegtran = require('imagemin-jpegtran');
+var gifsicle = require('imagemin-gifsicle');
 var notify = require('gulp-notify');
 var wiredep = require('wiredep').stream;
 
@@ -33,10 +36,12 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 
 gulp.task('images', function(cb) {
     browserSync.notify(messages.imageOptimization);
-    gulp.src(['images/**/*.png','images/**/*.jpg','images/**/*.gif','images/**/*.jpeg']).pipe(notify(messages.imageOptimization)).pipe(imageop({
-        optimizationLevel: 5,
-        progressive: true,
-        interlaced: true
+    gulp.src('images/*')
+    .pipe(notify(messages.imageOptimization)).pipe(imagemin({
+       optimizationLevel: 7,
+       progressive: true,
+       svgoPlugins: [{removeViewBox: false}],
+       use: [pngquant(), jpegtran(), gifsicle()]
     })).pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
 });
 
