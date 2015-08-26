@@ -1,5 +1,6 @@
 /* Do not remove the comments below. They are the markers used by wiredep to inject
    sass dependencies defined in the bower.json */
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700|Merriweather+Sans:400,700,400italic|Lusitana:400,700);
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

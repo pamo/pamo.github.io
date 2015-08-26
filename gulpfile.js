@@ -57,7 +57,7 @@ gulp.task('responsive', function(cb){
           suffix:'-500'
        }
    }]))
-   .pipe(gulp.dest('images')).on('end', cb).on('error', cb);
+   .pipe(gulp.dest('./_site/images/')).on('end', cb).on('error', cb);
 });
 
 /**
