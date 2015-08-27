@@ -38,7 +38,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 
 gulp.task('imagemin', function(cb) {
     browserSync.notify(messages.imageOptimization);
-    gulp.src('images/*')
+    gulp.src('images/**/*')
     .pipe(notify(messages.imageOptimization))
     .pipe(cache(imagemin({
        optimizationLevel: 5,
@@ -57,13 +57,10 @@ gulp.task('responsive', function(cb){
          width: 500,
          errorOnUnusedConfig: false,
          errorOnUnusedImage: false,
-         withoutEnlargement: true,
-         rename: {
-            suffix: '-small'
-         }
+         withoutEnlargement: true
       }
    }))
-   .pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
+   .pipe(gulp.dest('images/small')).on('end', cb).on('error', cb);
 });
 
 /**
