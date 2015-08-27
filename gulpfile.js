@@ -10,6 +10,7 @@ var jpegtran = require('imagemin-jpegtran');
 var gifsicle = require('imagemin-gifsicle');
 var notify = require('gulp-notify');
 var wiredep = require('wiredep').stream;
+var cache = require('gulp-cache');
 
 var messages = {
     jekyllBuild: 'Running: $ jekyll build',
@@ -39,25 +40,30 @@ gulp.task('imagemin', function(cb) {
     browserSync.notify(messages.imageOptimization);
     gulp.src('images/*')
     .pipe(notify(messages.imageOptimization))
-    .pipe(imagemin({
-       optimizationLevel: 7,
+    .pipe(cache(imagemin({
+       optimizationLevel: 5,
        progressive: true,
        svgoPlugins: [{removeViewBox: false}],
        use: [pngquant(), jpegtran(), gifsicle()]
-    })).pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
+    }))
+    .pipe(gulp.dest('_site/images'))
+    .on('end', cb).on('error', cb));
 });
 
 gulp.task('responsive', function(cb){
    gulp.src('images/*')
-   .pipe(responsive([{
-       name: '*.jpg',
-       width: 500,
-       withoutEnlargement: true,
-       rename: {
-          suffix:'-500'
-       }
-   }]))
-   .pipe(gulp.dest('./_site/images/')).on('end', cb).on('error', cb);
+   .pipe(responsive({
+      '*.jpg':{
+         width: 500,
+         errorOnUnusedConfig: false,
+         errorOnUnusedImage: false,
+         withoutEnlargement: true,
+         rename: {
+            suffix: '-small'
+         }
+      }
+   }))
+   .pipe(gulp.dest('_site/images')).on('end', cb).on('error', cb);
 });
 
 /**
