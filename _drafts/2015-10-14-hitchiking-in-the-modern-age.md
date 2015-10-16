@@ -1,7 +1,10 @@
 ---
-layout: post
+layout: photo-set
 title:  "Hitchhiking in the Modern Age"
 categories: general, travel, TWU
+photos:
+    set: hitchhiking-mumbai
+    size: 1
 ---
 I'm beginning to get more comfortable in traveling alone during my time in India. For the most part, I plan out how to get to and from the destination and let everything else fall into place.
 With the help of Uber, some practice in rickshaw haggling, and advice from friends, I've had the courage to trust myself to explore a lot of Pune and ride a train to get to Mumbia.
@@ -24,5 +27,3 @@ The unpredictability of when we'd be getting there and back was not something I 
 
 The asking price per person to get to Mumbai was reasonable, just a little over the equivalent of $6 USD to travel 150 km (or around 94 mi).
 After a few back-and-forth messaging via the app, all we had to do was stand outside a Hyundai dealership at 6:45am with cash to get picked up along the route to Mumbai. No big deal.
-
-
