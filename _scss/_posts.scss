@@ -62,7 +62,7 @@
    }
 
    &__title {
-      @include h1_style;
+      @include h2_style;
    }
 
    &__date {
@@ -104,15 +104,15 @@
       justify-content: space-around;
       align-items: center;
       align-content: center;
-
-      img {
+      &__photo {
+	 display: inline-block;
+	 flex-grow: 1;
 	 &:first-of-type {
-	    flex-grow: 1;
+	    flex-grow: 4;
 	 }
 	 &:last-of-type {
-	    flex-grow: 1;
+	    flex-grow: 2;
 	 }
-	 align-self: stretch;
       }
    }
 }
