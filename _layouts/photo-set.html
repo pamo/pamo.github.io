@@ -8,11 +8,9 @@ layout: default
     <h4 class="post__date">{{ page.date | date_to_string }}</h4>
     <p class="post__content">{{ content }}</p>
     <div class="post__photo-set">
-        {% for i in (1..set_size) %}
-        <div class="post__photo-set__photo">
-            <a href="{{site.baseurl}}/images/photo_sets/{{page.photos.set}}/{{i}}.jpg" target="_blank"><img src="{{site.baseurl}}/images/photo_sets/{{page.photos.set}}/{{i}}.jpg" alt="Photo from {{ page.photos.set | capitalize }}"></a>
-        </div>
-        {% endfor %}
+       {% for i in (1..set_size) %}
+       <a href="{{site.baseurl}}/images/photo_sets/{{page.photos.set}}/{{i}}.jpg" target="_blank"><img src="{{site.baseurl}}/images/photo_sets/{{page.photos.set}}/{{i}}.jpg" alt="Photo from {{ page.photos.set | capitalize"></a>
+       {% endfor %}
     </div>
     <h3 class="post__category">{{ page.category }}</h3>
 </article>

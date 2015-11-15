@@ -45,11 +45,9 @@
    img {
       max-width: 33%;
       height: auto;
-      float: left;
       margin-right: $base-spacing;
 
       @include media($desk){
-	 margin-bottom: $base-spacing;
 	 max-width: 100%;
       }
    }
@@ -99,20 +97,16 @@
    }
 
    &__photo-set {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
-      align-content: center;
-      &__photo {
-	 display: inline-block;
-	 flex-grow: 1;
-	 &:first-of-type {
-	    flex-grow: 4;
-	 }
-	 &:last-of-type {
-	    flex-grow: 2;
-	 }
+      display: inline-block;
+      line-height: 0;
+      @include media($desk){
+	 column-count: 3;
+      }
+      img {
+	 width: 100%;
+	 max-width: 100%;
+	 margin: $base-spacing/4;
+	 height: auto;
       }
    }
 }
