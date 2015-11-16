@@ -14,6 +14,7 @@ an Australian woman in my group said.
 > Yea and they're only $200 ($0.30 USD).
 
 another man replied.
+<blockquote class="instagram-media" data-instgrm-version="5"><a href="https://instagram.com/p/-DJln6pZHj/"><div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></a></blockquote>
 
 My reaction: WAT. A tasty dessert to end the two hours of walking we did around Cerro Alegre and Cerro Concepcion to learn more about Valpo's graffiti artists and collaborations.
 I noticed Don Sergio also carried empanadas and saw some of my tour-mates buy a few. I had just had lunch before the tour started but my appetite could stomach one.
@@ -57,3 +58,4 @@ The tour guide began her introduction to Don Sergio's shop and the house rules.
 I signaled to him that he would be having some customers soon. He nodded and closed the door to get ready for the group welcoming.
 
 Thanks for looking out for me, Don Sergio, and thank you for the tasty last meal in Valparaiso.
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
