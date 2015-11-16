@@ -102,13 +102,23 @@ h4, h5, h6 {
     text-align: left;
     text-transform: uppercase; }
   .post blockquote {
-    border-left: 0; }
+    border-left: 0;
+    text-indent: 3%;
+    word-wrap: break-word; }
     .post blockquote p:before {
+      color: #ddd;
       font-family: FontAwesome;
       position: relative;
       content: "\f10d";
-      font-size: 2em;
+      font-size: 1.25em;
       margin-right: 0.75em; }
+    .post blockquote p:after {
+      color: #ddd;
+      font-family: FontAwesome;
+      position: relative;
+      content: "\f10e";
+      font-size: 1.25em;
+      margin-left: 0.75em; }
   .post img {
     max-width: 33%;
     height: auto;

@@ -33,12 +33,23 @@
 
    blockquote {
       border-left: 0;
+      text-indent: 3%;
+      word-wrap: break-word;
       p:before {
+	 color: $silver;
 	 font-family: FontAwesome;
 	 position: relative;
 	 content:"\f10d";
-	 font-size: $base-font-size*2;
+	 font-size: $base-font-size*1.25;
 	 margin-right: $small-spacing;
+      }
+      p:after {
+	 color: $silver;
+	 font-family: FontAwesome;
+	 position: relative;
+	 content:"\f10e";
+	 font-size: $base-font-size*1.25;
+	 margin-left: $small-spacing;
       }
    }
 
