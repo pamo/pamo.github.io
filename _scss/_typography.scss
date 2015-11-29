@@ -2,109 +2,90 @@
 $serif: 'Lusitana', serif;
 $serif-2: 'Merriweather', serif;
 $sans-serif: 'Merriweather Sans', sans-serif;
-
 @mixin font-smoothing {
-  -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
-
 @mixin typography {
- font-family: $sans-serif;
- line-height: 1.6em;
+    font-family: $sans-serif;
+    line-height: 1.6em;
 }
-
 @mixin base_typography {
-  @include typography;
-  font-size: $base-font-size;
-  font-weight: normal;
-  font-style: normal;
-  line-height:  $base-font-size;
+    @include typography;
+    font-size: $base-font-size;
+    font-weight: normal;
+    font-style: normal;
+    line-height: $base-font-size;
 }
-
 @mixin heading {
-  font-family: $sans-serif;
-  display: block;
+    font-family: $sans-serif;
+    display: block;
 }
-
 @mixin h1_style {
-  @include heading;
-  font-size: 51px;
-  line-height: 52px;
-  font-weight: 900;
+    @include heading;
+    font-size: 2em;
+    line-height: 52px;
+    font-weight: 900;
 }
-
 @mixin h2_style {
-  @include heading;
-  font-size: 34px;
-  line-height: 41px;
-  font-weight: 900;
+    @include heading;
+    font-size: 1.5em;
+    line-height: 41px;
+    font-weight: 900;
 }
-
 @mixin h3_style {
-  @include heading;
-  font-size: 19px;
-  line-height: 27px;
+    @include heading;
+    font-size: 1.25em;
+    line-height: 27px;
 }
-
 @mixin anchor {
-  color: $blue;
-  text-decoration: none;
-
-  &:visited {
     color: $blue;
-  }
-
-  &:hover {
-    color: darken($blue, 10%);
-  }
-
-  &:active {
-    color: darken($blue, 15%);
-  }
+    text-decoration: none;
+    &:visited {
+        color: $blue;
+    }
+    &:hover {
+        color: darken($blue, 10%);
+    }
+    &:active {
+        color: darken($blue, 15%);
+    }
 }
-
 @mixin nav_anchor {
-  color: $blue;
-  font-size: 11px;
-  font-weight: 600;
-  text-decoration: none;
-
-  &:visited {
     color: $blue;
-  }
-
-  &:hover {
-    color: darken($blue, 10%);
-  }
-
-  &:active {
-    color: darken($blue, 15%);
-  }
+    font-weight: 600;
+    text-decoration: none;
+    &:visited {
+        color: $blue;
+    }
+    &:hover {
+        color: darken($blue, 10%);
+    }
+    &:active {
+        color: darken($blue, 15%);
+    }
 }
-
 @mixin sub_header {
-  @include heading;
-  color: $gray;
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 18px;
-  display: inline-block;
-  border-top: 1px solid $silver;
-  padding: 7px 0 9px 0;
-  margin: $small-spacing 0 $small-spacing;
+    @include heading;
+    color: $gray;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
+    display: inline-block;
+    border-top: 1px solid $silver;
+    padding: 7px 0 9px;
+    margin: $small-spacing 0;
 }
-
 h1 {
-  @include h1_style;
+    @include h1_style;
 }
-
 h2 {
-  @include h2_style;
+    @include h2_style;
 }
-
 h3 {
-  @include h3_style;
+    @include h3_style;
 }
-
-h4, h5, h6 {
-  @include sub_header;
+h4,
+h5,
+h6 {
+    @include sub_header;
 }

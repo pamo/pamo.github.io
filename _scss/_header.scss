@@ -1,28 +1,46 @@
+.header, .nav {
+    display: flex;
+    flex-direction: column;
+    @include media($tablet) {
+        flex-direction: row;
+    }
+}
 .header {
-    margin-bottom: $base-spacing;
+    margin-bottom: $base-spacing/4;
+    &__brand {
+        @include h2_style;
+        align-self: center;
+        color: $aqua;
+    }
+
+    @include media($tablet) {
+        justify-content: flex-end;
+        &__brand {
+            margin-right: auto;
+        }
+    }
+}
+
+.nav {
     &__link {
-	@include nav_anchor;
-	text-decoration: none;
-	text-transform: lowercase;
-
-	&--title {
-	    @include h3_style;
-	    color: $aqua;
-	    display: block;
-	    @include media($desk){
-		display: inline-block;
-	    }
-	}
-
-	&--nav {
-	    border-right: 1px solid $gray;
-	    padding: 0 $base-spacing 0 $base-spacing;
-	    &:last-of-type {
-		border: 0;
-	    }
-	    &:visited, &:hover, &:active {
-		color: $gray;
-	    }
-	}
+        @include nav_anchor;
+        border-bottom: 2px solid lighten($blue, 50%);
+        display: block;
+        text-align: center;
+        margin-bottom: $small-spacing;
+        &:hover {
+            border-bottom-color: lighten($blue, 30%);
+        }
+    }
+    @include media($tablet) {
+        align-self: center;
+        justify-content: space-between;
+        &__link {
+            padding: .4em 0;
+            margin: 0 $base-spacing/2;
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
     }
 }

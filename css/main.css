@@ -14,24 +14,26 @@ html {
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   display: block;
-  font-size: 51px;
+  font-size: 2em;
   line-height: 52px;
   font-weight: 900; }
 
 h2 {
   font-family: "Merriweather Sans", sans-serif;
   display: block;
-  font-size: 34px;
+  font-size: 1.5em;
   line-height: 41px;
   font-weight: 900; }
 
 h3 {
   font-family: "Merriweather Sans", sans-serif;
   display: block;
-  font-size: 19px;
+  font-size: 1.25em;
   line-height: 27px; }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-family: "Merriweather Sans", sans-serif;
   display: block;
   color: #aaa;
@@ -40,41 +42,86 @@ h4, h5, h6 {
   line-height: 18px;
   display: inline-block;
   border-top: 1px solid #ddd;
-  padding: 7px 0 9px 0;
-  margin: 0.75em 0 0.75em; }
+  padding: 7px 0 9px;
+  margin: 0.75em 0; }
+
+.header, .nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .header, .nav {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -moz-box-orient: horizontal;
+      -moz-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
 
 .header {
-  margin-bottom: 1.5em; }
-  .header__link {
-    color: #0074D9;
-    font-size: 11px;
-    font-weight: 600;
-    text-decoration: none;
-    text-decoration: none;
-    text-transform: lowercase; }
-    .header__link:visited {
-      color: #0074D9; }
-    .header__link:hover {
-      color: #0059a6; }
-    .header__link:active {
-      color: #004b8d; }
-    .header__link--title {
-      font-family: "Merriweather Sans", sans-serif;
-      display: block;
-      font-size: 19px;
-      line-height: 27px;
-      color: #7FDBFF;
-      display: block; }
-      @media screen and (min-width: 1224px) {
-        .header__link--title {
-          display: inline-block; } }
-    .header__link--nav {
-      border-right: 1px solid #aaa;
-      padding: 0 1.5em 0 1.5em; }
-      .header__link--nav:last-of-type {
-        border: 0; }
-      .header__link--nav:visited, .header__link--nav:hover, .header__link--nav:active {
-        color: #aaa; }
+  margin-bottom: 0.375em; }
+  .header__brand {
+    font-family: "Merriweather Sans", sans-serif;
+    display: block;
+    font-size: 1.5em;
+    line-height: 41px;
+    font-weight: 900;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    color: #7FDBFF; }
+  @media screen and (min-width: 768px) {
+    .header {
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+      -moz-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
+      .header__brand {
+        margin-right: auto; } }
+
+.nav__link {
+  color: #0074D9;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid #d9edff;
+  display: block;
+  text-align: center;
+  margin-bottom: 0.75em; }
+  .nav__link:visited {
+    color: #0074D9; }
+  .nav__link:hover {
+    color: #0059a6; }
+  .nav__link:active {
+    color: #004b8d; }
+  .nav__link:hover {
+    border-bottom-color: #73beff; }
+
+@media screen and (min-width: 768px) {
+  .nav {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .nav__link {
+      padding: .4em 0;
+      margin: 0 0.75em; }
+      .nav__link:last-of-type {
+        margin-right: 0; } }
 
 .post {
   max-width: 68em;
@@ -95,10 +142,10 @@ h4, h5, h6 {
     border-bottom: 1px solid;
     display: inline-block;
     font-family: "Merriweather Sans", sans-serif;
-    font-size: .7em;
+    font-size: 0.7em;
     font-weight: 700;
     margin-bottom: 2em;
-    padding: .3em 0;
+    padding: 0.3em 0;
     text-align: left;
     text-transform: uppercase; }
   .post blockquote {
@@ -110,20 +157,20 @@ h4, h5, h6 {
       font-family: FontAwesome;
       position: relative;
       content: "\f10d";
-      font-size: 1.25em;
+      font-size: 20px;
       margin-right: 0.75em; }
     .post blockquote p:after {
       color: #ddd;
       font-family: FontAwesome;
       position: relative;
       content: "\f10e";
-      font-size: 1.25em;
+      font-size: 20px;
       margin-left: 0.75em; }
   .post img {
     max-width: 33%;
     height: auto;
     margin-right: 1.5em; }
-    @media screen and (min-width: 1224px) {
+    @media screen and (min-width: 1024px) {
       .post img {
         max-width: 100%; } }
   .post .emoji {
@@ -134,7 +181,7 @@ h4, h5, h6 {
   .post__title {
     font-family: "Merriweather Sans", sans-serif;
     display: block;
-    font-size: 34px;
+    font-size: 1.5em;
     line-height: 41px;
     font-weight: 900; }
   .post__date {
@@ -142,14 +189,14 @@ h4, h5, h6 {
   .post__content {
     font-family: "Merriweather", serif;
     line-height: 1.6em;
-    font-size: .9em;
+    font-size: 0.9em;
     margin-bottom: 1.5em;
     word-wrap: break-word; }
     .post__content span {
       font-family: "Merriweather Sans", sans-serif;
       font-weight: 700; }
   .post .instagram-media {
-    margin: 1.5em auto 1.5em;
+    margin: 1.5em auto;
     padding: 0;
     width: 100%;
     border: 0;
@@ -157,7 +204,7 @@ h4, h5, h6 {
     border-radius: 3px;
     -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15); }
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 1024px) {
     .post .instagram-media {
       width: 70%;
       width: -webkit-calc(70%);
@@ -166,7 +213,7 @@ h4, h5, h6 {
   .post__photo-set {
     display: inline-block;
     line-height: 0; }
-    @media screen and (min-width: 1224px) {
+    @media screen and (min-width: 1024px) {
       .post__photo-set {
         -webkit-column-count: 3;
         -moz-column-count: 3;
@@ -215,9 +262,27 @@ h4, h5, h6 {
   margin: 1.5em 0 1.5em 0;
   padding: 0.75em 0 1.5em 0; }
   .footer__social {
-    list-style: none; }
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
     .footer__social li {
-      float: left;
       padding: 0 0.75em 0 0.75em;
       font-size: 1.5em; }
 
@@ -226,8 +291,9 @@ h4, h5, h6 {
   padding: 0;
   -webkit-font-smoothing: antialiased; }
 
-html, body {
-  font-size: 1em;
+html,
+body {
+  font-size: 16px;
   height: 100%; }
 
 body {
@@ -236,38 +302,41 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "Merriweather Sans", sans-serif;
   line-height: 1.6em;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
-  line-height: 1em;
-  padding: 0 1.5em 1.5em 1.5em;
+  line-height: 16px;
+  padding: 0 1.5em 1.5em;
   margin: 0;
   line-height: 1.5; }
 
-p, div {
-  margin: 1.5em 0 1.5em 0; }
+p,
+div {
+  margin: 1.5em 0; }
 
 h1 {
   font-family: "Merriweather Sans", sans-serif;
   display: block;
-  font-size: 51px;
+  font-size: 2em;
   line-height: 52px;
   font-weight: 900; }
 
 h2 {
   font-family: "Merriweather Sans", sans-serif;
   display: block;
-  font-size: 34px;
+  font-size: 1.5em;
   line-height: 41px;
   font-weight: 900; }
 
 h3 {
   font-family: "Merriweather Sans", sans-serif;
   display: block;
-  font-size: 19px;
+  font-size: 1.25em;
   line-height: 27px; }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-family: "Merriweather Sans", sans-serif;
   display: block; }
 
@@ -281,7 +350,8 @@ a {
   a:active {
     color: #004b8d; }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
   margin: 0;
   padding: 0; }
@@ -289,6 +359,7 @@ ul, ol {
     list-style-type: disc;
     margin-bottom: 0.75em;
     padding-left: 1.5em; }
+  
   .post ol {
     list-style-type: decimal;
     margin-bottom: 0.75em;
@@ -297,7 +368,7 @@ ul, ol {
 .site {
   text-align: justify;
   max-width: 700px;
-  margin: 1.5em auto; }
+  margin: 0 auto; }
   .site__cover {
     width: 100%;
     height: auto; }
@@ -311,9 +382,9 @@ ul, ol {
   display: inline-block;
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 700;
-  font-size: .8em;
+  font-size: 0.8em;
   text-transform: uppercase;
-  margin-left: .2em;
+  margin-left: 0.2em;
   position: relative; }
   .postDescription__link span {
     font-family: "Lusitana", serif;
@@ -325,15 +396,15 @@ ul, ol {
 
 .postDescription__truncatedContent {
   font-family: "Merriweather", serif;
-  font-size: .9em;
+  font-size: 0.9em;
   margin-bottom: 1.5em;
   word-wrap: break-word; }
 
 .postDescription__date {
   font-family: "Merriweather", serif;
   font-style: italic;
-  font-size: .9em;
-  margin: 1.5em 0 0.75em 0; }
+  font-size: 0.9em;
+  margin: 1.5em 0 0.75em; }
 
 hr {
   width: 1px; }

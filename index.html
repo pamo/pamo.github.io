@@ -2,15 +2,13 @@
 layout: default
 title: Pamela Ocampo
 ---
-<div id="home">
-    <img class="site__cover" src="images/small/background.jpg" srcset="images/small/background.jpg 1000w, images/background.jpg 2000w">
-    <h2>Words</h2>
-    {% for post in site.posts %}
-    <div class="postDescription">
-	<p class="postDescription__date">{{ post.date | date_to_string }}</p>
-	<h3 class="postDescription__title">{{ post.title }}</h3>
-	<p class="postDescription__truncatedContent">{{ post.content | strip_html | truncatewords:75}}</p>
-	<a href="{{ post.url }}" class="postList__postLink">Read More<span>&rsaquo;</span></a>
-    </div>
-    {% endfor %}
+<img class="site__cover" src="images/small/background.jpg" srcset="images/small/background.jpg 1000w, images/background.jpg 2000w">
+<h2>Words</h2>
+{% for post in site.posts %}
+<div class="postDescription">
+    <p class="postDescription__date">{{ post.date | date_to_string }}</p>
+    <h3 class="postDescription__title">{{ post.title }}</h3>
+    <p class="postDescription__truncatedContent">{{ post.content | strip_html | truncatewords:75}}</p>
+    <a href="{{ post.url }}" class="postList__postLink">Read More<span>&rsaquo;</span></a>
 </div>
+{% endfor %}
