@@ -2,6 +2,7 @@
 layout: post
 title:  "Multi-dimensional Racial Issues"
 categories: general
+date: "2015-07-19"
 ---
 Last night, I experienced a sensational solo-performance for the first time at [The Marsh](http://themarsh.org/) theater in the Mission.
 I had walked by the entrance the week before and was intrigued by a poster for [Black Virgins are Not For Hipsters](http://www.virginhipster.com/)

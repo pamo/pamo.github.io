@@ -2,6 +2,7 @@
 layout: post
 category: conferences
 title: Strange Loop 2014
+date: "2014-09-14"
 ---
 I'm attending the my first [Strange Loop](https://thestrangeloop.com/schedule) conference this year in St. Louis, MO. The opportunity is kind of a big deal and I owe it all to
 the conference organizers and sponsors for allowing me to attend as a [diversity scholar](https://thestrangeloop.com/attendees/diversity-scholarships).

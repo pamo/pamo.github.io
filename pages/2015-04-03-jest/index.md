@@ -2,6 +2,7 @@
 layout: post
 title:  "Amused by Jest Unit Testing"
 categories: technology, testing
+date: "2015-04-03"
 ---
 About a month ago, Pete (@ph1) and I had a conversation about Javascript testing frameworks and we agreed that there's not one right answer. 
 You don't have to commit yourself to a magical tool for something as simple as testing, however, a battle of testing frameworks can definitely be had given that there are so many to choose from.

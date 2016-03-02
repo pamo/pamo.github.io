@@ -2,6 +2,7 @@
 layout: post
 title:  "Gotta be flexible"
 categories: travel, work
+date: "2015-05-09"
 ---
 
 It's been a month since I sat in the ThoughtWorks San Francisco office in middle of the Financial District of San Francisco knowing little that, the following week I would be in [Thinking Cup](http://www.thinkingcup.com/), a coffee shop, on the outskirts of the Leather District in Boston, MA, writing the draft of this post. 

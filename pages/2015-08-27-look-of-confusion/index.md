@@ -2,6 +2,7 @@
 layout: post
 title:  "The Look of Confusion"
 categories: general, travel, TWU
+date: "2015-08-27"
 ---
 That look of confusion on your face is what tells me I’ve failed.
 I got a lot of confused looks this week from several of my grads and I am crushed. :sob:

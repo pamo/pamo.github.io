@@ -2,6 +2,7 @@
 layout: post
 title:  "Don Sergio is looking out for me"
 categories: general, travel
+date: "2015-11-16"
 ---
 Don Sergio is a Porteño from Valparaiso that makes a little money from his home's door by selling alfajores and empanadas artesanales. My first experience
 with Don Sergio was during a graffiti tour around Valpo that neared its end at Pasaje Bavestrello (a passageway between hilly streets). As we walked down the steps we saw a crowed of other tourists

@@ -2,7 +2,7 @@
 layout: post
 category: conferences
 title: Powered by Java!..script.
-tags: [javascript, tech, conferences, node, mobile, html5, microservices, strangeloop]
+date: "2014-09-21"
 ---
 
 ![Java -- The Future](/images/pbjs.jpg)

@@ -2,6 +2,7 @@
 layout: post
 title:  "Feelin' like a local"
 categories: general
+date: "2015-07-14"
 ---
 Sunday, July 12th, marked the two years I've lived in San Francisco since I completed [ThoughtWorks University](http://www.learninggeneralist.com/2010/08/thoughtworks-university-story-of-our.html) and flew directly here from Bangalore, India.
 Every day spent in this beautiful city has been a treat for me. I feel at home but The City never ceases to surprise me with hidden pockets
