@@ -10,7 +10,7 @@ It's been a week since Strange Loop and I'm still in awe of the
 great speakers and talks from this year's conference.
 
 ## Party!
-![Party](/images/stl_slide.jpg)
+![Party](stl_slide.jpg)
 On top of all the great talks, I also had the opportunity to attend the best conference
 opening party EVER at the [St. Louis City Museum](http://www.citymuseum.org/).
 I'm still scratching my head as to whether or not there were any exhibits I missed
@@ -25,7 +25,7 @@ the future of the web in general. Some of my other favorites were just fun in ge
 Thankfully, Strange Loop has already uploaded all of the talks for future reference on YouTube.
 
 ### [The Mess We're In](https://www.youtube.com/watch?v=lKXe3HUG2l4) _by Joe Armstrong_
-was my favorite keynote for the fact that he touched upon being a mindful
+This was my favorite keynote for the fact that he touched upon being a mindful
 developer for those coming after me as well as for my future self. The code we write today should
 have great "usability" for those that come along later on to make changes. It should be easy.
 
@@ -68,7 +68,7 @@ These talks were "trending" during the conference and invoked some [FOMO](https:
 For every trip I make to a new city, there's usually two questions I ask myself before I go: where can I get good coffee and
 will I be able to lift weights?
 
-![Climb So Ill](/images/stl_climb.jpg)
+![Climb So Ill](stl_climb.jpg)
 Since joining Mission Cliffs in January, I've started asking myself another question: I wonder if there's a climbing gym close-by?
 A few days before I headed out to St. Louis, I found [Climb So Ill](http://climbsoill.com). Apparently So Ill is a reputable climb hold company and that has a flagship gym a mile away from the Peabody Opera house.
 I don't mind walking, so I was sold on packing my climbing shoes for the trip. I figured others would be interested in joining and I tweeted the idea of climbing after the conference. 
