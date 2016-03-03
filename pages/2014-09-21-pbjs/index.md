@@ -5,7 +5,7 @@ title: Powered by Java!..script.
 date: "2014-09-21"
 ---
 
-![Java -- The Future](/images/pbjs.jpg)
+![Java -- The Future](pbjs.jpg)
 
 The [Manning Powered by Javascript](http://www.manning.com/poweredbyjavascript/) workshop was a mini conference of the current state of Javascript.
 By the end of the day, it was clear:
