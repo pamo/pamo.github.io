@@ -2,6 +2,7 @@
 layout: post
 category: conferences
 title: Digesting Strange Loop
+path: "digesting-strange-loop"
 date: "2014-09-26"
 ---
 Wow. Wow.

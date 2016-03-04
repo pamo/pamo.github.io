@@ -2,6 +2,7 @@
 layout: post
 title:  "Hello from Pune"
 categories: general, travel, TWU
+path: "hello-from-pune"
 date: "2015-08-13"
 ---
 Hola! I’m at [ThoughtWorks University](http://info.thoughtworks.com/graduates) in Pune, India as a trainer preparing for our graduates' sessions beginning tomorrow. I am writing this to have an artifact to go back to and reflect on how I change over the course of training 2 batches of grads.

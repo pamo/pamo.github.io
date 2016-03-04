@@ -2,6 +2,7 @@
 layout: photo-set
 title:  "Hitchhiking in the Modern Age"
 categories: general, travel, TWU
+path: "hitchiking"
 date: "2015-08-27"
 photos:
     set: hitchhiking-mumbai

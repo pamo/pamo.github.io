@@ -2,6 +2,7 @@
 layout: post
 title:  "Amused by Jest Unit Testing"
 categories: technology, testing
+path: "amused-by-jest"
 date: "2015-04-03"
 ---
 About a month ago, Pete (@ph1) and I had a conversation about Javascript testing frameworks and we agreed that there's not one right answer. 
@@ -25,27 +26,27 @@ After some reflection, we decided that using a boilerplate with a ton of depende
 Our Jest config started getting complicated as time went on and it was clear that we had a lot of dev dependencies to be cognizant of to un-mock.
 
 <pre class="terminal">var jestConfig = {
-		rootDir: '.',
-		testPathDirs: ['<rootDir>/src/\_\_tests\_\_/client/'],
-		scriptPreprocessor: "<rootDir>/node\_modules/babel-jest",
-		testFileExtensions: [
-			"es6",
-			"js"
-		],
-		moduleFileExtensions: [
-			"js",
-			"json",
-			"es6"
-		],
-		unmockedModulePathPatterns: [
-			"node\_modules/react",
-			"node\_modules/object-assign",
-			"node\_modules/express",
-			"node\_modules/supertest",
-			"node\_modules/chai",
-			"node\_modules/chai-http",
-			"node\_modules/multer"
-		]};
+rootDir: '.',
+				 testPathDirs: ['<rootDir>/src/\_\_tests\_\_/client/'],
+				 scriptPreprocessor: "<rootDir>/node\_modules/babel-jest",
+				 testFileExtensions: [
+					 "es6",
+				 "js"
+				 ],
+				 moduleFileExtensions: [
+					 "js",
+				 "json",
+				 "es6"
+				 ],
+				 unmockedModulePathPatterns: [
+					 "node\_modules/react",
+				 "node\_modules/object-assign",
+				 "node\_modules/express",
+				 "node\_modules/supertest",
+				 "node\_modules/chai",
+				 "node\_modules/chai-http",
+				 "node\_modules/multer"
+				 ]};
 </pre>
 
 SuperTest was one dependency that couldn't be used because of Jest's version of Jasmine does not support the [.end()](https://github.com/visionmedia/supertest#api) callback that SuperTest needs in order to make assertions. Without it, our tests had no indication of whether they were done or not.

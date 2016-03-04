@@ -2,6 +2,7 @@
 layout: post
 category: conferences
 title: Powered by Java!..script.
+path: "pbjs"
 date: "2014-09-21"
 ---
 

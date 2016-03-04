@@ -2,6 +2,7 @@
 layout: post
 title:  "Don Sergio is looking out for me"
 categories: general, travel
+path: "/don-sergio/"
 date: "2015-11-16"
 ---
 Don Sergio is a Porteño from Valparaiso that makes a little money from his home's door by selling alfajores and empanadas artesanales. My first experience

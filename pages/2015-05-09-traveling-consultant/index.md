@@ -2,6 +2,7 @@
 layout: post
 title:  "Gotta be flexible"
 categories: travel, work
+path: "traveling-consultant"
 date: "2015-05-09"
 ---
 
