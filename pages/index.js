@@ -6,6 +6,7 @@ import { link } from 'gatsby-helpers'
 import { rhythm } from 'utils/typography'
 import access from 'safe-access'
 import { config } from 'config'
+import SocialNetworks from '../components/SocialNetworks'
 
 class BlogIndex extends React.Component {
   render () {
@@ -32,28 +33,35 @@ class BlogIndex extends React.Component {
     return (
       <DocumentTitle title={config.blogTitle}>
         <div>
-          <p
-            style={{
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <img
-              src="./pam-brewing.jpg"
-              style={{
-                float: 'left',
-                marginRight: rhythm(1/4),
-                marginBottom: 0,
-                width: rhythm(2),
-                height: rhythm(2),
-              }}
-            />
-            Written by <strong>{config.authorName}</strong> who lives in the Mission District of San Francisco. <a href="https://twitter.com/pmocampo">You should follow her on Twitter</a>.
-          </p>
-          <ul>
-            {pageLinks}
-          </ul>
-        </div>
-      </DocumentTitle>
+        <p
+          style={{
+            marginBottom: 0,
+            display: 'inline',
+          }}
+        >
+        <img
+          alt="pam brewing coffee"
+          src="./pam-brewing.jpg"
+          style={{
+            float: 'left',
+            marginRight: rhythm(1/4),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
+        <strong>{config.authorName}</strong> spends more time on tweaking the CSS and markup of this blog than writing.
+        Not enough to see here? Go follow her on almost every social network:</p>
+      <SocialNetworks/>
+      <ul
+        style={{
+          marginTop: rhythm(2.5),
+        }}
+      >
+        {pageLinks}
+      </ul>
+    </div>
+  </DocumentTitle>
     )
   }
 }

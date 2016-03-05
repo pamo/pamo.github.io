@@ -5,6 +5,7 @@ import { link } from 'gatsby-helpers'
 import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
+import SocialNetworks from '../components/SocialNetworks'
 
 import '../css/zenburn.css'
 
@@ -34,6 +35,7 @@ class MarkdownWrapper extends React.Component {
           <ReadNext post={post} pages={route.pages} />
           <p>
             <img
+              alt='small photo of pam'
               src={link('/pam-small.jpg')}
               style={{
                 float: 'left',
@@ -43,8 +45,9 @@ class MarkdownWrapper extends React.Component {
                 height: rhythm(2),
               }}
             />
-            <strong>{config.authorName}</strong> thrives in San Francisco. You should follow her on <a href="http://twitter.com/pmocampo">Twitter</a>
-          </p>
+            When not crafting an artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee, riding a bike,
+            climbing fake rocks, lifting heavy things, and, in general, wandering around San Francisco.</p>
+          You can follow her on <SocialNetworks />
         </div>
       </DocumentTitle>
     )
