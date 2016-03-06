@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Multi-dimensional Racial Issues"
-categories: general
 path: "black-virgins"
 date: "2015-07-19"
 ---

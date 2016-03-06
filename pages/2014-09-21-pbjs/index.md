@@ -1,12 +1,12 @@
 ---
-layout: post
-category: conferences
 title: Powered by Java!..script.
-path: "pbjs"
 date: "2014-09-21"
+layout: post
+readNext: "/digesting-strange-loop/"
+path: "/pbjs/"
 ---
 
-![Java -- The Future](pbjs.jpg)
+![Java -- The Future](./signage.jpg)
 
 The [Manning Powered by Javascript](http://www.manning.com/poweredbyjavascript/) workshop was a mini conference of the current state of Javascript.
 By the end of the day, it was clear:

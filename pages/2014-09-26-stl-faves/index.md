@@ -1,9 +1,8 @@
 ---
-layout: post
-category: conferences
 title: Digesting Strange Loop
-path: "digesting-strange-loop"
 date: "2014-09-26"
+layout: post
+path: "/digesting-strange-loop/"
 ---
 Wow. Wow.
 
@@ -11,7 +10,9 @@ It's been a week since Strange Loop and I'm still in awe of the
 great speakers and talks from this year's conference.
 
 ## Party!
-![Party](stl_slide.jpg)
+
+![Party](./strange_loop_party.jpg)
+
 On top of all the great talks, I also had the opportunity to attend the best conference
 opening party EVER at the [St. Louis City Museum](http://www.citymuseum.org/).
 I'm still scratching my head as to whether or not there were any exhibits I missed
@@ -66,10 +67,12 @@ These talks were "trending" during the conference and invoked some [FOMO](https:
 * [Coder Decoder: Functional Programming Lingo with Pictures](https://www.youtube.com/watch?v=uwrCQmpZ8Ts) by Katie Miller
 
 ## Climb So Ill
+
 For every trip I make to a new city, there's usually two questions I ask myself before I go: where can I get good coffee and
 will I be able to lift weights?
 
-![Climb So Ill](stl_climb.jpg)
+![Climb So Ill](./climb_so_ill.jpg)
+
 Since joining Mission Cliffs in January, I've started asking myself another question: I wonder if there's a climbing gym close-by?
 A few days before I headed out to St. Louis, I found [Climb So Ill](http://climbsoill.com). Apparently So Ill is a reputable climb hold company and that has a flagship gym a mile away from the Peabody Opera house.
 I don't mind walking, so I was sold on packing my climbing shoes for the trip. I figured others would be interested in joining and I tweeted the idea of climbing after the conference. 
