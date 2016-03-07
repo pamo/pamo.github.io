@@ -58,14 +58,19 @@ blockquote {
   }
 }
 
-ul, ol {
+.social-networks {
+  display: inline;
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-.social-networks {
-  display: inline;
+
   li {
     display: inline-block;
+  }
+}
+
+.markdown {
+  ul, ol {
+    list-style-type: circle;
   }
 }
