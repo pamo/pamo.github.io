@@ -4,12 +4,17 @@ import { Container } from 'react-responsive-grid'
 import { link } from 'gatsby-helpers'
 import { rhythm, fontSizeToMS } from 'utils/typography'
 import { config } from 'config'
+import ga from 'react-google-analytics'
 
 import '../css/styles.scss'
 
 class Template extends React.Component {
   render () {
     const { location, children } = this.props
+    const GaInitializer = ga.Initializer
+    ga('create', config.googleAnalyticsId, 'auto')
+    ga('send', 'pageview')
+
     let header
     if (location.pathname === link('/')) {
       header = (
@@ -55,6 +60,7 @@ class Template extends React.Component {
       >
         {header}
         {children}
+        <GaInitializer />
       </Container>
     )
   }
