@@ -1,4 +1,7 @@
 blogTitle = "likes coffee"
+blogUrl = "http://likescoffee.com/"
 authorName = "Pamela Ocampo"
+authorTwitter = "@pmocampo"
 linkPrefix = "/"
 googleAnalyticsId = "UA-47277958-1"
+fbAdminsId = "1397070010"
