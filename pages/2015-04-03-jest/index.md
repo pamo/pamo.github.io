@@ -68,7 +68,7 @@ var jestConfig = {
   ]};
 ```
 
-SuperTest was one dependency that couldn't be used because of Jest's version of Jasmine does not support the [.end()](https://github.com/visionmedia/supertest#api) 
+SuperTest was one dependency that couldn't be used because of Jest's version of Jasmine does not support the [.end()](https://github.com/visionmedia/supertest#api)
 callback that SuperTest needs in order to make assertions. Without it, our tests had no indication of whether they were done or not.
 
 :confused:
