@@ -26,6 +26,7 @@
   "homepage": "http://likescoffee.com",
   "dependencies": {
     "front-matter": "^2.0.6",
+    "gatsby": "^0.8.10",
     "highlight.js": "^9.2.0",
     "lodash": "^4.5.0",
     "markdown-it": "^6.0.0",
