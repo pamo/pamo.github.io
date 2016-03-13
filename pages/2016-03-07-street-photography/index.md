@@ -46,7 +46,7 @@ On the technical side of things, we were recommended to
 * set the shutter speed to 1/250th of a second in order to freeze motion and go up as needed
 * use Auto ISO at 200
 
-Another concept I had never heard of was "[zone-focusing](http://inmybag.net/learn-to-zone-focus/)" wherein one gauges the distance between the lens and potential subjects and adjusts focus manually and leave set and ready for someone or something to step into the "kill zone". A good zone is usually optically 1/3 of the way between you and a wall. This is to avoid wasting time allowing the camera auto-focusing given that your depth of field within the space is predictable. This article explains things further.
+Another concept I had never heard of was "[zone-focusing](http://inmybag.net/learn-to-zone-focus/)" wherein one gauges the distance between the lens and potential subjects and adjusts focus manually and leave set and ready for someone or something to step into the "kill zone". A good zone is usually optically 1/3 of the way between you and a wall. This is to avoid wasting time allowing the camera auto-focusing given that your depth of field within the space is predictable.
 
 ![BART](./bart.jpg)
 

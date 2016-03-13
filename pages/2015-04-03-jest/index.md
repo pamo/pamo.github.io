@@ -47,7 +47,7 @@ Our Jest config started getting complicated as time went on and it was clear tha
 var jestConfig = {
   rootDir: '.',
   testPathDirs: ['<rootDir>/src/\_\_tests\_\_/client/'],
-  scriptPreprocessor: "<rootDir>/node\_modules/babel-jest",
+  scriptPreprocessor: "<rootDir>/node_modules/babel-jest",
   testFileExtensions: [
     "es6",
     "js"
@@ -58,13 +58,13 @@ var jestConfig = {
     "es6"
   ],
   unmockedModulePathPatterns: [
-    "node\_modules/react",
-    "node\_modules/object-assign",
-    "node\_modules/express",
-    "node\_modules/supertest",
-    "node\_modules/chai",
-    "node\_modules/chai-http",
-    "node\_modules/multer"
+    "node_modules/react",
+    "node_modules/object-assign",
+    "node_modules/express",
+    "node_modules/supertest",
+    "node_modules/chai",
+    "node_modules/chai-http",
+    "node_modules/multer"
   ]};
 ```
 
