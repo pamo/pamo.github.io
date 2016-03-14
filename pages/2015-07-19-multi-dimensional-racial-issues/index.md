@@ -12,7 +12,9 @@ extended until September, there was no question in buying a ticket.
 In an [interview with SFGate](http://www.sfgate.com/performance/article/Black-Virgins-Are-Not-for-Hipsters-1-woman-6232262.php),
 the actress, Echo Brown, describes her show well in that it gives people a healthy dose of humor while introducing heavy topics and subjects 
 in a different and surprising way in regards to common stereotypes about black women.
-<blockquote class="instagram-media" data-instgrm-version="4"><a href="https://instagram.com/p/5TqP5tJZNw/" target="_blank"><div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC);"></div></a></blockquote>
+
+https://instagram.com/p/5TqP5tJZNw/
+
 After the show, Echo answered questions and hoped that the biggest message the audience should come away with was 
 the understanding of multi-dimensionality of black humanity.
 
@@ -36,4 +38,3 @@ darker skin, big nose, and wide face. How could this be a perpetual problem when
 Echo's performance was a reminder for me that, like her, I'm lucky in being able to escape from toxic communities that trap others from finding the avenues for higher education.
 
 The audience praised Echo's success but she grounded us by reminding us to get caught up in the hype of success. At the end of the day, when we go home (to a cat, in her case), the only thing that is real is ourselves.
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
