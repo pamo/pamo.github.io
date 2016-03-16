@@ -7,7 +7,8 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public . ; exit 0",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "write": "node new_post.js"
   },
   "repository": {
     "type": "git",
@@ -49,8 +50,12 @@
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.1",
     "eslint-plugin-react": "^3.16.1",
+    "fs": "0.0.2",
     "gh-pages": "^0.11.0",
     "image-webpack-loader": "^1.6.3",
+    "js-yaml": "^3.5.4",
+    "mkdirp": "^0.5.1",
+    "prompt": "^1.0.0",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.0",
     "redbox-react": "^1.0.1"
