@@ -50,8 +50,8 @@ Another exciting example was Jamison Dance's (@jergason) use of the Audio APIs t
 
 Caching files locally also brought upon the notion of creating web applications without the need for a server.
 [DreamWriter.io](http://dreamwriter.io), for example, manages all user interaction with the client (browser) before ever
-having to communicate with a server -- and in Robert Feldman's (@rtfeldman) case, the only server he needed to communicate with was Dropbox, a third-party service.
-The biggest benefit of these near-native apps is the fact that there's no need to go through an installation process on both mobile and desktop. On desktop, however, Robert Feldman noted that the fluidity of context switching to a web app
+having to communicate with a server -- and in Richard Feldman's (@rtfeldman) case, the only server he needed to communicate with was Dropbox, a third-party service.
+The biggest benefit of these near-native apps is the fact that there's no need to go through an installation process on both mobile and desktop. On desktop, however, Richard Feldman noted that the fluidity of context switching to a web app
 introduces a few extra steps, this being tabbing to a browser window and THEN a tab versus a native container.
 
 Overall, my impressions of Powered by Javascript were great. It got me thinking of ways microservices can done differently in addition to motivating me to hone my javascript skills to
