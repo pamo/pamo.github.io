@@ -1,6 +1,7 @@
 import frontMatter from 'front-matter'
 import markdownIt from 'markdown-it'
 import emoji from 'markdown-it-emoji'
+import instagramEmbed from './embed'
 import hljs from 'highlight.js'
 import objectAssign from 'object-assign'
 
@@ -25,7 +26,8 @@ const md = markdownIt({
   linkify: true,
   typographer: true,
   highlight,
-}).use(emoji)
+}).use(emoji).use(instagramEmbed)
+
 
 module.exports = function (content) {
   let body
