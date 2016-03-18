@@ -19,3 +19,8 @@ To deploy:
 npm run deploy
 ```
 
+To write a new post:
+```
+npm run write
+```
+
