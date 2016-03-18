@@ -74,3 +74,20 @@ blockquote {
     list-style-type: circle;
   }
 }
+
+.responsive-iframe {
+  padding-bottom: 120%;
+  position: relative;
+
+  & iframe,
+  & object,
+  & Embed {
+    overflow: hidden;
+    background: none transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

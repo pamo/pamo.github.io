@@ -13,7 +13,7 @@ Saturday, I embarked on a [bike ride](www.mapmyride.com/routes/view/775845255) o
 so I couldn't hold back from sharing things to note along the route. We started off at [Linea Caffe](http://www.lineacaffe.com/) in the Mission and I quickly realized that I should have planned
 a better place to start that would have access to a bathroom.
 
-https://instagram.com/p/wHBXOUJZKq/
+@[instagram](wHBXOUJZKq)
 
 However, being able to think of places off the top of my head for a quick bio-break as I sat on a bench sipping espresso 
 was reassuring that I've explored the shit out of San Francisco. 
@@ -25,7 +25,7 @@ As we rode up Polk St., I had to point out [Upcider](http://www.upcidersf.com/) 
 
 We biked along the Marina, past Crissy Field, and took a moment to take selfies at the base of Fort Point.
 
-https://instagram.com/p/5BI572pZMU/?taken-by=pmocampo
+@[instagram](5BI572pZMU)
 
 I can never get tired of the Golden Gate Bridge. Biking over it was simply breath-taking. No really, it's windy up there!
 
@@ -37,17 +37,17 @@ I'm a very goal-oriented woman. I don't exert myself unless motivated by somethi
 
 Our visit to Heath was also eventful in that we were in time for the morning tour where we learned about the process of slipcast molding, glazing, and firing of the ceramics.
 
-https://instagram.com/p/5BKxUtpZAa/
+@[instagram](5BKxUtpZAa)
 
 I was also generally pleased to learn more about the practices in energy and resource conservation and recycling that go on during the process.
 
-https://instagram.com/p/5BLJOypZBQ/
+@[instagram](5BLJOypZBQ)
 
-https://instagram.com/p/5BKWhapZPa/
+@[instagram](5BKWhapZPa)
 
 I've always lusted over Heath Ceramics pieces, but have always been turned off by the price tags. However, I've been KonMari-ing my studio after finishing [The Life-Changing Magic Of Tidying Up](http://www.nytimes.com/2014/10/23/garden/home-organization-advice-from-marie-kondo.html) and have wanted to clean out my kitchen-ware in hopes of replacing it with something I am actually proud of.
 
-https://instagram.com/p/5BJpwwJZN4/
+@[instagram](5BJpwwJZN4)
 
 I practiced some extreme restraint in spending less than $100. It definitely helped that the amount of weight I would bear carrying and space in my messenger bag were limited. As soon as I got home, I requested a Shyp courier to come pick up my old dinner-ware and <a href="http://blog.shyp.com/shyp-goodwill-donation-receipt/" target="_blank">deliver it to Goodwill</a>.
 
@@ -59,7 +59,7 @@ Plans for when we arrived at the Ferry Building in San Francisco were up in the 
 [Defenestration](http://www.yelp.com/biz/defenestration-san-francisco) is completely gone, but a quick glance from the bike lane made me stop to check out a new art gallery called [Alter Space](http://alterspace.co/exhibitions/). While I was browsing, a woman walked in with
 an iced coffee and with each sip described how it was "different." An iced cafe tonic, which she described as "a sparkly coffee soda." I was really surprised when she said she got it next door, beacause I had no recollection of there being a coffee shop next to where we were apart from Ritual's roastery on 1050 Howard.
 
-https://instagram.com/p/5BLdf0pZB8/
+@[instagram](5BLdf0pZB8)
 
 We walked outside and then stood in front of vive la tarte and were so impressed with the space that we couldn't resist walking in. Lofty high ceilings, natural lighting, and plenty of seating welcomed us into the new bakery and coffee bar. As we browsed their pastry selections, I heard my name and turned to see a friendly face wave at me. I've made a few barista friends from my multiple coffee shop adventures, and this one in particular worked at <a href="http://4sq.com/RtLigs" target="_blank">Front Cafe</a>, where I would stop every weekday morning to grab a cappuccino before taking a Caltrain to Palo Alto. It was great to run into him again after moving on to a different project wiht a different morning commute and getting to learn about <a href="http://4sq.com/1jmrJWD" target="_blank">where he's working now</a>. He mentioned the pressure of the additional responsibilities that come with the job but we recognized the opportunities they provide for his career's growth. :raised_hands:
 

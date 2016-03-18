@@ -9,17 +9,19 @@ Don Sergio is a Porteño from Valparaiso that makes a little money from his home
 with Don Sergio was during a graffiti tour around Valpo that neared its end at Pasaje Bavestrello (a passageway between hilly streets). As we walked down the steps we saw a crowed of other tourists
 standing at the inconspicuous door midway with a small wooden sign hanging above. It reads: "Alfajores Artesanales $200 c/u".
 
-> Is that the shop that sells the chocolate covered biscuits with caramel in the middle? 
+an Australian woman in my group said:
 
-an Australian woman in my group said.
+> Is that the shop that sells the chocolate covered biscuits with caramel in the middle?
+
+another man replied:
 
 > Yea and they're only $200 ($0.30 USD).
 
-another man replied.
+My reaction: WAT.
 
-https://instagram.com/p/-DJln6pZHj/
+@[instagram](-DJln6pZHj)
 
-My reaction: WAT. A tasty dessert to end the two hours of walking we did around Cerro Alegre and Cerro Concepcion to learn more about Valpo's graffiti artists and collaborations.
+What a tasty dessert to end the two hours of walking we did around Cerro Alegre and Cerro Concepcion to learn more about Valpo's graffiti artists and collaborations.
 I noticed Don Sergio also carried empanadas and saw some of my tour-mates buy a few. I had just had lunch before the tour started but my appetite could stomach one.
 As we continued down the Pasaje, I had second thoughts and started to climb back up to make the second purchase, but the door was closed! Oh well.
 

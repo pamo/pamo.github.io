@@ -13,7 +13,7 @@ In an [interview with SFGate](http://www.sfgate.com/performance/article/Black-Vi
 the actress, Echo Brown, describes her show well in that it gives people a healthy dose of humor while introducing heavy topics and subjects 
 in a different and surprising way in regards to common stereotypes about black women.
 
-https://instagram.com/p/5TqP5tJZNw/
+@[instagram](5TqP5tJZNw)
 
 After the show, Echo answered questions and hoped that the biggest message the audience should come away with was 
 the understanding of multi-dimensionality of black humanity.
