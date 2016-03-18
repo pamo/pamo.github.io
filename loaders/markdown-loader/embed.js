@@ -67,7 +67,7 @@ function tokenizePhoto(md) {
     }
 
     if (service.toLowerCase() === 'instagram') {
-      const embedStart = '<div class="responsive-iframe"><iframe src="http://instagram.com/p/'
+      const embedStart = '<div class="responsive-iframe"><iframe src="https://instagram.com/p/'
       const embedEnd = '/embed" frameborder="0" allowfullscreen scrolling="no"></iframe></div>'
       return embedStart + photoID + embedEnd
     } else {
