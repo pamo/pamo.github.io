@@ -7,9 +7,10 @@ import { rhythm } from 'utils/typography'
 import access from 'safe-access'
 import { config } from 'config'
 import SocialNetworks from '../components/SocialNetworks'
+import { prune } from 'underscore.string'
 
 class BlogIndex extends React.Component {
-  render () {
+  render() {
     const pageLinks = []
     // Sort pages.
     const sortedPages = sortBy(this.props.route.pages, (page) =>
@@ -18,6 +19,8 @@ class BlogIndex extends React.Component {
     sortedPages.forEach((page) => {
       if (access(page, 'file.ext') === 'md') {
         const title = access(page, 'data.title') || page.path
+        const body = prune(page.data.body.replace(/<[^>]*>/g, ''), 200)
+
         pageLinks.push(
           <li
             key={page.path}
@@ -25,7 +28,8 @@ class BlogIndex extends React.Component {
               marginBottom: rhythm(1/4),
             }}
           >
-            <Link to={link(page.path)}>{title}</Link>
+          <Link to={link(page.path)} className='page-link'>{title}</Link>
+            <p>{ body }</p>
           </li>
         )
       }
@@ -50,12 +54,14 @@ class BlogIndex extends React.Component {
             height: rhythm(2),
           }}
         />
-        <strong>{config.authorName}</strong> spends more time on tweaking the CSS and markup of this blog than writing.
-        Not enough to see here? Go follow her on almost every social network:</p>
+        <strong>{config.authorName}</strong> spends more time tweaking the
+        CSS and markup of this blog than writing.  Not enough to see here?
+        Go follow her on almost every social network:</p>
       <SocialNetworks/>
       <ul
         style={{
           marginTop: rhythm(2.5),
+          listStyleType: 'none',
         }}
       >
         {pageLinks}
