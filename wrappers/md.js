@@ -34,7 +34,7 @@ class MarkdownWrapper extends React.Component {
           />
           <ReadNext post={post} pages={route.pages} />
           <p>
-            <ProfileImage imageSource="/pam-small.jpg" />
+            <ProfileImage src="/pam-small.jpg" />
             When not crafting an artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee, riding a bike,
             climbing fake rocks, lifting heavy things, and, in general, wandering around San Francisco.</p>
           You can follow her on <SocialNetworks />
