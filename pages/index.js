@@ -7,6 +7,7 @@ import { rhythm } from 'utils/typography'
 import access from 'safe-access'
 import { config } from 'config'
 import SocialNetworks from '../components/SocialNetworks'
+import ProfileImage from '../components/ProfileImage'
 import { prune } from 'underscore.string'
 
 class BlogIndex extends React.Component {
@@ -43,17 +44,7 @@ class BlogIndex extends React.Component {
             display: 'inline',
           }}
         >
-        <img
-          alt="pam brewing coffee"
-          src="./pam-brewing.jpg"
-          style={{
-            float: 'left',
-            marginRight: rhythm(1/4),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-          }}
-        />
+        <ProfileImage src="pam-brewing.jpg" />
         <strong>{config.authorName}</strong> spends more time tweaking the
         CSS and markup of this blog than writing.  Not enough to see here?
         Go follow her on almost every social network:</p>

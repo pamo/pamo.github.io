@@ -6,7 +6,7 @@ import { find, findIndex } from 'lodash'
 import { rhythm, fontSizeToMS } from 'utils/typography'
 
 class ReadNext extends React.Component {
-  render () {
+  render() {
     const { pages, post } = this.props
     const { readNext } = post
     let nextPost

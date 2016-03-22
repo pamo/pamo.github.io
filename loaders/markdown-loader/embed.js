@@ -1,5 +1,5 @@
 // Inspired by https://github.com/brianjgeiger/markdown-it-video/
-/* eslint-disable no-param-reassign */
+/* eslint no-param-reassign:0 */
 function instagramEmbed(md) {
   function instagramReturn(state, silent) {
     let serviceEnd

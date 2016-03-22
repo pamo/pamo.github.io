@@ -1,11 +1,11 @@
 import React from 'react'
 import moment from 'moment'
 import DocumentTitle from 'react-document-title'
-import { link } from 'gatsby-helpers'
 import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
 import SocialNetworks from '../components/SocialNetworks'
+import ProfileImage from '../components/ProfileImage'
 
 import '../css/zenburn.css'
 
@@ -34,17 +34,7 @@ class MarkdownWrapper extends React.Component {
           />
           <ReadNext post={post} pages={route.pages} />
           <p>
-            <img
-              alt='small photo of pam'
-              src={link('/pam-small.jpg')}
-              style={{
-                float: 'left',
-                marginRight: rhythm(1/4),
-                marginBottom: 0,
-                width: rhythm(2),
-                height: rhythm(2),
-              }}
-            />
+            <ProfileImage imageSource="/pam-small.jpg" />
             When not crafting an artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee, riding a bike,
             climbing fake rocks, lifting heavy things, and, in general, wandering around San Francisco.</p>
           You can follow her on <SocialNetworks />

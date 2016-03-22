@@ -8,7 +8,7 @@ import FoursquareIcon from 'react-icons/lib/fa/foursquare'
 
 class SocialNetworks extends React.Component {
 
-  render () {
+  render() {
     const marginBetweenIcons = rhythm(1/6)
     return (
       <ul className="social-networks"
