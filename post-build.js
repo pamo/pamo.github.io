@@ -18,7 +18,8 @@ function minifyImages(pages, callback) {
 
   pages.forEach((page) => {
     const directory = `${__dirname}/pages/${page.file.dirname}/`
-    const destination = `${__dirname}/public/${page.path}/`
+    let destination = `${__dirname}/public/`
+    if (page.path) { destination = `${destination}${page.path}/` }
     const globString = `${directory}?(*.jpg|*.png|*.pdf|*.gif|*.ico|*.svg)`
 
     glob(globString, null, (e, files) => {
