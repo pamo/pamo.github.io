@@ -31,7 +31,7 @@ function minifyImages(pages, callback) {
 }
 
 function copyRootAssets() {
-  const files = ['CNAME', 'README.md']
+  const files = ['CNAME', 'README.md', 'keybase.txt']
   const publicPath = 'public/'
 
   files.forEach((file) => {
