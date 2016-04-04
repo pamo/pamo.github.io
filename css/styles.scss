@@ -96,3 +96,13 @@ blockquote {
     height: 100%;
   }
 }
+.markdown {
+  img + em {
+    color: $graphite;
+    display: block;
+    font-style: normal;
+    font-size: .8em;
+    font-family: 'Montserrat';
+    text-align: center;
+  }
+}
