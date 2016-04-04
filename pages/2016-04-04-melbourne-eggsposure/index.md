@@ -6,7 +6,7 @@ path: /melbourne-eggsposure/
 ---
 I'd like to preface this with a thanks to the series of circumstances that have given me the opportunity to make friends around the world.
 It's a comfort to be welcomed with open arms when I decide to travel alone. That being said, I finally jumped the hurdle to go down under and pay Melbourne a visit.
-My primary motivation is to attend the Respond Melbourne 2016 conference on April 11-12th. However, I figured it would be a more memorable experience to take a few more days in the city to have time to experience its culture. I really want to validate claims that Melbourne and San Francisco are basically twins.
+My primary motivation is to attend the [Respond Melbourne 2016](http://www.webdirections.org/respond16/#speakers) conference on April 11-12th. However, I figured it would be a more memorable experience to take a few more days in the city to have time to experience its culture. I really want to validate claims that Melbourne and San Francisco are basically twins.
 
 I also couldn't think of a better way to cash-in a long over-due :cake:-day #treatyoself vacation.
 
