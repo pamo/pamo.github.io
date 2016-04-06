@@ -1,23 +1,14 @@
 import React from 'react'
-import DocumentTitle from 'react-document-title'
-import { prune } from 'underscore.string'
+import Helmet from 'react-helmet'
 import { link } from 'gatsby-helpers'
 import { TypographyStyle } from 'utils/typography'
-import { config } from 'config'
 
 export default class Html extends React.Component {
-  render () {
+  render() {
     const { favicon, body } = this.props
-
-    const metaDescription = prune(body.replace(/<[^>]*>/g, ''), 200)
-    const metaTitle = config.blogTitle || this.props.title
-
-    let title = DocumentTitle.rewind()
-    if (this.props.title) {
-      title = this.props.title
-    }
-
+    const head = Helmet.rewind()
     let cssLink
+
     if (process.env.NODE_ENV === 'production') {
       cssLink = <link rel="stylesheet" href={link('/styles.css')} />
     }
@@ -31,27 +22,12 @@ export default class Html extends React.Component {
             name="viewport"
             content="user-scalable=no width=device-width, initial-scale=1.0 maximum-scale=1.0"
           />
-
-        <meta name="description" content={ metaDescription } />
-
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content={ config.blogTitle } />
-        <meta name="twitter:creator" content={ config.authorTwitter } />
-        <meta name="twitter:title" content={ metaTitle } />
-        <meta name="twitter:description" content={ metaDescription }/>
-
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content={ metaTitle } />
-        <meta property="og:url" content={ config.blogUrl } />
-        <meta property="og:description" content={ metaDescription } />
-        <meta property="og:site_name" content={ config.blogTitle } />
-        <meta property="fb:admins" content={ config.fbAdminsId } />
-
-        <title>{this.props.title}</title>
-        <link rel="shortcut icon" href={ favicon } />
-        <TypographyStyle/>
-        {cssLink}
-          </head>
+          { head.meta.toComponent() }
+          { head.title.toComponent() }
+          <link rel="shortcut icon" href={ favicon } />
+          <TypographyStyle/>
+          {cssLink}
+        </head>
         <body className="landing-page">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
           <script src={link('/bundle.js')}/>

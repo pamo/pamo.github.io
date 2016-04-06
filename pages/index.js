@@ -1,7 +1,7 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { Link } from 'react-router'
 import sortBy from 'lodash/sortBy'
-import DocumentTitle from 'react-document-title'
 import { link } from 'gatsby-helpers'
 import { rhythm } from 'utils/typography'
 import access from 'safe-access'
@@ -13,14 +13,16 @@ import { prune } from 'underscore.string'
 class BlogIndex extends React.Component {
   render() {
     const pageLinks = []
+    let body
+    let title
     // Sort pages.
     const sortedPages = sortBy(this.props.route.pages, (page) =>
       access(page, 'data.date')
     ).reverse()
     sortedPages.forEach((page) => {
       if (access(page, 'file.ext') === 'md') {
-        const title = access(page, 'data.title') || page.path
-        const body = prune(page.data.body.replace(/<[^>]*>/g, ''), 200)
+        title = access(page, 'data.title') || page.path
+        body = prune(page.data.body.replace(/<[^>]*>/g, ''), 200)
 
         pageLinks.push(
           <li
@@ -29,36 +31,47 @@ class BlogIndex extends React.Component {
               marginBottom: rhythm(1/4),
             }}
           >
-          <Link to={link(page.path)} className='page-link'>{title}</Link>
+          <Link to={link(page.path)} className="page-link">{title}</Link>
             <p>{ body }</p>
           </li>
         )
       }
     })
     return (
-      <DocumentTitle title={config.blogTitle}>
-        <div>
+      <div>
+        <Helmet
+          meta={[
+            { property: 'og:type', content: 'article' },
+            { property: 'og:url', content: config.blogUrl },
+            { property: 'og:site_name', content: config.blogTitle },
+            { property: 'fb:admins', content: config.fbAdminsId },
+            { name: 'twitter:card', content: 'summary' },
+            { name: 'twitter:site', content: config.blogTitle },
+            { name: 'twitter:creator', content: config.authorTwitter },
+            { name: 'twitter:image', content: `${config.blogUrl}pam-brewing.jpg` },
+          ]}
+          defaultTitle={ config.blogTitle }
+        />
         <p
           style={{
             marginBottom: 0,
             display: 'inline',
           }}
-        >
-        <ProfileImage src="pam-brewing.jpg" />
-        <strong>{config.authorName}</strong> spends more time tweaking the
-        CSS and markup of this blog than writing.  Not enough to see here?
-        Go follow her on almost every social network:</p>
-      <SocialNetworks/>
-      <ul
-        style={{
-          marginTop: rhythm(2.5),
-          listStyleType: 'none',
-        }}
-      >
-        {pageLinks}
-      </ul>
-    </div>
-  </DocumentTitle>
+          >
+          <ProfileImage src="pam-brewing.jpg" />
+          <strong>{config.authorName}</strong> spends more time tweaking the
+          CSS and markup of this blog than writing.  Not enough to see here?
+          Go follow her on almost every social network:</p>
+        <SocialNetworks/>
+        <ul
+          style={{
+            marginTop: rhythm(2.5),
+            listStyleType: 'none',
+          }}
+          >
+          {pageLinks}
+        </ul>
+      </div>
     )
   }
 }
