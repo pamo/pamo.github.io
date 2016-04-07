@@ -34,6 +34,7 @@ class MarkdownWrapper extends React.Component {
               { name: 'twitter:description', content: shortDescription },
               { name: 'og:description', content: shortDescription },
               { property: 'og:title', content: post.title },
+              { property: 'og:image', content: firstImagePath },
               { name: 'twitter:image', content: firstImagePath },
             ]}
             title={ post.title }
