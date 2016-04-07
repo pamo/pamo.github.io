@@ -18,8 +18,11 @@ class MarkdownWrapper extends React.Component {
 
     const shortDescription = prune(post.body.replace(/<[^>]*>/g, ''), 100).trim()
     const imageMatchPattern = /<img.+src=[\'"]([^\'"]+)[\'"].*>/i
-    const firstImage = (post.body).match(imageMatchPattern)[1]
+    const hasImage = (post.body).match(imageMatchPattern)
+    let firstImagePath
     const pageUrl = config.blogUrl.slice(0, config.blogUrl.length-1) + link(post.path)
+
+    if (hasImage) firstImagePath = pageUrl + hasImage[1]
 
     return (
         <div className="markdown">
@@ -31,7 +34,7 @@ class MarkdownWrapper extends React.Component {
               { name: 'twitter:description', content: shortDescription },
               { name: 'og:description', content: shortDescription },
               { property: 'og:title', content: post.title },
-              { name: 'twitter:image', content: pageUrl + firstImage },
+              { name: 'twitter:image', content: firstImagePath },
             ]}
             title={ post.title }
           />
