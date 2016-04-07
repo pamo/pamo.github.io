@@ -29,12 +29,13 @@ class MarkdownWrapper extends React.Component {
           <Helmet
             meta={[
               { property: 'og:url', content: pageUrl },
+              { property: 'og:type', content: 'article' },
+              { property: 'og:title', content: post.title },
+              { property: 'og:description', content: shortDescription },
+              { property: 'og:image', content: firstImagePath },
               { name: 'description', content: shortDescription },
               { name: 'twitter:title', content: post.title },
               { name: 'twitter:description', content: shortDescription },
-              { name: 'og:description', content: shortDescription },
-              { property: 'og:title', content: post.title },
-              { property: 'og:image', content: firstImagePath },
               { name: 'twitter:image', content: firstImagePath },
             ]}
             title={ post.title }

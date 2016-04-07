@@ -15,6 +15,7 @@ class BlogIndex extends React.Component {
     const pageLinks = []
     let body
     let title
+    const fullImagePath = `${config.blogUrl}pam-brewing.jpg`
     // Sort pages.
     const sortedPages = sortBy(this.props.route.pages, (page) =>
       access(page, 'data.date')
@@ -41,14 +42,15 @@ class BlogIndex extends React.Component {
       <div>
         <Helmet
           meta={[
-            { property: 'og:type', content: 'article' },
             { property: 'og:url', content: config.blogUrl },
+            { property: 'og:type', content: 'blog' },
             { property: 'og:site_name', content: config.blogTitle },
+            { property: 'og:image', content: fullImagePath },
             { property: 'fb:admins', content: config.fbAdminsId },
-            { name: 'twitter:card', content: 'summary' },
-            { name: 'twitter:site', content: config.blogTitle },
+            { name: 'twitter:card', content: 'summary_large_image' },
+            { name: 'twitter:site', content: config.authorTwitter },
             { name: 'twitter:creator', content: config.authorTwitter },
-            { name: 'twitter:image', content: `${config.blogUrl}pam-brewing.jpg` },
+            { name: 'twitter:image', content: fullImagePath },
           ]}
           defaultTitle={ config.blogTitle }
         />
