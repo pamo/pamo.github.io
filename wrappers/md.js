@@ -63,7 +63,11 @@ class MarkdownWrapper extends React.Component {
             <ProfileImage src="/pam-small.jpg" />
             When not crafting an artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee, riding a bike,
             climbing fake rocks, lifting heavy things, and, in general, wandering around San Francisco.</p>
-          You can follow her on <SocialNetworks />
+          <SocialNetworks style={{
+            display: 'block',
+            textAlign: 'center',
+          }}
+          />
         </div>
     )
   }

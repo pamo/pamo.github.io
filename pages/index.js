@@ -52,28 +52,21 @@ class BlogIndex extends React.Component {
             { name: 'twitter:card', content: 'summary_large_image' },
             { name: 'twitter:site', content: config.authorTwitter },
             { name: 'twitter:creator', content: config.authorTwitter },
-            { name: 'twitter:description', content: `${config.authorTwitter} spends more time tweaking the CSS and markup of this blog than writing.`},
+            { name: 'twitter:description', content: `${config.authorTwitter} ${config.blogTitle}` },
             { name: 'twitter:image', content: fullImagePath },
           ]}
           defaultTitle={ config.blogTitle }
         />
-        <p
-          style={{
-            marginBottom: 0,
-            display: 'inline',
-          }}
-          >
-          <ProfileImage src="pam-brewing.jpg" />
-          <strong>{config.authorName}</strong> spends more time tweaking the
-          CSS and markup of this blog than writing.  Not enough to see here?
-          Go follow her on almost every social network:</p>
-        <SocialNetworks/>
+        <ProfileImage src="pam-brewing.jpg" />
+        <strong>{config.authorName}</strong> spends more time tweaking the
+        CSS and markup of this blog than writing.
+        Not enough to see here? Go find her on <SocialNetworks/>
         <ul
           style={{
             marginTop: rhythm(2.5),
             listStyleType: 'none',
           }}
-          >
+        >
           {pageLinks}
         </ul>
       </div>
