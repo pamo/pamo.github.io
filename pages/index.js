@@ -57,13 +57,17 @@ class BlogIndex extends React.Component {
           ]}
           defaultTitle={ config.blogTitle }
         />
-        <ProfileImage src="pam-brewing.jpg" />
-        <strong>{config.authorName}</strong> spends more time tweaking the
-        CSS and markup of this blog than writing.
-        Not enough to see here? Go find her on <SocialNetworks/>
+        <div className="author">
+          <ProfileImage src="pam-brewing.jpg" />
+          <div className="author__intro">
+            <strong>{config.authorName}</strong> spends more time tweaking the
+            CSS and markup of this blog than writing.<br />
+            She's active on these social networks: <SocialNetworks />
+          </div>
+        </div>
         <ul
           style={{
-            marginTop: rhythm(2.5),
+            marginTop: rhythm(1),
             listStyleType: 'none',
           }}
         >

@@ -59,10 +59,11 @@ class MarkdownWrapper extends React.Component {
             }}
           />
           <ReadNext post={post} pages={route.pages} />
-          <p>
+          <div className="author">
             <ProfileImage src="/pam-small.jpg" />
-            When not crafting an artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee, riding a bike,
-            climbing fake rocks, lifting heavy things, and, in general, wandering around San Francisco.</p>
+            <div className="author__intro">When not crafting an artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee, riding a bike,
+              climbing fake rocks, lifting heavy things, and, in general, wandering around San Francisco.</div>
+          </div>
           <SocialNetworks style={{
             display: 'block',
             textAlign: 'center',

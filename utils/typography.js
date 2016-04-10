@@ -1,13 +1,25 @@
 import Typography from 'typography'
 
 const options = {
-  baseFontSize: '18px',
-  baseLineHeight: '27px',
-  modularScales: [
-    {
-      scale: 'minor third',
-    },
-  ],
+  baseFontSize: '16px',
+  baseLineHeight: '26px',
+  modularScales: [{
+    scale: 'diminished fourth',
+  }, {
+    maxWidth: '768px',
+    scale: 'minor third',
+  }],
+  googleFonts: [],
+  headerFontFamily: '"Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif',
+  bodyFontFamily: '"Avenir Next", Avenir, Roboto, "Century Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif',
+  headerGray: 20,
+  headerGrayHue: 0,
+  bodyGray: 20,
+  bodyGrayHue: 0,
+  headerWeight: 700,
+  bodyWeight: 400,
+  boldWeight: 700,
+  fontFaces: [],
 }
 
 const typography = new Typography(options)
