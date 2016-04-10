@@ -43,4 +43,4 @@ Html.propTypes = {
   title: React.PropTypes.string,
 }
 
-Html.defaultProps = { body: '' }
+Html.defaultProps = { body: '', favicon: 'favicon.ico' }
