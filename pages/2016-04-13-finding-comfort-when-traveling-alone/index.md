@@ -49,7 +49,7 @@ but I struggled to do anything over 18 on their walls.
 What a pleasant surprise I had when the first route, a 14, I jumped on at the crag felt like a breeze. I later went on to do a couple of 15s and eventually a 16 without a problem. :raised_hands:
 
 ![topping out](topping-out.jpg)
-_Top out thumbs up!_
+_Cheesin' at the top_
 
 I was terrified to go climbing with strangers as we hiked to the base of the rock and even more to get there and not be able to climb a thing, but as we drove back to Melbourne, I felt a wave of happiness to have met some
 friendly climbers on the other side of the world.
@@ -58,3 +58,5 @@ friendly climbers on the other side of the world.
 
 ![chilling and watching](chilling-watching.jpg)
 _Breaks between climbs_
+
+_Thanks to Ollie for the photos of me!_
