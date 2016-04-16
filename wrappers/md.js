@@ -51,7 +51,7 @@ class MarkdownWrapper extends React.Component {
               marginBottom: rhythm(2),
             }}
           >
-            Posted {moment(post.date).format('MMMM D, YYYY')}
+            Written {moment(post.date).format('MMMM D, YYYY')}
           </em>
           <hr
             style={{
