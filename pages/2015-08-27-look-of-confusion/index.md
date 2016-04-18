@@ -2,7 +2,7 @@
 layout: post
 title:  "The Look of Confusion"
 categories: general, travel, TWU
-path: "look-of-confusion"
+path: "/look-of-confusion/"
 date: "2015-08-27"
 ---
 That look of confusion on your face is what tells me I’ve failed.

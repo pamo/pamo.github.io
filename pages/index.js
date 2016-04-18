@@ -9,6 +9,7 @@ import { config } from 'config'
 import SocialNetworks from '../components/SocialNetworks'
 import ProfileImage from '../components/ProfileImage'
 import { prune } from 'underscore.string'
+import { Container } from 'react-responsive-grid'
 
 class BlogIndex extends React.Component {
   render() {
@@ -39,7 +40,13 @@ class BlogIndex extends React.Component {
       }
     })
     return (
-      <div>
+        <Container
+          style={{
+            maxWidth: rhythm(24),
+            padding: `0 ${rhythm(1)}`,
+            margin: 'auto',
+          }}
+        >
         <Helmet
           meta={[
             { property: 'og:url', content: config.blogUrl },
@@ -63,17 +70,17 @@ class BlogIndex extends React.Component {
             <strong>{config.authorName}</strong> spends more time tweaking the
             CSS and markup of this blog than writing.<br />
             She's active on these social networks: <SocialNetworks />
+            </div>
           </div>
-        </div>
-        <ul
-          style={{
-            marginTop: rhythm(1),
-            listStyleType: 'none',
-          }}
-        >
-          {pageLinks}
-        </ul>
-      </div>
+          <ul
+            style={{
+              listStyleType: 'none',
+              marginTop: rhythm(1),
+            }}
+          >
+            {pageLinks}
+          </ul>
+        </Container>
     )
   }
 }

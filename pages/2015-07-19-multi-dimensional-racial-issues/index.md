@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Multi-dimensional Racial Issues"
-path: "black-virgins"
+path: "/black-virgins/"
 date: "2015-07-19"
 ---
 Last night, I experienced a sensational solo-performance for the first time at [The Marsh](http://themarsh.org/) theater in the Mission.

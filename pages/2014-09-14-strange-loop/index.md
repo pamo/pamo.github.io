@@ -1,6 +1,5 @@
 ---
 layout: post
-category: conferences
 title: Strange Loop 2014
 path: "/strange-loop-2014/"
 date: "2014-09-14"

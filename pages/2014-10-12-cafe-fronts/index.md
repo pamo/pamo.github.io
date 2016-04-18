@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Cafe Fronts: my pet photo project"
-path: "cafe-fronts-photo-project"
-date: "2014-10-12"
+path: "/cafe-fronts-photo-project/"
+date: '2014-10-12'
 ---
 I write this post as I'm sitting in front of one of my favorite cafes in San Francisco: [Front](https://www.frontsf.com/).
 

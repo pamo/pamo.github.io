@@ -2,7 +2,7 @@
 layout: post
 title:  "Amused by Jest Unit Testing"
 categories: technology, testing
-path: "amused-by-jest"
+path: "/amused-by-jest/"
 date: "2015-04-03"
 ---
 

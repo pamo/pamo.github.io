@@ -2,7 +2,7 @@
 title: Melbourne Eggsposure
 date: '2016-04-04'
 layout: post
-path: /melbourne-eggsposure/
+path: "/melbourne-eggsposure/"
 ---
 I'd like to preface this with a thanks to the series of circumstances that have given me the opportunity to make friends around the world.
 It's a comfort to be welcomed with open arms when I decide to travel alone. That being said, I finally jumped the hurdle to go down under and pay Melbourne a visit.

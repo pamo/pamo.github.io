@@ -1,7 +1,7 @@
 ---
 title: Finding Comfort When Traveling Alone
 date: '2016-04-13T15:11:26.270Z'
-path: /traveling-alone/
+path: "/traveling-alone/"
 layout: post
 ---
 A recent post on about [solo travel Blue Bottle's blog](https://bluebottlecoffee.com/frequency/blue-bottle-culinary-solo-travel) shares some similarities in what I feel when traveling alone.

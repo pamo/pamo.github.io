@@ -2,7 +2,6 @@
 title: Powered by Java!..script.
 date: "2014-09-21"
 layout: post
-readNext: "/digesting-strange-loop/"
 path: "/pbjs/"
 ---
 

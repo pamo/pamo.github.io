@@ -2,7 +2,7 @@
 title: Top Shelf Spice Night
 date: '2016-04-01T05:31:47.872Z'
 layout: post
-path: /spice-night/
+path: "/spice-night/"
 ---
 
 ![Fresh herbs on hand](hand-to-herb.jpg)

@@ -4,9 +4,6 @@ title:  "Hitchhiking in the Modern Age"
 categories: general, travel, TWU
 path: "/hitchiking/"
 date: "2015-08-27"
-photos:
-    set: hitchhiking-mumbai
-    size: 7
 ---
 I'm beginning to get more comfortable in traveling alone during my time in India. For the most part, I plan out how to get to and from the destination and let everything else fall into place.
 With the help of Uber, some practice in rickshaw haggling, and advice from friends, I've had the courage to trust myself to explore a lot of Pune and ride a train to get to Mumbia.
