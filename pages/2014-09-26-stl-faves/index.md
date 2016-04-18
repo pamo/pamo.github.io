@@ -2,6 +2,7 @@
 title: Digesting Strange Loop
 date: "2014-09-26"
 layout: post
+coverPhoto: ""
 path: "/digesting-strange-loop/"
 ---
 Wow. Wow.
