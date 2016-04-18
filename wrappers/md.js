@@ -25,7 +25,9 @@ class MarkdownWrapper extends React.Component {
     let header = <Cover title={ post.title } />
 
     let firstImagePath
-    if (hasImage) {
+    if (post.coverPhoto) {
+      header = <Cover title={ post.title } image={ post.coverPhoto } />
+    } else if (post.coverPhoto !== "" && hasImage) {
       firstImagePath = pageUrl + hasImage[1]
       header = <Cover title={ post.title } image={ hasImage[1] } />
     }

@@ -48,7 +48,9 @@ class Template extends React.Component {
       header = (
         <h3
           style={{
-            margin: `${rhythm(1/2)}`,
+            maxWidth: rhythm(24),
+            padding: rhythm(1/2),
+            margin: '0',
           }}
         >
         <Link

@@ -18,6 +18,7 @@ class Cover extends React.Component {
       <header style={ image ? photoCoverStyle : {
         maxWidth: rhythm(24),
         padding: `${rhythm(1)}`,
+        margin: 'auto',
       } }
       >
       <h1

@@ -1,7 +1,7 @@
 ---
 layout: photo-set
 title:  "Hitchhiking in the Modern Age"
-categories: general, travel, TWU
+coverPhoto: "2.jpg"
 path: "/hitchiking/"
 date: "2015-08-27"
 ---

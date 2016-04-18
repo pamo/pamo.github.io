@@ -2,10 +2,9 @@
 title: Top Shelf Spice Night
 date: '2016-04-01T05:31:47.872Z'
 layout: post
+coverPhoto: "hand-to-herb.jpg"
 path: "/spice-night/"
 ---
-
-![Fresh herbs on hand](hand-to-herb.jpg)
 
 The San Francisco ThoughtWorks office has a lot of foodies and food fans that like to get together for "ThoughtForker" gatherings.
 We took a break from our screens this week to learn about the basics in the world of herbs and spices.

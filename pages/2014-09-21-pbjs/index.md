@@ -2,6 +2,7 @@
 title: Powered by Java!..script.
 date: "2014-09-21"
 layout: post
+coverPhoto: ""
 path: "/pbjs/"
 ---
 
