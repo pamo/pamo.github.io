@@ -2,8 +2,6 @@
 /* eslint no-param-reassign:0 */
 function instagramEmbed(md) {
   function instagramReturn(state, silent) {
-    let serviceEnd
-    let serviceStart
     let photoID = ''
 
     /* @ */
@@ -27,8 +25,8 @@ function instagramEmbed(md) {
     const service = match[1]
     photoID = match[2]
 
-    serviceStart = state.pos + 2
-    serviceEnd = md.helpers.parseLinkLabel(state, state.pos + 1, false)
+    const serviceStart = state.pos + 2
+    const serviceEnd = md.helpers.parseLinkLabel(state, state.pos + 1, false)
 
     if (!silent) {
       state.pos = serviceStart

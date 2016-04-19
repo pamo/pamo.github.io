@@ -7,23 +7,24 @@ import FacebookIcon from 'react-icons/lib/fa/facebook-square'
 import FoursquareIcon from 'react-icons/lib/fa/foursquare'
 import SpotifyIcon from 'react-icons/lib/fa/spotify'
 
-class SocialNetworks extends React.Component {
+const SocialNetworks = (props) => {
+  const marginBetweenIcons = rhythm(1/6)
+  return (
+    <ul className="social-networks"
+      style={ props.style }
+    >
+    <li style={{ margin: marginBetweenIcons }}><a href="http://twitter.com/pmocampo" title="Twitter"><TwitterIcon /></a></li>
+    <li style={{ margin: marginBetweenIcons }}><a href="http://instagram.com/pmocampo" title="instagram"><InstagramIcon /></a></li>
+    <li style={{ margin: marginBetweenIcons }}><a href="http://github.com/pamo" title="github"><GithubIcon /></a></li>
+    <li style={{ margin: marginBetweenIcons }}><a href="http://facebook.com/pamocampo" title="facebook"><FacebookIcon /></a></li>
+    <li style={{ margin: marginBetweenIcons }}><a href="http://foursquare.com/pmocampo" title="foursquare"><FoursquareIcon /></a></li>
+    <li style={{ margin: marginBetweenIcons }}><a href="https://play.spotify.com/user/pmocampo" title="spotify"><SpotifyIcon /></a></li>
+    </ul>
+  )
+}
 
-  render() {
-    const marginBetweenIcons = rhythm(1/6)
-    return (
-      <ul className="social-networks"
-        style={ this.props.style }
-      >
-        <li style={{ margin: marginBetweenIcons }}><a href="http://twitter.com/pmocampo" title="Twitter"><TwitterIcon/></a></li>
-        <li style={{ margin: marginBetweenIcons }}><a href="http://instagram.com/pmocampo" title="instagram"><InstagramIcon/></a></li>
-        <li style={{ margin: marginBetweenIcons }}><a href="http://github.com/pamo" title="github"><GithubIcon/></a></li>
-        <li style={{ margin: marginBetweenIcons }}><a href="http://facebook.com/pamocampo" title="facebook"><FacebookIcon/></a></li>
-        <li style={{ margin: marginBetweenIcons }}><a href="http://foursquare.com/pmocampo" title="foursquare"><FoursquareIcon/></a></li>
-        <li style={{ margin: marginBetweenIcons }}><a href="https://play.spotify.com/user/pmocampo" title="spotify"><SpotifyIcon/></a></li>
-      </ul>
-    )
-  }
+SocialNetworks.propTypes = {
+  style: React.PropTypes.object,
 }
 
 export default SocialNetworks

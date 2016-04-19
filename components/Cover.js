@@ -1,37 +1,36 @@
 import React from 'react'
 import { rhythm } from 'utils/typography'
 
-class Cover extends React.Component {
-  render() {
-    const { title, image } = this.props
+const Cover = (props) => {
+  const { title, image } = props
 
-    const photoCoverStyle = {
-      backgroundImage: `url(${image})`,
-      backgroundSize: 'cover',
-      padding: '2rem 0',
-      color: '#FFF',
-      display: 'flex',
-      height: '95vh',
-    }
-
-    return (
-      <header style={ image ? photoCoverStyle : {
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1)}`,
-        margin: 'auto',
-      } }
-      >
-      <h1
-        style={{
-          color: image ? '#FFF' : null,
-          margin: 'auto',
-          textAlign: image ? 'center' : null,
-        }}
-      >
-        { title }
-      </h1>
-    </header>)
+  const photoCoverStyle = {
+    backgroundImage: `url(${image})`,
+    backgroundSize: 'cover',
+    padding: '2rem 0',
+    color: '#FFF',
+    display: 'flex',
+    height: '95vh',
   }
+  const defaultStyle = {
+    maxWidth: rhythm(24),
+    padding: `${rhythm(1)}`,
+    margin: 'auto',
+  }
+
+
+  return (
+    <header style={ image ? photoCoverStyle : defaultStyle }>
+    <h1
+      style={{
+        color: image ? '#FFF' : null,
+        margin: 'auto',
+        textAlign: image ? 'center' : null,
+      }}
+    >
+      { title }
+    </h1>
+    </header>)
 }
 
 Cover.propTypes = {

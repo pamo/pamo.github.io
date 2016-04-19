@@ -1,20 +1,16 @@
 import React from 'react'
 import { prefixLink } from 'gatsby-helpers'
-import { rhythm } from 'utils/typography'
 
-class ProfileImage extends React.Component {
-
-  render() {
-    const { src } = this.props
-    return (<img src={ prefixLink(src) } alt="photo of pam"
-      style={{
-        maxWidth: '80px',
-        maxHeight: '80px',
-        flexShrink: 0,
-        margin: 0,
-      }}
-    />)
-  }
+const ProfileImage = (props) => {
+  const { src } = props
+  return (<img src={ prefixLink(src) } alt="photo of pam"
+    style={{
+      maxWidth: '80px',
+      maxHeight: '80px',
+      flexShrink: 0,
+      margin: 0,
+    }}
+  />)
 }
 
 ProfileImage.propTypes = {
