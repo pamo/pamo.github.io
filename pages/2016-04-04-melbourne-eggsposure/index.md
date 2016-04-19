@@ -2,6 +2,7 @@
 title: Melbourne Eggsposure
 date: '2016-04-04'
 layout: post
+coverPhoto: "crispy-beans.jpg"
 path: "/melbourne-eggsposure/"
 ---
 I'd like to preface this with a thanks to the series of circumstances that have given me the opportunity to make friends around the world.
