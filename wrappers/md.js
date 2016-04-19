@@ -5,7 +5,7 @@ import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
 import { prune } from 'underscore.string'
-import { link } from 'gatsby-helpers'
+import { prefixLink } from 'gatsby-helpers'
 import SocialNetworks from '../components/SocialNetworks'
 import ProfileImage from '../components/ProfileImage'
 import Cover from '../components/Cover'
@@ -18,7 +18,7 @@ class MarkdownWrapper extends React.Component {
     const { route } = this.props
     const post = route.page.data
 
-    const pageUrl = config.blogUrl.slice(0, config.blogUrl.length-1) + link(post.path)
+    const pageUrl = config.blogUrl.slice(0, config.blogUrl.length-1) + prefixLink(post.path)
     const shortDescription = prune(post.body.replace(/<[^>]*>/g, ''), 100).trim()
     const imageMatchPattern = /<img.+src=[\'"]([^\'"]+)[\'"].*>/i
     const hasImage = (post.body).match(imageMatchPattern)
