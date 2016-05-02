@@ -25,6 +25,7 @@ const MarkdownWrapper = (props) => {
 
   let firstImagePath
   if (post.coverPhoto) {
+    firstImagePath = pageUrl + post.coverPhoto
     header = <Cover title={ post.title } image={ post.coverPhoto } />
   } else if (post.coverPhoto !== '' && hasImage) {
     firstImagePath = pageUrl + hasImage[1]
@@ -75,8 +76,8 @@ const MarkdownWrapper = (props) => {
         <ReadNext post={post} pages={route.pages} />
         <div className="author">
           <ProfileImage src="/pam-small.jpg" />
-          <div className="author__intro">When not crafting an artisinal vimrc,
-            <strong>{config.authorName}</strong> can be found drinking coffee, riding a bike,
+          <div className="author__intro">When not crafting an artisinal vimrc, <strong>{config.authorName}</strong>
+            can be found drinking coffee, riding a bike,
             climbing fake rocks, lifting heavy things, and, in general, wandering
             around San Francisco.</div>
         </div>
