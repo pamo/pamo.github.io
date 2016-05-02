@@ -24,11 +24,14 @@ const MarkdownWrapper = (props) => {
   let header = <Cover title={ post.title } />
 
   let firstImagePath
+  if (hasImage) {
+    firstImagePath = pageUrl + hasImage[1]
+  }
+
   if (post.coverPhoto) {
     firstImagePath = pageUrl + post.coverPhoto
     header = <Cover title={ post.title } image={ post.coverPhoto } />
   } else if (post.coverPhoto !== '' && hasImage) {
-    firstImagePath = pageUrl + hasImage[1]
     header = <Cover title={ post.title } image={ hasImage[1] } />
   }
 
