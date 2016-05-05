@@ -12,6 +12,7 @@ const Template = (props) => {
   const { location, children } = props
   const GaInitializer = ga.Initializer
   ga('create', config.googleAnalyticsId, 'auto')
+  ga('require', 'linkid')
   ga('send', 'pageview')
 
   let header
