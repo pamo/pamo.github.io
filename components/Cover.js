@@ -9,6 +9,7 @@ const Cover = (props) => {
     backgroundSize: 'cover',
     padding: '2rem 0',
     color: '#FFF',
+    textShadow: '1px 2px 5px rgba(150, 150, 150, 0.8)',
     display: 'flex',
     height: '95vh',
   }
