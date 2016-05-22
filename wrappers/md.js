@@ -79,9 +79,9 @@ const MarkdownWrapper = (props) => {
         <ReadNext post={post} pages={route.pages} />
         <div className="author">
           <ProfileImage src="/pam-small.jpg" />
-          <div className="author__intro">When not crafting an artisinal vimrc, <strong>{config.authorName}</strong>
-            can be found drinking coffee, riding a bike,
-            climbing fake rocks, lifting heavy things, and, in general, wandering
+          <div className="author__intro">When not crafting an
+            artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee,
+            riding a bike, climbing fake rocks, lifting heavy things, and, in general, wandering
             around San Francisco.</div>
         </div>
         <SocialNetworks style={{
