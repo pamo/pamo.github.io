@@ -28,7 +28,7 @@ I published an IFTTT recipe that does this and you can make use of it by adding 
 One thing I noticed when I was testing the recipe out was that the XML feed wasn't reflecting the tracks I was adding in "real time" but the JSON feed (which IFTTT doesn't support) was. :disappointed:
 
 I reached out to the founder of the Hype Machine on Twitter and apparently the XML feed updates every hour or so.
-<blockquote class="twitter-tweet" data-lang="es">
+<blockquote class="twitter-tweet" data-lang="en" data-conversation="none">
 <p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> ah, the RSS ones are cached more heavily, could be like an hour. yeah, depending on what you like the % avail may disappoint :/</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742774754638200832">View Full Conversation</a>
 </blockquote>
 
@@ -46,7 +46,7 @@ You can find the code on github: https://github.com/pamo/hype-rss
 
 One final caveat: although IFTTT can go search Spotify for a track found on the Hype Machine, it most likely won't find anything. The beauty of the Hype Machine is that the tracks that are trending are brand spanking new (and most of the ones I like are remixes).
 
-<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> the favorites should update pretty quickly, but i&#39;d warn you that many of the tracks aren&#39;t on spotify</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742772304355164161">View Full Conversation</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> the favorites should update pretty quickly, but i&#39;d warn you that many of the tracks aren&#39;t on spotify</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742772304355164161">View Full Conversation</a></blockquote>
 
 STILL, worth a shot and I had fun tinkering with something to curate my jams. :stuck_out_tongue_winking_eye: :headphones:
 
