@@ -9,9 +9,9 @@ Deployed to [http://pamo.github.io](http://pamo.github.io) and [http://likescoff
 
 The master branch is the generated static content, [development](https://github.com/pamo/pamo.github.io/tree/development) branch contains source codes.
 
-To develop:
+To run server and develop:
 ```
-npm run dev
+npm start
 ```
 
 To deploy:
@@ -21,6 +21,6 @@ npm run deploy
 
 To write a new post:
 ```
-npm run write
+npm run publish
 ```
 

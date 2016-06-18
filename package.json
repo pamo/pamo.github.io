@@ -7,8 +7,11 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public . ; exit 0",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lint && gatsby develop",
-    "build": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "publish": "node new_post.js"
+  },
+  "engines": {
+    "node": "5.11.1"
   },
   "repository": {
     "type": "git",
