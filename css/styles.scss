@@ -26,7 +26,7 @@ a {
   }
 }
 
-blockquote {
+.quote {
   margin: 0 0 0 1em;
   display: flex;
   flex-wrap: nowrap;
@@ -44,6 +44,19 @@ blockquote {
   }
   &:after {
     content: "”";
+  }
+}
+
+.twitter-tweet {
+  color: $graphite;
+  padding: 1em 1em 0 1em;
+  a {
+    display: inline-block;
+  }
+  p {
+    background-color: $white;
+    color: $black;
+    margin-bottom: 0.5em;
   }
 }
 
