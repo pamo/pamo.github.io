@@ -137,7 +137,7 @@ line-height: 1.625rem;
 }
 
 }
-</style><link rel="stylesheet" href="/styles.css"/></head><body class="landing-page"><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="-1454541280"><h3 style="max-width:39rem;padding:0.8125rem;margin:0px;" data-reactid="2"><a style="text-decoration:none;color:inherit;" href="/" data-reactid="3">likes coffee</a></h3><div class="markdown" data-reactid="4"><!-- react-empty: 5 --><header style="max-width:39rem;padding:1.625rem;margin:auto;" data-reactid="6"><h1 style="margin:auto;" data-reactid="7">More Than Just This with IFTTT.</h1></header><div style="max-width:39rem;margin-left:auto;margin-right:auto;padding:1.625rem;margin:auto;" data-reactid="8"><div data-reactid="9"><p>Life in Santiago involves me being stingy with my mobile data and wandering around the city is great with some tunes that I can have offline with my Spotify Premium subscription.
+</style><link rel="stylesheet" href="/styles.css"/></head><body class="landing-page"><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="-697721517"><h3 style="max-width:39rem;padding:0.8125rem;margin:0px;" data-reactid="2"><a style="text-decoration:none;color:inherit;" href="/" data-reactid="3">likes coffee</a></h3><div class="markdown" data-reactid="4"><!-- react-empty: 5 --><header style="max-width:39rem;padding:1.625rem;margin:auto;" data-reactid="6"><h1 style="margin:auto;" data-reactid="7">More Than Just This with IFTTT.</h1></header><div style="max-width:39rem;margin-left:auto;margin-right:auto;padding:1.625rem;margin:auto;" data-reactid="8"><div data-reactid="9"><p>Life in Santiago involves me being stingy with my mobile data and wandering around the city is great with some tunes that I can have offline with my Spotify Premium subscription.
 When it comes to finding new songs and artists, The Hype Machine has been my defacto source for <a href="http://hypem.com/pmocampo">music trends ever since 2008</a>!</p>
 <p>The popular feed is gold to me and I usually love whatever is on for the day. The iOS app has limited functionality for what you can save offline.
 So, I thought, wouldn’t it be nice if I could connect my personal loved tracks feed straight into a Spotify playlist I can save offline?</p>
@@ -179,6 +179,13 @@ e.g. <a href="http://hype-rss.herokuapp.com/loved">http://hype-rss.herokuapp.com
 </ul>
 </li>
 <li><a href="https://github.com/dylang/node-rss">node-rss</a> is a great library that will take care of all the hard work for you!</li>
+<li>IFTTT has a few requirements itself when it comes to RSS feeds:
+<ul>
+<li>it must have a top-level feed title and a unique link – this wasn’t clear to me so I just linked to the RSS feed’s path</li>
+<li>a GUID and date for each entry – Hype Machine assigns an ID to each track, so I chose to use that</li>
+<li>valid RSS or Atom syntax – This is where the W3C validator came into use</li>
+</ul>
+</li>
 </ol>
 <p>One final caveat: although IFTTT can go search Spotify for a track found on the Hype Machine, it most likely won’t find anything. The beauty of the Hype Machine is that the tracks that are trending are brand spanking new (and most of the ones I like are remixes).</p>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> the favorites should update pretty quickly, but i&#39;d warn you that many of the tracks aren&#39;t on spotify</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742772304355164161">View Full Conversation</a></blockquote>
