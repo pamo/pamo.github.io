@@ -3,6 +3,7 @@ title: More Than Just This with IFTTT.
 date: '2016-06-18T15:55:06.098Z'
 layout: post
 path: "/more-than-ifttt/"
+coverPhoto: ""
 ---
 
 Life in Santiago involves me being stingy with my mobile data and wandering around the city is great with some tunes that I can have offline with my Spotify Premium subscription.
@@ -39,10 +40,24 @@ This caused IFTTT to once again skip over the song since the entry wasn't new.
 
 ## DIY XML Feed
 
-So given that the JSON feed was the clear winner but IFTTT didn't support it, what did I do? Wrote a node server to transform the JSON feed into a more "real time" XML feed and deployed it on Heroku.
+So given that the JSON feed was the clear winner but IFTTT didn't support it, what did I do?
+Wrote a node server to transform the JSON feed into a more "real time" XML feed and deployed it on Heroku.
 e.g. http://hype-rss.herokuapp.com/loved.
 
 You can find the code on github: https://github.com/pamo/hype-rss
+
+Once I hooked it up to the recipe, I started seeing push notifications from IFTTT when a new song was added.
+
+<img src="push_notifications.png" style="max-width: 300px; margin: auto; display: block" alt="iPhone Push notifications"/><br/>
+
+### There were a few things and decisions I made in writing the server:
+
+1. There are strict rules a feed has to meet in order to be accepted as valid RSS.
+    * [W3C's feed validator](https://validator.w3.org/feed/) is a manual way to test. I'm sure there are automated tests available to take care of this as you're developing.
+2. Node's HTTP library makes it easy to make a GET request to receive a JSON payload and accumulate chunks of data in a response, but I found it a bit clumsy when I wanted to respond with XML.
+    * As a result, I spun up an Express server instead of using Node's built in server to respond with XML.
+3. [node-rss](https://github.com/dylang/node-rss) is a great library that will take care of all the hard work for you!
+
 
 One final caveat: although IFTTT can go search Spotify for a track found on the Hype Machine, it most likely won't find anything. The beauty of the Hype Machine is that the tracks that are trending are brand spanking new (and most of the ones I like are remixes).
 
