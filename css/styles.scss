@@ -74,11 +74,13 @@ a {
 .markdown {
   ul {
     list-style-type: circle;
+    margin: .8em;
   }
 
   a:hover {
     border-bottom: 3px solid $blue;
   }
+
   img + em {
     color: $graphite;
     display: block;

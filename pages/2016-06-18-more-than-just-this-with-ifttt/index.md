@@ -57,6 +57,10 @@ Once I hooked it up to the recipe, I started seeing push notifications from IFTT
 2. Node's HTTP library makes it easy to make a GET request to receive a JSON payload and accumulate chunks of data in a response, but I found it a bit clumsy when I wanted to respond with XML.
     * As a result, I spun up an Express server instead of using Node's built in server to respond with XML.
 3. [node-rss](https://github.com/dylang/node-rss) is a great library that will take care of all the hard work for you!
+4. IFTTT has a few requirements itself when it comes to RSS feeds:
+    * it must have a top-level feed title and a unique link -- this wasn't clear to me so I just linked to the RSS feed's path
+    * a GUID and date for each entry -- Hype Machine assigns an ID to each track, so I chose to use that
+    * valid RSS or Atom syntax -- This is where the W3C validator came into use
 
 
 One final caveat: although IFTTT can go search Spotify for a track found on the Hype Machine, it most likely won't find anything. The beauty of the Hype Machine is that the tracks that are trending are brand spanking new (and most of the ones I like are remixes).
