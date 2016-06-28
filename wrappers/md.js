@@ -1,17 +1,17 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import moment from 'moment'
-import ReadNext from '../components/ReadNext'
+import ReadNext from 'components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
 import { prune } from 'underscore.string'
 import { prefixLink } from 'gatsby-helpers'
-import SocialNetworks from '../components/SocialNetworks'
-import ProfileImage from '../components/ProfileImage'
-import Cover from '../components/Cover'
+import SocialNetworks from 'components/SocialNetworks'
+import ProfileImage from 'components/ProfileImage'
+import Cover from 'components/Cover'
 import { Container } from 'react-responsive-grid'
 
-import '../css/zenburn.css'
+import 'css/zenburn.css'
 
 const MarkdownWrapper = (props) => {
   const { route } = props

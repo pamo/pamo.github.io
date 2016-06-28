@@ -6,7 +6,7 @@ import { config } from 'config'
 import { Container } from 'react-responsive-grid'
 import ga from 'react-google-analytics'
 
-import '../css/styles.scss'
+import 'css/styles.scss'
 
 const Template = (props) => {
   const { location, children } = props
