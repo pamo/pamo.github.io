@@ -1,11 +1,11 @@
-const prompt = require('prompt')
-const mkdirp = require('mkdirp')
-const moment = require('moment')
-const _str = require('underscore.string')
-const yaml = require('js-yaml')
-const fs = require('fs')
+const prompt = require('prompt');
+const mkdirp = require('mkdirp');
+const moment = require('moment');
+const _str = require('underscore.string');
+const yaml = require('js-yaml');
+const fs = require('fs');
 
-prompt.start()
+prompt.start();
 
 /*eslint-disable */
 prompt.get(['title'], (err, result) => {

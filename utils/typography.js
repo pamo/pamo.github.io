@@ -1,4 +1,4 @@
-import Typography from 'typography'
+import Typography from 'typography';
 
 const options = {
   baseFontSize: '16px',
@@ -20,13 +20,13 @@ const options = {
   bodyWeight: 400,
   boldWeight: 700,
   fontFaces: [],
-}
+};
 
-const typography = new Typography(options)
+const typography = new Typography(options);
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
-  typography.injectStyles()
+  typography.injectStyles();
 }
 
-export default typography
+export default typography;

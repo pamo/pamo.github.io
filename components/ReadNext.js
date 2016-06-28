@@ -1,31 +1,30 @@
-import React from 'react'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-import { prune, include as includes } from 'underscore.string'
-import { find, findIndex } from 'lodash'
-import { rhythm, fontSizeToMS } from 'utils/typography'
+import React from 'react';
+import { Link } from 'react-router';
+import { prefixLink } from 'gatsby-helpers';
+import { prune, include as includes } from 'underscore.string';
+import { find, findIndex } from 'lodash';
+import { rhythm, fontSizeToMS } from 'utils/typography';
 
 const ReadNext = (props) => {
-  const { pages, post } = props
-  const { readNext } = post
-  let nextPost
+  const { pages, post } = props;
+  const { readNext } = post;
+  let nextPost;
   if (readNext) {
     nextPost = find(pages, (page) =>
                     includes(page.path, readNext)
-                   )
+                   );
   }
   if (!nextPost) {
-    const currentIndex = findIndex(pages, (page) => includes(page.path, post.path))
-    nextPost = pages[(currentIndex + 1) % (pages.length - 1)]
+    const currentIndex = findIndex(pages, (page) => includes(page.path, post.path));
+    nextPost = pages[(currentIndex + 1) % (pages.length - 1)];
   } else {
-    const bareNextPath = readNext.slice(1, -1)
-
-    nextPost = find(pages, (page) => includes(page.path, bareNextPath))
+    const bareNextPath = readNext.slice(1, -1);
+    nextPost = find(pages, (page) => includes(page.path, bareNextPath));
   }
 
   // Create pruned version of the body.
-  const html = nextPost.data.body
-  const body = prune(html.replace(/<[^>]*>/g, ''), 200)
+  const html = nextPost.data.body;
+  const body = prune(html.replace(/<[^>]*>/g, ''), 200);
 
   return (
     <div>
@@ -58,12 +57,12 @@ const ReadNext = (props) => {
       <p>{body}</p>
       <hr />
     </div>
-  )
-}
+  );
+};
 
 ReadNext.propTypes = {
   post: React.PropTypes.object.isRequired,
   pages: React.PropTypes.array,
-}
+};
 
-export default ReadNext
+export default ReadNext;

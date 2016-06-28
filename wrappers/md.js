@@ -1,38 +1,38 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import moment from 'moment'
-import ReadNext from 'components/ReadNext'
-import { rhythm } from 'utils/typography'
-import { config } from 'config'
-import { prune } from 'underscore.string'
-import { prefixLink } from 'gatsby-helpers'
-import SocialNetworks from 'components/SocialNetworks'
-import ProfileImage from 'components/ProfileImage'
-import Cover from 'components/Cover'
-import { Container } from 'react-responsive-grid'
+import React from 'react';
+import Helmet from 'react-helmet';
+import moment from 'moment';
+import ReadNext from 'components/ReadNext';
+import { rhythm } from 'utils/typography';
+import { config } from 'config';
+import { prune } from 'underscore.string';
+import { prefixLink } from 'gatsby-helpers';
+import SocialNetworks from 'components/SocialNetworks';
+import ProfileImage from 'components/ProfileImage';
+import Cover from 'components/Cover';
+import { Container } from 'react-responsive-grid';
 
-import 'css/zenburn.css'
+import 'css/zenburn.css';
 
 const MarkdownWrapper = (props) => {
-  const { route } = props
-  const post = route.page.data
+  const { route } = props;
+  const post = route.page.data;
 
-  const pageUrl = config.blogUrl.slice(0, config.blogUrl.length-1) + prefixLink(post.path)
-  const shortDescription = prune(post.body.replace(/<[^>]*>/g, ''), 100).trim()
-  const imageMatchPattern = /<img.+src=[\'"]([^\'"]+)[\'"].*>/i
-  const hasImage = (post.body).match(imageMatchPattern)
-  let header = <Cover title={ post.title } />
+  const pageUrl = config.blogUrl.slice(0, config.blogUrl.length-1) + prefixLink(post.path);
+  const shortDescription = prune(post.body.replace(/<[^>]*>/g, ''), 100).trim();
+  const imageMatchPattern = /<img.+src=[\'"]([^\'"]+)[\'"].*>/i;
+  const hasImage = (post.body).match(imageMatchPattern);
+  let header = <Cover title={ post.title } />;
 
-  let firstImagePath
+  let firstImagePath;
   if (hasImage) {
-    firstImagePath = pageUrl + hasImage[1]
+    firstImagePath = pageUrl + hasImage[1];
   }
 
   if (post.coverPhoto) {
-    firstImagePath = pageUrl + post.coverPhoto
-    header = <Cover title={ post.title } image={ post.coverPhoto } />
+    firstImagePath = pageUrl + post.coverPhoto;
+    header = <Cover title={ post.title } image={ post.coverPhoto } />;
   } else if (post.coverPhoto !== '' && hasImage) {
-    header = <Cover title={ post.title } image={ hasImage[1] } />
+    header = <Cover title={ post.title } image={ hasImage[1] } />;
   }
 
   return (
@@ -91,11 +91,11 @@ const MarkdownWrapper = (props) => {
         />
       </Container>
     </div>
-  )
-}
+  );
+};
 
 MarkdownWrapper.propTypes = {
   route: React.PropTypes.object,
-}
+};
 
-export default MarkdownWrapper
+export default MarkdownWrapper;

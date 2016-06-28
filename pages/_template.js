@@ -1,21 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-import { rhythm, fontSizeToMS } from 'utils/typography'
-import { config } from 'config'
-import { Container } from 'react-responsive-grid'
-import ga from 'react-google-analytics'
+import React from 'react';
+import { Link } from 'react-router';
+import { prefixLink } from 'gatsby-helpers';
+import { rhythm, fontSizeToMS } from 'utils/typography';
+import { config } from 'config';
+import { Container } from 'react-responsive-grid';
+import ga from 'react-google-analytics';
 
-import 'css/styles.scss'
+import 'css/styles.scss';
 
 const Template = (props) => {
-  const { location, children } = props
-  const GaInitializer = ga.Initializer
-  ga('create', config.googleAnalyticsId, 'auto')
-  ga('require', 'linkid')
-  ga('send', 'pageview')
+  const { location, children } = props;
+  const GaInitializer = ga.Initializer;
+  ga('create', config.googleAnalyticsId, 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
 
-  let header
+  let header;
   if (location.pathname === prefixLink('/')) {
     header = (
       <Container
@@ -43,7 +43,7 @@ const Template = (props) => {
       </Link>
       </h1>
       </Container>
-    )
+    );
   } else {
     header = (
       <h3
@@ -63,7 +63,7 @@ const Template = (props) => {
       {config.blogTitle}
     </Link>
   </h3>
-    )
+    );
   }
   return (
     <div>
@@ -71,13 +71,13 @@ const Template = (props) => {
       {children}
       <GaInitializer />
     </div>
-  )
-}
+  );
+};
 
 Template.propTypes = {
   children: React.PropTypes.any,
   location: React.PropTypes.object,
   route: React.PropTypes.object,
-}
+};
 
-export default Template
+export default Template;

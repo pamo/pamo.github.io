@@ -1,9 +1,8 @@
-import React from 'react'
-import { rhythm } from 'utils/typography'
+import React from 'react';
+import { rhythm } from 'utils/typography';
 
 const Cover = (props) => {
-  const { title, image } = props
-
+  const { title, image } = props;
   const photoCoverStyle = {
     backgroundImage: `url(${image})`,
     backgroundSize: 'cover',
@@ -12,13 +11,12 @@ const Cover = (props) => {
     textShadow: '1px 2px 5px rgba(150, 150, 150, 0.8)',
     display: 'flex',
     height: '95vh',
-  }
+  };
   const defaultStyle = {
     maxWidth: rhythm(24),
     padding: `${rhythm(1)}`,
     margin: 'auto',
-  }
-
+  };
 
   return (
     <header style={ image ? photoCoverStyle : defaultStyle }>
@@ -31,12 +29,12 @@ const Cover = (props) => {
     >
       { title }
     </h1>
-    </header>)
-}
+    </header>);
+};
 
 Cover.propTypes = {
   title: React.PropTypes.string,
   image: React.PropTypes.string,
-}
+};
 
-export default Cover
+export default Cover;

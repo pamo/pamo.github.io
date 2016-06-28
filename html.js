@@ -1,7 +1,7 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { prefixLink } from 'gatsby-helpers'
-const TypographyStyle = require('utils/typography').TypographyStyle
+import React from 'react';
+import Helmet from 'react-helmet';
+import { prefixLink } from 'gatsby-helpers';
+const TypographyStyle = require('utils/typography').TypographyStyle;
 
 module.exports = React.createClass({
   displayName: 'HTML',
@@ -15,12 +15,12 @@ module.exports = React.createClass({
     favicon: 'favicon.ico',
   },
   render() {
-    const { favicon, body } = this.props
-    const head = Helmet.rewind()
-    let cssLink
+    const { favicon, body } = this.props;
+    const head = Helmet.rewind();
+    let cssLink;
 
     if (process.env.NODE_ENV === 'production') {
-      cssLink = <link rel="stylesheet" href={prefixLink('/styles.css')} />
+      cssLink = <link rel="stylesheet" href={prefixLink('/styles.css')} />;
     }
 
     return (
@@ -43,6 +43,6 @@ module.exports = React.createClass({
           <script src={prefixLink('/bundle.js')} />
         </body>
       </html>
-    )
+    );
   },
-})
+});

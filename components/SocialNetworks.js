@@ -1,14 +1,14 @@
-import React from 'react'
-import { rhythm } from 'utils/typography'
-import TwitterIcon from 'react-icons/lib/fa/twitter'
-import GithubIcon from 'react-icons/lib/fa/github'
-import InstagramIcon from 'react-icons/lib/fa/instagram'
-import FacebookIcon from 'react-icons/lib/fa/facebook-square'
-import FoursquareIcon from 'react-icons/lib/fa/foursquare'
-import SpotifyIcon from 'react-icons/lib/fa/spotify'
+import React from 'react';
+import { rhythm } from 'utils/typography';
+import TwitterIcon from 'react-icons/lib/fa/twitter';
+import GithubIcon from 'react-icons/lib/fa/github';
+import InstagramIcon from 'react-icons/lib/fa/instagram';
+import FacebookIcon from 'react-icons/lib/fa/facebook-square';
+import FoursquareIcon from 'react-icons/lib/fa/foursquare';
+import SpotifyIcon from 'react-icons/lib/fa/spotify';
 
 const SocialNetworks = (props) => {
-  const marginBetweenIcons = rhythm(1/6)
+  const marginBetweenIcons = rhythm(1/6);
   return (
     <ul className="social-networks"
       style={ props.style }
@@ -20,11 +20,11 @@ const SocialNetworks = (props) => {
     <li style={{ margin: marginBetweenIcons }}><a href="http://foursquare.com/pmocampo" title="foursquare"><FoursquareIcon /></a></li>
     <li style={{ margin: marginBetweenIcons }}><a href="https://play.spotify.com/user/pmocampo" title="spotify"><SpotifyIcon /></a></li>
     </ul>
-  )
-}
+  );
+};
 
 SocialNetworks.propTypes = {
   style: React.PropTypes.object,
-}
+};
 
-export default SocialNetworks
+export default SocialNetworks;
