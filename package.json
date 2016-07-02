@@ -11,7 +11,7 @@
     "publish": "node new_post.js"
   },
   "engines": {
-    "node": "5.11.1"
+    "node": "5.12.0"
   },
   "repository": {
     "type": "git",

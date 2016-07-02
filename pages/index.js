@@ -1,42 +1,13 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { Link } from 'react-router'
-import sortBy from 'lodash/sortBy'
-import { prefixLink } from 'gatsby-helpers'
-import { rhythm } from 'utils/typography'
-import access from 'safe-access'
-import { config } from 'config'
-import SocialNetworks from '../components/SocialNetworks'
-import ProfileImage from '../components/ProfileImage'
-import { prune } from 'underscore.string'
-import { Container } from 'react-responsive-grid'
+import React from 'react';
+import Helmet from 'react-helmet';
+import { Container } from 'react-responsive-grid';
+import { config } from 'config';
+import { rhythm } from 'utils/typography';
+import SocialNetworks from 'components/SocialNetworks';
+import ProfileImage from 'components/ProfileImage';
 
-const BlogIndex = (props) => {
-  const pageLinks = []
-  let body
-  let title
-  const fullImagePath = `${config.blogUrl}pam-brewing.jpg`
-  // Sort pages.
-  const sortedPages = sortBy(props.route.pages, (page) => access(page, 'data.date')).reverse()
-
-  sortedPages.forEach((page) => {
-    if (access(page, 'file.ext') === 'md') {
-      title = access(page, 'data.title') || page.path
-      body = prune(page.data.body.replace(/<[^>]*>/g, ''), 200)
-
-      pageLinks.push(
-        <li
-          key={page.path}
-          style={{
-            marginBottom: rhythm(1/4),
-          }}
-        >
-          <Link to={prefixLink(page.path)} className="page-link">{title}</Link>
-          <p>{ body }</p>
-        </li>
-      )
-    }
-  })
+const SiteIndex = () => {
+  const fullImagePath = `${config.blogUrl}pam-brewing.jpg`;
 
   return (
     <Container
@@ -63,28 +34,20 @@ const BlogIndex = (props) => {
         ]}
         defaultTitle={ config.blogTitle }
       />
-      <div className="author">
+        <div className="author">
         <ProfileImage src="pam-brewing.jpg" />
         <div className="author__intro">
-          <strong>{config.authorName}</strong> spends more time tweaking the
-          CSS and markup of this blog than writing.<br />
-          She's active on these social networks: <SocialNetworks />
-          </div>
+        <strong>{config.authorName}</strong> spends more time tweaking the
+        CSS and markup of this blog than writing.<br />
+        She's active on these social networks: <SocialNetworks />
         </div>
-        <ul
-          style={{
-            listStyleType: 'none',
-            marginTop: rhythm(1),
-          }}
-        >
-        {pageLinks}
-      </ul>
+        </div>
     </Container>
-  )
-}
+  );
+};
 
-BlogIndex.propTypes = {
+SiteIndex.propTypes = {
   route: React.PropTypes.object,
-}
+};
 
-export default BlogIndex
+export default SiteIndex;
