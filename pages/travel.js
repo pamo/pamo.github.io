@@ -10,9 +10,11 @@ import { prefixLink } from 'gatsby-helpers';
 import { rhythm } from 'utils/typography';
 import access from 'safe-access';
 import { Container } from 'react-responsive-grid';
+import { CountryNames } from './travel/_countryNames';
 
 const TravelIndex = (props) => {
   const countries = {};
+  const countrySections = [];
   const pages = filter(props.route.pages,
       (page) => includes(access(page, 'data.layout'), 'travel'));
 
@@ -31,11 +33,11 @@ const TravelIndex = (props) => {
       );
     }
   });
-  const sections = [];
-  map(countries, (cities, country) => {
-    sections.push(
-        <Container>
-        <h4>{country}</h4>
+
+  map(countries, (cities, countryCode) => {
+    countrySections.push(
+        <Container key={countryCode}>
+        <h4>{CountryNames[countryCode.toUpperCase()]}</h4>
         <ul style={{
           listStyleType: 'none',
           marginTop: rhythm(1),
@@ -54,7 +56,7 @@ const TravelIndex = (props) => {
         margin: 'auto',
       }}
     >
-    {sections}
+    {countrySections}
     </Container>
   );
 };
