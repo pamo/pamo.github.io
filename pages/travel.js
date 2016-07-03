@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import split from 'lodash/split';
 import drop from 'lodash/drop';
 import dropRight from 'lodash/dropRight';
-import includes from 'lodash/includes';
+import { include as includes } from 'underscore.string';
 import filter from 'lodash/filter';
 import map from 'lodash/map';
 import { prefixLink } from 'gatsby-helpers';
@@ -18,14 +18,15 @@ const TravelIndex = (props) => {
 
   pages.forEach((page) => {
     if (access(page, 'file.ext') === 'md') {
-      const title = access(page, 'data.title' || page.path);
+      const city = access(page, 'data.title' || page.path);
+
       const countryCode = dropRight(drop(split(page.requirePath, '/')), 2);
 
       countries[countryCode] = countries[countryCode] || [];
 
       countries[countryCode].push(
         <li key={page.path}>
-          <Link to={prefixLink(page.path)}>{title}</Link>
+          <Link to={prefixLink(page.path)}>{city}</Link>
         </li>
       );
     }

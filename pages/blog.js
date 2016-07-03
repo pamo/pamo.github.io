@@ -2,11 +2,10 @@ import React from 'react';
 import { Link } from 'react-router';
 import sortBy from 'lodash/sortBy';
 import filter from 'lodash/filter';
-import includes from 'lodash/includes';
 import { prefixLink } from 'gatsby-helpers';
 import { rhythm } from 'utils/typography';
 import access from 'safe-access';
-import { prune } from 'underscore.string';
+import { prune, include as includes } from 'underscore.string';
 import { Container } from 'react-responsive-grid';
 
 const BlogIndex = (props) => {

@@ -1,10 +1,10 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import moment from 'moment';
 import ReadNext from 'components/ReadNext';
 import { rhythm } from 'utils/typography';
 import { config } from 'config';
-import { prune } from 'underscore.string';
+import filter from 'lodash/filter';
+import { prune, include as includes } from 'underscore.string';
 import { prefixLink } from 'gatsby-helpers';
 import SocialNetworks from 'components/SocialNetworks';
 import ProfileImage from 'components/ProfileImage';
@@ -35,6 +35,12 @@ const MarkdownWrapper = (props) => {
     header = <Cover title={ post.title } image={ hasImage[1] } />;
   }
 
+  let readNextPost;
+  if (post.layout === 'post') {
+    const blogPosts = filter(route.pages, (page) => includes(page.requirePath, 'blog/'));
+    readNextPost = <ReadNext post={post} pages={blogPosts} />;
+  }
+
   return (
     <div className="markdown" >
       <Helmet
@@ -58,25 +64,13 @@ const MarkdownWrapper = (props) => {
       <Container
         style={{
           maxWidth: rhythm(24),
-          padding: `${rhythm(1)}`,
+          padding: rhythm(1),
           margin: 'auto',
         }}
       >
         <div dangerouslySetInnerHTML={{ __html: post.body }} />
-        <em
-          style={{
-            display: 'block',
-            marginBottom: rhythm(2),
-          }}
-        >
-          Written {moment(post.date).format('MMMM D, YYYY')}
-        </em>
-        <hr
-          style={{
-            marginBottom: rhythm(2),
-          }}
-        />
-        <ReadNext post={post} pages={route.pages} />
+        {readNextPost}
+        <hr />
         <div className="author">
           <ProfileImage src="/pam-small.jpg" />
           <div className="author__intro">When not crafting an
