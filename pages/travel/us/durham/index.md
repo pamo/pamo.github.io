@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Durham
 layout: travel
 ---
 ## Way of Life

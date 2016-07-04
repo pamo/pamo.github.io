@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Rumney
 layout: travel
 ---
 ## Way of Life

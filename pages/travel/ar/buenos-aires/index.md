@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Buenos Aires
 layout: travel
 ---
 ## Way of Life

@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Chicago
 layout: travel
 ---
 ## Way of Life

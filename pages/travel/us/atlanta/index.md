@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Atlanta
 layout: travel
 ---
 ## Way of Life

@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Palo Alto
 layout: travel
 ---
 ## Way of Life

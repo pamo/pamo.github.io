@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Oakland
 layout: travel
 ---
 ## Way of Life

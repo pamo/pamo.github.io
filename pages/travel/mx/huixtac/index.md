@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Huixtac
 layout: travel
 ---
 ## Way of Life

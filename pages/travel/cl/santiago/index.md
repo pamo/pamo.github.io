@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Santiago
 layout: travel
 ---
 ## Way of Life

@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Vina Del Mar
 layout: travel
 ---
 ## Way of Life

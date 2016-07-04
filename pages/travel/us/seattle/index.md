@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Seattle
 layout: travel
 ---
 ## Way of Life

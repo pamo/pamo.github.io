@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Asheville
 layout: travel
 ---
 ## Way of Life

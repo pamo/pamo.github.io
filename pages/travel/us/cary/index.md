@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Cary
 layout: travel
 ---
 ## Way of Life

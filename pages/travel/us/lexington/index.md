@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Lexington
 layout: travel
 ---
 ## Way of Life

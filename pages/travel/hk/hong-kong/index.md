@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Hong Kong
 layout: travel
 ---
 ## Way of Life

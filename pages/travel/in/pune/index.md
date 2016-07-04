@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Pune
 layout: travel
 ---
 ## Way of Life

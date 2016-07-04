@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Raleigh
 layout: travel
 ---
 ## Way of Life

@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Mumbai
 layout: travel
 ---
 ## Way of Life

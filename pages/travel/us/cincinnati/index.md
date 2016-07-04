@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Cincinnati
 layout: travel
 ---
 ## Way of Life

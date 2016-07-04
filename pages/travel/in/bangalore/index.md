@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Bangalore
 layout: travel
 ---
 ## Way of Life

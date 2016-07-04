@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Pescadero
 layout: travel
 ---
 ## Way of Life

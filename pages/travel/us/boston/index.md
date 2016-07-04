@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Boston
 layout: travel
 ---
 ## Way of Life

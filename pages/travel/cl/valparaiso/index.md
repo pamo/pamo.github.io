@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Valparaiso
 layout: travel
 ---
 ## Way of Life

@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Dubai
 layout: travel
 ---
 ## Way of Life

@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: Chapel Hill
 layout: travel
 ---
 ## Way of Life

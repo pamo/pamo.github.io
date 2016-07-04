@@ -1,5 +1,5 @@
 ---
-title: San Francisco
+title: San Juan
 layout: travel
 ---
 ## Way of Life
