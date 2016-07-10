@@ -1,4 +1,5 @@
 import React from 'react';
+import { rhythm } from 'utils/typography';
 import { config } from 'config';
 import SocialNetworks from 'components/SocialNetworks';
 import Navigation from 'components/Navigation';
@@ -19,7 +20,12 @@ const SiteIndex = () => (
       />
       <h1>{config.authorName}</h1> spends more time tweaking the
       CSS and markup of this blog than writing.
-      <SocialNetworks />
+      <SocialNetworks
+        style={{
+          marginTop: rhythm(1),
+          fontSize: rhythm(1),
+        }}
+      />
     </div>
     <Navigation />
     </div>
