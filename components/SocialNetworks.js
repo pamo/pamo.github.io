@@ -1,29 +1,64 @@
 import React from 'react';
 import { rhythm } from 'utils/typography';
+import map from 'lodash/map';
 import {
-  FaTwitter as TwitterIcon,
-  FaGithub as GithubIcon,
-  FaInstagram as InstagramIcon,
-  FaFacebook as FacebookIcon,
-  FaFoursquare as FoursquareIcon,
-  FaGetPocket as PocketIcon,
-  FaLastfmSquare as LastFMIcon,
-  FaSpotify as SpotifyIcon } from 'react-icons/lib/fa';
+  FaTwitter as Twitter,
+  FaGithub as Github,
+  FaInstagram as Instagram,
+  FaFacebook as Facebook,
+  FaFoursquare as Foursquare,
+  FaGetPocket as Pocket,
+  FaLastfmSquare as Lastfm,
+  FaSpotify as Spotify } from 'react-icons/lib/fa';
 
 const SocialNetworks = (props) => {
   const marginBetweenIcons = rhythm(1/6);
+  const networks = {
+    facebook: {
+      url: 'http://facebook.com/pamocampo',
+      icon: Facebook,
+    },
+    twitter: {
+      url: 'http://twitter.com/pmocampo',
+      icon: Twitter,
+    },
+    github: {
+      url: 'http://github.com/pamo',
+      icon: Github,
+    },
+    instagram: {
+      url: 'http://instagram.com/pmocampo',
+      icon: Instagram,
+    },
+    foursquare: {
+      url: 'http://foursquare.com/pmocampo',
+      icon: Foursquare,
+    },
+    pocket: {
+      url: 'http://getpocket.com/@pmocampo',
+      icon: Pocket,
+    },
+    lastfm: {
+      url: 'http://last.fm/user/Psyc-adelick',
+      icon: Lastfm,
+    },
+    spotify: {
+      url: 'https://play.spotify.com/user/pmocampo',
+      icon: Spotify,
+    },
+  };
+
+  const links = map(networks, (network, k) => {
+    const iconTitle = `Pam on ${k}`;
+    return (<li style={{ margin: marginBetweenIcons }} key={ k }>
+        <a href={ network.url } target="_blank" title={ iconTitle }><network.icon /></a>
+        </li>);
+  });
   return (
     <ul className="social-networks"
       style={ props.style }
     >
-    <li style={{ margin: marginBetweenIcons }}><a href="http://twitter.com/pmocampo" title="Twitter"><TwitterIcon /></a></li>
-    <li style={{ margin: marginBetweenIcons }}><a href="http://instagram.com/pmocampo" title="instagram"><InstagramIcon /></a></li>
-    <li style={{ margin: marginBetweenIcons }}><a href="http://github.com/pamo" title="github"><GithubIcon /></a></li>
-    <li style={{ margin: marginBetweenIcons }}><a href="http://facebook.com/pamocampo" title="facebook"><FacebookIcon /></a></li>
-    <li style={{ margin: marginBetweenIcons }}><a href="http://foursquare.com/pmocampo" title="foursquare"><FoursquareIcon /></a></li>
-    <li style={{ margin: marginBetweenIcons }}><a href="http://getpocket.com/@pmocampo" title="pocket reading list"><PocketIcon /></a></li>
-    <li style={{ margin: marginBetweenIcons }}><a href="https://play.spotify.com/user/pmocampo" title="spotify"><SpotifyIcon /></a></li>
-    <li style={{ margin: marginBetweenIcons }}><a href="http://last.fm/user/Psyc-adelick" title="last.fm"><LastFMIcon /></a></li>
+    { links }
     </ul>
   );
 };
