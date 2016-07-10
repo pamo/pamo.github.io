@@ -137,7 +137,7 @@ line-height: 1.625rem;
 }
 
 }
-</style><link rel="stylesheet" href="/styles.css"/></head><body><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="897556729"><h3 style="max-width:39rem;padding:0.8125rem;margin:0px;" data-reactid="2"><a style="text-decoration:none;color:inherit;" href="/" data-reactid="3">likes coffee</a></h3><div class="markdown" data-reactid="4"><!-- react-empty: 5 --><header style="max-width:39rem;padding:1.625rem;margin:auto;" data-reactid="6"><h1 style="margin:auto;" data-reactid="7">More Than Just This with IFTTT.</h1></header><div style="max-width:39rem;margin-left:auto;margin-right:auto;padding:1.625rem;margin:auto;" data-reactid="8"><div data-reactid="9"><p>Life in Santiago involves me being stingy with my mobile data and wandering around the city is great with some tunes that I can have offline with my Spotify Premium subscription.
+</style><link rel="stylesheet" href="/styles.css"/></head><body><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="425566294"><h3 style="max-width:39rem;padding:0.8125rem;margin:0px;" data-reactid="2"><a style="text-decoration:none;color:inherit;" href="/" data-reactid="3">likes coffee</a></h3><div class="markdown" data-reactid="4"><!-- react-empty: 5 --><header style="max-width:39rem;padding:1.625rem;margin:auto;" data-reactid="6"><h1 style="margin:auto;" data-reactid="7">More Than Just This with IFTTT.</h1></header><div style="max-width:39rem;margin-left:auto;margin-right:auto;padding:1.625rem;margin:auto;" data-reactid="8"><div data-reactid="9"><p>Life in Santiago involves me being stingy with my mobile data and wandering around the city is great with some tunes that I can have offline with my Spotify Premium subscription.
 When it comes to finding new songs and artists, The Hype Machine has been my defacto source for <a href="http://hypem.com/pmocampo">music trends ever since 2008</a>!</p>
 <p>The popular feed is gold to me and I usually love whatever is on for the day. The iOS app has limited functionality for what you can save offline.
 So, I thought, wouldn’t it be nice if I could connect my personal loved tracks feed straight into a Spotify playlist I can save offline?</p>
@@ -154,9 +154,9 @@ I published an IFTTT recipe that does this and you can make use of it by adding 
 <p>One thing I noticed when I was testing the recipe out was that the XML feed wasn’t reflecting the tracks I was adding in “real time” but the JSON feed (which IFTTT doesn’t support) was. 😞</p>
 <p>I reached out to the founder of the Hype Machine on Twitter and apparently the XML feed updates every hour or so.</p>
 <blockquote class="twitter-tweet" data-lang="en" data-conversation="none">
-<p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> ah, the RSS ones are cached more heavily, could be like an hour. yeah, depending on what you like the % avail may disappoint :/</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742774754638200832">View Full Conversation</a>
+<p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> ah, the RSS ones are cached more heavily, could be like an hour. Yea, depending on what you like the % avail may disappoint :/</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742774754638200832">View Full Conversation</a>
 </blockquote>
-<p>At first I thought, ok I guess I’m ok with that, but then I found another discrepancy with the XML feed. If I removed a favorite song and added it again (to cause IFTTT to pick up a “new” entry to add to my Spotify playlist) the publish date on the XML entry was what the original favorite had been before.
+<p>At first I thought, OK I guess I’m OK with that, but then I found another discrepancy with the XML feed. If I removed a favorite song and added it again (to cause IFTTT to pick up a “new” entry to add to my Spotify playlist) the publish date on the XML entry was what the original favorite had been before.
 This caused IFTTT to once again skip over the song since the entry wasn’t new.</p>
 <p>😩</p>
 <h2>DIY XML Feed</h2>
@@ -183,7 +183,7 @@ e.g. <a href="http://hype-rss.herokuapp.com/loved">http://hype-rss.herokuapp.com
 <ul>
 <li>it must have a top-level feed title and a unique link – this wasn’t clear to me so I just linked to the RSS feed’s path</li>
 <li>a GUID and date for each entry – Hype Machine assigns an ID to each track, so I chose to use that</li>
-<li>valid RSS or Atom syntax – This is where the W3C validator came into use</li>
+<li>valid RSS or Atom syntax – This is where the W3C validation came into use</li>
 </ul>
 </li>
 </ol>
