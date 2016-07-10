@@ -9,11 +9,11 @@ Don Sergio is a Porteño from Valparaiso that makes a little money from his home
 with Don Sergio was during a graffiti tour around Valpo that neared its end at Pasaje Bavestrello (a passageway between hilly streets). As we walked down the steps we saw a crowed of other tourists
 standing at the inconspicuous door midway with a small wooden sign hanging above. It reads: "Alfajores Artesanales $200 c/u".
 
-an Australian woman in my group said:
+An Australian woman in my group said:
 
 > Is that the shop that sells the chocolate covered biscuits with caramel in the middle?
 
-another man replied:
+Another man replied:
 
 > Yea and they're only $200 ($0.30 USD).
 
@@ -25,8 +25,7 @@ What a tasty dessert to end the two hours of walking we did around Cerro Alegre 
 I noticed Don Sergio also carried empanadas and saw some of my tour-mates buy a few. I had just had lunch before the tour started but my appetite could stomach one.
 As we continued down the Pasaje, I had second thoughts and started to climb back up to make the second purchase, but the door was closed! Oh well.
 
-The next day I took a more historical tour around Valpo and midway through the tour, where did we end up? Don Sergio's door! The tour guide introduced us to Don Sergio and he treated us to an
-alfajore as a tour treat. The house rules were also explained. Don Sergio is always home, you just have to ring his bell and he'll open up for business. 
+The next day I took a more historical tour around Valpo and midway through the tour, where did we end up? Don Sergio's door! The tour guide introduced us to Don Sergio and he treated us to an alfajor as a tour treat. The house rules were also explained. Don Sergio is always home, you just have to ring his bell and he'll open up for business. 
 
 I wish I'd known that the day before!
 
@@ -52,7 +51,7 @@ Wat. Don Sergio, why would you recommend that one to ME?? :P
 
 Don Sergio noticed my duffel bag and trekking pack and asked where I was headed.
 
-> Santiago, a la estacion de autobuses. _To Santiago, via the bus station._
+> Santiago, a la estación de autobuses. _To Santiago, via the bus station._
 
 Don Sergio put his index finger to his eye and then pointed down to my stuff.
 

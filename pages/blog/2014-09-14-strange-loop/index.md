@@ -19,7 +19,7 @@ with AngularJS, grunt, gulp, and Sass at work for the last 6 or so months topics
 * Joel Kemp - Using Grunt to auto-generate your Gruntfiles
 * Lukas Ruebbelke - AngularJS Application Architecture That Won't Make You Cry
 * Mike Mikowski - Dump Less and SASS: Dynamic CSS Manipulation with JavaScript
-* Josh Powell - Unravelling the Knot - Clean & Testable Client Side Code
+* Josh Powell - Unraveling the Knot - Clean & Testable Client Side Code
 * Ben Vinegar - Next-Gen Tools for Securing your Front-end Code
 
 The next week will be a whirlwind of knowledge and I hope I can capture, digest, and blog about it all in addition to meeting and catching up with friends.

@@ -12,7 +12,7 @@ frameworks can definitely be had given that there are so many to choose from.
 
 I talked a little bit about [Jest](https://facebook.github.io/jest/) and how it seemed to be beneficial in the fact that it takes care of
 auto-mocking dependencies. The reason I found this beneficial, or at least time saving, was from experience of having to write a lot of
-boilerplate code in order to mock depencencies with Angular unit testing. So, when you find a testing framework that promises to make test set-up sound easy,
+boilerplate code in order to mock dependencies with Angular unit testing. So, when you find a testing framework that promises to make test set-up sound easy,
 there's no reason not to try it out.
 
 So, try it out I did, and I dragged another friend, Dan ([@dc_minutiae](http://twitter.com/dc_minutiae)), along.
@@ -22,14 +22,14 @@ One of the goals would be to keep track of a music playlist with files uploaded 
 We called our pet project [Hyperflux](https://github.com/dgcoffman/hyperflux/) out of our love for [The Hype Machine](http://hypem.com).
 
 We started out by looking for a boilerplate/scaffold that could fit our needs on [Awesome React](https://github.com/enaqx/awesome-react#boilerplates).
-One of the boilerplates we chose had [node-jsx](https://github.com/petehunt/node-jsx) as a dependency which allows you to require jsx from node.
-However, we quickly started running into problems when node-jsx appeared in any of the dependency trees for boilerplates we wanted to try.
+One of the boiler-plates we chose had [node-jsx](https://github.com/petehunt/node-jsx) as a dependency which allows you to require jsx from node.
+However, we quickly started running into problems when node-jsx appeared in any of the dependency trees for boiler-plates we wanted to try.
 This caused Jest's auto-mocking to start losing its luster.
 
 The discovery of node-jsx being a troublesome dependency was not an easy one. We discovered that the require.extensions
 global is being [deprecated and no longer supported](https://nodejs.org/api/globals.html#globals_require_extensions) and this was causing issues off the bat.
 Running a test that did nothing was not even possible. The workflow for finding dependencies that cause problem with Jest was cumbersome. You can mark npm
-dependency paths to be unmocked via [configuration](https://facebook.github.io/jest/docs/api.html#config-unmockedmodulepathpatterns-array-string) but it always seems like a treasure hunt to figure out which ones need to be unmocked. 
+dependency paths to be un-mocked via [configuration](https://facebook.github.io/jest/docs/api.html#config-unmockedmodulepathpatterns-array-string) but it always seems like a treasure hunt to figure out which ones need to be un-mocked.
 
 
 Dan and I were also dumbfounded with how slow our tests were running. Over the course of a couple days

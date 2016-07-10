@@ -27,13 +27,13 @@ Turns out, according to a barista I spoke to at [Taste](https://www.facebook.com
 Too bad for my Greek yogurt addiction. Chilean baristas are also in agreement to dislike boxed milk because it doesn't steam well. It kind of tastes weird too. I've been holding back
 from ordering anything other than filter/pour-over.  :coffee:
 
-Over the weekend, I found that [Colmado Cafe](https://www.facebook.com/ColmadoCoffee/) sells housemade natural, full-fat yogurt when I saw a liter jar of it in their cheese display case. :raised_hands:
+Over the weekend, I found that [Colmado Cafe](https://www.facebook.com/ColmadoCoffee/) sells natural, house-made, full-fat yogurt when I saw a liter jar of it in their cheese display case. :raised_hands:
 
 ![Yogurt spotting](./yogurt-spotting.jpg)
 _Could it be? Natural yogurt in the wild!_
 
 I knew it would be a gamble, but I asked if it happened to be Greek style. The response I got from the barista made me laugh. :joy:
-He was offended by my question and replied with: "No! Es echo aqui en Chile." (No, [it's not made in Greece], it's made in Chile!)
+He was offended by my question and replied with: "No! Es echo aquí en Chile." (No, [it's not made in Greece], it's made in Chile!)
 
 I asked for a taste and it was tasty enough for me to tell them to take my money. My plan was to strain the extra water to give it a thicker consistency once I got home.
 
@@ -44,7 +44,7 @@ The purchase inspired me to make my own Greek yogurt using UHT milk.
 I happened to walk by an ad for a product called [Yogustart](http://www.yogustart.com/#!yogustart/gbomc) which is just powdered yogurt cultures and found a natural foods store called
 [Emporio Natural Free & Lush](https://www.facebook.com/EmporioNaturalFreeAndLush/) near my office that sells it.
 
-My first experiement gave me a decent result, I heated a liter of non-fat milk in a saucepan and stirred in a satchet of Yogustart to a temperature that felt warm to the touch.
+My first experiment gave me a decent result, I heated a liter of non-fat milk in a saucepan and stirred in a sachet of Yogustart to a temperature that felt warm to the touch.
 I would have heated it to the instructed 110ºF but I've been having a hard time finding kitchen thermometers here too!
 I poured the mixture into a liter jar and put it in an insulated lunch box to rest overnight. The result after straining was about a pint of yogurt.
 

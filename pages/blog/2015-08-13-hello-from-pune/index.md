@@ -45,7 +45,7 @@ Two different personality tests tell me something different:
 * E(xtroverted) S(ensing) T(hinking) J(udging) from [Jung's Topology Test](http://www.humanmetrics.com/cgi-win/jtypes2.asp)
 * I(ntroverted) S(ensing) T(hinking) J(udging) from [Myers Briggs](http://www.personalitypathways.com/type_inventory.html)
 
-I can feel lonely in crowds, but from experience of living in NYC, wandering London, Hong Kong, Mumbai, etc., this doesn’t bother me.
+I can feel lonely in crowds, but from experience of living in NYC, wandering London, Hong Kong, Mumbai, etc., this doesn't bother me.
 I’d rather recharge "alone" in crowds rather than sit in my room.
 The block of time I spend in the gym is what I need to help me feel grounded.
 Which is why I’m primarily anti-social during that block of time.

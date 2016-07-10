@@ -7,7 +7,7 @@ path: "/snap-ci-github/"
 ---
 I'm currently contributing to [Fun Retrospectives](http://funretro.github.io/distributed/) on the ["Front-End Ops"](https://www.smashingmagazine.com/2013/06/front-end-ops/) front.
 
-One thing that was bugging me before was that we were commiting our ```dist/``` directory or _build_ artifacts on both the ```master``` and ```gh-pages``` branch.
+One thing that was bugging me before was that we were committing our ```dist/``` directory or _build_ artifacts on both the ```master``` and ```gh-pages``` branch.
 New contributors were not sure if these things needed to be [ignored or part of their commits](https://github.com/funretro/distributed/pull/84#issue-149864065).
 
 I don't use any 3rd party hosting service to deploy this blog. It's all [Github Pages](https://pages.github.com/). Github pages are helpful if what you're trying to serve is static.

@@ -63,4 +63,4 @@ As I handed our friend some money to at least cover part of the trip, we heard d
 and then more barking as the car continued down the street.
 
 The dog got back up and continued running after the car still barking, but with a whimpering tone. I continued to hear the same dog barking for at least an hour as I lay in bed. After a while, I no longer heard
-the dog bark as I reflected what had happened that day. We made it home ok that night, but others didn't have the same luck.
+the dog bark as I reflected what had happened that day. We made it home OK that night, but others didn't have the same luck.

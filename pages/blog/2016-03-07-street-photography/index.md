@@ -17,7 +17,7 @@ change the person's behavior into something less natural, and, to me, less inter
 
 ![Glide](./glide.jpg)
 
-Skill-sharing, workshops, photowalks, etc. in San Francisco are abundant and I feel lucky to have
+Skill-sharing, workshops, photo walks, etc. in San Francisco are abundant and I feel lucky to have
 be able to learn from others. I joined [David Coleman](http://www.eventbrite.com/o/david-coleman-photography-7965502924) and a few others on a 3 hour street photography workshop
 where I came away with a few tidbits of information that I hope to incorporate into my "practice."
 
@@ -40,10 +40,10 @@ The most unique of them all was covering the logos and any flashy brand inscript
 
 On the technical side of things, we were recommended to
 
-* stay within 21mm to 50mm focal range, basically wide angle lens.
-* shoot in aperture or manual mode
+* Stay within 21mm to 50mm focal range, basically wide angle lens.
+* Shoot in aperture or manual mode
 * begin at a minimum 5.6 F-stop and increase up to F11 as the sun comes out (we had an overcast start to the morning).
-* set the shutter speed to 1/250th of a second in order to freeze motion and go up as needed
+* Set the shutter speed to 1/250th of a second in order to freeze motion and go up as needed
 * use Auto ISO at 200
 
 Another concept I had never heard of was "[zone-focusing](http://inmybag.net/learn-to-zone-focus/)" wherein one gauges the distance between the lens and potential subjects and adjusts focus manually and leave set and ready for someone or something to step into the "kill zone". A good zone is usually optically 1/3 of the way between you and a wall. This is to avoid wasting time allowing the camera auto-focusing given that your depth of field within the space is predictable.

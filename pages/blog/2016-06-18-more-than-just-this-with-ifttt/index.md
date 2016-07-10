@@ -30,10 +30,10 @@ One thing I noticed when I was testing the recipe out was that the XML feed wasn
 
 I reached out to the founder of the Hype Machine on Twitter and apparently the XML feed updates every hour or so.
 <blockquote class="twitter-tweet" data-lang="en" data-conversation="none">
-<p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> ah, the RSS ones are cached more heavily, could be like an hour. yeah, depending on what you like the % avail may disappoint :/</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742774754638200832">View Full Conversation</a>
+<p lang="en" dir="ltr"><a href="https://twitter.com/pmocampo">@pmocampo</a> ah, the RSS ones are cached more heavily, could be like an hour. Yea, depending on what you like the % avail may disappoint :/</p>&mdash; Anthony V. (<a href="https://twitter.com/fascinated">@fascinated</a>) <a href="https://twitter.com/fascinated/status/742774754638200832">View Full Conversation</a>
 </blockquote>
 
-At first I thought, ok I guess I'm ok with that, but then I found another discrepancy with the XML feed. If I removed a favorite song and added it again (to cause IFTTT to pick up a "new" entry to add to my Spotify playlist) the publish date on the XML entry was what the original favorite had been before.
+At first I thought, OK I guess I'm OK with that, but then I found another discrepancy with the XML feed. If I removed a favorite song and added it again (to cause IFTTT to pick up a "new" entry to add to my Spotify playlist) the publish date on the XML entry was what the original favorite had been before.
 This caused IFTTT to once again skip over the song since the entry wasn't new.
 
 :weary:
@@ -60,7 +60,7 @@ Once I hooked it up to the recipe, I started seeing push notifications from IFTT
 4. IFTTT has a few requirements itself when it comes to RSS feeds:
     * it must have a top-level feed title and a unique link -- this wasn't clear to me so I just linked to the RSS feed's path
     * a GUID and date for each entry -- Hype Machine assigns an ID to each track, so I chose to use that
-    * valid RSS or Atom syntax -- This is where the W3C validator came into use
+    * valid RSS or Atom syntax -- This is where the W3C validation came into use
 
 
 One final caveat: although IFTTT can go search Spotify for a track found on the Hype Machine, it most likely won't find anything. The beauty of the Hype Machine is that the tracks that are trending are brand spanking new (and most of the ones I like are remixes).

@@ -36,7 +36,7 @@ My favorite component of the night was smelling (and in some cases tasting) the 
 
 ![Monica taking a nibble](monica-taking-a-pinch.jpg)
 
-One of my favorite spices, cinnamon, varies in three primary varieties aside from coming in whole or powdered form. The ceylon variety even [provides some health benefits](http://www.wsj.com/articles/SB10001424052702303376904579135502891970942) in addition to its
+One of my favorite spices, cinnamon, varies in three primary varieties aside from coming in whole or powdered form. The Ceylon variety even [provides some health benefits](http://www.wsj.com/articles/SB10001424052702303376904579135502891970942) in addition to its
 pleasant flavor I enjoy in a bowl of Greek yogurt with peanut butter, bananas, and blueberries.
 
 ![Nathan holding cinnamon](nathan-cinnamon.jpg)
