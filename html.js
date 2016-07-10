@@ -38,7 +38,7 @@ module.exports = React.createClass({
           <TypographyStyle />
           {cssLink}
         </head>
-        <body className="landing-page">
+        <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
           <script src={prefixLink('/bundle.js')} />
         </body>

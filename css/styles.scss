@@ -1,7 +1,10 @@
 // COLOR VARIABLES
 // Cool
-$aqua:  #01A1DD;
-$blue:  #0089BC;
+$cerulean:  #01A1DD;
+$bondi-blue:  #0089BC;
+$plum: #3E015D;
+$blue-gem: #1B0E8A;
+$mandy: #E7597D;
 // Gray Scale
 $white:  #FFF;
 $silver: #DDD;
@@ -14,15 +17,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $blue;
+  color: $bondi-blue;
 }
 
 a {
-  color: $aqua;
+  color: $cerulean;
   text-decoration: none;
   transition: all 0.2s ease;
   &:hover {
-    color: $blue;
+    color: $bondi-blue;
   }
 }
 
@@ -78,7 +81,7 @@ a {
   }
 
   a:hover {
-    border-bottom: 3px solid $blue;
+    border-bottom: 3px solid $bondi-blue;
   }
 
   img + em {
@@ -110,6 +113,39 @@ a {
 .page-link {
   font-weight: 700;
   font-size: 1.25em;
+}
+.landing {
+  &__cover {
+    background-color: $plum;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    object-fit: cover;
+    padding: 1em 1em 0 1em;
+    text-align: center;
+
+    h1 {
+      color: $white;
+      margin: .5em 0;
+    }
+
+    a {
+      color: $white;
+    }
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 1em;
+    }
+  }
 }
 
 .author {

@@ -10,9 +10,6 @@
     "deploy": "gatsby build && gh-pages -d public -b master",
     "publish": "node new_post.js"
   },
-  "engines": {
-    "node": "5.12.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pamo/pamo.github.io.git"

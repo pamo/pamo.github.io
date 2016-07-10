@@ -18,7 +18,7 @@ const Template = (props) => {
   ga('send', 'pageview');
 
   let header;
-  if (location.pathname === prefixLink('/') || location.pathname === prefixLink('/travel/')) {
+  if (location.pathname === prefixLink('/travel/')) {
     header = (
       <Container
         style={{
@@ -63,7 +63,7 @@ const Template = (props) => {
       </h1>
       </Container>
     );
-  } else {
+  } else if (location.pathname !== prefixLink('/')) {
     header = (
       <h3
         style={{
