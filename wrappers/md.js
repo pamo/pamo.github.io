@@ -58,7 +58,7 @@ const MarkdownWrapper = (props) => {
           { name: 'twitter:description', content: shortDescription },
           { name: 'twitter:image', content: firstImagePath },
         ]}
-        title={ post.title }
+        title={` ${config.blogTitle} :: ${post.title}` }
       />
       { header }
       <Container

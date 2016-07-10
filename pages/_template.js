@@ -6,6 +6,7 @@ import { rhythm, fontSizeToMS } from 'utils/typography';
 import { config } from 'config';
 import { Container } from 'react-responsive-grid';
 import ga from 'react-google-analytics';
+import { trim, capitalize } from 'lodash';
 
 import 'css/styles.scss';
 
@@ -16,9 +17,11 @@ const Template = (props) => {
   ga('create', config.googleAnalyticsId, 'auto');
   ga('require', 'linkid');
   ga('send', 'pageview');
-
   let header;
+  let documentTitle = config.blogTitle;
   if (location.pathname === prefixLink('/travel/')) {
+    documentTitle = `${documentTitle} :: ${capitalize(trim(location.pathname, '/'))}`;
+
     header = (
       <Container
         style={{
@@ -27,23 +30,6 @@ const Template = (props) => {
           margin: 'auto',
         }}
       >
-      <Helmet
-        meta={[
-          { property: 'og:url', content: config.blogUrl },
-          { property: 'og:type', content: 'blog' },
-          { property: 'og:title', content: config.blogTitle },
-          { property: 'og:site_name', content: config.blogTitle },
-          { property: 'og:image', content: fullImagePath },
-          { property: 'fb:admins', content: config.fbAdminsId },
-          { name: 'twitter:title', content: config.blogTitle },
-          { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:site', content: config.authorTwitter },
-          { name: 'twitter:creator', content: config.authorTwitter },
-          { name: 'twitter:description', content: `${config.authorTwitter} ${config.blogTitle}` },
-          { name: 'twitter:image', content: fullImagePath },
-        ]}
-        defaultTitle={ config.blogTitle }
-      />
       <h1
         style={{
           fontSize: fontSizeToMS(2.5).fontSize,
@@ -61,8 +47,7 @@ const Template = (props) => {
         {config.blogTitle}
       </Link>
       </h1>
-      </Container>
-    );
+      </Container>);
   } else if (location.pathname !== prefixLink('/')) {
     header = (
       <h3
@@ -80,17 +65,38 @@ const Template = (props) => {
         to={prefixLink('/')}
       >
       {config.blogTitle}
-    </Link>
-  </h3>
-    );
+      </Link>
+      </h3>);
   }
+
+  const helmet = (
+  <Helmet
+    meta={[
+        { property: 'og:url', content: config.blogUrl },
+        { property: 'og:type', content: 'blog' },
+        { property: 'og:title', content: config.blogTitle },
+        { property: 'og:site_name', content: config.blogTitle },
+        { property: 'og:image', content: fullImagePath },
+        { property: 'fb:admins', content: config.fbAdminsId },
+        { name: 'twitter:title', content: config.blogTitle },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: config.authorTwitter },
+        { name: 'twitter:creator', content: config.authorTwitter },
+        { name: 'twitter:description', content: `${config.authorTwitter} ${config.blogTitle}` },
+        { name: 'twitter:image', content: fullImagePath },
+    ]}
+    title={ documentTitle }
+    defaultTitle={ config.blogTitle }
+  />);
+
+
   return (
-    <div>
+      <div>
+      {helmet}
       {header}
       {children}
       <GaInitializer />
-    </div>
-  );
+      </div>);
 };
 
 Template.propTypes = {
