@@ -8,7 +8,9 @@
     "test": "snyk test",
     "start": "npm run lint && gatsby develop",
     "deploy": "gatsby build && gh-pages -d public -b master",
-    "publish": "node new_post.js"
+    "publish": "node new_post.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -49,7 +51,8 @@
     "react-router": "^2.0.1",
     "safe-access": "^0.1.0",
     "typography": "^0.10.6",
-    "underscore.string": "^3.2.3"
+    "underscore.string": "^3.2.3",
+    "snyk": "^1.17.0"
   },
   "devDependencies": {
     "eslint": "^3.0.1",
@@ -60,7 +63,7 @@
     "glob": "^7.0.3",
     "js-yaml": "^3.5.4",
     "mkdirp": "^0.5.1",
-    "prompt": "^1.0.0",
-    "snyk": "^1.16.0"
-  }
+    "prompt": "^1.0.0"
+  },
+  "snyk": true
 }
