@@ -56,6 +56,7 @@ const TravelIndex = (props) => {
         margin: 'auto',
       }}
     >
+    <p>A list of places I've been to and the notes I've taken about them.</p>
     {countrySections}
     </Container>
   );
