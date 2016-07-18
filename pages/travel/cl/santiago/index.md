@@ -25,6 +25,7 @@ layout: travel
 
 * It's very easy to obtain a mobile SIM here, but to recharge online, you need a Chilean RUT (similar to Social Security Number).
 It's possible to recharge at a grocery store or drug store, but you'll most likely need cash.
+
 ### Other Quirks
 
 ## Food
@@ -41,7 +42,7 @@ This can be frustrating for someone that loves spices but I respect the mentalit
 ## Shopping
 
 ## Activities
-* Rock Climbing - I haven't done outdoor climbing here but there are a few options for indoor that I would recommend.
+* Rock Climbing: I haven't done outdoor climbing here but there are a few options for indoor that I would recommend.
   * [El Muro](http://www.gimnasioelmuro.cl/): Great for rope and bouldering. The roped routes are not updated often, but lead climbing opens up more options for mixing things up a bit.
   * [Casa Boulder](http://www.casaboulder.cl/): Bouldering only. Can get really crowded but is in a nice neighborhood (Barrio Italia) with tons of options for food and exploring before and after.
   * [Zenit Climbing](http://zenitclimbing.cl/): Las Condes' best kept secret? This place is practically empty every time I go. Bouldering only. In Parque Araucano and next to Mall Parque Arauco.
