@@ -3,6 +3,7 @@ title: Santiago
 layout: travel
 ---
 ## Way of Life
+
 * Length of Stay:
   * 2 weeks in November 2015
   * 3 months in May - August 2016
@@ -12,12 +13,26 @@ layout: travel
   * Autumn and winter
 
 * Reason:
-  * Conference speaking
-  * Work
+  * Conference speaking: Spoke at [LAtINiTY](http://www.latinity.info/) in the [Industry Track](http://www.latinity.info/program/#industry-track) about CSS.
+  * Work: [ThoughtWorks Chile](https://www.thoughtworks.com/contact-us)!
 
 ### Local Transportation
 
+Getting around is relatively simple.
+
+* The first thing I recommend is buying a [Tarjeta Bip!](http://www.tarjetabip.cl/que-es-tarjeta-bip.php) and loading it with cash.
+In my experience, it's possible to load it online with a MasterCard debit card on the [Metro de Santiago](www.metro.cl/guia-viajero/carga-tu-tarjeta-bip) site.
+  * The Santiago Metro and Bus system can get extremely crowded during the hours of 8-9am and 6-8pm. I would avoid it at all costs.
+  * When you're waiting for a bus, make sure you hail it as you would a cab at the stop. The drivers don't stop at every stop.
+  * Same thing goes for getting off, make sure you know what stop you need and request the driver stop (via button) when you're approaching it.
+* Uber Chile is available and reasonably priced.
+* Cabify is an Uber competitor and also reasonably priced.
+* EasyTaxi is also used a lot but I don't have much experience with it.
+
 ### Money
+
+* I rarely need to carry cash here unless I need to recharge my mobile phone and Bip!
+* If you have Apple or Google Pay set up on your phone, it's possible to use it at many establishments (and blow people's minds).
 
 ### Accommodation
 
