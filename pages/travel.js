@@ -11,6 +11,7 @@ import { rhythm } from 'utils/typography';
 import access from 'safe-access';
 import { Container } from 'react-responsive-grid';
 import { CountryNames } from './travel/_countryNames';
+import 'css/travel.scss';
 
 const TravelIndex = (props) => {
   const countries = {};
@@ -56,7 +57,8 @@ const TravelIndex = (props) => {
         margin: 'auto',
       }}
     >
-    <p>A list of places I've been to and the notes I've taken about them.</p>
+    <p>A collection of Hackpad-esque guides to the cities
+    I've had the opportunity to live in and visit.</p>
     {countrySections}
     </Container>
   );

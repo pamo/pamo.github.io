@@ -12,6 +12,7 @@ import Cover from 'components/Cover';
 import { Container } from 'react-responsive-grid';
 
 import 'css/zenburn.css';
+import 'css/markdown.scss';
 
 const MarkdownWrapper = (props) => {
   const { route } = props;

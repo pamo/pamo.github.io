@@ -1,0 +1,20 @@
+@import 'colors';
+
+body {
+  color: $black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $bondi-blue;
+}
+
+a {
+  color: $cerulean;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $bondi-blue;
+  }
+}
+
+

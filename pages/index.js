@@ -4,6 +4,7 @@ import { config } from 'config';
 import SocialNetworks from 'components/SocialNetworks';
 import Navigation from 'components/Navigation';
 import ProfileImage from 'components/ProfileImage';
+import 'css/landing.scss';
 
 const SiteIndex = () => (
     <div className="landing">

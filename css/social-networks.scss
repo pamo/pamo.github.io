@@ -1,0 +1,21 @@
+.social-networks {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__icon {
+    transform: translateZ(1);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    flex-basis: 20%;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+
