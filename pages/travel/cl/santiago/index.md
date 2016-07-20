@@ -28,6 +28,7 @@ In my experience, it's possible to load it online with a MasterCard debit card o
 * Uber Chile is available and reasonably priced.
 * Cabify is an Uber competitor and also reasonably priced.
 * EasyTaxi is also used a lot but I don't have much experience with it.
+* To get from the airport to wherever you're staying, I'd recommend [making a TransVip](http://vipclass15.transvip.cl/tarifas.php) reservation ahead of time.
 
 ### Money
 
@@ -47,7 +48,8 @@ It's possible to recharge at a grocery store or drug store, but you'll most like
 * Avocados. Avocados everywhere. Don't try calling it aguacate though. It's called palta here.
 * Diet foods first. Establishments prominently put the "healthy" alternative to products before their sugary counterparts.
 You can find warning stickers for high calories, fats, sodium, etc. on packaging (similar to tobacco warnings).
-* Bread is a prominent component of all meals but not great in my opinion. To order anything that comes between two buns without bread, you can order it _"al plato."_
+* Bread is a prominent component of all meals, but not great in my opinion. Unless it's marraqueta. [Marraqueta](http://www.npr.org/sections/thesalt/2016/07/07/484987260/in-chile-marraqueta-is-the-bread-of-life) is delicious.
+  * To order anything that comes between two buns without bread, you can order it _"al plato."_
 * There is a lack of use of condiments and spices. Sometimes you have to ask to have salt and pepper brought to your table.
 This can be frustrating for someone that loves spices but I respect the mentality to
 <a href="https://getpocket.com/a/read/1318626246">respect produce and foods in their simplest forms as possible</a>.
