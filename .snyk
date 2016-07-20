@@ -1,3 +1,46 @@
-version: v1.5.0
-ignore: {}
-patch: {}
+version: v1.5.2
+ignore:
+  'npm:hapi:20151020':
+    - gatsby > hapi:
+        reason: None given
+        expires: '2016-08-18T21:32:43.750Z'
+  'npm:hapi:20151223':
+    - gatsby > hapi:
+        reason: None given
+        expires: '2016-08-18T21:32:43.750Z'
+  'npm:hapi:20151228':
+    - gatsby > hapi:
+        reason: None given
+        expires: '2016-08-18T21:32:43.750Z'
+  'npm:hawk:20160119':
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > hawk:
+        reason: None given
+        expires: '2016-08-18T21:32:43.751Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk:
+        reason: None given
+        expires: '2016-08-18T21:32:43.751Z'
+patch:
+  'npm:call:20160705':
+    - gatsby > hapi > call:
+        patched: '2016-07-19T21:30:24.767Z'
+  'npm:minimatch:20160620':
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > rimraf > glob > minimatch:
+        patched: '2016-07-19T21:30:24.767Z'
+  'npm:moment:20160126':
+    - gatsby > hapi > statehood > joi > moment:
+        patched: '2016-07-19T21:30:24.767Z'
+    - gatsby > hapi > vision > joi > moment:
+        patched: '2016-07-19T21:30:24.767Z'
+    - gatsby > hapi > h2o2 > joi > moment:
+        patched: '2016-07-19T21:30:24.767Z'
+    - gatsby > hapi > catbox > joi > moment:
+        patched: '2016-07-19T21:30:24.767Z'
+    - gatsby > hapi > joi > moment:
+        patched: '2016-07-19T21:30:24.767Z'
+    - gatsby > hapi > inert > joi > moment:
+        patched: '2016-07-19T21:30:24.767Z'
+  'npm:request:20160119':
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request:
+        patched: '2016-07-19T21:30:24.767Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request:
+        patched: '2016-07-19T21:30:24.767Z'
