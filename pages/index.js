@@ -11,9 +11,6 @@ const SiteIndex = () => (
     <div className="landing__cover">
       <ProfileImage src="pam-brewing.jpg"
         style={{
-          border: '.25em solid',
-          borderColor: '#01A1DD',
-          borderRadius: '50%',
           margin: '0 auto',
           maxWidth: '200px',
           maxHeight: '200px',

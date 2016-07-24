@@ -69,13 +69,14 @@
       margin-bottom: 0.5em;
     }
   }
-  .author {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    &__intro {
-      margin: 0 .5em;
-    }
-}}
+}
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &__intro {
+    margin: 0 .8em;
+  }
+}
 
 
