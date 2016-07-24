@@ -73,7 +73,7 @@ const MarkdownWrapper = (props) => {
         {readNextPost}
         <hr />
         <div className="author">
-          <ProfileImage src="/pam-small.jpg" />
+          <ProfileImage />
           <div className="author__intro">When not crafting an
             artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee,
             riding a bike, climbing fake rocks, lifting heavy things, and, in general, wandering

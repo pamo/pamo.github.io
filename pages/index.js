@@ -9,7 +9,7 @@ import 'css/landing.scss';
 const SiteIndex = () => (
     <div className="landing">
     <div className="landing__cover">
-      <ProfileImage src="pam-brewing.jpg"
+      <ProfileImage
         style={{
           margin: '0 auto',
           maxWidth: '200px',
