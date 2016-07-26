@@ -25,7 +25,7 @@ getting to Puerto Natales (in Santiago, for example).
 ### Accommodation
 
 Off season accommodation options are very limited. I stayed within close range to the
-main park entrance at Hostería Lago Tyndall. We booked a small cabin equipped with a basic
+main park entrance at [Hostería Lago Tyndall](http://4sq.com/2aezWv5). We booked a small cabin equipped with a basic
 kitchen and cooked our own food. The hot water in our cabin was non-existent at night :unamused:
 
 ### Internet & Mobile
