@@ -1,14 +1,16 @@
 ---
 title: Raleigh
 layout: travel
+draft: true
 ---
 ## Way of Life
-* Length of Stay:
-* Season:
-* Reason:
+* Length of Stay: 6 years
+* Season: Year-round minus summertime (out-of-state internships).
+* Reason: Went to school at North Carolina State University for Computer Science.
+
 ### Local Transportation
 ### Money
-### Accomodation
+### Accommodation
 ### Internet & Mobile
 ### Other Quirks
 ## Food

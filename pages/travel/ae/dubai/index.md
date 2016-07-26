@@ -1,6 +1,7 @@
 ---
 title: Dubai
 layout: travel
+draft: true
 ---
 ## Way of Life
 

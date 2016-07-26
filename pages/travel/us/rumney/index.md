@@ -1,17 +1,19 @@
 ---
-title: Rumney
+title: Mt. Rumney
 layout: travel
+draft: true
 ---
 ## Way of Life
-* Length of Stay:
-* Season:
-* Reason:
+
+* Length of Stay: Day
+* Season: Spring
+* Reason: Rock climbing
+
 ### Local Transportation
-### Money
-### Accomodation
+
+Carpool to the crag!
+
 ### Internet & Mobile
-### Other Quirks
 ## Food
 ## Coffee
-## Shopping
 ## Activities

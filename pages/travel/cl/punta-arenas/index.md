@@ -1,6 +1,7 @@
 ---
 title: Punta Arenas
 layout: travel
+draft: true
 ---
 
 ## Way of Life

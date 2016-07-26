@@ -1,6 +1,7 @@
 ---
 title: Puerto Natales
 layout: travel
+draft: true
 ---
 
 ## Way of Life

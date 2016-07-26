@@ -1,6 +1,7 @@
 ---
 title: Melbourne
 layout: travel
+draft: true
 ---
 ## Way of Life
 * Length of Stay:
