@@ -1,6 +1,7 @@
 ---
 title: Buenos Aires
 layout: travel
+draft: true
 ---
 ## Way of Life
 * Length of Stay:

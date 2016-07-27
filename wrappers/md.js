@@ -12,6 +12,7 @@ import Cover from 'components/Cover';
 import { Container } from 'react-responsive-grid';
 
 import 'css/zenburn.css';
+import 'css/markdown.scss';
 
 const MarkdownWrapper = (props) => {
   const { route } = props;
@@ -42,7 +43,7 @@ const MarkdownWrapper = (props) => {
   }
 
   return (
-    <div className="markdown" >
+    <div>
       <Helmet
         meta={[
           { property: 'og:url', content: pageUrl },
@@ -68,21 +69,17 @@ const MarkdownWrapper = (props) => {
           margin: 'auto',
         }}
       >
-        <div dangerouslySetInnerHTML={{ __html: post.body }} />
+        <div className="markdown" dangerouslySetInnerHTML={{ __html: post.body }} />
         {readNextPost}
         <hr />
         <div className="author">
-          <ProfileImage src="/pam-small.jpg" />
+          <ProfileImage />
           <div className="author__intro">When not crafting an
             artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee,
             riding a bike, climbing fake rocks, lifting heavy things, and, in general, wandering
             around San Francisco.</div>
         </div>
-        <SocialNetworks style={{
-          display: 'block',
-          textAlign: 'center',
-        }}
-        />
+        <SocialNetworks />
       </Container>
     </div>
   );

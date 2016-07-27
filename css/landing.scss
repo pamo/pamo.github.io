@@ -1,0 +1,35 @@
+@import 'colors';
+
+.landing {
+  &__cover {
+    background-color: $plum;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    object-fit: cover;
+    padding: 1em 1em 0 1em;
+    text-align: center;
+
+    h1 {
+      color: $white;
+      margin: .5em 0;
+    }
+
+    a {
+      color: $white;
+    }
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 1em;
+    }
+  }
+}

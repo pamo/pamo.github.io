@@ -1,6 +1,7 @@
 ---
 title: London
 layout: travel
+draft: true
 ---
 ## Way of Life
 * Length of Stay:
@@ -8,7 +9,7 @@ layout: travel
 * Reason:
 ### Local Transportation
 ### Money
-### Accomodation
+### Accommodation
 ### Internet & Mobile
 ### Other Quirks
 ## Food

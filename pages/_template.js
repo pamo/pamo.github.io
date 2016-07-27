@@ -8,7 +8,7 @@ import { Container } from 'react-responsive-grid';
 import ga from 'react-google-analytics';
 import { trim, capitalize } from 'lodash';
 
-import 'css/styles.scss';
+import 'css/base.scss';
 
 const Template = (props) => {
   const { location, children } = props;

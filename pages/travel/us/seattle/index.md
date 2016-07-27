@@ -1,14 +1,15 @@
 ---
 title: Seattle
 layout: travel
+draft: true
 ---
 ## Way of Life
-* Length of Stay:
-* Season:
-* Reason:
+* Length of Stay: About a month. February 201?
+* Season: Winter
+* Reason: Work
 ### Local Transportation
 ### Money
-### Accomodation
+### Accommodation
 ### Internet & Mobile
 ### Other Quirks
 ## Food
