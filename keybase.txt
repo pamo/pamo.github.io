@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/pamo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://likescoffee.com
+  * I am pamo (https://keybase.io/pamo) on keybase.
+  * I have a public key with fingerprint 10FA 0C3B 3174 7EF5 27F7  2AB8 B97D C3E4 B12C BB74
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.22"
+        },
+        "key": {
+            "eldest_kid": "010121135649d015317b17415d79a7de1d2c12a78ea0237abf512aecbb5f59a331fc0a",
+            "fingerprint": "10fa0c3b31747ef527f72ab8b97dc3e4b12cbb74",
+            "host": "keybase.io",
+            "key_id": "b97dc3e4b12cbb74",
+            "kid": "010121135649d015317b17415d79a7de1d2c12a78ea0237abf512aecbb5f59a331fc0a",
+            "uid": "b0da8734d2e953d244dc401b6eca3b00",
+            "username": "pamo"
+        },
+        "service": {
+            "hostname": "likescoffee.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1444637117,
+    "expire_in": 157680000,
+    "prev": "c516f6ad79ac9a664e203774b42802f929c36d56fa279712ae3d21ce81b679c6",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUl1IVEEY3d3UMojWyCyLiFsvybbeuX9z71JJRi+RiURW9LPMzJ2rt133rru3
+NRWTULMiyygqIvp7SHoIrKgokkwhgyLsxxKDoqAoMk2kiJBqpuwh6LF5mpnvfOc7
+58y0Tpng8Xm/5x9Mm1bonem99x57SmfbHbUCdsxqIVQrkKhNYy7fxVAFFUJChFZj
+lKRB25kXc0wa3JqcN44JCCmaSNpOjKHEoB6UJKEuwPG8m0ZNmnTDEdvkVSACCQBZ
+1RTDFIEqA4gBVIBqQgNBkwJTIkBCUKdIlGSIsKWyIyUYq5ZqIFkGFhERG2jZsTKa
+iCdsLlEAooVEImNGp0BqqRK0oISwjg1oEpkqGEiMAiqssdxJun+ZEX4pDf+S9w/8
+f9a97fcc0UQ6lBVTooYqm5KimEQRAdYoQTIWRQ5M0sR48HFU4fBA2U3KJpSHyl2M
+V6N2hCaJY1mUBolTwVrjCcd1iBNlxXLXjYd4r1sd5+AqisPjNGFsx0yW4p/XO8Kf
+DzAocW1ODBRF0WQIAAwIdHvcTtCwzREq1HSRLT6HphgnUYFmaYgnQQykaQqVRBlC
+BSuSLkqWIRlE1kxVs5AEDchjYY4BoTrzCw2iCdxZZcwRQjrTicoYZdIuiyF3W4IK
+dXu8c9I8Xp8nI93H/6dncqb/z6cdGJ34I3JsY2CkaexJccuB6LnO8tevSnI/ZN+p
+H95VOSPz1oWh+NO84qmC0Ni4IpVeWrCuKbM/5bvZmt+xKX8gXpQxH3auOVm05Nzc
+/mx//d70y9PTfkxc2nt3dUdW+fvu0ID3Wfbz3qO71wwV19z2nxeHS66eKtqJL371
+dzdPWt8GZhak3rS8u7RwrNYfvF87vGtxZLDg04Y7gYZHD3pG1X0nll+vuTHZt2pZ
+c9uhvEXHF5T4B/Xp61Z8yd/S1XZ29lp6MtRnPcwL9bTPulaY9fij/9CRl/ObHnS9
+/HZqpC833LXyxf69Hzb3NLTVF+fsyBIK2zdnHFbacz6ffqs2R0sX36oqOlNTl37l
+Jw==
+=ewbI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pamo
