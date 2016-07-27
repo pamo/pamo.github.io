@@ -16,6 +16,7 @@ const ProfileImage = (props) => {
     borderRadius: '50%',
     maxWidth: '80px',
     maxHeight: '80px',
+    flexShrink: '0',
   }, style);
 
   const photoSource = src || sample(photosSources);
