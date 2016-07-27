@@ -1,3 +1,5 @@
+import postBuild from './post-build';
+
 exports.modifyWebpackConfig = (config) => {
   const resolveConfig = config.resolve();
   resolveConfig.alias = {
@@ -9,3 +11,5 @@ exports.modifyWebpackConfig = (config) => {
 
   return config;
 };
+
+exports.postBuild = postBuild;
