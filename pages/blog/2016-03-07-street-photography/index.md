@@ -15,7 +15,7 @@ I've always been a timid photographer, but love to capture others in their day t
 Being "caught" as one might say by the person being photographed is my biggest fear as it would
 change the person's behavior into something less natural, and, to me, less interesting.
 
-![Glide](./glide.jpg)
+~[Glide](./glide.jpg)
 
 Skill-sharing, workshops, photo walks, etc. in San Francisco are abundant and I feel lucky to have
 be able to learn from others. I joined [David Coleman](http://www.eventbrite.com/o/david-coleman-photography-7965502924) and a few others on a 3 hour street photography workshop
@@ -23,17 +23,17 @@ where I came away with a few tidbits of information that I hope to incorporate i
 
 The workshop was balanced between technical and intentional techniques that one can do to aid in venturing out in to the streets. The murals in the Mission District's Balmy Alley was our playground for the morning.
 
-![balmy alley](./balmy.jpg)
+~[Balmy Alley](./balmy.jpg)
 
 One of the biggest takeaways I got from the session was not technical in nature: capture a streetscape with the intent of composing a narrative with images.
 
 
-![selfie in the alley](./selfie.jpg)
+~[Selfie in the alley.](./selfie.jpg)
 
 David further instructed us on focusing to capture a "thematic body of work" through a series of images rather than just one perfect shot.
 More importantly, the complete narrative is 90% story and technical aspects only really play a part in the 10%. We learned a lot about capturing gestures and how a gesture can create a landscape for a story.
 
-![Estoy con la Banda](./mariachi.jpg)
+~[Estoy con la banda.](./mariachi.jpg)
 
 David also gave us a few tips for staying low profile in public.
 The most unique of them all was covering the logos and any flashy brand inscriptions on the camera with black electrical tape! Other tips to note were dressing in cool tones and muted colors to call less attention to yourself and reducing the amount of swing needed to bring the viewfinder up to your eyes to take a shot.
@@ -48,11 +48,11 @@ On the technical side of things, we were recommended to
 
 Another concept I had never heard of was "[zone-focusing](http://inmybag.net/learn-to-zone-focus/)" wherein one gauges the distance between the lens and potential subjects and adjusts focus manually and leave set and ready for someone or something to step into the "kill zone". A good zone is usually optically 1/3 of the way between you and a wall. This is to avoid wasting time allowing the camera auto-focusing given that your depth of field within the space is predictable.
 
-![BART](./bart.jpg)
+~[BART](./bart.jpg)
 
 During the remainder of the session we walked around taking shots and incorporating these things in mind and then reconvened at [Gracias Madre](http://4sq.com/8KFzOk) for vegan Mexican food. The pozole rojo was as delicious and reminiscent of what I would enjoy with my family.
 
-![pozole rojo at gracias madre](./pozole.jpg)
+~[Pozole rojo at Gracias Madre](./pozole.jpg)
 
 Some other nuggets of knowledge were
 * Ask for forgiveness rather than for permission when taking someone's photo. Asking first changes behavior.

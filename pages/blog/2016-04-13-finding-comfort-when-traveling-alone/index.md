@@ -27,21 +27,18 @@ I am very thankful for the leaders of the trip, Ollie and Jayden, for letting me
 
 This trip was an opportunity to "get out of the city into nature" as I normally would at home on the weekends. I was also in joy to be around other amazing women. Beta is just not the same when a guy is giving it :P.
 
-![getting ready](getting-ready.jpg)
-_Tying in for the first climb_
+~[Tying in for the first climb.](getting-ready.jpg)
 
 I've been asked why I like climbing by friends that don't climb. There's definitely an enjoyment in being in the context of hardship with the challenge of getting up the wall.
 The intensity is just enough to shut other thoughts and troubles out of my mind. As much as I like the stretching I get from yoga, it does nothing to slow my mind down.
 I also really like the opportunity to get to know others along the way when it comes to driving and hiking to the crag, tying in, and breaks between climbs.
 
-![climbing the back wall](climbing.jpg)
-_Lots of routes to choose from at the Back Wall of Camel's Hump_
+~[Lots of routes to choose from at the Back Wall of Camel's Hump.](climbing.jpg)
 
 The backgrounds of the group of climbers on this trip was very different from what I'm used to back home.
 For once, I was the only one in tech and was surrounded by a pilot, doctor, and an environmentalist with a common goal: to get outside and grease the climbing groove.
 
-![belaying](belaying.jpg)
-_Crag full of climbers_
+~[Crag full of climbers.](belaying.jpg)
 
 The Back Wall at Camel's Hump was very forgiving. The rating scale in Australia is linear from 7-39 where as in the US it starts from "5.1" to "5.15a". A [conversion chart](http://www.rockclimbing.com/Articles/Introduction_to_Climbing/Difficulty_Grades_and_Conversions_529.html) at
 [Hardrock Climbing](https://foursquare.com/v/hardrock-indoor-rock-climbing/4b058755f964a520f88c22e3) showed I should be able to do a 21 on Australian standards
@@ -49,15 +46,13 @@ but I struggled to do anything over 18 on their walls.
 
 What a pleasant surprise I had when the first route, a 14, I jumped on at the crag felt like a breeze. I later went on to do a couple of 15s and eventually a 16 without a problem. :raised_hands:
 
-![topping out](topping-out.jpg)
-_Cheesin' at the top_
+~[Cheesin' at the top](topping-out.jpg)
 
 I was terrified to go climbing with strangers as we hiked to the base of the rock and even more to get there and not be able to climb a thing, but as we drove back to Melbourne, I felt a wave of happiness to have met some
 friendly climbers on the other side of the world.
 
-![igor](igor.jpg)
+~[Igor](igor.jpg)
 
-![chilling and watching](chilling-watching.jpg)
-_Breaks between climbs_
+~[Breaks between climbs were moments to sit and watch.](chilling-watching.jpg)
 
 _Thanks to Ollie for the photos of me!_

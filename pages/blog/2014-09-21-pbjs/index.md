@@ -6,7 +6,7 @@ coverPhoto: ""
 path: "/pbjs/"
 ---
 
-![Java -- The Future](./signage.jpg)
+~[Java -- The Future](./signage.jpg)
 
 The [Manning Powered by Javascript](http://www.manning.com/poweredbyjavascript/) workshop was a mini conference of the current state of Javascript.
 By the end of the day, it was clear:

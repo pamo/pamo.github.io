@@ -22,8 +22,7 @@ Deployment from a local machine is easy as well. Your Github account should alre
 
 However, when you want a suite of testing and linting to happen beforehand on a CI pipeline, there's some additional configuration that needs to happen.
 
-![failed deploy](failed-deploy.png)
-_Wait for it..._
+~[Wait for it...Failed deploy](failed-deploy.png)
 
 ```shell
 > Fireideaz@0.0.1 deploy /var/snap-ci/repo

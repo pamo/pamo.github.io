@@ -20,7 +20,7 @@ Side note: eggs aren't refrigerated either and they don't need to be. The reason
 
 What I did find were abundant options of [UHT or long shelf-life](https://en.wikipedia.org/wiki/Ultra-high-temperature_processing) and powdered milk, but the question of ¿Dónde está la leche? remained.
 
-![Milk Shelves](./milk-shelves.jpg)
+~[Milk Shelves](./milk-shelves.jpg)
 _Lotsa leche in little boxes_
 
 Turns out, according to a barista I spoke to at [Taste](https://www.facebook.com/Taste_cl-363572603802678/), the distance between Santiago and dairy farms is too far for distributors to guarantee that they can keep milk properly refrigerated.
@@ -29,7 +29,7 @@ from ordering anything other than filter/pour-over.  :coffee:
 
 Over the weekend, I found that [Colmado Cafe](https://www.facebook.com/ColmadoCoffee/) sells natural, house-made, full-fat yogurt when I saw a liter jar of it in their cheese display case. :raised_hands:
 
-![Yogurt spotting](./yogurt-spotting.jpg)
+~[Yogurt spotting](./yogurt-spotting.jpg)
 _Could it be? Natural yogurt in the wild!_
 
 I knew it would be a gamble, but I asked if it happened to be Greek style. The response I got from the barista made me laugh. :joy:

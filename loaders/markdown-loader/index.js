@@ -4,6 +4,7 @@ import emoji from 'markdown-it-emoji';
 import instagramEmbed from './embed';
 import hljs from 'highlight.js';
 import objectAssign from 'object-assign';
+import mdFigCaption from 'mdfigcaption';
 
 const highlight = (str, lang) => {
   if ((lang !== null) && hljs.getLanguage(lang)) {
@@ -26,10 +27,12 @@ const md = markdownIt({
   linkify: true,
   typographer: true,
   highlight,
-}).use(emoji).use(instagramEmbed);
+})
+  .use(mdFigCaption)
+  .use(emoji)
+  .use(instagramEmbed);
 
-
-module.exports = function (content) {
+module.exports = function(content) {
   this.cacheable();
   const meta = frontMatter(content);
   const body = md.render(meta.body);

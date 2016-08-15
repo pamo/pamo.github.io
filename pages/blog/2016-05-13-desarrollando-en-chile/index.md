@@ -25,8 +25,7 @@ I attribute part of the change in waking up to making the decision to workout in
 
 To top it off, Santiago's Daylight Savings Time will end this weekend and clocks will fall back an hour. :zzz: :sleepy:
 
-![mountains topped with snow](./snow-mountains.jpg)
-_Winter is literally coming._
+~[Mountains topped with snow. Winter is literally coming.](./snow-mountains.jpg)
 
 ## Techccionario
 
