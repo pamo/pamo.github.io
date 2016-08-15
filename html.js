@@ -1,7 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { prefixLink } from 'gatsby-helpers';
-const TypographyStyle = require('utils/typography').TypographyStyle;
+import { TypographyStyle, GoogleFont } from 'react-typography';
+import typography from 'utils/typography';
 
 module.exports = React.createClass({
   displayName: 'HTML',
@@ -35,7 +36,8 @@ module.exports = React.createClass({
           { head.meta.toComponent() }
           { head.title.toComponent() }
           <link rel="shortcut icon" href={ favicon } />
-          <TypographyStyle />
+          <TypographyStyle typography={typography} />
+          <GoogleFont typography={typography} />
           {cssLink}
         </head>
         <body>

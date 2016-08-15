@@ -49,12 +49,16 @@
     "react-icons": "2.0.1",
     "react-responsive-grid": "^0.3.3",
     "react-router": "^2.0.1",
+    "react-typography": "^0.12.0",
     "safe-access": "^0.1.0",
     "snyk": "^1.17.1",
-    "typography": "^0.7.0",
+    "typography": "^0.12.4",
+    "typography-theme-fairy-gates": "^0.12.0",
+    "typography-theme-grand-view": "^0.12.0",
     "underscore.string": "^3.2.3"
   },
   "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.1.4",
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
     "eslint-plugin-react": "^4.2.1",
