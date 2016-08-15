@@ -6,10 +6,9 @@
     color: $white;
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 85vh;
     justify-content: center;
     object-fit: cover;
-    padding: 1em 1em 0 1em;
     text-align: center;
 
     h1 {
@@ -28,7 +27,7 @@
     display: flex;
     justify-content: center;
     li {
-      margin: 1em;
+      margin-right: 1em;
     }
   }
 }
