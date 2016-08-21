@@ -1,7 +1,6 @@
 ---
 title: Santiago
 layout: travel
-draft: true
 ---
 ## Way of Life
 
@@ -62,22 +61,22 @@ This can be frustrating for someone that loves spices but I respect the mentalit
 
 These are memorable restaurants and ones I visited on many occasions.
 
-* Baco: consistently delicious. Long wine list. On different occasions I've had the seared duck breast,
+* [Baco](https://foursquare.com/v/baco/4b66d99ef964a520532d2be3): consistently delicious. Long wine list. On different occasions I've had the seared duck breast,
 beef medallion, smoked salmon salad, roast beef platter, octopus, and creme brulee. They were all great.
-* Gaon: Korean food in Las Condes. I would recommend the dark chicken spicy soup, kimchee jjigae, bulgogi, galbi zzim.
-* Polen: Solo vegan weekend brunch.
-* Soler: MASSIVE pork loin sandwiches. Simple ingredients. My lunch usual is lomo tomate-palta with ají verde or chucrut (sauerkraut) al plato.
+* [Gaon](https://foursquare.com/v/gaon/4b7f1472f964a520fa1430e3): Korean food in Las Condes. I would recommend the dark chicken spicy soup, kimchee jjigae, bulgogi, galbi zzim.
+* [Polen](https://foursquare.com/v/polen-jugos-y-sopas/574f2741498e6d977ed5a1ff): Solo vegan weekend brunch was a treat. Owners inspired by a visit to LA and SF.
+* [Soler](https://foursquare.com/v/soler-curic%C3%B3/546fe71b498e94529d2eedc7): MASSIVE pork loin sandwiches. Simple ingredients. My lunch usual is lomo tomate-palta with ají verde or chucrut (sauerkraut) al plato.
 
 ## Coffee
 
-* Café Diario: Consistently great on both drinks and service. My morning usual on my way to work. Super cute shop and practically standing room only. Closed weekends.
+* [Café Diario](https://foursquare.com/v/caf%C3%A9-diario/53f34a50498efa18a806cc6a): Consistently great on both drinks and service. My morning usual on my way to work. Super cute shop and practically standing room only. Closed weekends.
 * Taste: Super close to work and home for me. I think it's funny this is next door to a Starbucks. They really highlight the _essence_ of specialty coffee.
 I'd skip the siphon and get a Chemex if you're going to stay for a while. The cappuccino here can be a hit or miss depending on the barista. Would have love to have been able to hang out here with my laptop on a rainy weekend but they're closed.
-* Cafetín: The roaster that supplies the beans here is located in Algarobbo along the coast. The Brazilian I had prepared in a Chemex was _fantastic_. Wish this had this been closer to home and work.
-* Milk: Wish this were closer to work! Sometimes has guest roasters but most of the time gets coffee from Cafe Altura. Made friends with a barista, Criss (say hi to him for me), that showed me other parts of Santiago. :heart: Busy, busy in the mornings. Standing room only. Closed weekends.
-* Café Altura: coffee cart in Mercado La Vega. Cash only. Espresso is fantastic.
-* Good Café: Found inside Mall Espacio M. The baristas here are very keen on reaching perfection. Cash only.
-* Café Triciclo: Coffee trike now permanently stationed in Barrio Italia. Had a Chemex and was not disappointed. Live music Saturday nights and an invited guest barista. Cash only.
+* [Cafetín](https://foursquare.com/v/cafet%C3%ADn/56b8f7a6498e9132fca6ff2d): The roaster that supplies the beans here is located in Algarobbo along the coast. The Brazilian I had prepared in a Chemex was _fantastic_. Wish this had this been closer to home and work.
+* [Milk](https://foursquare.com/v/milk/550869c1498e38ca7ea7902c): Wish this were closer to work! Sometimes has guest roasters but most of the time gets coffee from Cafe Altura. Made friends with a barista, Criss (say hi to him for me), that showed me other parts of Santiago. :heart: Busy, busy in the mornings. Standing room only. Closed weekends.
+* [Café Altura](https://foursquare.com/v/caf%C3%A9-altura/54158743498e196e2fe08deb): coffee cart in Mercado La Vega. Cash only. Espresso is fantastic. Recommend grabbing a cup and wandering around the market.
+* [Good Café](https://foursquare.com/v/good-caf%C3%A9/56390036cd10f9db716d6aee): Found inside Mall Espacio M. The baristas here are very keen on reaching perfection. Cash only.
+* [Café Triciclo](https://foursquare.com/v/caf%C3%A9-triciclo/52debeff498ed47162b409bf): Coffee trike now permanently stationed in Barrio Italia. Had a Chemex and was not disappointed. Live music Saturday nights and an invited guest barista. Cash only and open on weekends.
 
 ## Shopping
 

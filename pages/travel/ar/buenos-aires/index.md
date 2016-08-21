@@ -1,7 +1,6 @@
 ---
 title: Buenos Aires
 layout: travel
-draft: true
 ---
 ## Way of Life
 * Length of Stay: 3 days - June 2016
