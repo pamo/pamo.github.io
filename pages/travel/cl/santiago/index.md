@@ -1,6 +1,7 @@
 ---
 title: Santiago
 layout: travel
+draft: true
 ---
 ## Way of Life
 
@@ -37,6 +38,9 @@ In my experience, it's possible to load it online with a MasterCard debit card o
 
 ### Accommodation
 
+Living and working in Las Condes was convenient. I had housing taken care of for me while I was there for work.
+However, I would recommend finding an Airbnb in Providencia, Barrio Italia, Lastarría, or Bella Vista if you're visiting.
+
 ### Internet & Mobile
 
 * It's very easy to obtain a mobile SIM here, but to recharge online, you need a Chilean RUT (similar to Social Security Number).
@@ -54,7 +58,26 @@ You can find warning stickers for high calories, fats, sodium, etc. on packaging
 This can be frustrating for someone that loves spices but I respect the mentality to
 <a href="https://getpocket.com/a/read/1318626246">respect produce and foods in their simplest forms as possible</a>.
 
+### Restaurants
+
+These are memorable restaurants and ones I visited on many occasions.
+
+* Baco: consistently delicious. Long wine list. On different occasions I've had the seared duck breast,
+beef medallion, smoked salmon salad, roast beef platter, octopus, and creme brulee. They were all great.
+* Gaon: Korean food in Las Condes. I would recommend the dark chicken spicy soup, kimchee jjigae, bulgogi, galbi zzim.
+* Polen: Solo vegan weekend brunch.
+* Soler: MASSIVE pork loin sandwiches. Simple ingredients. My lunch usual is lomo tomate-palta with ají verde or chucrut (sauerkraut) al plato.
+
 ## Coffee
+
+* Café Diario: Consistently great on both drinks and service. My morning usual on my way to work. Super cute shop and practically standing room only. Closed weekends.
+* Taste: Super close to work and home for me. I think it's funny this is next door to a Starbucks. They really highlight the _essence_ of specialty coffee.
+I'd skip the siphon and get a Chemex if you're going to stay for a while. The cappuccino here can be a hit or miss depending on the barista. Would have love to have been able to hang out here with my laptop on a rainy weekend but they're closed.
+* Cafetín: The roaster that supplies the beans here is located in Algarobbo along the coast. The Brazilian I had prepared in a Chemex was _fantastic_. Wish this had this been closer to home and work.
+* Milk: Wish this were closer to work! Sometimes has guest roasters but most of the time gets coffee from Cafe Altura. Made friends with a barista, Criss (say hi to him for me), that showed me other parts of Santiago. :heart: Busy, busy in the mornings. Standing room only. Closed weekends.
+* Café Altura: coffee cart in Mercado La Vega. Cash only. Espresso is fantastic.
+* Good Café: Found inside Mall Espacio M. The baristas here are very keen on reaching perfection. Cash only.
+* Café Triciclo: Coffee trike now permanently stationed in Barrio Italia. Had a Chemex and was not disappointed. Live music Saturday nights and an invited guest barista. Cash only.
 
 ## Shopping
 
