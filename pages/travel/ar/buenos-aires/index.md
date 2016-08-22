@@ -38,15 +38,18 @@ sugary counterparts. In BA it was the opposite. Most of the times I checked, I d
 * [La Cabrera](http://4sq.com/oT2uRm): Solo dining escalated quickly here. Great service including some samples from the menu. Massive steaks and salads. Slept well that night.
 * [Boteco do Brasil](http://4sq.com/sIE0RG): My first Brazilian feijoada. Bar staff was quirky and attentive. Cash only!
 * [El Sanjuanino](http://4sq.com/t9MnzD): Voted #1 for empanadas on Foursquare, but, honestly, not worth the wait. Ordered a baked spicy beef empanada and the waiter decided to give me a fried one because they were swamped and didn't want to prep any more baked ones that late in the afternoon.
-* [SOCIAL Parrilla](http://4sq.com/1zcT3uC): Met up with SF friends and watched the Copa America finals. Had their mixed meat platter that included kidneys, cheeks, and some other organ meats. Chill game and dinner before flying back to the championship winner :cl_flag:
+* [SOCIAL Parrilla](http://4sq.com/1zcT3uC): Met up with SF friends and watched the Copa America finals. Had their mixed meat platter that included kidneys, cheeks, and some other organ meats. Chill game and dinner before flying back to the championship winner.
 
 ## Coffee
 
 * [Lab Café](https://foursquare.com/v/lab-training-center--coffee-shop/542c714a498ed1d8ff638938): Brazilian baristas that know how to pull a shot. Only place that was consistently open throughout my weekend and early.
 * [Coffee Town](https://foursquare.com/v/coffee-town/50b0b9f0e4b04cb0a21732d3): Coffee in San Telmo Market. Not much else going on when I got there but it was a warm spot to hang out and have a coffee before heading back out in to the cold.
-* [Felix Felicis & Co](https://foursquare.com/v/felix-felicis--co/5516bb56498ec1fbae8d14ab): Harry Potter themed in the name with a few trinkets here and there to commemorate the books/movies. Lost one of my gloves here :anguished_face:
+* [Felix Felicis & Co](https://foursquare.com/v/felix-felicis--co/5516bb56498ec1fbae8d14ab): Harry Potter themed in the name with a few trinkets here and there to commemorate the books/movies. Lost one of my gloves here :tired_face:
 * [LatteNte](https://foursquare.com/v/lattente/50a3c612e4b0b35f502fbb21): Coffee was alright. Bench like seating was somewhat uncomfortable.
 
 ## Activities
 
 * [Reebok Crossfit Tuluka Palermo](http://4sq.com/QO16wS): very nice gym. One of the very first Crossfit boxes in South America. Went a couple times before the rest of the city woke up.
+* [MALBA](https://foursquare.com/v/museo-de-arte-latinoamericano-de-buenos-aires-malba/4b37a2dbf964a520684325e3): Yoko Ono's [Dream Come True](http://www.malba.org.ar/evento/yoko-ono-dream-come-true/) exhibit was on display while I was there.
+* [Museo Evita](https://foursquare.com/v/museo-evita/4b05871af964a520e07f22e3): Evita Peron was a bad ass! I learned a lot about Argentina's history in general through this tiny museum. Definitely worth checking out.
+* [Reserva Ecológica & Costanera Sur](https://foursquare.com/v/reserva-ecol%C3%B3gica/4c0a76bf6071a593428cdf32): Walk along the palisade from the southern end up to the entrance of the reserve. Check the opening and closing times before you go though, I started too late and wasn't able to explore inside. :pensive:
