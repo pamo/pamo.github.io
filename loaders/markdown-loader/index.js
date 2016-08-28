@@ -32,7 +32,7 @@ const md = markdownIt({
   .use(emoji)
   .use(instagramEmbed);
 
-module.exports = function(content) {
+module.exports = function (content) {
   this.cacheable();
   const meta = frontMatter(content);
   const body = md.render(meta.body);
