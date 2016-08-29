@@ -1,7 +1,6 @@
 ---
 title: Goa
 layout: travel
-draft: true
 ---
 
 ## Way of Life
@@ -33,16 +32,31 @@ Avoid Miramar Beach.
 ## Food
 * Goan cuisine is different from what I'd been accustomed to in Pune or Bangalore and it is _delicious_.
 * There's a Portuguese influence and a heavier focus on seafood :raised_hands:.
+* Our first meal was at [The Upper House](https://foursquare.com/v/the-upper-house/4c2622a75c5ca593bb8645fe) in Panjim where we got a good representation of what Goa had to offer. We devoured fish curry, crab xec xec, and pork sorpotel.
+@[instagram](8I-NH5pZOT)
+* [Souza Lobo](https://foursquare.com/v/souza-lobo/4bb9b20453649c74cb2a48fb) has a similar menu but the quality not as great. The quantity however is more in their portion sizes. Another plus is that you can eat next to the ocean and then walk down into the sand after your meal.
+* Grab some :ice_cream: at [Natural Ice Cream](https://foursquare.com/v/natural-ice-cream/4c0a58d4a1b32d7fde1a99f0) later for dessert.
 
 ## Coffee
 * I visted a café art gallery called [Bodega](https://foursquare.com/v/bodega/505c1b46e4b02c16f25c4eda) in Panjim to get out of the heat. The coffee there was capsule Nespresso and not great but the respite was lovely.
 @[instagram](8JLoggJZBr)
 
 ## Shopping
-* Go to Mapusa Market just to be overwhelmed at how many people are selling all kinds of things. You'll find fresh fruits, veggies, nuts, gifts, Portuguese chouriço. Stretch your haggling skills. :moneybag:
-@[instagram](8Iv4XMpZLL)
 * Things I'd recommend buying while you're there: cashews (Goa is in a big cashew growing region), [feni](https://en.wikipedia.org/wiki/Feni_(liquor)) - a fermented liquor made from the Cashew fruit that's only made in Goa, [Portuguese chouriço](https://goawaves.com/goan-chourico-sausages/) (Goan spicy sausage), and spices and extracts from spice farms in the area.
+* Go to [Mapusa Market](https://foursquare.com/v/mapusa-market/4b8bc065f964a52097a932e3) just to be overwhelmed at how many people are selling all kinds of things. You'll find fresh fruits, veggies, nuts, gifts, Portuguese chouriço, and FISH! Stretch your haggling skills. :moneybag:
+@[instagram](8Iv4XMpZLL)
+
+@[instagram](8IvbnbpZKF)
+
+* Drink some pressed cane juice after haggling in the heat.
+@[instagram](8Ifl4fpZHt)
 
 ## Activities
+* [Sahakari Spice Farm](http://4sq.com/2btyxjQ): I learned a lot about how some common household spices look like in their pure form. The tour was educational and entertaining and there was a buffet at the end with a complimentary shot of feni.
 * Elephant rides! I thought about doing this but we visited the spice farm on our last day and I had no clue when my next encounter with a shower would be before our 12 hour ride back home.
 @[instagram](8KUZyGJZJK)
+* Walking and wandering around Panjim was enjoyable. The architecture reflects a lot Portuguese/European influence. 
+@[instagram](8I_NL4JZAy)
+
+@[instagram](8IbL2tJZP_)
+* We visited a few churches and museums in Old Goa but they were somewhat out of the way and only a thing to do to kill time. I'd pass if presented with the opportunity.
