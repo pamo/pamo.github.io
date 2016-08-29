@@ -1,9 +1,13 @@
 import Typography from 'typography';
 import theme from 'typography-theme-fairy-gates';
 
-theme.overrideThemeStyles = () => ({
+theme.overrideThemeStyles = ({rhythm}, options) => ({
   a: {
     backgroundImage: 'none',
+  },
+  'h1,h2,h3,h4,h5,h6': {
+    marginTop: rhythm(0.5),
+    marginBottom: rhythm(0.5),
   },
 });
 

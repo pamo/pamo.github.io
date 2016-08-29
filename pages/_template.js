@@ -26,17 +26,10 @@ const Template = (props) => {
       <Container
         style={{
           maxWidth: rhythm(24),
-          padding: `${rhythm(1)} 0`,
           margin: 'auto',
         }}
       >
-      <h1
-        style={{
-          fontSize: fontSizeToMS(2.5).fontSize,
-          lineHeight: fontSizeToMS(2.5).lineHeight,
-          margin: `${rhythm(1/2)}`,
-        }}
-      >
+      <h1>
       <Link
         style={{
           textDecoration: 'none',
