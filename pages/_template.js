@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import Helmet from 'react-helmet';
 import { prefixLink } from 'gatsby-helpers';
-import { rhythm, fontSizeToMS } from 'utils/typography';
+import { rhythm } from 'utils/typography';
 import { config } from 'config';
 import { Container } from 'react-responsive-grid';
 import ga from 'react-google-analytics';
