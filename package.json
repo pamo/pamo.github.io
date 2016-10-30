@@ -36,7 +36,7 @@
     "front-matter": "^2.0.6",
     "gatsby": "^0.11.7",
     "highlight.js": "^9.2.0",
-    "imagemin": "^4.0.0",
+    "imagemin": "^5.2.2",
     "lodash": "^4.5.0",
     "markdown-it": "^7.0.1",
     "markdown-it-emoji": "^1.2.0",
