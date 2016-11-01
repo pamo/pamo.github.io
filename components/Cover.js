@@ -17,16 +17,16 @@ const Cover = (props) => {
   };
 
   return (
-    <header style={ image ? photoCoverStyle : defaultStyle }>
-    <h1
-      style={{
-        color: image ? '#FFF' : null,
-        margin: 'auto',
-        textAlign: image ? 'center' : null,
-      }}
-    >
-      { title }
-    </h1>
+    <header style={image ? photoCoverStyle : defaultStyle}>
+      <h1
+        style={{
+          color: image ? '#FFF' : null,
+          margin: 'auto',
+          textAlign: image ? 'center' : null,
+        }}
+      >
+        { title }
+      </h1>
     </header>);
 };
 

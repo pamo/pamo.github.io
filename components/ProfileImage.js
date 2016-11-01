@@ -10,7 +10,7 @@ const ProfileImage = (props) => {
     '/pam-brewing.jpg',
     '/pam-by-the-ocean.jpg',
   ];
-  let mergedStyles = Object.assign({
+  const mergedStyles = Object.assign({
     border: '.25em solid',
     borderColor: '#01A1DD',
     borderRadius: '50%',
@@ -21,10 +21,10 @@ const ProfileImage = (props) => {
 
   const photoSource = src || sample(photosSources);
   return (
-      <img src={ prefixLink(photoSource) }
-        alt={trimEnd(replace(photoSource, '-', ' '), '.jpg')}
-        style = { mergedStyles }
-      />);
+    <img src={prefixLink(photoSource)}
+      alt={trimEnd(replace(photoSource, '-', ' '), '.jpg')}
+      style={mergedStyles}
+    />);
 };
 
 ProfileImage.propTypes = {

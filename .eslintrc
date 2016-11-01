@@ -1,5 +1,6 @@
 {
-  "extends": "eslint-config-airbnb",
+  "extends": ["eslint-config-airbnb"],
+  "plugins": ["jsx-a11y"],
   "rules": {
     "indent": [2, 2, {"SwitchCase": 1}],
     "no-console": [0],
@@ -8,7 +9,9 @@
     "no-param-reassign": [0],
     "no-else-return": [0],
     "space-infix-ops": [0],
+    "react/jsx-filename-extension": [0],
     "react/prefer-es6-class": [0],
+    "import/no-unresolved": [2, { "ignore": ["loader|react-router|css|sass"] }]
   },
   "globals": {
     "__PREFIX_LINKS__": true,

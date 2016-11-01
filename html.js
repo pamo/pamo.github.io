@@ -9,7 +9,6 @@ module.exports = React.createClass({
   propTypes: {
     body: React.PropTypes.string,
     favicon: React.PropTypes.string,
-    title: React.PropTypes.string,
   },
   defaultProps: {
     body: '',
@@ -35,7 +34,7 @@ module.exports = React.createClass({
           />
           { head.meta.toComponent() }
           { head.title.toComponent() }
-          <link rel="shortcut icon" href={ favicon } />
+          <link rel="shortcut icon" href={favicon} />
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
           {cssLink}

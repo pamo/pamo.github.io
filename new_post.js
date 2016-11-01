@@ -1,7 +1,7 @@
 const prompt = require('prompt');
 const mkdirp = require('mkdirp');
 const moment = require('moment');
-const _str = require('underscore.string');
+const _ = require('underscore.string');
 const yaml = require('js-yaml');
 const fs = require('fs');
 
@@ -10,7 +10,7 @@ prompt.start();
 /*eslint-disable */
 prompt.get(['title'], (err, result) => {
   'use strict'
-  const dir = `./pages/${ moment().format('YYYY-MM-DD') }-${ _str.slugify(result.title) }`
+  const dir = `./pages/${ moment().format('YYYY-MM-DD') }-${ _.slugify(result.title) }`
   mkdirp.sync(dir)
 
   let postFileStr = '---\n'
@@ -29,5 +29,5 @@ prompt.get(['title'], (err, result) => {
     encoding: 'utf-8',
   })
 
-  return console.log(dir)
+  return console.log(dir);
 })

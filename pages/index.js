@@ -7,7 +7,7 @@ import ProfileImage from 'components/ProfileImage';
 import 'css/landing.scss';
 
 const SiteIndex = () => (
-    <div className="landing">
+  <div className="landing">
     <div className="landing__cover">
       <ProfileImage
         style={{
@@ -26,7 +26,7 @@ const SiteIndex = () => (
       />
     </div>
     <Navigation />
-    </div>
+  </div>
   );
 
 SiteIndex.propTypes = {

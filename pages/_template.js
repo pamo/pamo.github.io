@@ -29,17 +29,17 @@ const Template = (props) => {
           margin: 'auto',
         }}
       >
-      <h1>
-      <Link
-        style={{
-          textDecoration: 'none',
-          color: 'inherit',
-        }}
-        to={prefixLink('/')}
-      >
-        {config.blogTitle}
-      </Link>
-      </h1>
+        <h1>
+          <Link
+            style={{
+              textDecoration: 'none',
+              color: 'inherit',
+            }}
+            to={prefixLink('/')}
+          >
+            {config.blogTitle}
+          </Link>
+        </h1>
       </Container>);
   } else if (location.pathname !== prefixLink('/')) {
     header = (
@@ -50,21 +50,21 @@ const Template = (props) => {
           margin: '0px',
         }}
       >
-      <Link
-        style={{
-          textDecoration: 'none',
-          color: 'inherit',
-        }}
-        to={prefixLink('/')}
-      >
-      {config.blogTitle}
-      </Link>
+        <Link
+          style={{
+            textDecoration: 'none',
+            color: 'inherit',
+          }}
+          to={prefixLink('/')}
+        >
+          {config.blogTitle}
+        </Link>
       </h3>);
   }
 
   const helmet = (
-  <Helmet
-    meta={[
+    <Helmet
+      meta={[
         { property: 'og:url', content: config.blogUrl },
         { property: 'og:type', content: 'blog' },
         { property: 'og:title', content: config.blogTitle },
@@ -77,19 +77,19 @@ const Template = (props) => {
         { name: 'twitter:creator', content: config.authorTwitter },
         { name: 'twitter:description', content: `${config.authorTwitter} ${config.blogTitle}` },
         { name: 'twitter:image', content: fullImagePath },
-    ]}
-    title={ documentTitle }
-    defaultTitle={ config.blogTitle }
-  />);
+      ]}
+      title={documentTitle}
+      defaultTitle={config.blogTitle}
+    />);
 
 
   return (
-      <div>
+    <div>
       {helmet}
       {header}
       {children}
       <GaInitializer />
-      </div>);
+    </div>);
 };
 
 Template.propTypes = {

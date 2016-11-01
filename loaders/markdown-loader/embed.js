@@ -13,7 +13,7 @@ function instagramEmbed(md) {
       return false;
     }
 
-    const EMBED_REGEX = /@\[(instagram)\]\([\s]*(.*?)[\s]*[\)]/im;
+    const EMBED_REGEX = /@\[(instagram)]\([\s]*(.*?)[\s]*[)]/im;
     const match = EMBED_REGEX.exec(state.src);
     if (!match) {
       return false;
@@ -47,7 +47,7 @@ function instagramEmbed(md) {
       token.level = state.level;
     }
 
-    state.pos = state.pos + state.src.indexOf(')');
+    state.pos += state.src.indexOf(')');
     state.posMax = state.tokens.length;
     return true;
   }

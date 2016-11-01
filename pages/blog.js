@@ -12,8 +12,8 @@ const BlogIndex = (props) => {
   const pageLinks = [];
   let body;
   let title;
-  const blogPosts = filter(props.route.pages, (page) => includes(page.data.layout, 'post'));
-  const sortedPages = sortBy(blogPosts, (page) => access(page, 'data.date')).reverse();
+  const blogPosts = filter(props.route.pages, page => includes(page.data.layout, 'post'));
+  const sortedPages = sortBy(blogPosts, page => access(page, 'data.date')).reverse();
 
   sortedPages.forEach((page) => {
     if (access(page, 'file.ext') === 'md') {
@@ -35,21 +35,21 @@ const BlogIndex = (props) => {
   });
 
   return (
-  <Container
-    style={{
-      maxWidth: rhythm(24),
-      padding: `0 ${rhythm(1)}`,
-      margin: 'auto',
-    }}
-  >
-    <ul
+    <Container
       style={{
-        listStyleType: 'none',
-        marginTop: rhythm(1),
+        maxWidth: rhythm(24),
+        padding: `0 ${rhythm(1)}`,
+        margin: 'auto',
       }}
     >
-      {pageLinks}
-    </ul>
+      <ul
+        style={{
+          listStyleType: 'none',
+          marginTop: rhythm(1),
+        }}
+      >
+        {pageLinks}
+      </ul>
     </Container>
   );
 };

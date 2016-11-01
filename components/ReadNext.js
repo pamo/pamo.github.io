@@ -13,16 +13,16 @@ const ReadNext = (props) => {
   const { readNext } = post;
   let nextPost;
   if (readNext) {
-    nextPost = find(pages, (page) =>
+    nextPost = find(pages, page =>
                     includes(page.path, readNext)
                    );
   }
   if (!nextPost) {
-    const currentIndex = findIndex(pages, (page) => includes(page.path, post.path));
+    const currentIndex = findIndex(pages, page => includes(page.path, post.path));
     nextPost = pages[(currentIndex + 1) % (pages.length - 1)];
   } else {
     const bareNextPath = readNext.slice(1, -1);
-    nextPost = find(pages, (page) => includes(page.path, bareNextPath));
+    nextPost = find(pages, page => includes(page.path, bareNextPath));
   }
 
   // Create pruned version of the body.
@@ -31,16 +31,16 @@ const ReadNext = (props) => {
 
   return (
     <Container>
-      <em style={{
-        display: 'block',
-        marginBottom: rhythm(1),
-      }}
-      >
-      Written {moment(post.date).format('MMMM D, YYYY')}
-      </em>
-      <hr style={{
-        marginBottom: rhythm(1),
-      }}
+      <em
+        style={{
+          display: 'block',
+          marginBottom: rhythm(1),
+        }}
+      > Written {moment(post.date).format('MMMM D, YYYY')} </em>
+      <hr
+        style={{
+          marginBottom: rhythm(1),
+        }}
       />
       <h6
         style={{
@@ -57,16 +57,16 @@ const ReadNext = (props) => {
           marginBottom: rhythm(1/4),
         }}
       >
-      <Link
-        to={{
-          pathname: prefixLink(nextPost.path),
-          query: {
-            readNext: true,
-          },
-        }}
-      >
-      {nextPost.data.title}
-      </Link>
+        <Link
+          to={{
+            pathname: prefixLink(nextPost.path),
+            query: {
+              readNext: true,
+            },
+          }}
+        >
+          {nextPost.data.title}
+        </Link>
       </h3>
       <p>{body}</p>
     </Container>

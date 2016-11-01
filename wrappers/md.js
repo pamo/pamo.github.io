@@ -20,9 +20,9 @@ const MarkdownWrapper = (props) => {
 
   const pageUrl = config.blogUrl.slice(0, config.blogUrl.length-1) + prefixLink(post.path);
   const shortDescription = prune(post.body.replace(/<[^>]*>/g, ''), 100).trim();
-  const imageMatchPattern = /<img.+src=[\'"]([^\'"]+)[\'"].*>/i;
+  const imageMatchPattern = /<img.+src=['"]([^'"]+)['"].*>/i;
   const hasImage = (post.body).match(imageMatchPattern);
-  let header = <Cover title={ post.title } />;
+  let header = <Cover title={post.title} />;
 
   let firstImagePath;
   if (hasImage) {
@@ -31,14 +31,14 @@ const MarkdownWrapper = (props) => {
 
   if (post.coverPhoto) {
     firstImagePath = pageUrl + post.coverPhoto;
-    header = <Cover title={ post.title } image={ post.coverPhoto } />;
+    header = <Cover title={post.title} image={post.coverPhoto} />;
   } else if (post.coverPhoto !== '' && hasImage) {
-    header = <Cover title={ post.title } image={ hasImage[1] } />;
+    header = <Cover title={post.title} image={hasImage[1]} />;
   }
 
   let readNextPost;
   if (post.layout === 'post') {
-    const blogPosts = filter(route.pages, (page) => includes(page.requirePath, 'blog/'));
+    const blogPosts = filter(route.pages, page => includes(page.requirePath, 'blog/'));
     readNextPost = <ReadNext post={post} pages={blogPosts} />;
   }
 
@@ -59,7 +59,7 @@ const MarkdownWrapper = (props) => {
           { name: 'twitter:description', content: shortDescription },
           { name: 'twitter:image', content: firstImagePath },
         ]}
-        title={` ${config.blogTitle} :: ${post.title}` }
+        title={` ${config.blogTitle} :: ${post.title}`}
       />
       { header }
       <Container
@@ -77,7 +77,7 @@ const MarkdownWrapper = (props) => {
           <div className="author__intro">When not crafting an
             artisinal vimrc, <strong>{config.authorName}</strong> can be found drinking coffee,
             riding a bike, climbing fake rocks, lifting heavy things, and, in general, wandering
-            around San Francisco.</div>
+          </div>
         </div>
         <SocialNetworks />
       </Container>
