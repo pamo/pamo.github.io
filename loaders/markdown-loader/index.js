@@ -1,10 +1,10 @@
 import frontMatter from 'front-matter';
 import markdownIt from 'markdown-it';
 import emoji from 'markdown-it-emoji';
-import instagramEmbed from './embed';
 import hljs from 'highlight.js';
 import objectAssign from 'object-assign';
-import mdFigCaption from 'mdfigcaption';
+import instagramEmbed from './embed';
+import mdFigCaption from './figcaption';
 
 const highlight = (str, lang) => {
   if ((lang !== null) && hljs.getLanguage(lang)) {
