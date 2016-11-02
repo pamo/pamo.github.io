@@ -3,7 +3,7 @@ ignore:
   'npm:hapi:20151020':
     - gatsby > hapi:
         reason: None given
-        expires: '2016-08-25T23:14:44.541Z'
+        expires: '2016-12-02T20:12:04.593Z'
   'npm:hapi:20151223':
     - gatsby > hapi:
         reason: None given
@@ -22,7 +22,7 @@ ignore:
 patch:
   'npm:call:20160705':
     - gatsby > hapi > call:
-        patched: '2016-07-26T23:07:07.059Z'
+        patched: '2016-11-02T20:09:59.818Z'
   'npm:minimatch:20160620':
     - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > rimraf > glob > minimatch:
         patched: '2016-07-26T23:07:07.059Z'
@@ -33,15 +33,15 @@ patch:
         patched: '2016-07-26T23:07:07.059Z'
     - gatsby > hapi > h2o2 > joi > moment:
         patched: '2016-07-19T21:30:24.767Z'
-      gatsby > hapi > inert > joi > moment:
-        patched: '2016-07-26T23:07:07.059Z'
     - gatsby > hapi > catbox > joi > moment:
         patched: '2016-07-26T23:07:07.059Z'
     - gatsby > hapi > joi > moment:
         patched: '2016-07-26T23:07:07.059Z'
     - gatsby > hapi > inert > joi > moment:
         patched: '2016-07-19T21:30:24.767Z'
-      gatsby > hapi > h2o2 > joi > moment:
+    - gatsby > hapi > inert > joi > moment:
+        patched: '2016-07-26T23:07:07.059Z'
+    - gatsby > hapi > h2o2 > joi > moment:
         patched: '2016-07-26T23:07:07.059Z'
   'npm:request:20160119':
     - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request:
