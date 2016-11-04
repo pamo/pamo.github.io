@@ -31,7 +31,7 @@
     "async": "^2.0.0-rc.3",
     "front-matter": "^2.0.6",
     "fs-extra": "1.0.0",
-    "gatsby": "^0.11.7",
+    "gatsby": "^0.12.19",
     "glob": "^7.0.3",
     "highlight.js": "^9.2.0",
     "imagemin": "^4.0.0",
@@ -64,11 +64,11 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
-    "eslint": "^3.9.0",
+    "eslint": "^3.9.1",
     "eslint-config-airbnb": "^12.0.0",
-    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-react": "^6.5.0",
     "gh-pages": "^0.11.0"
   },
   "snyk": true
