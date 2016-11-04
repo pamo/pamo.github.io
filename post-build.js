@@ -4,7 +4,7 @@ import mozJPEG from 'imagemin-mozjpeg';
 import path from 'path';
 
 function copyRootAssets() {
-  const files = ['README.md', 'keybase.txt'];
+  const files = ['CNAME', 'README.md', 'keybase.txt'];
   const publicPath = 'public/';
 
   files.forEach((file) => {
