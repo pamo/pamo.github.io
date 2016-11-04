@@ -1,6 +1,7 @@
 import fs from 'fs-extra';
 import imagemin from 'imagemin';
-import mozJPEG from 'imagemin-mozjpeg';
+import imageminOptipng from 'imagemin-optipng';
+import imageminJpegRecompress from 'imagemin-jpeg-recompress';
 import path from 'path';
 
 function copyRootAssets() {
@@ -17,10 +18,16 @@ function copyRootAssets() {
 
 function optimizeImages(pages) {
   const routes = pages.filter(p => p.path !== undefined);
-  routes.map(route => imagemin([`${path.join(__dirname, 'pages', route.file.dir)}/*.jpg`], path.join(__dirname, 'public', route.path), {
-    plugins: [mozJPEG({
-      quality: 65,
-    })],
+  routes.map(route => imagemin([`${path.join(__dirname, 'pages', route.file.dir)}/*.{jpg,png}`], path.join(__dirname, 'public', route.path), {
+    plugins: [
+      imageminJpegRecompress({
+        loops: 4,
+        min: 50,
+        max: 95,
+        quality: 'high',
+      }),
+      imageminOptipng(),
+    ],
   }).then(files => console.log(`optimized ${files.length} images for ${route.path}`)));
 }
 
