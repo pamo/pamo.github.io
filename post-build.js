@@ -19,7 +19,7 @@ function optimizeImages(pages) {
   const routes = pages.filter(p => p.path !== undefined);
   routes.map(route => imagemin([`${path.join(__dirname, 'pages', route.file.dir)}/*.jpg`], path.join(__dirname, 'public', route.path), {
     plugins: [mozJPEG({
-      quality: 85,
+      quality: 65,
     })],
   }).then(files => console.log(`optimized ${files.length} images for ${route.path}`)));
 }
