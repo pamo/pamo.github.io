@@ -1,5 +1,6 @@
 ---
 title: San Pedro de Atacama
+coverPhoto: "take-my-photo.jpg"
 layout: travel
 ---
 ## Way of Life
@@ -71,13 +72,29 @@ For this trip, I tried to save my cash for tours and ate on the cheap.
 
 San Pedro de Atacama is exhausting if you're around for a long weekend. There are so many activities to take advantage of and I would recommend working in a day to just relax.
 
+### Biking
+
+I did a bike ride on my second day in San Pedro de Atacama with a friend I made on the first tour I went on and I highly recommend it. Lots of fun and a great feat to attempt.
+
+From San Pedro de Atacama, we found a bike rental shop called [Turismo Teckara](http://4sq.com/Qk39Xy) that lent us very nice Trek mountain bikes for 7.000 CLP for 6 hours. The rumor is that there is no penalty if you return the bikes later than 6 hours.
+
+~[Purple Trek.](purple-trek.jpg)
+
+You can also rent bikes from Hostal Matty (next door) for 500 CLP less per bike but the purple trek is obviously superior.
+
+We rode for approximately 20 minutes to reach [Pucará de Quitor](http://4sq.com/9p7LPJ) which are old ruins you can explore (with a fee), but this site was a rest stop for us and we continued on our way to [Catarpe](http://bitacorasdeviaje.com/chile/bitacoras-chile/valle-de-catarpe).
+
+I am not going to lie, the loose sand, heat and incline up to the tunnel at Catarpe is tough. Make sure you pack a lot of water and prep yourself for a crazy ride back down! The view up there is great.
+
+@[instagram](BMM2If_BAr9)
+
 ### Tours
 
 There are plenty of tours to pick from and many agencies to book at. It is not hard to find an agency that allows you to pay with credit card, but paying in cash will get you discounts. For the 4 days I was there I did the following tours with the corresponding agencies.
 
 #### Lagunas Altiplánicas & Piedras Rojas
 
-* **Agency**: <a href="http://reservas736.wixsite.com/salarandino/tour-around-san-pedro-de-atacama-ch" target="_blank" rel="noopener noreferrer">Andean Salt Flat Expediciones</a></td>
+* **Agency**: <a href="http://reservas736.wixsite.com/salarandino/tour-around-san-pedro-de-atacama-ch" target="_blank" rel="noopener noreferrer">Andean Salt Flat Expediciones</a>
 * **Cost**: 39.000 CLP
 * **Entrance Fees**: 2.500 CLP with student ID
 * **Payment method**: Cash
@@ -109,12 +126,61 @@ According to the guide, the food came from a restaurant near Hostal La Ruca call
 
 Reserved a day before but was not allowed to secure the spot by paying until the day of the tour. I later learned that this was to avoid refunds if the weather wasn't suitable for the tour. Staring into the sky without any light pollution was mesmerizing. The tour was split into two parts. The first was a lecture and explanation of why we are able to see different constellations in other seasons or other parts of the globe as well as guided identification of constellations, planets, and satellites with the naked eye. The latter part was a circuit of looking into a several telescopes to get a closer view of stars, galaxies, and nebulae (both new an old). The tour included a choice of hot chocolate, herbal tea, black tea, or mate de coca.
 
-### Sunset trekking in Valle de la Luna and Valle de la Muerte
+#### Sunset trekking in Valle de la Luna and Valle de la Muerte
 
 * **Agency**: <a href="http://4sq.com/1f44SdU" target="_blank" rel="noopener noreferrer">Cosmo Andino Expediciones</a>
 * **Cost**: 17.500 CLP
 * **Entrance fees**: 4.500 CLP with student ID
 * **Payment method**: Credit card
-* **Length**: 4-5 hours. 3:30-8pm.
+* **Length**: Half-day. 3:30-8pm.
 
-This was a last minute booking that I felt lucky to have found (everyone else was booked and cash only). This was my favorite tour out of the rest by far. The guide was charming in his way of talking about what we were about to see along the trip. We covered a lot of ground by stopping at Mirador de Kari/Piedra del Coyote, trekking along a and finally running down a sand dune in Valle de la Muerte, exploring the salt mountain range in Valle de la Luna, and then finally walking up to the anfiteatro (amphitheater) in Valle de la Luna to watch a dramatic sunset.
+This was a last minute booking that I felt lucky to have found (everyone else was booked and cash only). This was my favorite tour out of the rest by far. The guide was charming in his way of talking about what we were about to see along the trip. We covered a lot of ground by stopping at [Mirador de Kari/Piedra del Coyote](https://www.tripadvisor.es/Attraction_Review-g303681-d4834728-Reviews-Mirador_de_Kari_Piedra_del_Coyote-San_Pedro_de_Atacama_Antofagasta_Region.html).
+
+~[Solo traveling means asking other solo travelers to take your photo.](take-my-photo.jpg)
+
+We also drove and trekked along a ridge where the wind began to pick up.
+Our ride would be waiting for us at the basin so we finally running down a sand dune to "survive" Valle de la Muerte and continue exploring the salt mountain range in Valle de la Luna.
+
+@[instagram](BMXzKzShKsg)
+
+Our final stop was walking up to the anfiteatro (amphitheater) in Valle de la Luna to watch a dramatic sunset.
+
+@[instagram](BMR7zfIhZqw)
+
+If there's anything you do in San Pedro de Atacama, do this.
+
+### Geysers del Tatío
+
+* **Agency**: <a href="http://reservas736.wixsite.com/salarandino/tour-around-san-pedro-de-atacama-ch" target="_blank" rel="noopener noreferrer">Andean Salt Flat Expediciones</a>
+* **Cost**: 17.000 CLP
+* **Entrance fees**: 5.000 CLP with student ID
+* **Payment method**: Cash
+* **Length**: Half-day. 5am-1pm.
+
+I was very reluctant to try this one. I hate being cold. However, I came well prepared with snow pants, gloves, etc. I also had several conversations about this one with other travelers that finally convinced me to go. Reasons being:
+
+1. I had never seen a geyser before.
+2. When am I ever going to have the opportunity to dip into a natural spring at 4000+ meters above sea level?
+3. The other travelers I spoke to were women also traveling by themselves and much older than me.
+
+So I did it, I saw it, I took a dip. Seeing the geysers as the sun is rising is a neat way to wake up. Make sure you pack some coffee or warm beverage. If you're lucky and the sun is out, the cold won't be as bad. 
+
+**Bottom line**: Would I do this one again? Probably not.
+
+We stopped at Pueblo de Machuca along the way on our way back to San Pedro de Atacama and had the opportunity to buy llama kebabs and goat cheese empanadas (fried).
+
+~[Llama kebab pit-stop.](kebabs.jpg)
+
+The scene was enough entertainment for me. I asked if the trumpet was to signal that the food would be out soon (a la [sad trombone](https://www.sadtrombone.com/?autoplay=true)) but it was just to entertain the long line of hungry travelers.
+
+~[Sad trumpet?](sad-trumpet.jpg)
+
+#### Late Night (Halloween Special) Valle de La Luna Salt Caves
+
+* **Agency**: <a href="http://4sq.com/2f2LbKc" target="_blank" rel="noopener noreferrer">Volcan Paniri</a>
+* **Cost**: 18.000 CLP
+* **Entrance fees**: None
+* **Payment method**: Cash
+* **Length**: Late evening. 10pm-12:30am
+
+This was a last minute tour before an early flight back to Santiago the next morning. There was not much advertisement for it, I just happened to see a flyer on a post outside while I ate ice cream. The price was originally 25.000 CLP but the lack of interest from the general public encouraged the agency owner to cut a deal. No photos from this trek but it was a great opportunity to walk the [Cavernas de Sal](http://www.chile365.cl/es-region-2-valle-de-la-luna-cavernas-de-sal.php) at *night*. There was a spooky story-telling twist to the trek and women dressed as witches to spook us along the way, but the real treat was looking up at the stars and hearing the salt crystals cracking as the temperature dropped and to cause them to contract. 😮
