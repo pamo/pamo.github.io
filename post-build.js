@@ -23,8 +23,9 @@ function optimizeImages(pages) {
       imageminJpegRecompress({
         loops: 4,
         min: 50,
-        max: 95,
-        quality: 'high',
+        max: 90,
+        progressive: 'true',
+        quality: 'medium',
       }),
       imageminOptipng(),
     ],
