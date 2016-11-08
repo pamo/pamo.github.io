@@ -1540,7 +1540,7 @@ commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/commondir/-/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
 
-compass-vertical-rhythm@^1.2.0, compass-vertical-rhythm@^1.2.1:
+compass-vertical-rhythm@^1.3.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/compass-vertical-rhythm/-/compass-vertical-rhythm-1.3.1.tgz#6047ffd8b20b2dcba93698e90a34570662893488"
   dependencies:
@@ -3053,10 +3053,6 @@ graceful-fs@4.1.2:
 "graceful-readlink@>= 1.0.0":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
-
-gray-percentage@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/gray-percentage/-/gray-percentage-1.1.2.tgz#76fc4c1fb95e5c64d9a43c47b4c10263908f81c3"
 
 gray-percentage@^2.0.0:
   version "2.0.0"
@@ -5903,9 +5899,9 @@ react-transform-hmr@^1.0.3:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-typography@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.12.0.tgz#f32d5f006ec4f6553dea53f1a4a9e1fd83566048"
+react-typography@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.15.0.tgz#0c7680bcbb12a681950c2187df66c43aa4b02034"
 
 react@^15.3.0:
   version "15.3.2"
@@ -7009,44 +7005,32 @@ typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typography-breakpoint-constants@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.10.0.tgz#40af9e8dc13aba878a091072a79c86b0c8b1ddf8"
+typography-breakpoint-constants@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.14.0.tgz#dbfef844095b78cfc1d0088a2fa83e91f442aa13"
 
-typography-breakpoint-constants@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/typography-breakpoint-constants/-/typography-breakpoint-constants-0.13.0.tgz#446f94e3f4a29e3c6164a28715b94763c0827045"
+typography-normalize@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
 
-typography-normalize@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.12.0.tgz#36995e85d20d7d5ef31924aa6f3e9adda3ba519f"
-
-typography-theme-fairy-gates@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/typography-theme-fairy-gates/-/typography-theme-fairy-gates-0.13.0.tgz#c06fb6ba0e3d2862a3ec91903823412ceac4d4fe"
+typography-theme-fairy-gates:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/typography-theme-fairy-gates/-/typography-theme-fairy-gates-0.15.0.tgz#8eba4e6562e51b9c1d4fb74f552fa037b5aef1a4"
   dependencies:
     gray-percentage "^2.0.0"
-    typography-breakpoint-constants "^0.13.0"
+    typography-breakpoint-constants "^0.14.0"
 
-typography-theme-grand-view@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/typography-theme-grand-view/-/typography-theme-grand-view-0.12.0.tgz#8477063ddf7ddaaba531dc39c2fdeb4f2f154360"
+typography@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/typography/-/typography-0.15.0.tgz#4ca3d3c9ef0044f5a8e3ed9c9b752ef989341207"
   dependencies:
-    compass-vertical-rhythm "^1.2.1"
-    gray-percentage "^1.1.2"
-    typography-breakpoint-constants "^0.10.0"
-
-typography@^0.12.4:
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/typography/-/typography-0.12.4.tgz#7d47e43405a6d397c7d77dbcb4a7c47664da93d3"
-  dependencies:
-    compass-vertical-rhythm "^1.2.0"
+    compass-vertical-rhythm "^1.3.0"
     decamelize "^1.2.0"
-    gray-percentage "^1.1.2"
+    gray-percentage "^2.0.0"
     lodash "^4.13.1"
     modularscale "^1.0.2"
     object-assign "^4.1.0"
-    typography-normalize "^0.12.0"
+    typography-normalize "^0.14.0"
 
 ua-parser-js@^0.7.9:
   version "0.7.11"

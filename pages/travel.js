@@ -56,7 +56,7 @@ const TravelIndex = (props) => {
         margin: 'auto',
       }}
     >
-      <p>A collection of hack guides to the cities I&quot;ve
+      <p>A collection of hack guides to the cities I&apos;ve
         had the opportunity to live in and visit.
         The <a href="https://github.com/pamo/pamo.github.io/tree/development/pages/travel" target="_blank" rel="noopener noreferrer">Github repository</a> has a full list including drafts.</p>
       {countrySections}
