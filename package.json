@@ -44,13 +44,11 @@
     "moment": "^2.11.2",
     "object-assign": "^4.0.1",
     "prompt": "^1.0.0",
-    "react": "15.0.1",
-    "react-dom": "15.0.1",
+    "react": "15.3.2",
     "react-google-analytics": "^0.2.0",
     "react-helmet": "^3.0.0",
     "react-icons": "2.2.1",
     "react-responsive-grid": "^0.3.3",
-    "react-router": "^2.0.1",
     "react-typography": "^0.12.0",
     "safe-access": "^0.1.0",
     "snyk": "^1.17.1",
@@ -68,7 +66,7 @@
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.5.0",
+    "eslint-plugin-react": "^6.6.0",
     "gh-pages": "^0.11.0"
   },
   "snyk": true
