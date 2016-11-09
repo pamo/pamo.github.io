@@ -6,8 +6,16 @@ path: "/pwa-roadshow/"
 draft: true
 ---
 
-[Agenda](https://events.withgoogle.com/pwa-roadshow-north-america/agenda/)
-[Google Web documentation](https://developers.google.com/web)
+* [Workshop Agenda](https://events.withgoogle.com/pwa-roadshow-north-america/agenda/)
+**Code Lab Links and Additional Resources**:
+* [Google Web Documentation](https://developers.google.com/web)
+* [Your First Progressive Web App](https://goo.gl/9DJRJq)
+```
+curl -L -k -sO https://github.com/googlecodelabs/your-first-pwapp/archive/master.zip
+```
+* [Debugging Service Workers](https://goo.gl/suGNRb)
+* [Push Notifications](https://goo.gl/QRLk5i)
+* [Slides](https://goo.gl/ESUahe)
 
 ## Speakers:
 
@@ -75,7 +83,7 @@ Other examples: AliExpress. FlipKart.
 
 ## 3 Approaches
 1. From the ground up. Greenfield
-      * App Shell Pattern
+      * [App Shell Pattern](https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html#2)
       * Konga.com: 92% less data for initial load, 82% less data used for the initial transaction when the user is purchasing.
 2. A little bit: "the light approach"
       * AirBerlin: Boarding pass only instead of booking flow. Ready to go at check-in. Don't even need an internet connection.
