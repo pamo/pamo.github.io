@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import { prune, include as includes } from 'underscore.string';
 import { find, findIndex } from 'lodash';
-import { rhythm, fontSizeToMS } from 'utils/typography';
+import { rhythm, scale } from 'utils/typography';
 import { Container } from 'react-responsive-grid';
 
 const ReadNext = (props) => {
@@ -45,8 +45,8 @@ const ReadNext = (props) => {
       <h6
         style={{
           margin: 0,
-          fontSize: fontSizeToMS(-1).fontSize,
-          lineHeight: fontSizeToMS(-1).lineHeight,
+          fontSize: scale(-1).fontSize,
+          lineHeight: scale(-1).lineHeight,
           letterSpacing: -0.5,
         }}
       >
