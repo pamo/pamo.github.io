@@ -7,6 +7,7 @@ draft: true
 ---
 
 [Agenda](https://events.withgoogle.com/pwa-roadshow-north-america/agenda/)
+[Google Web documentation](https://developers.google.com/web)
 
 ## Speakers:
 
@@ -263,3 +264,9 @@ Change an app powered by the iFixIt API and React to render DOM manipulation tha
 Make sure you're using the Chrome Dev tools to validate that your changes are being applied.
 
 [Application Pane](https://developers.google.com/web/tools/chrome-devtools/progressive-web-apps) is a good place to start. In addition, re-run Lighthouse and check in other browsers.
+
+
+# Exciting Upcoming Browser Features
+* [Payment Request API](https://developers.google.com/web/updates/2016/07/payment-request)
+* [Credential Management API](https://developers.google.com/web/updates/2016/04/credential-management-api)
+  * One tap sign-in to handle sign-in flow without 1Password or other password managers.
