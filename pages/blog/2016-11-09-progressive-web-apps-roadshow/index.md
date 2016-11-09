@@ -132,11 +132,11 @@ There's now an app-like life-cycle to a page with Service Workers. They only wak
 * A good thing to let the user know is that the app is available offline, otherwise they won't know.
 
 ## Caching Strategies
-* **Cache First, Fallback to the Network** is not the only strategy.
-* **Network, fall back to the cache**. Try to fetch a new version from the network, if it's there, great, otherwise give them the old. Cache and revalidate.
-* **Cache then Network**. Give the old, go try to get the new one, update the page if the new one is available. This can be disrupting experience. Let the user opt into getting the new updates.
-* **Generic Fallback**. The dinosaur game is not a bad strategy.
-* **Cache and network race** (ping both at once). We might thing the cache will win but it might actually be really slow. Slow hardware. Network requests are not free for all users. Don't do this frivolously.
+* **[Cache First, Fallback to the Network](https://jakearchibald.com/2014/offline-cookbook/#cache-falling-back-to-network)** is not the only strategy.
+* **[Network, fall back to the cache](https://jakearchibald.com/2014/offline-cookbook/#network-falling-back-to-cache)**. Try to fetch a new version from the network, if it's there, great, otherwise give them the old. Cache and revalidate.
+* **[Cache then Network](https://jakearchibald.com/2014/offline-cookbook/#cache-then-network)**. Give the old, go try to get the new one, update the page if the new one is available. This can be disrupting experience. Let the user opt into getting the new updates.
+* **[Generic Fallback](https://jakearchibald.com/2014/offline-cookbook/#generic-fallback)**. The dinosaur game is not a bad strategy.
+* **[Cache and network race](https://jakearchibald.com/2014/offline-cookbook/#cache-network-race)** (ping both at once). We might thing the cache will win but it might actually be really slow. Slow hardware. Network requests are not free for all users. Don't do this frivolously.
 
 ## Tools of the trade
 
