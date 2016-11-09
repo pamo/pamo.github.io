@@ -10,7 +10,7 @@ prompt.start();
 /*eslint-disable */
 prompt.get(['title'], (err, result) => {
   'use strict'
-  const dir = `./pages/${ moment().format('YYYY-MM-DD') }-${ _.slugify(result.title) }`
+  const dir = `./pages/blog/${ moment().format('YYYY-MM-DD') }-${ _.slugify(result.title) }`
   mkdirp.sync(dir)
 
   let postFileStr = '---\n'
