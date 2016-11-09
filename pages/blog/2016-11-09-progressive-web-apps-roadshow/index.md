@@ -6,15 +6,17 @@ path: "/pwa-roadshow/"
 draft: true
 ---
 
-### Speakers:
+[Agenda](https://events.withgoogle.com/pwa-roadshow-north-america/agenda/)
 
-* Sam ?? — London — video APIs/web RTC
+## Speakers:
+
+* Sam ??
 * Alex — AUS — Web standards
 * Michael — Programs Engineer — Service workers and web push
 
 ## Keynote
 
-*Pete LePage* Dev advocate on the web team.
+*[Pete LePage](https://twitter.com/petele)*: Developer Advocate on the Web team at Google.
 
 The web is:
 * One platform for all devices.
@@ -80,8 +82,9 @@ Other examples: AliExpress. FlipKart.
       * The Weather Company wanted to offer the same level of push notifications on the web as they do in their native app. Did it in over 30 languages globally.
 
 # Instant loading and offline.
-* Sara Clark — PM 3rd Party web training @google. HTML5 instructor in the past.
-Deeper dive into service worker. Make it reliable and fast!
+*[Sarah Clark](https://developers.googleblog.com/2015/11/introducing-senior-web-developer.html)*: Program Manager, Google Developer Training. Previous experience: HTML5 instructor around the globe.
+
+A deeper dive into service worker to make it reliable and fast!
 
 > Lie-Fi is a Killer: Loading a webpage is not a single network request. Page might hang somewhere in the load.
 
@@ -146,33 +149,117 @@ There's now an app-like life-cycle to a page with Service Workers. They only wak
 Grunt/Gulp Generators will write all of the code for you!
 
 # HTTPS: with great power comes great responsibility
-
-*Pete LePage*
+*[Pete LePage](https://twitter.com/petele)*
 
 * Do it right! The green :lock: is important. (Why don't we have something similar for offline capabilities?)
   * Users know that this just works.
 * Fundamentally a core requirement of user experience.
 
 ## Principles
-* Identity: who are you talking too? Google and not Goggle.com.
+* Identity: who are you talking too? Google and not Goggle dot com.
 * Confidentiality: who can read your data? No one else is spying.
 * Integrity: who can modify your data? No data tampering between client and server.
 
 ## Excuses, excuses! HTTPS doesn't have to be hard
   * My site doesn't need it!
     * PWA requirement. No HTTPS, no PWA.
-    * Other APIs that require (or will) it: getUserMedia (camera access), Push, App Cache, Encrypted Media Extensions, GeoLocation, HTTPS/2
+    * Other APIs that require (or will) it: [getUserMedia](https://developer.mozilla.org/es/docs/Web/API/Navigator/getUserMedia) (camera access), [Push](https://developer.mozilla.org/en-US/docs/Web/API/Push_API), [Encrypted Media Extensions](https://developer.mozilla.org/en-US/docs/Web/API/Encrypted_Media_Extensions_API), [GeoLocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation), [HTTP/2](https://http2.github.io/faq/).
   * It'll cause performance problems and I'll lose money.
-    * HTTP Strict Transport Security: include sub-domains. MaxAge can be set to a short number (not 2592000) in the beginning;
+    * Configure HTTP Strict Transport Security to include sub-domains.
+        * MaxAge can be set to a short number (not 2592000) in the beginning to make sure it is set ASAP.
     * TLS handshake is slow on mobile devices but you can turn on TLS false start after the first connection to reduce round-trip latency.
     * TLS Session resumption: we know each other, just keep going. Turn on on the server
     * HTTP/2 unlocks massive performance wins. HTTPS will unlock this. Always secure. Supports a lot like multiplexing and server push.
     * Canonical link to help tell servers that there is only _one_ version of the site (HTTP vs HTTPS).
-    * Weather.com saw a performance impact when they implemented HTTPS (50ms increase :sad:) but after moving to HTTP/2 negated it by dropping 250ms .
-  * It's expensive
-    * Cost benefit analysis: Do we pay the certificate price or lose page ranking?
-    * Let's Encrypt: Free! Automated CLI tools.
+    * Weather.com saw a performance impact when they implemented HTTPS (50ms increase :pensive:) but after moving to HTTP/2 the increase was negated by dropping total load time to 250ms! :tada:
+  * It's expensive :dollar:
+    * Cost benefit analysis: Pay the certificate price or lose page ranking?
+    * [Let's Encrypt](https://letsencrypt.org/getting-started/): Free! Automated CLI tools.
   * Critical 3rd party dependencies don't support HTTPS yet.
     * Hardest one to argue but you can do some advocating to get them to get closer to migration/implementation.
  
-Chrome Dev Tools can help identify any mixed content from being served.
+Chrome Dev Tools can help identify any security issues (like serving mixed content) with the [Security Panel](https://developers.google.com/web/tools/chrome-devtools/security).
+
+# User Engagement
+[Sam Dutton](https://twitter.com/sw12): Google London — Video APIs, Web RTC advocate.
+
+> Crucial idea is that apps work really well no matter the network environment. Smooth and responsive experience builds trust and a connection with the user.
+
+## Experiences that Increase Engagement
+
+* Add to Home Screen
+    * People have no incentive to do this because it's broken. Option is buried in menus. Not clear that the app will start where it was bookmarked. Users don't expect this to work offline.
+    * [App Manifest](https://developer.chrome.com/extensions/manifest) now allows us to better control the Add to Home Screen capability.
+      * JSON Configuration
+      * Allows us to set a splash screen.
+      * Define start url.
+      * Can limit orientation.
+      * Specify background color and theme color.
+* Install Prompt
+  * Rules to automatically prompt create a contract that we promise to the user.
+    * Only if the app has an **offline experience**.
+    * Manifest defines **what to launch** and how to launch.
+    * **User is engaged** and uses the app frequently. There are some heuristics around this topic.
+* Web Push Notifications
+  * Timely (when), precise (what), relevant (relevant).
+  * Browser not needing to be open is a big deal when it comes to CPU performance!
+  * Don't send random things to your users. Always ask: is it enough to warrant an interruption?
+  > Unwanted interruptions run the risk of being completely blocked. Don't blow it. You'll have plenty of other opportunities to engage with your user.
+  * Built on Service Workers.
+    * Push Messaging Service allows you to handle incoming messages from the server to wake up the Worker. Only awake when it needs to be. Minimal use of :battery: power and :computer: memory.
+  * Make it easy to complete tasks without having to open the app! e.g. Tweeting or Sharing.
+
+## Subscribing Users
+
+There is a simple flow: 
+1. In the browser, check if the user is subscribed. 
+2. Ask the user to subscribe. 
+3. After the subscription is done, send the subscription details (JSON Object with authentication keys) to the server. 
+4. Finally save the details on the server.
+
+**Some points**: 
+* There are different ways to subscribe: Specific/contextual or user initiated (e.g. Settings or preferences).
+* Users can unsubscribe when they want to and this event can be handled programmatically.
+* userVisibleOnly: true -- always use a notification when a push notification is received. (can't use this as a message bus to send data to the app without the user knowing).
+
+
+## End-point Setup
+* Web Push Protocol standardizes messaging.
+
+## Sending Messages
+* Message payload is a HTTP PUT
+* TTL is the value for time to live or attempt to send the message (e.g. 120 seconds).
+
+### VAPID (Voluntary Application Service Identification)
+* Enables signed messaging and encryption of the payload/content.
+* Public and Private Keys to subscribe and send messages.
+* Enables payloads to be sent. Previously you could only notify that here was a new notification, now you can send the message in the notification.
+* To generate them, you can do it on your own using the API or using a node library web-push-libs (recommended).
+
+## Listening for Messages
+* Straightforward: Handle a push event.
+* Get data out of the message (JSON object) and then display the notification.
+
+Bottom line: add a manifest.json, follow the notification heuristics, ask for permission to notify _in context_.
+
+Resources:
+
+# Demo of Tooling for Progressive Web Apps
+[Journey of a SPA to PWA](https://goo.gl/4EhFAC).
+
+Change an app powered by the iFixIt API and React to render DOM manipulation that happens to use the App Shell and Dynamic Content Model.
+
+* [Lighthouse](https://github.com/GoogleChrome/lighthouse) Chrome extension (and node command line tool) helps one _establish a PWA baseline_.
+* Utilizes Chrome debugger protocol to simulate network conditions to generate a report card.
+* It should not be used to _establish a destination_. No need to try to meet 100% on the report-card. It's just **one** tool in your tool-belt.
+
+**Initial Lighthouse Recommendations:**
+* Implement server-side rendering to improve first time to paint.
+* Implement service workers to let the app work offline.
+  * Treat them as a progressive enhancement! Not all browsers support them and the first load won't use them.
+* Provide a web app manifest.
+* [sw-precache](https://github.com/GoogleChrome/sw-precache) can help us be lazy and generate service worker code that will precache specific resources so they work offline.
+
+Make sure you're using the Chrome Dev tools to validate that your changes are being applied.
+
+[Application Pane](https://developers.google.com/web/tools/chrome-devtools/progressive-web-apps) is a good place to start. In addition, re-run Lighthouse and check in other browsers.
