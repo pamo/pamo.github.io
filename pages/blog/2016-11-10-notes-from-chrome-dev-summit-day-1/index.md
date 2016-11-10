@@ -280,3 +280,44 @@ Debugging is how we understand the execution of Javascript. Chrome Dev tools are
 # Polymer and Web Components
 Taylor Savage and Monica Dinculescu
 
+Started as an experiment to evolve as Web Components evolved. Journey has been
+* Polymer 0.5: Experiment,
+* Polymer 1.0 Production Ready,
+* Polymer 2.0 Web Native.
+
+
+## Who's using it in production?
+* Comcast
+* USA Today
+* ING
+* Net-A-Porter
+* BBVA
+* Coca-cola
+* Electronic Arts
+* Predix
+* and of course, Google
+
+## #usetheplatform Mantra
+Shadow DOM has been **shipped** on Chrome, making it easier to adopt web components.
+
+The goal is interoperability by creating reusable components.
+
+## Polymer has launched an App Toolbox
+Includes
+* App level components (like routing).
+* Polymer CLI
+* PRPL Pattern
+* [Example Polymer App](https://shop.polymer-project.org/)
+
+[Jumia](https://www.jumia.com.ng/) PWA developed in 4 weeks with Polymer to demo to the business.
+
+## What's next in Polymer 2.0
+* Web component V1 support
+* Better interoperability with Web Components and other frameworks by eliminating Polymer-specific leakage
+* Minimally breaking transition -- seamless backwards compatibility layer
+    * Work on both Polymer 1 and Polymer 2.
+    * Slowly upgrade components at a time.
+* Whole payload is 12kb and it's getting smaller and smaller.
+
+## Getting Practical
+> Using isn't the same as maintaining.
