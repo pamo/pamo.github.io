@@ -319,5 +319,27 @@ Includes
     * Slowly upgrade components at a time.
 * Whole payload is 12kb and it's getting smaller and smaller.
 
-## Getting Practical
+## Developer Advice
+
 > Using isn't the same as maintaining.
+
+Component paradigm isn't news to developers. Polymer is just helping everyone jump on board and build an app easily.
+
+[MojiBrag](https://mojibrag.firebaseapp.com/global?lang=en)
+* Firebase Auth
+* Built with app specific web components like login, main-screen, iron-list, new-post, etc
+
+### Properties down, events up.
+Use properties and not methods. You can use binding without any Javascript.
+
+### What about element maintainers?
+Practice _Fear-Driven-Development_.
+* Don't break others applications!
+  * TATTOO: Test all the things, over, and over.
+* Perf regressions: Don't make apps slower.
+  * [polydev](https://chrome.google.com/webstore/detail/polymer-devtools-extensio/mmpfaamodhhlbadloaibpocmcomledcg) allows you to do performance audits and compare across different changes.
+* Demo driven development
+  * [webcomponents.org](http://webcomponents.org/) community
+  * [CustomElements.io](https://customelements.io/) to demo and find new components
+
+**Bottom line**: just make things!
