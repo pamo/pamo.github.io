@@ -263,3 +263,27 @@ How to measure improvements or performance on loads?
 
 ## Memory Consumption
 Focused on reducing the memory load and found Chrome's overall consumption dropped by 35%.
+
+# Future App Model: Advanced Service Workers
+Jake Archibald
+[Service Worker Specification](https://github.com/slightlyoff/ServiceWorker)
+
+##  Browser Support
+* Considering: Safari
+* Implementing: IE
+* Shipped: Opera, Chrome, Firefox
+
+## Streams
+* Will be able to use Transform [Streams](https://streams.spec.whatwg.org/#ts-model) to handle text or images in a more powerful way.
+* Ideally we would want to serve a single HTTP response and combine streams with service workers and caching to dynamically serve files.
+  * Kinda complicated to deal with this in code and processing.
+
+## Foreign Fetching
+* Service workers can use Foreign Fetching to fetch fonts with their own service.
+* [Cross-origin Service Workers](https://developers.google.com/web/updates/2016/09/foreign-fetch)
+* **Create REST-like APIs that work offline.**
+
+## Background Fetch
+* Vague how this works right now.
+* Use case would be like downloading a movie or uploading photos. Notification would be sent once it completes.
+* Easily cancel-able, highly transparent (team is keen on keeping this secure).
