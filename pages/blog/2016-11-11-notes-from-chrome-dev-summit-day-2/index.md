@@ -181,3 +181,85 @@ Built [Housing Go](https://tinyurl.com/housingPWA) and had many Feats
 
   Take a look at [Progressive Web Apps with React series](https://bit.ly/pwa-react)
 
+# Client Storage for Performance
+Dru Knox, Product Manager, Chrome
+
+> Client storage is a low-hanging fruit for performance improvements, not just offline functionality
+* Deck is stacked against web development when it comes to [network costs](https://bit.ly/network-costs)
+
+## Cache as a performance Optimization
+There are different levels of caching.
+
+**Browser cache** 
+* Unpredictable only works for network responses
+* Not granular
+
+**Optimized browser cache**
+* Proactive page improvements
+* Repeat visits, but still only for network responses
+* Still relying on the browser storing things
+
+**Content caching**
+* The point at which better control and value is reached.
+* Proactive page load improvements but for all response types.
+* Image blobs in cache storage.
+* Can control and predict content but still relying on the network.
+* Can be granular for content but not for network requests.
+* Full cache control.
+
+**Proactive (so good it gives Dru :joy:)**
+* Fully predictable
+  * Guarantee a performance increase to your users
+* All response types
+* More granularity for BOTH network and content responses
+
+> Content caching is the sweet spot within reach for most developers today.
+
+### Best practices
+Client-side Chunking
+  * Pull in an initial bundle and kick off requests for smaller pieces.
+    * Saves network bandwidth overall
+  * Preload pages user might visit
+  * Save commonly repeated components (hero images, etc).
+
+### Technologies to use in the browser
+* **Cache Storage** for URL Addressable content
+  * Utilities: `sw-toolbox`, `sw-prechace`, offline Webpack plugin
+* **indexdb**  for simple structured data
+  * Utilities: localForage (with promises), idb, PouchDB..
+
+Keep in mind overall storage footprint. Browsers are limited in capabilities.
+* Chrome 6% of free space per origin
+* Firefox 10% of free space
+* safari at least 10% of free space
+* Edge is more complicated but based on other factors.
+
+> Minimum budget available for performance improvements across all devices and browsers is 50MB
+
+**It can mean 16 seconds of load time saved across averaged visits!**
+
+### Browser Eviction
+* In Chrome and Firefox, when disk is full, LRU (least-recently-used)
+domain in the cache is removed
+* Safari never clears it.
+
+### Looking Forward
+**In Development**
+* [idb observers](https://bit.ly/idb-observers)
+* [Async cookies](https://bit.ly/async-cookies)
+
+**Areas to explore**
+* [idb-promises](https://bit.ly/idb-promises)
+* [writable files](https://bit.ly/writable-files)
+
+# V8 Engine :blue_car:
+Seth Thompson, Product Manager, Web Platform
+How to measure improvements or performance on loads?
+* [Microbenchmarks](https://www.npmjs.com/package/microbenchmark) on language features (like pushing elements to an array in a loop)
+* Static Test Suites: Sophisticated benchmarks Game Boy emulator, Raytracer, but not a real picture of all websites. (Octane test suite)
+* Real webpages: Instrumentation to analyze _where_ time is being spent to load websites.
+
+> Improvement in V8 has led to a median of 5% performance improvement on the top 25 sites on the web.
+
+## Memory Consumption
+Focused on reducing the memory load and found Chrome's overall consumption dropped by 35%.
