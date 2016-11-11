@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+ <html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="viewport" content="user-scalable=no width=device-width, initial-scale=1.0 maximum-scale=1.0"/><meta data-react-helmet="true" property="og:site_name" content="likes coffee"/><meta data-react-helmet="true" property="fb:admins" content="1397070010"/><meta data-react-helmet="true" property="og:url" content="https://likescoffee.com/pwa-roadshow/"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:title" content="Progressive Web Apps Roadshow"/><meta data-react-helmet="true" property="og:description" content="Notes from Google’s Progressive Web App Roadshow in November of 2016.
+The full day workshop was..."/><meta data-react-helmet="true" property="og:image"/><meta data-react-helmet="true" name="description" content="Notes from Google’s Progressive Web App Roadshow in November of 2016.
+The full day workshop was..."/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><meta data-react-helmet="true" name="twitter:site" content="@pmocampo"/><meta data-react-helmet="true" name="twitter:creator" content="@pmocampo"/><meta data-react-helmet="true" name="twitter:title" content="Progressive Web Apps Roadshow"/><meta data-react-helmet="true" name="twitter:description" content="Notes from Google’s Progressive Web App Roadshow in November of 2016.
+The full day workshop was..."/><meta data-react-helmet="true" name="twitter:image"/><title data-react-helmet="true">likes coffee :: Progressive Web Apps Roadshow</title><link rel="shortcut icon"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:125%/1.45em Quattrocento Sans,serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:Quattrocento Sans,serif;font-weight:400;word-wrap:break-word;}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:hsla(0,0%,0%,0.9);font-family:Work Sans,sans-serif;font-weight:600;text-rendering:optimizeLegibility;font-size:2rem;line-height:2.9rem;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:hsla(0,0%,0%,0.9);font-family:Work Sans,sans-serif;font-weight:600;text-rendering:optimizeLegibility;font-size:1.51572rem;line-height:2.175rem;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:hsla(0,0%,0%,0.9);font-family:Work Sans,sans-serif;font-weight:600;text-rendering:optimizeLegibility;font-size:1.31951rem;line-height:2.175rem;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:hsla(0,0%,0%,0.9);font-family:Work Sans,sans-serif;font-weight:600;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.45rem;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:hsla(0,0%,0%,0.9);font-family:Work Sans,sans-serif;font-weight:600;text-rendering:optimizeLegibility;font-size:0.87055rem;line-height:1.45rem;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;color:hsla(0,0%,0%,0.9);font-family:Work Sans,sans-serif;font-weight:600;text-rendering:optimizeLegibility;font-size:0.81225rem;line-height:1.45rem;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}ul{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.45rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:0.85rem;line-height:1.45rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}blockquote{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;font-size:2rem;line-height:2.175rem;border-left:0.54375rem solid #1ca086;color:hsla(0,0%,0%,0.95);font-style:italic;font-family:athelas;border:0;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.45rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.45rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.45rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}li > ul{margin-left:1.45rem;margin-bottom:calc(1.45rem / 2);margin-top:calc(1.45rem / 2);}code{font-size:0.85rem;line-height:1.45rem;}kbd{font-size:0.85rem;line-height:1.45rem;}samp{font-size:0.85rem;line-height:1.45rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:tnum;padding-left:0.96667rem;padding-right:0.96667rem;padding-top:0.725rem;padding-bottom:calc(0.725rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}a{color:#1ca086;text-decoration:none;text-shadow:.03em 0 #fff,-.03em 0 #fff,0 .03em #fff,0 -.03em #fff,.06em 0 #fff,-.06em 0 #fff,.09em 0 #fff,-.09em 0 #fff,.12em 0 #fff,-.12em 0 #fff,.15em 0 #fff,-.15em 0 #fff;background-image:none;}a:hover,a:active{text-shadow:none;background-image:none;}h1,h2,h3,h4,h5,h6{margin-top:0.725rem;margin-bottom:0.725rem;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.45rem;color:hsla(0,0%,0%,0.8);font-style:normal;font-weight:400;}blockquote cite:before{content:"— ";}@media only screen and (max-width:480px){html{font-size:106.25%;line-height:1.45em;}blockquote{border-left:0.27187rem solid #1ca086;color:hsla(0,0%,0%,0.95);padding-left:0.81563rem;font-style:italic;margin-left:-1.0875rem;margin-right:0;border:0;}}.twitter-tweet{}</style><link href="//fonts.googleapis.com/css?family=Work+Sans:600|Quattrocento+Sans:400,400i,700" rel="stylesheet" type="text/css"/><link rel="stylesheet" href="/styles.css"/></head><body><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="-967959914"><!-- react-empty: 2 --><h3 style="max-width:34.8rem;padding:0.725rem;margin:0px;" data-reactid="3"><a style="text-decoration:none;color:inherit;" href="/" data-reactid="4">likes coffee</a></h3><div data-reactid="5"><!-- react-empty: 6 --><header style="max-width:34.8rem;margin:auto;" data-reactid="7"><h1 style="margin:auto;" data-reactid="8">Progressive Web Apps Roadshow</h1></header><div style="max-width:34.8rem;margin-left:auto;margin-right:auto;padding:1.45rem;margin:auto;" data-reactid="9"><div class="markdown" data-reactid="10"><p>Notes from Google’s Progressive Web App Roadshow in November of 2016.
+The full day workshop was split between lectures and afternoon code lab.</p>
+<p><strong>Code Lab Links and Additional Resources</strong>:</p>
+<ul>
+<li><a href="https://events.withgoogle.com/pwa-roadshow-north-america/agenda/">Workshop Agenda</a></li>
+<li><a href="https://developers.google.com/web">Google Web Documentation</a></li>
+<li><a href="https://goo.gl/9DJRJq">Your First Progressive Web App</a></li>
+</ul>
+<pre><code>curl -L -k -sO https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/googlecodelabs/y</span>our-first-pwapp<span class="hljs-regexp">/archive/m</span>aster.zip
+</code></pre>
+<ul>
+<li><a href="https://goo.gl/suGNRb">Debugging Service Workers</a></li>
+<li><a href="https://goo.gl/QRLk5i">Push Notifications</a></li>
+<li><a href="https://goo.gl/ESUahe">Slides</a></li>
+</ul>
+<h2>Keynote</h2>
+<p><em><a href="https://twitter.com/petele">Pete LePage</a></em>: Developer Advocate on the Web team at Google.</p>
+<p>The web is:</p>
+<ul>
+<li>One platform for all devices.</li>
+<li>Democratizing.</li>
+<li>Accessible.</li>
+</ul>
+<h3>Beginnings</h3>
+<ul>
+<li>Ajax was transformative. Dynamic interactions.</li>
+<li>Today: Mobile web is not a thing. Apps for users are more predictable.</li>
+<li>No one goes to the google maps website on their chrome browser in mobile context. More on the desktop.</li>
+<li>Launch-able</li>
+<li>Push notifications — hey com back and look at us!</li>
+<li>13% vs 87%</li>
+<li>80% of time is spent in top 3 apps but going to hundreds of different sites within those apps.</li>
+<li>Web is a little bit safer. More predictable. You don’t get warnings about getting access to things like contacts.</li>
+<li>Native apps have a lot of capabilities, but web has a lot more reach.</li>
+<li>Average user installs 0 apps per month. Why install another messaging app when you already have the service available? e.g. Separation of Facebook and Messenger.</li>
+</ul>
+<h3>🔑 Key thing to keep in mind</h3>
+<ul>
+<li>PWA are a new level of caring about the quality of the user experience. Stepping up the experience.</li>
+</ul>
+<h3>In order to do this, we need to focus on 3 big things:</h3>
+<ul>
+<li>Reliable:
+<ul>
+<li>Get rid of the dinosaur. This never happens in a native app, even in ✈️ mode. It will give you some feedback. We also expect native apps to load instantly.</li>
+<li>Ajax got us to good enough because we were always connected.</li>
+<li>Mobile phones are frequently offline. e.g. NYC Metro when you get off the train. a.k.a “Lie-Fi”</li>
+</ul>
+</li>
+<li>Fast:
+<ul>
+<li>No jank!</li>
+<li>Scrolling, load instantly.</li>
+<li>Time is money. It’s not just some esoteric thing. 53% of users abandon sites that take longer than 3 seconds to load. More than half of your users are gonna bounce!</li>
+</ul>
+</li>
+<li>Engaging:
+<ul>
+<li>Placement on the home screen.</li>
+<li>Feel like an immersive full screen app. Developers should have control of manipulating how the app will behave in full screen, how they will be themed, and what the orientation will look like, etc.</li>
+<li>Push notifications to incentivise the users to come back. Unlock new use cases with weekly vs daily engagement.</li>
+</ul>
+</li>
+</ul>
+<h3>Case study: <a href="http://wapo.com/pwa">Washington Post</a></h3>
+<ul>
+<li>Treated like a first class citizen when you flip through app “tabs” on android.</li>
+<li>80 ms story loading improvement!</li>
+<li>Possible with Service Workers.</li>
+</ul>
+<p>Other examples: AliExpress. FlipKart.</p>
+<h2>Service Workers</h2>
+<ul>
+<li>Don’t necessarily need to traverse the network every time</li>
+<li>Client-side proxy that is controlled by the developer to manage assets and caching.</li>
+<li>Runs once the PWA is installed.</li>
+<li>Can do more than just intercept network requests: push is built on Service Workers by responding to <em>Push subscription endpoints</em>.</li>
+</ul>
+<blockquote>
+<p>Progressive Web Apps are progressive: End to end. Start at great and then build upon that initial experience.</p>
+</blockquote>
+<h1>How to get started?</h1>
+<ul>
+<li>Start secure. This means HTTPS.</li>
+<li>Geolocation API requires HTTPS.</li>
+<li>Users can trust that the site they’re on is your site. No one has intercepted the service worker and the service worker isn’t being snooped on.</li>
+</ul>
+<h2>3 Approaches</h2>
+<ol>
+<li>From the ground up. Greenfield
+<ul>
+<li><a href="https://codelabs.developers.google.com/codelabs/your-first-pwapp/index.html#2">App Shell Pattern</a></li>
+<li><a href="http://Konga.com">Konga.com</a>: 92% less data for initial load, 82% less data used for the initial transaction when the user is purchasing.</li>
+</ul>
+</li>
+<li>A little bit: “the light approach”
+<ul>
+<li>AirBerlin: Boarding pass only instead of booking flow. Ready to go at check-in. Don’t even need an internet connection.</li>
+</ul>
+</li>
+<li>One feature at a time:
+<ul>
+<li>The Weather Company wanted to offer the same level of push notifications on the web as they do in their native app. Did it in over 30 languages globally.</li>
+</ul>
+</li>
+</ol>
+<h1>Instant loading and offline.</h1>
+<p><em><a href="https://developers.googleblog.com/2015/11/introducing-senior-web-developer.html">Sarah Clark</a></em>: Program Manager, Google Developer Training. Previous experience: HTML5 instructor around the globe.</p>
+<p>A deeper dive into service worker to make it reliable and fast!</p>
+<blockquote>
+<p>Lie-Fi is a Killer: Loading a webpage is not a single network request. Page might hang somewhere in the load.</p>
+</blockquote>
+<blockquote>
+<p>60% of the world is relying on 2G. We should stop relying on the network because of this.</p>
+</blockquote>
+<h2>More into Service Worker</h2>
+<blockquote>
+<p>Service Workers are the core underpinning of Progressive Web Apps</p>
+</blockquote>
+<p>They allow you you to programmatically intercept network requests to build a cache of files (build your on caching strategy) and even implement partial caching techniques.</p>
+<p>There’s now an app-like life-cycle to a page with Service Workers. They only wake up when the OS says and only respond to system events.</p>
+<h2>Life Cycle</h2>
+<ul>
+<li>Service Worker is for the SECOND load.</li>
+<li>Not a get out of jail free card. Still be frugal.</li>
+<li>Install --&gt; Idle</li>
+<li>2nd load --&gt; Activated --&gt; Idle</li>
+<li>Updating a service worker --&gt; Activated
+<ul>
+<li>Checks for update, i.e. is the install script different? Yes? Install again and sit idle.</li>
+</ul>
+</li>
+</ul>
+<h3>Heavily Event Driven (Event Handlers)</h3>
+<ul>
+<li>Install
+<ul>
+<li>Required to build the caches or update a cache. Happens every time.</li>
+</ul>
+</li>
+<li>Activate
+<ul>
+<li>Garbage collection</li>
+</ul>
+</li>
+<li>Idle
+<ul>
+<li>Host for push messages from the OS.</li>
+</ul>
+</li>
+<li>Active</li>
+<li>Terminated</li>
+</ul>
+<h2>Implementation Tips</h2>
+<ul>
+<li><strong>Service worker is at the root level of your app.</strong>
+<ul>
+<li>Location of the script controls how much of the app is available to control for offline.</li>
+<li>Possible to scope the app based on the location of the Service Worker</li>
+</ul>
+</li>
+<li>It needs to be registered and it will return a promise once it’s registered.</li>
+<li>Install EventHandler. This will enable you to skip waiting.</li>
+<li>Pre-fetch app resources: here we can specify which files to cache on the install event.
+<ul>
+<li>Make sure the proper capture is done to avoid losing the whole cache. This was a downside of the AppCache.</li>
+<li><em>event.waitUntil</em>; Basically a setTimeout to allow everything to complete.</li>
+</ul>
+</li>
+<li>self.client.claim() – all the open tabs.</li>
+<li>self.addListener(‘fetch’, ()=&gt;{}); here is where we intercept network requests.
+<ul>
+<li>Get what you can from the cache and then do the rest.</li>
+</ul>
+</li>
+<li>A good thing to let the user know is that the app is available offline, otherwise they won’t know.</li>
+</ul>
+<h2>Caching Strategies</h2>
+<ul>
+<li><strong><a href="https://jakearchibald.com/2014/offline-cookbook/#cache-falling-back-to-network">Cache First, Fallback to the Network</a></strong> is not the only strategy.</li>
+<li><strong><a href="https://jakearchibald.com/2014/offline-cookbook/#network-falling-back-to-cache">Network, fall back to the cache</a></strong>. Try to fetch a new version from the network, if it’s there, great, otherwise give them the old. Cache and revalidate.</li>
+<li><strong><a href="https://jakearchibald.com/2014/offline-cookbook/#cache-then-network">Cache then Network</a></strong>. Give the old, go try to get the new one, update the page if the new one is available. This can be disrupting experience. Let the user opt into getting the new updates.</li>
+<li><strong><a href="https://jakearchibald.com/2014/offline-cookbook/#generic-fallback">Generic Fallback</a></strong>. The dinosaur game is not a bad strategy.</li>
+<li><strong><a href="https://jakearchibald.com/2014/offline-cookbook/#cache-network-race">Cache and network race</a></strong> (ping both at once). We might thing the cache will win but it might actually be really slow. Slow hardware. Network requests are not free for all users. Don’t do this frivolously.</li>
+</ul>
+<h2>Tools of the trade</h2>
+<h3>Chrome Dev Tools now has an Applications Tab</h3>
+<ul>
+<li>Service Worker management.</li>
+<li>Inspect the cache.</li>
+<li>Clear the cache.</li>
+</ul>
+<h3>Service Worker Toolbox</h3>
+<ul>
+<li><a href="https://github.com/GoogleChrome/sw-toolbox">sw-toolbox</a> on github packaged library.
+Grunt/Gulp Generators will write all of the code for you!</li>
+</ul>
+<h1>HTTPS: with great power comes great responsibility</h1>
+<p><em><a href="https://twitter.com/petele">Pete LePage</a></em></p>
+<ul>
+<li>Do it right! The green 🔒 is important. (Why don’t we have something similar for offline capabilities?)
+<ul>
+<li>Users know that this just works.</li>
+</ul>
+</li>
+<li>Fundamentally a core requirement of user experience.</li>
+</ul>
+<h2>Principles</h2>
+<ul>
+<li>Identity: who are you talking too? Google and not Goggle dot com.</li>
+<li>Confidentiality: who can read your data? No one else is spying.</li>
+<li>Integrity: who can modify your data? No data tampering between client and server.</li>
+</ul>
+<h2>Excuses, excuses! HTTPS doesn’t have to be hard</h2>
+<ul>
+<li>My site doesn’t need it!
+<ul>
+<li>PWA requirement. No HTTPS, no PWA.</li>
+<li>Other APIs that require (or will) it: <a href="https://developer.mozilla.org/es/docs/Web/API/Navigator/getUserMedia">getUserMedia</a> (camera access), <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Encrypted_Media_Extensions_API">Encrypted Media Extensions</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation">GeoLocation</a>, <a href="https://http2.github.io/faq/">HTTP/2</a>.</li>
+</ul>
+</li>
+<li>It’ll cause performance problems and I’ll lose money.
+<ul>
+<li>Configure HTTP Strict Transport Security to include sub-domains.
+<ul>
+<li>MaxAge can be set to a short number (not 2592000) in the beginning to make sure it is set ASAP.</li>
+</ul>
+</li>
+<li>TLS handshake is slow on mobile devices but you can turn on TLS false start after the first connection to reduce round-trip latency.</li>
+<li>TLS Session resumption: we know each other, just keep going. Turn on on the server</li>
+<li>HTTP/2 unlocks massive performance wins. HTTPS will unlock this. Always secure. Supports a lot like multiplexing and server push.</li>
+<li>Canonical link to help tell servers that there is only <em>one</em> version of the site (HTTP vs HTTPS).</li>
+<li><a href="http://Weather.com">Weather.com</a> saw a performance impact when they implemented HTTPS (50ms increase 😔) but after moving to HTTP/2 the increase was negated by dropping total load time to 250ms! 🎉</li>
+</ul>
+</li>
+<li>It’s expensive 💵
+<ul>
+<li>Cost benefit analysis: Pay the certificate price or lose page ranking?</li>
+<li><a href="https://letsencrypt.org/getting-started/">Let’s Encrypt</a>: Free! Automated CLI tools.</li>
+</ul>
+</li>
+<li>Critical 3rd party dependencies don’t support HTTPS yet.
+<ul>
+<li>Hardest one to argue but you can do some advocating to get them to get closer to migration/implementation.</li>
+</ul>
+</li>
+</ul>
+<p>Chrome Dev Tools can help identify any security issues (like serving mixed content) with the <a href="https://developers.google.com/web/tools/chrome-devtools/security">Security Panel</a>.</p>
+<h1>User Engagement</h1>
+<p><a href="https://twitter.com/sw12">Sam Dutton</a>: Google London — Video APIs, Web RTC advocate.</p>
+<blockquote>
+<p>Crucial idea is that apps work really well no matter the network environment. Smooth and responsive experience builds trust and a connection with the user.</p>
+</blockquote>
+<h2>Experiences that Increase Engagement</h2>
+<ul>
+<li>Add to Home Screen
+<ul>
+<li>People have no incentive to do this because it’s broken. Option is buried in menus. Not clear that the app will start where it was bookmarked. Users don’t expect this to work offline.</li>
+<li><a href="https://developer.chrome.com/extensions/manifest">App Manifest</a> now allows us to better control the Add to Home Screen capability.
+<ul>
+<li>JSON Configuration</li>
+<li>Allows us to set a splash screen.</li>
+<li>Define start url.</li>
+<li>Can limit orientation.</li>
+<li>Specify background color and theme color.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Install Prompt
+<ul>
+<li>Rules to automatically prompt create a contract that we promise to the user.
+<ul>
+<li>Only if the app has an <strong>offline experience</strong>.</li>
+<li>Manifest defines <strong>what to launch</strong> and how to launch.</li>
+<li><strong>User is engaged</strong> and uses the app frequently. There are some heuristics around this topic.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Web Push Notifications
+<ul>
+<li>Timely (when), precise (what), relevant (relevant).</li>
+<li>Browser not needing to be open is a big deal when it comes to CPU performance!</li>
+<li>Don’t send random things to your users. Always ask: is it enough to warrant an interruption?</li>
+</ul>
+<blockquote>
+<p>Unwanted interruptions run the risk of being completely blocked. Don’t blow it. You’ll have plenty of other opportunities to engage with your user.</p>
+</blockquote>
+<ul>
+<li>Built on Service Workers.
+<ul>
+<li>Push Messaging Service allows you to handle incoming messages from the server to wake up the Worker. Only awake when it needs to be. Minimal use of 🔋 power and 💻 memory.</li>
+</ul>
+</li>
+<li>Make it easy to complete tasks without having to open the app! e.g. Tweeting or Sharing.</li>
+</ul>
+</li>
+</ul>
+<h2>Subscribing Users</h2>
+<p>There is a simple flow:</p>
+<ol>
+<li>In the browser, check if the user is subscribed.</li>
+<li>Ask the user to subscribe.</li>
+<li>After the subscription is done, send the subscription details (JSON Object with authentication keys) to the server.</li>
+<li>Finally save the details on the server.</li>
+</ol>
+<p><strong>Some points</strong>:</p>
+<ul>
+<li>There are different ways to subscribe: Specific/contextual or user initiated (e.g. Settings or preferences).</li>
+<li>Users can unsubscribe when they want to and this event can be handled programmatically.</li>
+<li>userVisibleOnly: true – always use a notification when a push notification is received. (can’t use this as a message bus to send data to the app without the user knowing).</li>
+</ul>
+<h2>End-point Setup</h2>
+<ul>
+<li>Web Push Protocol standardizes messaging.</li>
+</ul>
+<h2>Sending Messages</h2>
+<ul>
+<li>Message payload is a HTTP PUT</li>
+<li>TTL is the value for time to live or attempt to send the message (e.g. 120 seconds).</li>
+</ul>
+<h3>VAPID (Voluntary Application Service Identification)</h3>
+<ul>
+<li>Enables signed messaging and encryption of the payload/content.</li>
+<li>Public and Private Keys to subscribe and send messages.</li>
+<li>Enables payloads to be sent. Previously you could only notify that here was a new notification, now you can send the message in the notification.</li>
+<li>To generate them, you can do it on your own using the API or using a node library web-push-libs (recommended).</li>
+</ul>
+<h2>Listening for Messages</h2>
+<ul>
+<li>Straightforward: Handle a push event.</li>
+<li>Get data out of the message (JSON object) and then display the notification.</li>
+</ul>
+<p>Bottom line: add a manifest.json, follow the notification heuristics, ask for permission to notify <em>in context</em>.</p>
+<p>Resources:</p>
+<h1>Demo of Tooling for Progressive Web Apps</h1>
+<p><a href="https://goo.gl/4EhFAC">Journey of a SPA to PWA</a>.</p>
+<p>Change an app powered by the iFixIt API and React to render DOM manipulation that happens to use the App Shell and Dynamic Content Model.</p>
+<ul>
+<li><a href="https://github.com/GoogleChrome/lighthouse">Lighthouse</a> Chrome extension (and node command line tool) helps one <em>establish a PWA baseline</em>.</li>
+<li>Utilizes Chrome debugger protocol to simulate network conditions to generate a report card.</li>
+<li>It should not be used to <em>establish a destination</em>. No need to try to meet 100% on the report-card. It’s just <strong>one</strong> tool in your tool-belt.</li>
+</ul>
+<p><strong>Initial Lighthouse Recommendations:</strong></p>
+<ul>
+<li>Implement server-side rendering to improve first time to paint.</li>
+<li>Implement service workers to let the app work offline.
+<ul>
+<li>Treat them as a progressive enhancement! Not all browsers support them and the first load won’t use them.</li>
+</ul>
+</li>
+<li>Provide a web app manifest.</li>
+<li><a href="https://github.com/GoogleChrome/sw-precache">sw-precache</a> can help us be lazy and generate service worker code that will precache specific resources so they work offline.</li>
+</ul>
+<p>Make sure you’re using the Chrome Dev tools to validate that your changes are being applied.</p>
+<p><a href="https://developers.google.com/web/tools/chrome-devtools/progressive-web-apps">Application Pane</a> is a good place to start. In addition, re-run Lighthouse and check in other browsers.</p>
+<h1>Exciting Upcoming Browser Features</h1>
+<ul>
+<li><a href="https://developers.google.com/web/updates/2016/07/payment-request">Payment Request API</a></li>
+<li><a href="https://developers.google.com/web/updates/2016/04/credential-management-api">Credential Management API</a>
+<ul>
+<li>One tap sign-in to handle sign-in flow without 1Password or other password managers.</li>
+</ul>
+</li>
+</ul>
+</div><div style="max-width:960px;margin-left:auto;margin-right:auto;" data-reactid="11"><em style="display:block;margin-bottom:1.45rem;" data-reactid="12"><!-- react-text: 13 --> Written <!-- /react-text --><!-- react-text: 14 -->November 9, 2016<!-- /react-text --><!-- react-text: 15 --> <!-- /react-text --></em><hr style="margin-bottom:1.45rem;" data-reactid="16"/><h6 style="margin:0;font-size:0.5rem;line-height:0.725rem;letter-spacing:-0.5px;" data-reactid="17">READ THIS NEXT:</h6><h3 style="margin-bottom:0.3625rem;" data-reactid="18"><a href="/chrome-dev-summit-day-1/?readNext=true" data-reactid="19">Notes from Chrome Dev Summit Day 1</a></h3><p data-reactid="20">Notes from a jam-packed first day of Google’s Chrome Dev Summit in November of 2016.
+I’ll be adding more links to the points I noted. Each primary heading is dedicated to one of the talks on the...</p><span style="display:block;clear:both;" data-reactid="21"> </span></div><hr data-reactid="22"/><div class="author" data-reactid="23"><img src="/pam-by-the-ocean.jpg" alt="/pam by-the-ocean" style="border:.25em solid;border-color:#01A1DD;border-radius:50%;max-width:80px;max-height:80px;flex-shrink:0;" data-reactid="24"/><div class="author__intro" data-reactid="25"><!-- react-text: 26 -->When not crafting an artisinal vimrc, <!-- /react-text --><strong data-reactid="27">Pamela Ocampo</strong><!-- react-text: 28 --> can be found drinking coffee, riding a bike, climbing fake rocks, lifting heavy things, and, in general, wandering<!-- /react-text --></div></div><div class="social-networks" data-reactid="29"><a href="http://facebook.com/pamocampo" target="_blank" title="Pam on facebook" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="30"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="31"><g data-reactid="32"><path d="m29.4 0.3v5.9h-3.5q-1.9 0-2.6 0.8t-0.7 2.4v4.2h6.6l-0.9 6.6h-5.7v16.9h-6.8v-16.9h-5.7v-6.6h5.7v-4.9q0-4.1 2.3-6.4t6.2-2.3q3.3 0 5.1 0.3z" data-reactid="33"></path></g></svg></a><a href="http://twitter.com/pmocampo" target="_blank" title="Pam on twitter" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="34"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="35"><g data-reactid="36"><path d="m37.7 9.1q-1.5 2.2-3.7 3.7 0.1 0.3 0.1 1 0 2.9-0.9 5.8t-2.6 5.5-4.1 4.7-5.7 3.3-7.2 1.2q-6.1 0-11.1-3.3 0.8 0.1 1.7 0.1 5 0 9-3-2.4-0.1-4.2-1.5t-2.6-3.5q0.8 0.1 1.4 0.1 1 0 1.9-0.3-2.5-0.5-4.1-2.5t-1.7-4.6v0q1.5 0.8 3.3 0.9-1.5-1-2.4-2.6t-0.8-3.4q0-2 0.9-3.7 2.7 3.4 6.6 5.4t8.3 2.2q-0.2-0.9-0.2-1.7 0-3 2.1-5.1t5.1-2.1q3.2 0 5.3 2.3 2.4-0.5 4.6-1.7-0.8 2.5-3.2 3.9 2.1-0.2 4.2-1.1z" data-reactid="37"></path></g></svg></a><a href="http://github.com/pamo" target="_blank" title="Pam on github" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="38"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="39"><g data-reactid="40"><path d="m20.1 2.9q4.7 0 8.6 2.3t6.3 6.2 2.3 8.6q0 5.6-3.3 10.1t-8.4 6.2q-0.6 0.1-0.9-0.2t-0.3-0.7q0 0 0-1.7t0-3q0-2.1-1.2-3.1 1.3-0.2 2.3-0.4t2.1-0.9 1.8-1.5 1.2-2.3 0.5-3.4q0-2.7-1.8-4.6 0.8-2-0.2-4.5-0.6-0.2-1.8 0.2t-2 1l-0.9 0.5q-2-0.6-4.3-0.6t-4.2 0.6q-0.4-0.2-1-0.6t-1.9-0.8-1.9-0.3q-1 2.5-0.1 4.5-1.8 1.9-1.8 4.6 0 1.9 0.5 3.4t1.1 2.3 1.8 1.5 2.1 0.9 2.3 0.4q-0.9 0.8-1.1 2.3-0.4 0.2-1 0.3t-1.3 0.1-1.4-0.5-1.3-1.4q-0.4-0.7-1-1.1t-1.1-0.6l-0.5 0q-0.5 0-0.6 0.1t-0.1 0.2 0.2 0.3 0.2 0.3l0.2 0.1q0.5 0.2 1 0.9t0.7 1.1l0.2 0.5q0.3 0.9 1 1.4t1.5 0.7 1.5 0.1 1.3-0.1l0.5 0q0 0.8 0 1.9t0 1.2q0 0.5-0.3 0.7t-0.9 0.2q-5.2-1.7-8.4-6.2t-3.3-10.1q0-4.7 2.3-8.6t6.2-6.2 8.6-2.3z m-10.6 24.6q0.1-0.2-0.2-0.3-0.2-0.1-0.2 0.1-0.1 0.1 0.1 0.2 0.2 0.2 0.3 0z m0.7 0.7q0.1-0.1-0.1-0.3-0.2-0.2-0.3-0.1-0.2 0.1 0 0.4 0.3 0.2 0.4 0z m0.7 1q0.2-0.1 0-0.4-0.2-0.3-0.4-0.1-0.2 0.1 0 0.4t0.4 0.1z m0.9 1q0.2-0.2-0.1-0.4-0.3-0.3-0.4-0.1-0.2 0.2 0 0.4 0.3 0.3 0.5 0.1z m1.3 0.5q0-0.2-0.3-0.3-0.4-0.1-0.4 0.1t0.2 0.4q0.4 0.1 0.5-0.2z m1.4 0.1q0-0.2-0.4-0.2-0.4 0-0.4 0.2 0 0.3 0.4 0.3 0.4 0 0.4-0.3z m1.3-0.2q-0.1-0.2-0.4-0.2-0.4 0.1-0.3 0.4t0.4 0.1 0.3-0.3z" data-reactid="41"></path></g></svg></a><a href="http://instagram.com/pmocampo" target="_blank" title="Pam on instagram" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="42"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="43"><g data-reactid="44"><path d="m33.4 31.8v-14.4h-3q0.4 1.4 0.4 2.9 0 2.8-1.4 5.2t-3.9 3.7-5.3 1.4q-4.4 0-7.6-3t-3.1-7.3q0-1.5 0.5-2.9h-3.2v14.4q0 0.6 0.4 1t1 0.4h23.8q0.6 0 1-0.4t0.4-1z m-6.3-11.9q0-2.7-2.1-4.7t-4.8-1.9q-2.9 0-4.9 1.9t-2 4.7 2 4.8 4.9 1.9q2.8 0 4.8-1.9t2.1-4.8z m6.3-8v-3.7q0-0.6-0.4-1.1t-1.1-0.4h-3.9q-0.7 0-1.1 0.4t-0.5 1.1v3.7q0 0.6 0.5 1.1t1.1 0.4h3.9q0.6 0 1.1-0.4t0.4-1.1z m3.9-4.6v25.4q0 1.9-1.3 3.1t-3.1 1.3h-25.5q-1.8 0-3.1-1.3t-1.3-3.1v-25.4q0-1.9 1.3-3.1t3.1-1.3h25.5q1.8 0 3.1 1.3t1.3 3.1z" data-reactid="45"></path></g></svg></a><a href="http://foursquare.com/pmocampo" target="_blank" title="Pam on foursquare" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="46"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="47"><g data-reactid="48"><path d="m27.8 9.7l0.8-4.3q0.2-0.6-0.2-0.9t-0.7-0.4h-15.9q-0.5 0-0.9 0.4t-0.3 0.8v24.6q0 0.1 0.1 0l6.5-7.9q0.5-0.5 0.8-0.7t1.1-0.2h5.4q0.4 0 0.8-0.3t0.4-0.7q0.5-2.9 0.8-4.2 0.1-0.5-0.3-0.9t-0.8-0.4h-6.5q-0.7 0-1.1-0.5t-0.4-1v-1q0-0.6 0.4-1t1.1-0.5h7.7q0.4 0 0.8-0.3t0.4-0.6z m5.1-5q-0.3 1.7-1.2 6t-1.6 7.8-0.7 3.9q-0.2 0.5-0.2 0.7t-0.4 0.7-0.5 0.8-0.9 0.4-1.3 0.2h-6q-0.3 0-0.5 0.3-0.2 0.2-9.5 11-0.5 0.6-1.3 0.6t-1.1-0.1q-1.2-0.5-1.2-2.2v-31.4q0-1.3 0.8-2.3t2.7-1.1h19.8q2.1 0 2.9 1.2t0.2 3.5z m0 0l-3.5 17.7q0-0.4 0.7-3.9t1.6-7.8 1.2-6z" data-reactid="49"></path></g></svg></a><a href="http://getpocket.com/@pmocampo" target="_blank" title="Pam on pocket" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="50"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="51"><g data-reactid="52"><path d="m35.9 2.9q1.5 0 2.5 1t1 2.4v11.6q0 4-1.5 7.5t-4.1 6.2-6.1 4-7.5 1.5q-3.9 0-7.5-1.5t-6.1-4-4.1-6.2-1.5-7.5v-11.6q0-1.4 1-2.4t2.5-1h31.4z m-15.7 23.7q1.1 0 1.8-0.7l9.1-8.7q0.8-0.8 0.8-1.9 0-1.1-0.8-1.9t-1.8-0.7q-1.1 0-1.9 0.7l-7.2 6.9-7.2-6.9q-0.8-0.7-1.8-0.7-1.1 0-1.9 0.7t-0.7 1.9q0 1.2 0.8 1.9l9 8.7q0.7 0.7 1.8 0.7z" data-reactid="53"></path></g></svg></a><a href="http://last.fm/user/Psyc-adelick" target="_blank" title="Pam on lastfm" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="54"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="55"><g data-reactid="56"><path d="m35 23.5q0-3.9-5.3-5.4-0.7-0.2-1.1-0.3t-0.9-0.6-0.6-1q0-0.1-0.1-0.2t0-0.3-0.1-0.1q0-0.8 0.6-1.4t1.3-0.5q1.2 0 1.6 0.3h0q0.4 0.4 0.9 1.2l2-1.6q-0.8-1.2-1.1-1.4-0.7-0.7-1.5-0.9t-1.9-0.2q-1.8 0-3.1 1.3t-1.4 3q0 0.2 0 0.5 0.4 2.2 1.5 3.2t3.3 1.6q0.6 0.2 1.1 0.3t1 0.5 0.8 0.8 0.3 1v0.1q0.1 1.3-0.9 2.1t-2.2 0.8q-2.2 0-3.7-3.2-0.6-1.1-1.2-2.7t-1.1-2.8-1.2-2.5-1.6-2.1-2.3-1.4-3.3-0.5q-2.3 0-4.3 1.2t-3.2 3.3-1.1 4.3v0q0.1 2.4 1.1 4.5t3 3.3 4.4 1.2q4.1 0 6.2-2.4 0.4-0.6 0.7-1.2l-1.4-2.4q-0.9 1.8-2.2 2.6t-3.2 0.8q-2.6 0-4.3-1.9t-1.7-4.6q0-2.3 1.8-4.2t4.2-1.9q2.5 0 3.8 1.2t2.3 3.8q0.2 0.5 0.6 1.6t0.6 1.7 0.7 1.6 0.9 1.7 1 1.4 1.2 1.2 1.5 0.7 1.8 0.3q2.4 0 4.1-1.5t1.7-3.9z m2.3-14.2v21.4q0 2.7-1.9 4.6t-4.5 1.8h-21.5q-2.6 0-4.5-1.8t-1.9-4.6v-21.4q0-2.7 1.9-4.6t4.5-1.8h21.5q2.6 0 4.5 1.8t1.9 4.6z" data-reactid="57"></path></g></svg></a><a href="https://play.spotify.com/user/pmocampo" target="_blank" title="Pam on spotify" class="social-networks__icon" style="font-size:2.175rem;" data-reactid="58"><svg fill="currentColor" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40" style="vertical-align:middle;margin:0.48333rem;" data-reactid="59"><g data-reactid="60"><path d="m28.2 27q0-0.7-0.7-1.1-4.3-2.6-10-2.6-3 0-6.4 0.8-0.9 0.2-0.9 1.1 0 0.5 0.3 0.8t0.8 0.3q0.1 0 0.8-0.2 2.9-0.6 5.4-0.6 5.1 0 8.9 2.3 0.4 0.3 0.7 0.3 0.4 0 0.7-0.3t0.4-0.8z m2.1-4.8q0-0.9-0.8-1.4-5.3-3.1-12.2-3.1-3.4 0-6.8 0.9-1 0.3-1 1.5 0 0.5 0.3 0.9t1 0.4q0.1 0 0.8-0.2 2.7-0.7 5.6-0.7 6.2 0 10.9 2.8 0.5 0.3 0.9 0.3 0.5 0 0.9-0.4t0.4-1z m2.4-5.5q0-1.1-0.9-1.6-2.8-1.6-6.5-2.5t-7.7-0.8q-4.5 0-8.1 1.1-0.5 0.1-0.9 0.5t-0.3 1.1q0 0.7 0.5 1.2t1.1 0.4q0.2 0 0.9-0.1 3-0.9 6.8-0.9 3.6 0 7 0.8t5.6 2.1q0.5 0.3 0.9 0.3 0.7 0 1.1-0.5t0.5-1.1z m4.6 3.3q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z" data-reactid="61"></path></g></svg></a></div><span style="display:block;clear:both;" data-reactid="62"> </span></div></div><script data-reactid="63"></script></div></div><script src="/bundle.js"></script></body></html>
