@@ -34,41 +34,6 @@
     }
   }
 
-  .quote {
-    margin: 0 0 0 1em;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    color: $graphite;
-
-    &:before, &:after {
-      margin: 0.5em;
-      color: $silver;
-      font-size: 3em;
-    }
-
-    &:before {
-      content: "“";
-    }
-
-    &:after {
-      content: "”";
-    }
-  }
-
-  .twitter-tweet {
-    color: $graphite;
-    padding: 1em 1em 0 1em;
-    a {
-      display: inline-block;
-    }
-    p {
-      background-color: $white;
-      color: $black;
-      margin-bottom: 0.5em;
-    }
-  }
 }
 .author {
   display: flex;
