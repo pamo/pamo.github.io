@@ -321,6 +321,7 @@ Includes
 
 ## Developer Advice
 
+
 > Using isn't the same as maintaining.
 
 Component paradigm isn't news to developers. Polymer is just helping everyone jump on board and build an app easily.
@@ -343,3 +344,38 @@ Practice _Fear-Driven-Development_.
   * [CustomElements.io](https://customelements.io/) to demo and find new components
 
 **Bottom line**: just make things!
+
+# Progressive Performance: PRPL
+Sam Saccone, Software Engineer
+* Truth is in the trace. From Chrome Dev Tools with a device connected. Simulator is a LIE.
+* [MotionMark](https://browserbench.org/MotionMark) measures a browser’s capability to animate complex scenes at a target frame rate.
+* [High Performance Browser Networking](https://hpbn.co) Playbook
+* Study: [Adaptive Congestion Control for Unpredictable Cell Networks](https://cs.nyu.edu/~jchen/publications/sigcomm15-zaki.pdf) [PDF]
+  * Basically, LTE speed in cities is unpredictable. 
+  * "A 4G user isn't a 4G user most of the time." - [Ilya Grigorik](https://twitter.com/igrigorik).
+* Tools and techniques we're borrowing from the desktop are not working for us on mobile. We need to practice different ones.
+* The time between the view is painted until JS arrives is an _uncanny valley_. Server-side rendering can help, as well as service workers and HTTP2 push to deliver some content from the cache.
+
+
+# HTTPS Real Talk
+Emily Stark, Software Engineer, Chrome
+* What's the Omnibox saying? Chrome should be more honest by delivering a warning to the user when they're on an insecure site that doesn't use HTTPS.
+  * The web should be secure by default.
+* Honest State of HTTPS Usage
+  * [Google Transparency Report](https://www.google.com/transparencyreport), more sites supporting HTTPS after this was released. Steady increase ever since.
+  * [Metrics](https://www.google.com/transparencyreport/https/metrics) on time spent on sites using HTTPS has also increased. 75% or more time. Reason why is not yet clear.
+* What's Chrome doing to help you as a developer?
+  * Powerful features are being restricted access from non-secure HTTP.
+  * All the things presented today are only available over HTTPS.
+  * Giving control to the users, not being mean to developers.
+  * [Firefox is also doing this](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/), for all new features.
+  * Performance improvements, enhancements, and general great source of information about HTTPS performance on [Is TLS Fast Yet?](https://istlsfastyet.com/)
+  * [Some FAQs on moving to HTTPS.](https://goo.gl/yGn4N4)
+  * [Some concerns and answers about HTTPS.](https://goo.gl/d4YPsq)
+  * [Let's Encrypt](https://letsencrypt.org/) can help us get to HTTPS everywhere. Free and easy.
+  * Ad revenue is a concern. It's a 3rd party resource that might not be secure when you move your site to HTTPS. Google Source Ads are already on HTTPS.
+* Omnibox changes
+  * Need to have HTTPS everywhere before flipping the switch on Omnibox treatment. Doing it today will cause it to be ignored because it would be *everywhere* and overwhelming.
+  * 'Not Secure' gray text in Chrome 56 (coming in January).
+    * [Enable it today using chrome flags](chrome://flags/#mark-non-secure-as) and try it on your site to see what users will see come January.
+    * Eventual treatment will be more alarming.
