@@ -8,8 +8,8 @@ theme.overrideThemeStyles = ({ rhythm, scale }) => ({
     backgroundImage: 'none',
   },
   blockquote: {
-    ...scale(1),
-    fontFamily: 'athelas',
+    ...scale(0.8),
+    fontFamily: 'athelas, georgia, sans-serif',
     lineHeight: rhythm(1.5),
     border: 0,
     color: gray(5),
@@ -17,7 +17,18 @@ theme.overrideThemeStyles = ({ rhythm, scale }) => ({
     marginLeft: 0,
     marginRight: 0,
   },
-  '.twitter-tweet': {
+  'blockquote.twitter-tweet': {
+    ...scale(1/6),
+    borderColor: '#eee #ddd #bbb',
+    borderRadius: '5px',
+    borderStyle: 'solid',
+    borderWidth: '1px',
+    boxShadow: '0 1px 3px rgba(0, 0, 0, 0.15)',
+    fontWeight: 300,
+    fontFamily: 'inherit',
+    fontStyle: 'normal',
+    padding: rhythm(0.85),
+    maxWidth: '468px',
   },
   'h1,h2,h3,h4,h5,h6': {
     marginTop: rhythm(0.5),
