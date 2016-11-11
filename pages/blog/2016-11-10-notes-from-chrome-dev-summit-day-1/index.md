@@ -3,9 +3,12 @@ title: Notes from Chrome Dev Summit Day 1
 date: '2016-11-10T18:01:12.066Z'
 layout: post
 path: "/chrome-dev-summit-day-1/"
-draft: true
+readNext: "/chrome-dev-summit-day-2/"
 ---
-# Mission: Move web platform forward
+Notes from a jam-packed first day of Google's Chrome Dev Summit in November of 2016.
+I'll be adding more links to the points I noted. Each primary heading is dedicated to one of the talks on the agenda.
+
+# Move web platform forward
 *Darin Fisher, VP, Chrome Engineering*
 
 Last year: over a million Chrome Mobile users. Today: 2 billion active chrome browsers. Both desktop and mobile. The standards apply for both platforms and they have a large reach.

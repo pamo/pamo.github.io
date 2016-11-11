@@ -3,11 +3,13 @@ title: Progressive Web Apps Roadshow
 date: '2016-11-09T17:39:35.965Z'
 layout: post
 path: "/pwa-roadshow/"
-draft: true
+readNext: "/chrome-dev-summit-day-1/"
 ---
+Notes from Google's Progressive Web App Roadshow in November of 2016.
+The full day workshop was split between lectures and afternoon code lab.
 
-* [Workshop Agenda](https://events.withgoogle.com/pwa-roadshow-north-america/agenda/)
 **Code Lab Links and Additional Resources**:
+* [Workshop Agenda](https://events.withgoogle.com/pwa-roadshow-north-america/agenda/)
 * [Google Web Documentation](https://developers.google.com/web)
 * [Your First Progressive Web App](https://goo.gl/9DJRJq)
 ```
@@ -16,12 +18,6 @@ curl -L -k -sO https://github.com/googlecodelabs/your-first-pwapp/archive/master
 * [Debugging Service Workers](https://goo.gl/suGNRb)
 * [Push Notifications](https://goo.gl/QRLk5i)
 * [Slides](https://goo.gl/ESUahe)
-
-## Speakers:
-
-* Sam ??
-* Alex — AUS — Web standards
-* Michael — Programs Engineer — Service workers and web push
 
 ## Keynote
 
