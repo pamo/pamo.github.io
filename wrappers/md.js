@@ -10,31 +10,22 @@ import SocialNetworks from 'components/SocialNetworks';
 import ProfileImage from 'components/ProfileImage';
 import Cover from 'components/Cover';
 import { Container } from 'react-responsive-grid';
+import access from 'safe-access';
 
 import 'css/zenburn.css';
 import 'css/markdown.scss';
+
+const pickFirstImage = body => (access(body.match(/<img\b[^>]+?src\s*=\s*['"]?([^\s'"?#>]+)/i), '1'));
 
 const MarkdownWrapper = (props) => {
   const { route } = props;
   const post = route.page.data;
   const pageUrl = config.blogUrl.slice(0, config.blogUrl.length-1) + prefixLink(route.page.path);
   let shortDescription = prune(post.body.replace(/<[^>]*>/g, ''), 100).trim();
-  const imageTagRegex = /<img\b[^>]+?src\s*=\s*['"]?([^\s'"?#>]+)/i;
-  const imageMatch = (post.body).match(imageTagRegex);
 
-  let header = <Cover title={post.title} />;
-
-  let coverImagePath;
-  if (imageMatch) {
-    coverImagePath = pageUrl + imageMatch[1];
-  }
-
-  if (post.coverPhoto) {
-    coverImagePath = pageUrl + post.coverPhoto;
-    header = <Cover title={post.title} image={post.coverPhoto} />;
-  } else if (post.coverPhoto !== '' && imageMatch) {
-    header = <Cover title={post.title} image={imageMatch[1]} />;
-  }
+  const coverImageFile = ('coverPhoto' in post) ? post.coverPhoto : pickFirstImage(post.body);
+  const header = <Cover title={post.title} image={coverImageFile} />;
+  const metaImageUrl = pageUrl + pickFirstImage(post.body);
 
   let readNextPost;
   if (post.layout === 'post') {
@@ -53,16 +44,16 @@ const MarkdownWrapper = (props) => {
           { property: 'og:type', content: 'article' },
           { property: 'og:title', content: post.title },
           { property: 'og:description', content: shortDescription },
-          { property: 'og:image', content: coverImagePath },
+          { property: 'og:image', content: metaImageUrl },
           { name: 'description', content: shortDescription },
           { name: 'twitter:card', content: 'summary_large_image' },
           { name: 'twitter:site', content: config.authorTwitter },
           { name: 'twitter:creator', content: config.authorTwitter },
           { name: 'twitter:title', content: post.title },
           { name: 'twitter:description', content: shortDescription },
-          { name: 'twitter:image', content: coverImagePath },
+          { name: 'twitter:image', content: metaImageUrl },
         ]}
-        title={`${config.blogTitle} :: ${post.title}`}
+        title={`☕️ ${post.title}`}
       />
       { header }
       <Container
