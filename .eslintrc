@@ -11,6 +11,7 @@
     "space-infix-ops": [0],
     "react/jsx-filename-extension": [0],
     "react/prefer-es6-class": [0],
+    "react/no-danger": [0],
     "import/no-unresolved": [2, { "ignore": ["loader|react-router|css|sass"] }],
     "import/no-extraneous-dependencies": [0],
     "import/extensions": [0]

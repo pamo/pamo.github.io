@@ -1,47 +1,45 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { prefixLink } from 'gatsby-helpers';
-import { TypographyStyle, GoogleFont } from 'react-typography';
-import typography from 'utils/typography';
+import { GoogleFont, TypographyStyle } from 'react-typography';
+import typography from './utils/typography';
 
-module.exports = React.createClass({
+const BUILD_TIME = new Date().getTime();
+
+export default () => ({
   displayName: 'HTML',
   propTypes: {
     body: React.PropTypes.string,
     favicon: React.PropTypes.string,
   },
-  defaultProps: {
-    body: '',
-    favicon: 'favicon.ico',
-  },
   render() {
     const { favicon, body } = this.props;
     const head = Helmet.rewind();
-    let cssLink;
 
+    let css;
     if (process.env.NODE_ENV === 'production') {
-      cssLink = <link rel="stylesheet" href={prefixLink('/styles.css')} />;
+      css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />;
     }
 
     return (
       <html lang="en">
         <head>
           <meta charSet="utf-8" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
-            content="user-scalable=no width=device-width, initial-scale=1.0 maximum-scale=1.0"
+            content="width=device-width, initial-scale=1.0"
           />
-          { head.meta.toComponent() }
-          { head.title.toComponent() }
+          {head.title.toComponent()}
+          {head.meta.toComponent()}
           <link rel="shortcut icon" href={favicon} />
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
-          {cssLink}
+          {css}
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
-          <script src={prefixLink('/bundle.js')} />
+          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
         </body>
       </html>
     );
