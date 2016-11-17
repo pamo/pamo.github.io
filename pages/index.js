@@ -1,4 +1,5 @@
 import React from 'react';
+import { routeProp } from 'utils/propTypeValidation';
 import { rhythm } from 'utils/typography';
 import { config } from 'config';
 import SocialNetworks from 'components/SocialNetworks';
@@ -30,7 +31,7 @@ const SiteIndex = () => (
   );
 
 SiteIndex.propTypes = {
-  route: React.PropTypes.object,
+  route: routeProp,
 };
 
 export default SiteIndex;

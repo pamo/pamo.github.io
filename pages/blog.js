@@ -4,6 +4,7 @@ import sortBy from 'lodash/sortBy';
 import filter from 'lodash/filter';
 import { prefixLink } from 'gatsby-helpers';
 import { rhythm } from 'utils/typography';
+import { routeProp } from 'utils/propTypeValidation';
 import access from 'safe-access';
 import { prune, include as includes } from 'underscore.string';
 import { Container } from 'react-responsive-grid';
@@ -55,7 +56,7 @@ const BlogIndex = (props) => {
 };
 
 BlogIndex.propTypes = {
-  route: React.PropTypes.object,
+  route: routeProp,
 };
 
 export default BlogIndex;

@@ -9,6 +9,7 @@ import filter from 'lodash/filter';
 import map from 'lodash/map';
 import { prefixLink } from 'gatsby-helpers';
 import { rhythm } from 'utils/typography';
+import { routeProp } from 'utils/propTypeValidation';
 import access from 'safe-access';
 import { Container } from 'react-responsive-grid';
 import CountryNames from './travel/_countryNames';
@@ -65,7 +66,7 @@ const TravelIndex = (props) => {
 };
 
 TravelIndex.propTypes = {
-  route: React.PropTypes.object,
+  route: routeProp,
 };
 
 export default TravelIndex;

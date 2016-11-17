@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import ReadNext from 'components/ReadNext';
 import { rhythm } from 'utils/typography';
+import { routeProp } from 'utils/propTypeValidation';
 import { config } from 'config';
 import filter from 'lodash/filter';
 import { prune, include as includes } from 'underscore.string';
@@ -80,7 +81,7 @@ const MarkdownWrapper = (props) => {
 };
 
 MarkdownWrapper.propTypes = {
-  route: React.PropTypes.object,
+  route: routeProp,
 };
 
 export default MarkdownWrapper;
