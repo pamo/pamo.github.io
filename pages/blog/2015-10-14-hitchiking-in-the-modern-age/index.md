@@ -1,8 +1,8 @@
 ---
-layout: photo-set
 title:  "Hitchhiking in the Modern Age"
 coverPhoto: "2.jpg"
 path: "/hitchhiking/"
+readNext: "/hello-from-pune/"
 date: "2015-08-27"
 ---
 I'm beginning to get more comfortable in traveling alone during my time in India. For the most part, I plan out how to get to and from the destination and let everything else fall into place.
@@ -16,7 +16,8 @@ To add on top of that, most of the day was spent in me walking around some of Mu
 by locals staring at me with every step and snap I took, wondering what I was up to.
 
 
-This past weekend was another stretch in putting my trust in the universe. This time I wasn't alone, but we put off purchasing train tickets for a day trip we had been planning the whole week. 
+This past weekend was another stretch in putting my trust in the universe. This time I wasn't alone, but we put off purchasing train tickets for a day trip we had been planning the whole week.
+
 We were met with wait-lists on any of the departure times we considered.
 
 

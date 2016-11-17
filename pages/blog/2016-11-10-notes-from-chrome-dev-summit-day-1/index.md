@@ -262,7 +262,7 @@ Debugging is how we understand the execution of Javascript. Chrome Dev tools are
     * Sub-string completions in both console and elements panel.
 * Snippets inside of Sources panel: Persisted in your Chrome profile (propagated across sessions and machines like JSBin).
 * Smarter breakpoints inside Promise chains (including when the code is collapsed on one line).
-* `console.image` can print a response to the console as a visible image if it's a valid image URL.
+* Demonstrated a `console.image` as a joke that printed a response to the console as a visible image, but I fell for it 😜.
 
 # CSS
 * Selection copy-paste has existed (copying CSS from the styles tab).

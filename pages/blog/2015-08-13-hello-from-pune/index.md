@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Hello from Pune"
-categories: general, travel, TWU
 path: "/hello-from-pune/"
 date: "2015-08-13"
 ---

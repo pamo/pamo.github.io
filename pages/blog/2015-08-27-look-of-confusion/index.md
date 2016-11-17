@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Look of Confusion"
-categories: general, travel, TWU
 path: "/look-of-confusion/"
 date: "2015-08-27"
 ---
@@ -21,7 +20,6 @@ learning objectives across, but it’s difficult to achieve that when you look a
 and the group does not even know where to begin. A lot of them seem to be having difficulty in
 making the transition of understanding the concept we present to them to implementation.
 
-I am really struggling with the overwhelmed looks on many of their faces. They are 
+I am really struggling with the overwhelmed looks on many of their faces. They are
 beginning to realize that they don’t know as much as they thought they did. I have a huge
 ladle I wish I could feed them with, but that will only hamper their learning journey.
-
