@@ -2,13 +2,12 @@ import React from 'react';
 import { Link } from 'react-router';
 import Helmet from 'react-helmet';
 import { prefixLink } from 'gatsby-helpers';
-import { rhythm } from 'utils/typography';
 import { config } from 'config';
 import { Container } from 'react-responsive-grid';
 import ga from 'react-google-analytics';
 import { trim, capitalize } from 'lodash';
-
-import 'css/base.scss';
+import { rhythm } from '../utils/typography';
+import '../css/base.scss';
 
 const Template = (props) => {
   const { location, children } = props;
@@ -93,9 +92,8 @@ const Template = (props) => {
 };
 
 Template.propTypes = {
-  children: React.PropTypes.any,
-  location: React.PropTypes.object,
-  route: React.PropTypes.object,
+  children: React.PropTypes.shape({}),
+  location: React.PropTypes.shape({}),
 };
 
 export default Template;

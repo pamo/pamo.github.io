@@ -8,10 +8,10 @@ import { include as includes } from 'underscore.string';
 import filter from 'lodash/filter';
 import map from 'lodash/map';
 import { prefixLink } from 'gatsby-helpers';
-import { rhythm } from 'utils/typography';
-import { routeProp } from 'utils/propTypeValidation';
 import access from 'safe-access';
 import { Container } from 'react-responsive-grid';
+import { rhythm } from '../utils/typography';
+import { routeProp } from '../utils/propTypeValidation';
 import CountryNames from './travel/_countryNames';
 
 const TravelIndex = (props) => {

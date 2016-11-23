@@ -21,7 +21,8 @@ const ProfileImage = (props) => {
 
   const photoSource = src || sample(photosSources);
   return (
-    <img src={prefixLink(photoSource)}
+    <img
+      src={prefixLink(photoSource)}
       alt={trimEnd(replace(photoSource, '-', ' '), '.jpg')}
       style={mergedStyles}
     />);
@@ -29,7 +30,7 @@ const ProfileImage = (props) => {
 
 ProfileImage.propTypes = {
   src: React.PropTypes.string,
-  style: React.PropTypes.object,
+  style: React.PropTypes.shape({}),
 };
 
 export default ProfileImage;

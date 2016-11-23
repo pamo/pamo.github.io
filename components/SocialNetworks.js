@@ -1,5 +1,4 @@
 import React from 'react';
-import { rhythm } from 'utils/typography';
 import map from 'lodash/map';
 import {
   FaTwitter as Twitter,
@@ -10,7 +9,8 @@ import {
   FaGetPocket as Pocket,
   FaLastfmSquare as Lastfm,
   FaSpotify as Spotify } from 'react-icons/lib/fa';
-import 'css/social-networks.scss';
+import { rhythm } from '../utils/typography';
+import '../css/social-networks.scss';
 
 const SocialNetworks = (props) => {
   const marginBetweenIcons = rhythm(1/3);

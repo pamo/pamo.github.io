@@ -37,7 +37,7 @@ function instagramEmbed(md) {
         service,
         state.md,
         state.env,
-        []
+        [],
       );
       newState.md.inline.tokenize(newState);
 

@@ -5,8 +5,8 @@ import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import { prune, include as includes } from 'underscore.string';
 import { find, findIndex } from 'lodash';
-import { rhythm, scale } from 'utils/typography';
 import { Container } from 'react-responsive-grid';
+import { rhythm, scale } from '../utils/typography';
 
 const ReadNext = (props) => {
   const { pages, post } = props;

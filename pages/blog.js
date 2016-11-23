@@ -3,11 +3,11 @@ import { Link } from 'react-router';
 import sortBy from 'lodash/sortBy';
 import filter from 'lodash/filter';
 import { prefixLink } from 'gatsby-helpers';
-import { rhythm } from 'utils/typography';
-import { routeProp } from 'utils/propTypeValidation';
 import access from 'safe-access';
 import { prune, include as includes } from 'underscore.string';
 import { Container } from 'react-responsive-grid';
+import { rhythm } from '../utils/typography';
+import { routeProp } from '../utils/propTypeValidation';
 
 const BlogIndex = (props) => {
   const pageLinks = [];
@@ -30,7 +30,7 @@ const BlogIndex = (props) => {
         >
           <Link to={prefixLink(page.path)} className="page-link">{title}</Link>
           <p>{ body }</p>
-        </li>
+        </li>,
       );
     }
   });
