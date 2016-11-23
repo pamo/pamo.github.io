@@ -4,9 +4,11 @@
   "description": "Gatsby Blog",
   "main": "n/a",
   "scripts": {
-    "lint": "eslint --ext .js,.jsx --ignore-pattern public . ; exit 0",
+    "lint": "esw --ignore-pattern public --color",
+    "lint:watch": "yarn lint -- --watch",
     "test": "snyk test",
-    "start": "npm run lint && gatsby develop",
+    "gatsby:dev": "gatsby develop",
+    "start": "npm-run-all --parallel gatsby:dev lint:watch",
     "deploy": "gatsby build && gh-pages -d public -b master",
     "post": "node new_post.js",
     "snyk-protect": "snyk protect",
@@ -61,7 +63,9 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.6.0",
-    "gh-pages": "^0.11.0"
+    "eslint-watch": "^2.1.14",
+    "gh-pages": "^0.11.0",
+    "npm-run-all": "^3.1.1"
   },
   "snyk": true
 }
