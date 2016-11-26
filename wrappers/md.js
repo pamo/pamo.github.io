@@ -1,20 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import ReadNext from 'components/ReadNext';
-import { rhythm } from 'utils/typography';
-import { routeProp } from 'utils/propTypeValidation';
-import { config } from 'config';
-import filter from 'lodash/filter';
-import { prune, include as includes } from 'underscore.string';
-import { prefixLink } from 'gatsby-helpers';
-import SocialNetworks from 'components/SocialNetworks';
-import ProfileImage from 'components/ProfileImage';
-import Cover from 'components/Cover';
-import { Container } from 'react-responsive-grid';
 import access from 'safe-access';
+import filter from 'lodash/filter';
+import { config } from 'config';
+import { Container } from 'react-responsive-grid';
+import { prefixLink } from 'gatsby-helpers';
+import { prune, include as includes } from 'underscore.string';
+import ReadNext from '../components/ReadNext';
+import { rhythm } from '../utils/typography';
+import { routeProp } from '../utils/propTypeValidation';
+import SocialNetworks from '../components/SocialNetworks';
+import ProfileImage from '../components/ProfileImage';
+import Cover from '../components/Cover';
 
-import 'css/zenburn.css';
-import 'css/markdown.scss';
+import '../css/zenburn.css';
+import '../css/markdown.scss';
 
 const pickFirstImage = body => (access(body.match(/<img\b[^>]+?src\s*=\s*['"]?([^\s'"?#>]+)/i), '1'));
 
