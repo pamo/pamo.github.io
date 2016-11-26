@@ -52,15 +52,23 @@ const SocialNetworks = (props) => {
   const links = map(networks, (network, k) => {
     const iconTitle = `Pam on ${k}`;
     return (
-      <a key={k} href={network.url} target="_blank"
-        title={iconTitle} className="social-networks__icon"
+      <a
+        key={k}
+        href={network.url}
+        rel="noopener noreferrer"
+        target="_blank"
+        title={iconTitle}
+        className="social-networks__icon"
         style={{
           fontSize: rhythm(1.5),
         }}
-      ><network.icon style={{ margin: marginBetweenIcons }} /></a>);
+      ><network.icon
+        style={{ margin: marginBetweenIcons }}
+      /></a>);
   });
   return (
-    <div className="social-networks"
+    <div
+      className="social-networks"
       style={props.style}
     >
       { links }
@@ -69,7 +77,7 @@ const SocialNetworks = (props) => {
 };
 
 SocialNetworks.propTypes = {
-  style: React.PropTypes.object,
+  style: React.PropTypes.shape({}),
 };
 
 export default SocialNetworks;
