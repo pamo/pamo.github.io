@@ -13,9 +13,7 @@ const ReadNext = (props) => {
   const { readNext } = post;
   let nextPost;
   if (readNext) {
-    nextPost = find(pages, page =>
-                    includes(page.path, readNext)
-                   );
+    nextPost = find(pages, page => includes(page.path, readNext));
   }
   if (!nextPost) {
     const currentIndex = findIndex(pages, page => includes(page.path, post.path));
@@ -74,8 +72,8 @@ const ReadNext = (props) => {
 };
 
 ReadNext.propTypes = {
-  post: React.PropTypes.object.isRequired,
-  pages: React.PropTypes.array,
+  post: React.PropTypes.shape({}).isRequired,
+  pages: React.PropTypes.arrayOf(React.PropTypes.object),
 };
 
 export default ReadNext;
