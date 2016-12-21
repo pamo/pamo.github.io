@@ -1,5 +1,7 @@
 Likes Coffee
 =============================
+[![Build Status](https://app.snap-ci.com/pamo/pamo.github.io/branch/development/build_image)](https://app.snap-ci.com/pamo/pamo.github.io/branch/development)
+
 Codebase for my [statically generated blog](http://likescoffee.com/).
 Uses [Gatsby](https://github.com/gatsbyjs/gatsby) as a React framework to generate HTML from Markdown.
 Uses [gh-pages](https://www.npmjs.com/package/gh-pages) for deployment and specifies the branch to push to (master).
