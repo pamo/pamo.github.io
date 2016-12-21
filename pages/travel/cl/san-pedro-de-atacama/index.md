@@ -1,6 +1,7 @@
 ---
 title: San Pedro de Atacama
 coverPhoto: "take-my-photo.jpg"
+coverPhotoShift: 80
 layout: travel
 ---
 ## Way of Life
@@ -163,7 +164,7 @@ I was very reluctant to try this one. I hate being cold. However, I came well pr
 2. When am I ever going to have the opportunity to dip into a natural spring at 4000+ meters above sea level?
 3. The other travelers I spoke to were women also traveling by themselves and much older than me.
 
-So I did it, I saw it, I took a dip. Seeing the geysers as the sun is rising is a neat way to wake up. Make sure you pack some coffee or warm beverage. If you're lucky and the sun is out, the cold won't be as bad. 
+So I did it, I saw it, I took a dip. Seeing the geysers as the sun is rising is a neat way to wake up. Make sure you pack some coffee or warm beverage. If you're lucky and the sun is out, the cold won't be as bad.
 
 **Bottom line**: Would I do this one again? Probably not.
 
