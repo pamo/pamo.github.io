@@ -116,8 +116,8 @@ Some of the highlights from my trips were:
 @[instagram](sSxkGUJZN8)
 
 ### Art
-* [_expand on this_] -Street art walking []() in Bandra. The street art is sponsored by. There are other areas nearby with pieces the height of residential buildings in hotels but you run the risk of stepping into areas tourists rarely wander into.-
-
+* Visit street art and other murals fueled by the [ST+ART India](http://www.st-artindia.org/) organization in Bandra. There are other areas nearby with pieces the height of residential buildings in hotels but you run the risk of stepping into areas tourists rarely wander into.
+To find a lot of the art, I scoured the internet for articles like [this one](https://lbb.in/mumbai/street-art-mumbai-probably-missed/) to guide me.
 * Gallery hopping in the Fort precinct can be a hit or miss depending on whether or not the gallery is open that day. Don't be surprised if you have to ring a doorbell to get into some of them. The ones I managed to sneak into were:
 	* [project 88](https://foursquare.com/v/project-88/4d528f5a7ee1a35db82c9b34)
 	* [Gallery Maskara](https://foursquare.com/v/gallery-maskara/4b0587d4f964a5205ba322e3)
