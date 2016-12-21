@@ -25,7 +25,7 @@ const MarkdownWrapper = (props) => {
   let shortDescription = prune(post.body.replace(/<[^>]*>/g, ''), 100).trim();
 
   const coverImageFile = ('coverPhoto' in post) ? post.coverPhoto : pickFirstImage(post.body);
-  const header = <Cover title={post.title} image={coverImageFile} />;
+  const header = <Cover title={post.title} image={coverImageFile} shift={post.coverPhotoShift} />;
   const metaImageUrl = pageUrl + pickFirstImage(post.body);
 
   let readNextPost;

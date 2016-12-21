@@ -2,8 +2,9 @@ import React from 'react';
 import { rhythm } from '../utils/typography';
 
 const Cover = (props) => {
-  const { title, image } = props;
+  const { title, image, shift } = props;
   const photoCoverStyle = {
+    backgroundPosition: `${shift}%` || '0%',
     backgroundImage: `url(${image})`,
     backgroundSize: 'cover',
     color: '#FFF',
