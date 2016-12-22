@@ -121,6 +121,7 @@ It's mostly about the food and space to hangout with friends.
 * [Chor Bazaar](https://en.wikipedia.org/wiki/Chor_Bazaar) (Thieves Market) is a goldmine if you want to take photos of really old stuff or happen to be shopping for any old film camera. You can see more photos of my visit in my post about ["hitchhiking"](/hitchhiking/).
 * [Filter](http://4sq.com/sobplk) in Kala Ghoda sells art and other goods from local artists and popular artists around the world. Closed on Sundays.
 * [Kulture Shop](https://foursquare.com/v/kulture-shop/5419fe67498e7ff7ba2436ac) in is a hidden gem you have to find by getting to the second floor of the building it resides in. The owner, Jas Charanjiva, is a [bad ass](http://www.pri.org/stories/2015-09-18/dont-mess-me-thats-message-behind-mumbai-artists-work) and was very hospitable during the time my friend and I spent browsing the prints and souvenirs with local artists' work.
+* [Kitab Khana](https://foursquare.com/v/kitab-khana/4d6e1cf829586dcb8d4badf1) is my favorite bookstore to browse in the Fort precinct. There's also a little cafe in the back.
 
 ## Activities
 
