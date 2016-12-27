@@ -18,6 +18,7 @@ export default () => ({
 
     let css;
     if (process.env.NODE_ENV === 'production') {
+      /* eslint-disable global-require, import/no-webpack-loader-syntax */
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />;
     }
 

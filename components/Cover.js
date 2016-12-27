@@ -34,6 +34,7 @@ const Cover = (props) => {
 Cover.propTypes = {
   title: React.PropTypes.string,
   image: React.PropTypes.string,
+  shift: React.PropTypes.number,
 };
 
 export default Cover;
