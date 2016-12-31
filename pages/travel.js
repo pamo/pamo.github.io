@@ -30,7 +30,7 @@ const TravelIndex = (props) => {
       countries[countryCode] = countries[countryCode] || [];
 
       countries[countryCode].push(<li key={page.path}>
-        <Link to={prefixLink(page.path)}>{city}</Link>
+        <Link to={prefixLink(page.path)} className="page-link">{city}</Link>
       </li>);
     }
   });

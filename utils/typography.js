@@ -1,10 +1,25 @@
 import Typography from 'typography';
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 import gray from 'gray-percentage';
-import theme from 'typography-theme-fairy-gates';
+import theme from 'typography-theme-lincoln';
+
+const colors = require('!!sass-variables!css/_colors.scss'); // eslint-disable-line
+const linkColor = colors.cerulean;
 
 theme.overrideThemeStyles = ({ rhythm, scale }) => ({
   a: {
+    color: linkColor,
+    textDecoration: 'none',
+    backgroundImage: 'none',
+  },
+  '.markdown a, .page-link': {
+    textShadow: '.03em 0 #fff,-.03em 0 #fff,0 .03em #fff,0 -.03em #fff,.06em 0 #fff,-.06em 0 #fff,.09em 0 #fff,-.09em 0 #fff,.12em 0 #fff,-.12em 0 #fff,.15em 0 #fff,-.15em 0 #fff', // eslint-disable-line
+    backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, ${linkColor} 1px, ${linkColor} 2px, rgba(0, 0, 0, 0) 2px)`, // eslint-disable-line
+  },
+  'a:hover,a:active,.markdown a:hover,.markdown a:active,.page-link a:hover,.page-link a:active': {
+    color: colors.bondiBlue,
+    transition: 'all 0.2s ease',
+    textShadow: 'none',
     backgroundImage: 'none',
   },
   blockquote: {
@@ -33,6 +48,7 @@ theme.overrideThemeStyles = ({ rhythm, scale }) => ({
   'h1,h2,h3,h4,h5,h6': {
     marginTop: rhythm(0.5),
     marginBottom: rhythm(0.5),
+    color: colors.bondiBlue,
   },
   [MOBILE_MEDIA_QUERY]: {
     blockquote: {
