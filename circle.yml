@@ -16,4 +16,4 @@ deployment:
   static_site:
     branch: development
     commands:
-      - gh-pages -d $CIRCLE_ARTIFACTS/public -b master -m "Updates from $CIRCLE_SHA1."
+      - gh-pages -d public -b master -m "Updates from ${CIRCLE_SHA1}."
