@@ -9,9 +9,6 @@ machine:
 dependencies:
   override:
     - yarn
-test:
-  override:
-    - yarn lint
 compile:
   override:
     - gatsby build
