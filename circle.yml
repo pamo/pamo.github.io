@@ -1,4 +1,7 @@
 general:
+  branches:
+    only:
+      - development
   artifacts:
     - "public"
 machine:
