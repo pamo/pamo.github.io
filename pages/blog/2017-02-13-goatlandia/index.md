@@ -15,4 +15,4 @@ Nicolette Hahn Niman, _Defending Beef: The Case for Sustainable Meat Production_
 
 ![Double Trouble](double_trouble.jpg)
 
-The last time I visited my grandparents was over 17 years ago. Each visit to Mexico brought about lasting experiences around farm animals. It's been years since they've passed away and I don't know the state of the land they used to own in Guerrero.
+The last time I visited my grandparents was over 17 years ago. Each visit to Mexico brought about lasting experiences around farm animals. It's been years since they've passed away and reading Niman's words aboulivinwfarm animals remindedmowhawit was like to walk the farm my grandpareoi uerrer.
