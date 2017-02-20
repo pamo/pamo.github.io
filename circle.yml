@@ -15,6 +15,9 @@ dependencies:
 compile:
   override:
     - gatsby build
+test:
+  override:
+    - echo "Just ship it! 📦"
 deployment:
   static_site:
     branch: development
