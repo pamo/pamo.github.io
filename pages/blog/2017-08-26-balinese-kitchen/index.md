@@ -317,7 +317,8 @@ _Black rice porridge with coconut milk and palm sugar._
 5. To serve, remove the pandan leaves from the rice into 2 serving bowls. Pour over the coconut milk and garnish with fresh coconut.
 
 ### Jamu Kunyit
-        eat_turmeric_jamu_refreshing_drink.jpg
+
+~[Mid-morning refresher](eat_turmeric_jamu_refreshing_drink.jpg)
 
 ### Pisang Goreng
 
