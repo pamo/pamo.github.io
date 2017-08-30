@@ -12,8 +12,6 @@ When it comes to traveling, experiencing a new culture through its food is a giv
 
 > Begin your experience at a local market, where your Family Host will purchase and explain the fresh herbs, spices, fruits and vegetables used in your class. Once home, you’ll be greeted by Dewa with a pipping hot cup of coffee or tea, or mineral water and his famous _Pisang Goreng_, fresh made crispy Banana Fritters, to set off your taste buds.
 
-~[Pisang Goreng sweetened with palm sugar syrup.](eat_pisang_goreng.jpg)
-
 ## Payangan Morning Market
 
 Just a short drive away from Ubud is the region of Payangan. We went here to experience a true open-air market experience without the tourism that lies inside of Ubud's similar market. Our 9 am arrival was during the market's lull given that it normally starts at 2 am and over by 10 am. As the saying goes, the early bird gets the worm.
@@ -375,6 +373,8 @@ _Black rice porridge with coconut milk and palm sugar._
 
 ### Pisang Goreng
 _Fried banana fritters_
+
+~[Morning snack](eat_pisang_goreng.jpg)
 
 **Ingredients**
 - 6 bananas, halved lengthwise and horizontally.
