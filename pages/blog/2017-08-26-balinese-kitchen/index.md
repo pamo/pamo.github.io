@@ -3,9 +3,9 @@ title: Balinese Kitchen
 date: '2017-08-27T02:54:44.063Z'
 layout: post
 draft: true
-readNext: /cooking-with-coco/
 path: '/bali-cooking/'
 coverPhoto: 'prep_days_mise_en_place.jpg'
+readNext: '/cooking-with-cocco/'
 ---
 
 When it comes to traveling, experiencing a new culture through its food is a given. However, during my search for experiences to have in Bali, a cooking class teaching traditional cuisine made its way into my plans. After reading the description [_The Lobong Culinary Experience_](https://lobongbalicooking.com/lobong-culinary-experience/), I was sold.
