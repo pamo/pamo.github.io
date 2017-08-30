@@ -41,7 +41,27 @@ We inspected the 'snakeskin' fruit in detail. In summary, it's kinda bland and c
 ![before taking a bite](market_what's_inside.jpg)
 ![brown pit inside the flesh](market_crunchy_and_kinda_bland.jpg)
 
-### Familiarizing Ourselves with Ingredients
+## Balinese Culture
+During the course of the day, I learned about many facets of Balinese customs and rituals. Most of them related to different stepping stones to reach adulthood.
+On our arrival to the Lobong family compound, conversation focused on marriage and the custom for families to ceremoniously come to an agreement about the event.
+
+Families stick together and there’s no such thing as ‘flying the nest’. A male’s residence in the compound changes position in the course of his maturity. The close-knit families make it very rare to see homeless in Bali.
+
+Learning more about the annual kite festival in Bali was inspirational to me. The driver that picked me up from my home stay explained that it is a rooted tradition that has many representations that have changed over time. In a few ways, it represents freedom and coming of age or a symbol of maturity. Bali’s youth took to the rice fields during dusk each day during my stay to practice kite flying.
+
+Apparently, having teeth filed as a coming of age opportunity was one that made my hair rise.
+Family compounds are forever. You will never see a family compound up for sale.
+
+While we learned a little bit about daily offerings during the tour of Payangan market, we learned that the men in a Balinese family stay in the kitchen. Women have the responsibility of hand-making the offerings (but in some cases the task is translated to purchasing them at the market).
+
+~[Preparing kits for daily offerings](market_methodical_offering_kit.jpg)
+![cash for offering](market_offerings_as_a_transaction.jpg)
+~[Offering vendor waiting for the next customer](market_offering_vendor.jpg)
+![Offerings](market_completed_offerings_for_sale.jpg)
+
+This is partly because offerings symbolize beauty (it was also mentioned that you will not see men making offerings in Bali, and if you do, that man is referred to a “beautiful man”).
+
+## Familiarizing Ourselves with Ingredients at the Market
 
 The primary purpose of the market tour was too have a first hand look at what ingredients would look like among market stands.
 We talked about the salad we would be making and a distinction was made between the greens in traditional western salads and Balinese salads. In Bali, fern tips are used rather than the common romaine, spinach, and kale.
@@ -89,16 +109,16 @@ _Basic spice base_. A foundation to Balinese cooking!
 - 100 g garlic
 - 150 g galangal
 - 75 g ginger
-- 50 g kencur (lesser galangal) washed
+- 50 g [kencur](http://indonesianfoodculinary.blogspot.com/2009/06/lesser-galingale.html) (lesser galangal) washed
 - 175 g fresh turmeric *
 - 75 g candle nut *
 - 2 tsp coriander seed
 - 150 ml coconut oil
 - 250 ml water or chicken stock
 - 1 tsp black peppercorn
-- 2 pcs lemongrass
-- 2 pcs salam/bay leaves
-- 3 pcs kaffir leaves
+- 2 pieces of lemongrass
+- 2 pieces of salam/bay leaves
+- 3 pieces of kaffir leaves
 - 2 tsp tamarind juice
 - 3 tsp palm sugar syrup
 - Salt and pepper to taste
@@ -217,12 +237,33 @@ _Mixed vegetable salad, grated coconut, garlic chili dressing._
 ~[Drying out sambal](eat_jukut_urab.jpg)
 
 ### Base Sate
+_Peanut sauce_
 
 ~[Sate paste ingredients](prep_sate_paste_ingredients.jpg)
 ~[Frying ingredients for sate paste](prep_frying_peanuts_for_sate_paste.jpg)
 ~[Fry until the garlic is browned and add green chilies at the end](prep_fry_until_garlic_browns.jpg)
 ~[Forming a paste on a mortar and pestle](prep_stone_ground_paste.jpg)
 ~[Once a paste is formed, add coconut milk to create the sauce](prep_sate_paste_coconut_milk_for_sauce.jpg)
+
+**Ingredients**
+- 250 g raw peanuts with skin
+- 5 garlic cloves peeled and sliced
+- 1-2 [Thai/bird's eye chilies](https://www.thespruce.com/thai-bird-eye-chili-facts-and-substitutions-3217054) sliced
+- 25 g [kencur](http://indonesianfoodculinary.blogspot.com/2009/06/lesser-galingale.html) (lesser galangal) washed and sliced
+- 3 tbsp pal sugar syrup
+- 50 ml fresh coconut milk
+- 2 kaffir lime leaves
+- 1 tsp kaffir lime juice
+- 2 pieces of shallots
+- 1 pinch salt
+
+**Method**
+1. Combine peanuts, garlic, chilies, and kencur in a heavy pan with oil and fry until golden brown.
+2. Finely grind in a mortar and pestle until a paste forms.
+3. Place back into a heavy pan with stock (vegetable or chicken) and stir until smooth. Add kaffir lime leaf and continue to stir until sauce thickens.
+4. Add coconut milk and simmer uncovered. Stir to prevent sauce from sticking for 10 minutes.
+5. Add the lime juice and palm sugar syrup.
+6. Sprinkle with fried shallots before serving.
 
 ### Sate Lilit Ayam
 _Minced chicken skewers, grated coconut, kaffir lime juice_
@@ -320,37 +361,46 @@ _Black rice porridge with coconut milk and palm sugar._
 
 ~[Mid-morning refresher](eat_turmeric_jamu_refreshing_drink.jpg)
 
-### Pisang Goreng
+**Ingredients**
+- 100 g tamarind paste (smashed)
+- 150 g turmeric
+- 100 g palm sugar syrup
+- 1 lime wedge
+- 500 ml water
 
-### Lunch is Served
+**Method**
+1. Mix all ingredients except lime and simmer for 20 minutes
+2. Sit aside and let cool. Run through a fine sieve.
+3. Serve with ice and lime wedge as garnish.
+
+### Pisang Goreng
+_Fried banana fritters_
+
+**Ingredients**
+- 6 bananas, halved lengthwise and horizontally.
+- 1 cup all purpose flour
+- 1/4 cup coconut milk (cream)
+- 1 cup dried and shredded unsweetened coconut
+- 1/4 cup white sugar
+- 1 cup water
+- 1/2 tsp salt
+
+**Method**
+1. In a large bowl, mix dry ingredients (flour, white sugar, salt).
+2. Make a well in the center of the incorporated dry ingredients and pour in milk and water. Mix until smooth.
+3. Fold in banana slices until evenly coated.
+4. Heat oil in a wok or deep fryer to 375ºF (190ºC).
+5. Drop banana mixture by tablespoon into hot oil and fry until golden brown and crispy on the outside (about 10-15 minutes).
+6. Remove banana from oil and drain on paper towels. Serve hot with palm sugar syrup.
+
+### Daily Rituals
 
 ![Dining al fresco](eat_open_air_dining.jpg)
 
-Before we ate, we followed tradition to honor Hindu gods with offerings from the food we prepared that morning. Sang Made's mother did the honors.
+Before we ate, we followed tradition to honor Hindu gods with offerings from the food we prepared that morning. Sang Made's mother did the honors. Usually, these honors are done early in the morning after the day's food has been prepared and is set aside in the kitchen for whoever is hungry to come and go as they see fit. Balinese rarely eat sitting down together, according to Sang Made.
 
 ~[Offerings from our creations](eat_offerings_from_our_creations.jpg)
 ~[Entering the family temple](eat_enter_the_temple.jpg)
 ~[Placing the offerings on the shrine](eat_placing_offerings.jpg)
 ~[Blessing the offerings](eat_blessing_offerings.jpg)
 
-
-## Balinese Culture
-During the course of the day, I learned about many facets of Balinese customs and rituals. Most of them related to different stepping stones to reach adulthood.
-On our arrival to the Lobong family compound, conversation focused on marriage and the custom for families to ceremoniously come to an agreement about the event.
-
-Families stick together and there’s no such thing as ‘flying the nest’. A male’s residence in the compound changes position in the course of his maturity. The close-knit families make it very rare to see homeless in Bali.
-
-Learning more about the annual kite festival in Bali was inspirational to me. The driver that picked me up from my home stay explained that it is a rooted tradition that has many representations that have changed over time. In a few ways, it represents freedom and coming of age or a symbol of maturity. Bali’s youth took to the rice fields during dusk each day during my stay to practice kite flying.
-
-Apparently, having teeth filed as a coming of age opportunity was one that made my hair rise.
-Family compounds are forever. You will never see a family compound up for sale.
-
-While we learned a little bit about daily offerings during the tour of Payangan market, we learned that the men in a Balinese family stay in the kitchen. Women have the responsibility of hand-making the offerings (but in some cases the task is translated to purchasing them at the market).
-
-~[Preparing kits for daily offerings](market_methodical_offering_kit.jpg)
-![cash for offering](market_offerings_as_a_transaction.jpg)
-~[Offering vendor waiting for the next customer](market_offering_vendor.jpg)
-![Offerings](market_completed_offerings_for_sale.jpg)
-
-This is partly because offerings symbolize beauty.
-There was a brief mention that you will not see men making offerings in Bali, and if you do, that man is referred to a “beautiful man”.
