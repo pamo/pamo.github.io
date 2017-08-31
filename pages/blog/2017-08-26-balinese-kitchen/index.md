@@ -2,7 +2,6 @@
 title: Balinese Kitchen
 date: '2017-08-27T02:54:44.063Z'
 layout: post
-draft: true
 path: '/bali-cooking/'
 coverPhoto: 'prep_days_mise_en_place.jpg'
 readNext: '/cooking-with-cocco/'
