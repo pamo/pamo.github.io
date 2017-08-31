@@ -8,13 +8,15 @@ coverPhoto: 'prep_days_mise_en_place.jpg'
 readNext: '/cooking-with-cocco/'
 ---
 
-When it comes to traveling, experiencing a new culture through its food is a given. However, during my search for experiences to have in Bali, a cooking class teaching traditional cuisine made its way into my plans. After reading the description [_The Lobong Culinary Experience_](https://lobongbalicooking.com/lobong-culinary-experience/), I was sold.
+When it comes to traveling, experiencing a new culture through its food is a given. During my search for things to do (i.e. eat) in Bali, I latched on to the description for a cooking class teaching traditional cuisine.
 
 > Begin your experience at a local market, where your Family Host will purchase and explain the fresh herbs, spices, fruits and vegetables used in your class. Once home, you’ll be greeted by Dewa with a pipping hot cup of coffee or tea, or mineral water and his famous _Pisang Goreng_, fresh made crispy Banana Fritters, to set off your taste buds.
 
+ Apart from watching two friends get married, [_The Lobong Culinary Experience_](https://lobongbalicooking.com/lobong-culinary-experience/) became a big highlight of the plans I made for myself leading up to the trip.
+
 ## Payangan Morning Market
 
-Just a short drive away from Ubud is the region of Payangan. We went here to experience a true open-air market experience without the tourism that lies inside of Ubud's similar market. Our 9 am arrival was during the market's lull given that it normally starts at 2 am and over by 10 am. As the saying goes, the early bird gets the worm.
+Just a short drive away from Ubud is the region of Payangan. I was whisked away from my home stay in Ubud in a van with the rest of the students for the day so that we would get a first-hand look at an open-air market without the touristy traffic dominating the market found in Ubud's center. Our 9 am arrival was during the market's lull given that it normally starts at 2 am and over by 10 am. As the saying goes, the early bird gets the worm.
 
 ~[Nap time: markets open at 2am and are over by 10](market_markets_open_at_2am_and_close_at_10am.jpg)
 
@@ -41,23 +43,24 @@ We inspected the 'snakeskin' fruit in detail. In summary, it's kinda bland and c
 
 ## Balinese Culture
 During the course of the day, I learned about many facets of Balinese customs and rituals. Most of them related to different stepping stones to reach adulthood.
+
 On our arrival to the Lobong family compound, conversation focused on marriage and the custom for families to ceremoniously come to an agreement about the event.
 
 Families stick together and there’s no such thing as ‘flying the nest’. A male’s residence in the compound changes position in the course of his maturity. The close-knit families make it very rare to see homeless in Bali.
 
-Learning more about the annual kite festival in Bali was inspirational to me. The driver that picked me up from my home stay explained that it is a rooted tradition that has many representations that have changed over time. In a few ways, it represents freedom and coming of age or a symbol of maturity. Bali’s youth took to the rice fields during dusk each day during my stay to practice kite flying.
+Learning more about the annual kite festival in Bali was inspirational to me. The driver that picked me up from my home stay explained that it is a rooted tradition that has many representations that have changed over time. In a few ways, it represents freedom and coming of age or a symbol of maturity. Bali’s youth took to the rice fields during dusk each day in the time I was there to practice kite flying.
 
 Apparently, having teeth filed as a coming of age opportunity was one that made my hair rise.
 Family compounds are forever. You will never see a family compound up for sale.
 
-While we learned a little bit about daily offerings during the tour of Payangan market, we learned that the men in a Balinese family stay in the kitchen. Women have the responsibility of hand-making the offerings (but in some cases the task is translated to purchasing them at the market).
+While we learned a little bit about daily Hindu offerings during the tour of Payangan market, we learned that the men in a Balinese family play the primary role in the kitchen. While it's stereotypical for women to have the kitchen role in other cultures, in Bali, it's their responsibility to hand-make daily offerings (but in some cases the task is translated to purchasing them at the market).
 
 ~[Preparing kits for daily offerings](market_methodical_offering_kit.jpg)
 ![cash for offering](market_offerings_as_a_transaction.jpg)
 ~[Offering vendor waiting for the next customer](market_offering_vendor.jpg)
 ![Offerings](market_completed_offerings_for_sale.jpg)
 
-This is partly because offerings symbolize beauty (it was also mentioned that you will not see men making offerings in Bali, and if you do, that man is referred to a “beautiful man”).
+This is partly because offerings symbolize beauty (it was also mentioned that you will not see men making offerings in Bali, and if you do, that man is referred to as a “beautiful man”).
 
 ## Familiarizing Ourselves with Ingredients at the Market
 
