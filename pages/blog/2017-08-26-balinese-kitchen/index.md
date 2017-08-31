@@ -140,6 +140,8 @@ _Basic spice base_. A foundation to Balinese cooking!
 ### Ayam Bakar Sambal Matah
 _Shredded poached chicken, lemongrass, chili kaffir lime dressing_
 
+![cook](prep_selfie.jpg)
+
 **Ingredients**
 
 - 200 g chicken breast or leg
