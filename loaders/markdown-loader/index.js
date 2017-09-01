@@ -1,6 +1,7 @@
 import frontMatter from 'front-matter';
 import markdownIt from 'markdown-it';
 import emoji from 'markdown-it-emoji';
+import headingAnchors from 'markdown-it-anchor';
 import hljs from 'highlight.js';
 import objectAssign from 'object-assign';
 import instagramEmbed from './embed';
@@ -30,6 +31,7 @@ const md = markdownIt({
 })
   .use(mdFigCaption)
   .use(emoji)
+  .use(headingAnchors, { permalink: true, permalinkBefore: true })
   .use(instagramEmbed);
 
 module.exports = function (content) {
