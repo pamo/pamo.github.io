@@ -9,9 +9,9 @@ readNext: '/cooking-with-cocco/'
 
 When it comes to traveling, experiencing a new culture through its food is a given. During my search for things to do (i.e. eat) in Bali, I latched on to the description for a traditional cuisine cooking class:
 
-> Begin your experience at a local market, where your Family Host will purchase and explain the fresh herbs, spices, fruits and vegetables used in your class. Once home, you’ll be greeted by Dewa with a pipping hot cup of coffee or tea and his famous Pisang Goreng, fresh made crispy Banana Fritters, to set off your taste buds. You’ll learn how to prepare a complete menu inclusive of appetizer, a variety of traditional mouth-watering entrees, accompanying dishes, and dessert.
+> Begin your experience at a local market, where your Family Host will purchase and explain the fresh herbs, spices, fruits and vegetables used in your class. Once home, you’ll be greeted by Dewa with a piping hot cup of coffee or tea and his famous Pisang Goreng, fresh made crispy Banana Fritters, to set off your taste buds. You’ll learn how to prepare a complete menu inclusive of appetizer, a variety of traditional mouth-watering entrees, accompanying dishes, and dessert.
 
- Apart from watching two friends get married, [_The Lobong Culinary Experience_](https://lobongbalicooking.com/lobong-culinary-experience/) became a top highlight in planning the trip. After the experience in Bali and a superlative [experience back home](/cooking-with-cocco/), cooking courses while be at the top of my search criteria when I travel rather than "_where to have the best \<insert regional dish here\>_".
+ Apart from watching two friends get married, [_The Lobong Culinary Experience_](https://lobongbalicooking.com/lobong-culinary-experience/) became a top highlight in planning the trip. After the experience in Bali and a superlative [experience back home](/cooking-with-cocco/), cooking courses will be at the top of my search criteria when I travel rather than "_where to have the best \<insert regional dish here\>_".
 
 ## Payangan Morning Market
 
@@ -62,7 +62,7 @@ This is partly because offerings symbolize beauty. As a result of this female re
 
 ## Familiarizing Ourselves with Ingredients at the Market
 
-The primary purpose of the market tour was too have a first hand look at what ingredients would look like among market stands.
+The primary purpose of the market tour was to have a first hand look at what ingredients would look like among market stands.
 We talked about the salad we would be making and a distinction was made between the greens in traditional western salads and Balinese salads. In Bali, fern tips are used rather than the common romaine, spinach, and kale.
 
 ~[Fresh ferns for Jukut Urab.](market_fern.jpg)
