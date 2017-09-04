@@ -4,9 +4,10 @@ date: '2017-08-31T20:34:38.633Z'
 layout: post
 path: '/veganish-bali/'
 readNext: '/bali-cooking/'
+coverPhoto: 'kismet_round_two_classic_deconstructed_skewers.jpg'
 draft: true
 ---
-With a quick glance at the recipes in my post about [cooking in Bali](/bali-cooking/), one might think my culinary adventures in Bali were predominately chicken-based. However, outside of the wedding and cooking class, my meals were primarily vegetarian (and at sometimes vegan). The ubiquity of raw, vegan, or vegetarian restaurant menus in Bali took me by surprise.
+With a quick glance at the recipes in my post about [cooking in Bali](/bali-cooking/), one might think my culinary adventures in Bali were predominately chicken-based. However, outside of the wedding and cooking class, my most enjoyable meals were vegetarian (and at sometimes vegan). The ubiquity of raw, vegan, or vegetarian restaurant menus in Bali took me by surprise.
 
 The ubiquity is normal to me in San Francisco given my circle of friends forms a Venn diagram in the variety of dietary choices. My excuse to try quirky new places or dishes in San Francisco form once I have another interested friend to bring along. For example, I keep a mental note of which friends to call when my favorite Feastly pop-up chefs, [Om Sabor](https://eatfeastly.com/omsabor/), host a Mexican-inspired vegan dinner.
 
@@ -35,7 +36,7 @@ My belly was happy with the volume of the bowls after every visit. These were 'b
 
 **Round three**
 
-~[After asking for extra avocado, I realized it meant getting a side of avocado.](kismet_round_three_asian_bowl_extra_avo.jpg)
+~[After asking for extra avocado, I realized it meant getting avocado on the side.](kismet_round_three_asian_bowl_extra_avo.jpg)
 
 ## Moksa
 
@@ -55,7 +56,7 @@ I got to the restaurant just as the sun began to set and took a seat at a table 
 
 Sometimes when I'm out having a meal by myself I will listen to podcasts and, as serendipity would have it, the topic was about the phenomenon of [waiting in line for food](http://freakonomics.com/podcast/what-are-you-waiting-for/). Lucky for me, solo-dining meant no wait and no reservation required.
 
-I didn't take long to decide on what I would have after I realized the three-course prix fixe menu was only $15 USD!
+I didn't take long to decide on what I would have after I realized the three-course prix fixe menu was only $15 USD! Each item on the menu made a clear distinction whether it was raw or heated. I chose a variety of both.
 
 ~[](moksa_amuse_buche.jpg)
 The meal started with an amuse-bouche that consisted of a slice of cucumber with some sort of hummus. Unfortunately I wasn't paying attention when the waitress came by and missed what she said. :see_no_evil:
@@ -67,60 +68,69 @@ The meal started with an amuse-bouche that consisted of a slice of cucumber with
 
 I loved that the toasted nuts turned out to be spiced cashews. The tender greens reminded me of eating baby spinach and butter lettuce from my tiny garden plot for the first time. :heartpulse:
 
-There were flakes in the salad that I didn't quite recognize but had Parmesan qualities that I thought went well with the cashews to add a pleasant crunch.
-
+There were flakes in the salad that I didn't quite recognize but looked and tasted like Parmesan. I felt that they went well with the cashews to add a pleasant crunch.
 
 **Main Dish**
 
 ~[Jerky Mignon ( Heated )](moksa_main_dish.jpg)
+
 "Grilled young jackfruit fillet, on a bed of vegan mushroom and mustard cream sauce, served with cumin-braised cabbages and sweet potato fries."
 
-I chose this after consulting the waiter taking my order and was not disappointed.
+I chose this after consulting the waiter taking my order and was not disappointed. During the meal, I took some short notes about what I thought as I chewed each of the components on the plate.
 
-Creamy sauce with the braised cabbages tamed the spice. Kept sopping it up.
-Jerky mignon was squishy thick and meaty. More like slider patties. Needs some water to wash it down.  Softer than what I expected. Sear marks are always a nice satisfying touch.
+I kept sopping up the mustard cream sauce with the braised cabbages to tame the spice from the caramelized cabbage and onions. It was my first time eating jackfruit "meat" and it felt squishy, thick, and meaty. The "mignon" was more like a couple of slider patties. The "thickness" of each bite needed some water to wash it down, however, the final texture was softer and smoother than what I expected. Sear marks are always a nice satisfying touch and I appreciated their placebo effect of making food "taste better".
 
-The cabbages had a caramelizada feel. Saw some onions.
-
-Saved the purple sweet potatoes for last. Had a beetroot-y taste. Crunchy skin in addition to sesame seed crust. Saltier than the other items. Chili salt. Cajun almost.
+I saved the purple sweet potatoes fries for last. Their deep purple hue made me think that they had a beetroot taste. Their crunchy skin in addition to sesame seed crust was amazing and they had a cajun kick to them that took me by surprise. The one downside was that they were saltier than the rest of the plate, but this was not a problem once dessert came along.
 
 **Dessert**
 
-Labeled as "nice cream" on the menu, which meant frozen desserts with a coconut, cashew, or pumpkin seed base.
-
-~[Scoops of jackfruit cardamom and chocolate coffee](moksa_dessert.jpg)
-
-The options on the menu with details about their base were:
+Labeled as "nice cream" on the menu, which meant frozen desserts with a coconut, cashew, or pumpkin seed base. I couldn't decide on what to have, I was craving a coconut base but found the other options intriguing. So I asked the waiter to categorize the flavors by base for me:
 
 * Vanilla ( cashew )
-* Chocolate coffee ( cashew )
+* Chocolate coffee ( cashew ) - my first pick
   - Absolutely creamy and nutty
   - Primarily chocolate flavor than coffee
   - Thicker base than the scoop of jackfruit cardamom, but melted much faster
 * Strawberry ( coconut )
 * Fermented black rice
-* Jack Cardamom ( coconut & pumpkin )
+* Jack Cardamom ( coconut & pumpkin ) - my second pick
   - 'Meaty' texture with seeds
   - Cardamom forward and sweeter than chocolate coffee
   - Aftertaste had hint of bananas
 * Durian ( coconut )
 
+~[Scoops of jackfruit cardamom and chocolate coffee](moksa_dessert.jpg)
+
 ## Suka Espresso
-http://4sq.com/2kqzPlk
-~[](suka_espresso_toast_poached_egg_mushroom.jpg)
-~[](suka_espresso_yolk_porn.jpg)
-~[](suka_cappuccino.jpg)
+
+[Suka Espresso on Foursquare](http://4sq.com/2kqzPlk)
+
+This was by far the most hipster cafe I visited during the entire trip. I was surrounded by Australians, one of which sent a flat white back because it was "not a flat white" :sweat_smile:, and each meal began with a perfectly posed overhead shot of the meal.
+
+So, when in Rome, gotta take food porn photos like the rest.
+
+~[Mushroom toast with beetroot hummus for lunch](suka_espresso_toast_poached_egg_mushroom.jpg)
+~[Poached egg yolk porn](suka_espresso_yolk_porn.jpg)
+~[Cappuccino on the side](suka_cappuccino.jpg)
 
 ## Padang Food Stall
-My first night at Oman's Guest House ended in my host walking me through rice fields in the darkness to reach the food stalls nearby at a night market. We stopped at a [Padang food stall](https://en.wikipedia.org/wiki/Padang_cuisine#Padang_restaurants) where we had the option to choose from a variety of dishes. We sat down with our plates and ate on picnic style tables covered with vinyl tablecloths.
+
+[RM. Simpang Tiga on Foursquare](http://4sq.com/kWVqRz)
+
+My first night at Oman's Guest House ended in my host walking me through rice fields in the darkness to reach the food stalls nearby at a night market. We stopped at a [Padang food stall](https://en.wikipedia.org/wiki/Padang_cuisine#Padang_restaurants) where we had the option to choose from a variety of dishes. We sat down with our plates and ate on picnic style tables covered with vinyl tablecloths. This was the most 'home style' meal I had during my stay in Bali and it was a comforting meal to have with another person, even though our conversation was primarily broken English.
 
 ~[Rice, chicken, eggplant, braised cabbage, tempeh.](padang_cuisine.jpg)
 
 ## Bali Budda
-http://4sq.com/bzotNO
-~[](bali_budda_bali_bunda_bowl_and_juice.jpg)
+
+[Bali Buda on Foursquare](http://4sq.com/bzotNO)
+
+I had high hopes for Bali Buda given their small market next door that was reminiscent of a tiny Whole Foods. However, the salad I ordered was not as satiating as the ones I had at [Kismet](#kismet-cafe) and they were out of avocado. I decided to pair the salad with a Beat The Heat juice (beets, celery, cucumber, parsley).
+
+~[Bali Bunda Bowl with sunflower seeds, poached egg, and chicken](bali_budda_bali_bunda_bowl_and_juice.jpg)
 
 ## Ice Cream
+
 Ice cream deserves its own section because happiness is unlimited tastings to decide among exotic flavors.
 
 [**Tukies**](http://4sq.com/2opAZCN)
@@ -138,7 +148,16 @@ Vibrant and funky sorbet flavors made me do a double take. Got the black charcoa
 
 [**Gaya Gelato**](http://4sq.com/dzbNdN)
 
-Dessert with my homestay host after eating from a Padang food stall.
+Dessert with my home stay host after eating from a Padang food stall.
 
-~[](gaya_gelato_coffee_and_cashew.jpg)
+~[Coffee and cashew gelato](gaya_gelato_coffee_and_cashew.jpg)
 
+## Coffee
+
+Specialty coffee in Ubud is easy to come by if you're willing to go out of your way to find it. The baristas at [Seniman Coffee](http://sprudge.com/seniman-coffee-bali-65480.html), [Gangga Coffee](https://www.facebook.com/ganggacoffee/), [7Cups](https://www.facebook.com/7CupsUbud/) know their way around a pour-over brewer and espresso machine.
+
+The [nitro cold brew](https://www.instagram.com/p/BYFqi-BAJkf) at Seniman is especially exquisite.
+
+## Go Back with Me!
+
+I'm happy to know that Bali is a destination for any dietary choice or restriction. If I ever get the opportunity to travel to Bali, I definitely see myself in a longer stay in Ubud potentially working remotely. Hopefully I'll have a few other people with me next time to share the experiences I had while I was there.
