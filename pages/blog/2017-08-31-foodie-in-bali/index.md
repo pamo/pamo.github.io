@@ -13,95 +13,132 @@ The ubiquity is normal to me in San Francisco given my circle of friends forms a
 I really missed these friends with every day spent being solo and _veganish_ in Bali and I am excited to be able to act as a guide if I ever make it back with a larger squad.
 
 ## Kismet Cafe
-[Kismet Cafe on Foursquare](http://4sq.com/1Moio0B)
+
+[**Kismet Cafe on Foursquare**](http://4sq.com/1Moio0B)
 
 Kismet Cafe was a major stand-out in Ubud. My first visit had me craving their Asian bowl again the next day. By my third visit, they recognized me as a regular, and, for me, it was a great departing meal before flying back home. The restaurant has two floors with open-air seating and it was never too busy. I spent most of my visits devouring their bowls, drinking kombucha or kefir, and sometimes reading or editing photos.
 
 What I really liked about their bowls was the ability to get them with a variety of skewers. I had the option to get 3 or 5 and I always got 5. The first visit was a mix of tofu, seitan, grilled vegetables, mushrooms, and tempeh. After this first visit I discovered which of those options were my favorites. My second and third visit leaned towards choosing 2 tempeh skewers, 1 seitan, and 2 mushroom.
 
-The volume in each of the bowls was very satiating. My belly was happy after each visit. These were 'bowls' in the sense that you could choose between red steamed rice or rice noodles. I chose noodles in my first visit (they were crunchy and thin like [Maggi noodles](http://www.tasty-indian-recipes.com/snacks-recipes/maggi-vegetable-atta-noodles-recipe/)), decided I didn't like them, and got red rice the second time. I enjoyed the red rice's nutty taste, but for my third visit, I opted to make the bowl a salad with extra avocado.
+My belly was happy with the volume of the bowls after every visit. These were 'bowls' in the sense that you could choose between red steamed rice or rice noodles to add to the base of leafy greens. I chose noodles on my first visit and decided I didn't care for them (they were crunchy and thin like [Maggi noodles](http://www.tasty-indian-recipes.com/snacks-recipes/maggi-vegetable-atta-noodles-recipe/)). I gave the rice a try the second time and enjoyed its nutty taste. Tempeh was the ingredient in all of my visits that took me by surprise. I'm quick to try anything that's fermented so I was surprised it took me this long to have it. I enjoyed the chewy, nutty, and hearty texture. At one point I decided tempeh would be something I should try making myself once I got home, but after a [quick search](http://www.thekitchn.com/how-to-make-tempeh-cooking-lessons-from-the-kitchn-202369), the process seems to be less forgiving than sourdough, kimchi, or kombucha. I'll save tempeh production for the pros. :sweat_smile:
 
-I tried the 'classic' bowl during my first visit, but the Asian bowl was definitely the best in my opinion. It has kimchi!
+**Round one**
 
-### Round one
-
-~[Asian bowl with mixed skewers](kismet_round_one_asian_bowl.jpg)
+~[Asian bowl with mixed skewers, clearly superior since it has kimchi](kismet_round_one_asian_bowl.jpg)
 ~[Local Kefir with a funky coozie](kismet_round_one_kefir.jpg)
 
-### Round two
+**Round two**
 
-~[Classic bowl](kismet_round_two_classic_bowl.jpg)
+~[Gave the classic bowl a try](kismet_round_two_classic_bowl.jpg)
 ~[Deconstructed skewers](kismet_round_two_classic_deconstructed_skewers.jpg)
-~[House-made ginger star anise kombucha](kismet_round_two_ginger_star_anise_kombucha.jpg)
+~[House-made ginger and star-anise kombucha](kismet_round_two_ginger_star_anise_kombucha.jpg)
 
-### Round three
+**Round three**
 
-~[Extra avocado means a 'side' of avocado.](kismet_round_three_asian_bowl_extra_avo.jpg)
+~[After asking for extra avocado, I realized it meant getting a side of avocado.](kismet_round_three_asian_bowl_extra_avo.jpg)
 
 ## Moksa
 
-http://4sq.com/1RTguFN
+[Moksa Restaurant on Foursquare](http://4sq.com/1RTguFN)
 
-Road leading up to the restaurant is tiny. You're running the risk of falling into a rice field if you bring or take a car. Better off with motorbike or on foot. Although roads leading to the restaurant don't really have a shoulder to walk on. View of the permaculture garden before sunset made me think of mine and the possibilities for adding more consumable crops. Listened to freak economic podcast about phenomenons about waiting in line for food. Lucky for me solo dining meant no wait. Seated in what felt like a big gazebo. Open air candle lit.
+Moksa was a special trip in many ways. My first attempt to reach the restaurant from my home-stay on foot was a failure that lead me to a dead-end in a few rice fields, but a cute reward was getting to watch ducks run around one of the fields like lemmings following the flock's collective direction.
 
-$15!
+[![duck duck go](duck_lemmings.jpg)](https://www.instagram.com/p/BYCeeVYAH34)
+
+The route I ended up taking was dangerous because I was walking on a road with a small shoulder with heavy evening traffic. I decided there was no way I would walk back in the darkness and would find a way to call a taxi to pick me up.
+
+Anxiety around how I would accomplish getting back to my home-stay began to set in when I realized that the back-road leading up to the restaurant is tiny and not meant for anything with more than 2 wheels. Driving on this road means running the risk of falling into a rice field. Even motorbikes and pedestrians would to proceed with careful footing in the darkness. When I _did_ have a taxi pick me up, we had to carefully reverse and teeter on the edge of the path to turn around after realizing there was only one way out. At one point, we met a group of people walking towards the restaurant that had to turn around and walk back in order to give us the right of way.
+
+Was the risk of falling into a rice field in a taxi van worth it? **Yes**.
+
+I got to the restaurant just as the sun began to set and took a seat at a table near the edge of the open candle-lit gazebo dining area so that I could get a glimpse of [permaculture](https://en.wikipedia.org/wiki/Permaculture) garden Moksa maintains to provide ingredients for the menu.
+
+Sometimes when I'm out having a meal by myself I will listen to podcasts and, as serendipity would have it, the topic was about the phenomenon of [waiting in line for food](http://freakonomics.com/podcast/what-are-you-waiting-for/). Lucky for me, solo-dining meant no wait and no reservation required.
+
+I didn't take long to decide on what I would have after I realized the three-course prix fixe menu was only $15 USD!
 
 ~[](moksa_amuse_buche.jpg)
-amuse-bouche was a cucumber with some sort of hummus? Wasn't paying attention.
+The meal started with an amuse-bouche that consisted of a slice of cucumber with some sort of hummus. Unfortunately I wasn't paying attention when the waitress came by and missed what she said. :see_no_evil:
 
-~[](moksa_salad_appetizer.jpg)
-Spiced cashews in the salad were nice and I liked them. Tender greens. Parmesan flakes were cool.
+**Appetizer**
+
+~[Mega Life Salad ( Raw )](moksa_salad_appetizer.jpg)
+"Seared tofu, gotta cola, baby spinach, grated carrots, red beet, cucumber, spring mix, avocado, and toasted nuts With orange lemongrass dressing"
+
+I loved that the toasted nuts turned out to be spiced cashews. The tender greens reminded me of eating baby spinach and butter lettuce from my tiny garden plot for the first time. :heartpulse:
+
+There were flakes in the salad that I didn't quite recognize but had Parmesan qualities that I thought went well with the cashews to add a pleasant crunch.
+
+
+**Main Dish**
+
+~[Jerky Mignon ( Heated )](moksa_main_dish.jpg)
+"Grilled young jackfruit fillet, on a bed of vegan mushroom and mustard cream sauce, served with cumin-braised cabbages and sweet potato fries."
+
+I chose this after consulting the waiter taking my order and was not disappointed.
+
 Creamy sauce with the braised cabbages tamed the spice. Kept sopping it up.
-
-~[](moksa_main_dish.jpg)
 Jerky mignon was squishy thick and meaty. More like slider patties. Needs some water to wash it down.  Softer than what I expected. Sear marks are always a nice satisfying touch.
 
 The cabbages had a caramelizada feel. Saw some onions.
 
 Saved the purple sweet potatoes for last. Had a beetroot-y taste. Crunchy skin in addition to sesame seed crust. Saltier than the other items. Chili salt. Cajun almost.
 
-~[](moksa_dessert.jpg)
-Nice cream! Base of coconut, cashew, or pumpkin seed
-Vanilla // cashew
-Chocolate coffee // cashew
-Absolutely creamy and nutty
-More chocolate than coffee
-Thicker than the other scoop but melted much faster
+**Dessert**
 
+Labeled as "nice cream" on the menu, which meant frozen desserts with a coconut, cashew, or pumpkin seed base.
 
-Strawberry // coconut
-Fermented black rice //
-Jack Cardamom // coconut & pumpkin
-Meaty textured felt seeds.
-Cardamom strong and sweet.
-Tasted bananas
+~[Scoops of jackfruit cardamom and chocolate coffee](moksa_dessert.jpg)
 
-Durian // coconut
+The options on the menu with details about their base were:
 
+* Vanilla ( cashew )
+* Chocolate coffee ( cashew )
+  - Absolutely creamy and nutty
+  - Primarily chocolate flavor than coffee
+  - Thicker base than the scoop of jackfruit cardamom, but melted much faster
+* Strawberry ( coconut )
+* Fermented black rice
+* Jack Cardamom ( coconut & pumpkin )
+  - 'Meaty' texture with seeds
+  - Cardamom forward and sweeter than chocolate coffee
+  - Aftertaste had hint of bananas
+* Durian ( coconut )
 
 ## Suka Espresso
 http://4sq.com/2kqzPlk
 ~[](suka_espresso_toast_poached_egg_mushroom.jpg)
 ~[](suka_espresso_yolk_porn.jpg)
+~[](suka_cappuccino.jpg)
+
+## Padang Food Stall
+My first night at Oman's Guest House ended in my host walking me through rice fields in the darkness to reach the food stalls nearby at a night market. We stopped at a [Padang food stall](https://en.wikipedia.org/wiki/Padang_cuisine#Padang_restaurants) where we had the option to choose from a variety of dishes. We sat down with our plates and ate on picnic style tables covered with vinyl tablecloths.
+
+~[Rice, chicken, eggplant, braised cabbage, tempeh.](padang_cuisine.jpg)
 
 ## Bali Budda
 http://4sq.com/bzotNO
 ~[](bali_budda_bali_bunda_bowl_and_juice.jpg)
 
 ## Ice Cream
+Ice cream deserves its own section because happiness is unlimited tastings to decide among exotic flavors.
 
-### Tukies
+[**Tukies**](http://4sq.com/2opAZCN)
+
+All coconut menu made it easy to decide.
+
 ~[Coconut with roasted coconut crumble](tukies_coconut_icecream.jpg)
 
-http://4sq.com/2opAZCN
 
-### Gelato Secrets
+[**Gelato Secrets**](http://4sq.com/X4EWdo)
 
-http://4sq.com/X4EWdo
 Vibrant and funky sorbet flavors made me do a double take. Got the black charcoal and passionfruit cinnamon as my last snack in Ubud.
 
 ~[Dragonfruit cinnamon with black charcoal](gelato_secrets_dragonfruit_black_charcoal_cinnamon.jpg)
 
-### Gaya Gelato
-http://4sq.com/dzbNdN
+[**Gaya Gelato**](http://4sq.com/dzbNdN)
+
+Dessert with my homestay host after eating from a Padang food stall.
+
+~[](gaya_gelato_coffee_and_cashew.jpg)
 
