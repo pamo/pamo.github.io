@@ -17,7 +17,7 @@ const BlogIndex = (props) => {
   const sortedPages = sortBy(blogPosts, page => access(page, 'data.date')).reverse();
 
   sortedPages.forEach((page) => {
-    if (access(page, 'file.ext') === 'md') {
+    if (!access(page, 'data.draft') && access(page, 'file.ext') === 'md') {
       title = access(page, 'data.title') || page.path;
       body = prune(page.data.body.replace(/<[^>]*>/g, ''), 200);
 
