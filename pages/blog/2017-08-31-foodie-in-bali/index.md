@@ -4,8 +4,7 @@ date: '2017-08-31T20:34:38.633Z'
 layout: post
 path: '/veganish-bali/'
 readNext: '/bali-cooking/'
-coverPhoto: 'kismet_round_two_classic_deconstructed_skewers.jpg'
-draft: true
+coverPhoto: 'moksa_main_dish.jpg'
 ---
 With a quick glance at the recipes in my post about [cooking in Bali](/bali-cooking/), one might think my culinary adventures in Bali were predominately chicken-based. However, outside of the wedding and cooking class, my most enjoyable meals were vegetarian (and at sometimes vegan). The ubiquity of raw, vegan, or vegetarian restaurant menus in Bali took me by surprise.
 
