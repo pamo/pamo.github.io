@@ -1,4 +1,6 @@
-version: v1.5.2
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:hapi:20151020':
     - gatsby > hapi:
@@ -19,6 +21,7 @@ ignore:
     - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk:
         reason: None given
         expires: '2016-08-18T21:32:43.751Z'
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:call:20160705':
     - gatsby > hapi > call:
@@ -62,3 +65,24 @@ patch:
         patched: '2016-07-26T23:07:07.059Z'
     - gatsby > postcss-import > pkg-resolve > jspm > request > tough-cookie:
         patched: '2016-07-26T23:07:07.059Z'
+  'npm:hoek:20180212':
+    - gatsby > hapi > subtext > content > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > hapi > subtext > pez > content > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > request > hawk > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > request > hawk > boom > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > request > hawk > sntp > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
+    - gatsby > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-24T04:04:15.559Z'
