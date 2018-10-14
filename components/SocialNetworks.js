@@ -32,7 +32,7 @@ const SocialNetworks = (props) => {
       icon: Instagram,
     },
     foursquare: {
-      url: 'http://foursquare.com/pmocampo',
+      url: 'http://foursquare.com/4sqpamo',
       icon: Foursquare,
     },
     pocket: {
