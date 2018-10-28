@@ -1,4 +1,6 @@
-version: v1.5.2
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:hapi:20151020':
     - gatsby > hapi:
@@ -19,6 +21,7 @@ ignore:
     - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk:
         reason: None given
         expires: '2016-08-18T21:32:43.751Z'
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:call:20160705':
     - gatsby > hapi > call:
@@ -62,3 +65,24 @@ patch:
         patched: '2016-07-26T23:07:07.059Z'
     - gatsby > postcss-import > pkg-resolve > jspm > request > tough-cookie:
         patched: '2016-07-26T23:07:07.059Z'
+  'npm:tunnel-agent:20170305':
+    - imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - imagemin-jpeg-recompress > jpeg-recompress-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - gatsby > image-webpack-loader > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - gatsby > image-webpack-loader > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - gatsby > image-webpack-loader > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - gatsby > image-webpack-loader > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - gatsby > image-webpack-loader > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - gatsby > image-webpack-loader > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
+    - gatsby > image-webpack-loader > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-28T04:04:08.909Z'
