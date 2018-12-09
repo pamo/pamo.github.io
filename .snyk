@@ -1,4 +1,6 @@
-version: v1.5.2
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:hapi:20151020':
     - gatsby > hapi:
@@ -19,6 +21,7 @@ ignore:
     - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request > hawk:
         reason: None given
         expires: '2016-08-18T21:32:43.751Z'
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:call:20160705':
     - gatsby > hapi > call:
@@ -62,3 +65,12 @@ patch:
         patched: '2016-07-26T23:07:07.059Z'
     - gatsby > postcss-import > pkg-resolve > jspm > request > tough-cookie:
         patched: '2016-07-26T23:07:07.059Z'
+  'npm:hoek:20180212':
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > hoek:
+        patched: '2018-12-09T05:25:10.802Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > sntp > hoek:
+        patched: '2018-12-09T05:25:10.802Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > boom > hoek:
+        patched: '2018-12-09T05:25:10.802Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-09T05:25:10.802Z'
