@@ -9,7 +9,9 @@
     "gatsby:dev": "gatsby develop",
     "start": "npm-run-all --parallel gatsby:dev lint:watch",
     "deploy": "gatsby build && gh-pages -d public -b master",
-    "post": "node new_post.js"
+    "post": "node new_post.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,19 +31,19 @@
   "dependencies": {
     "front-matter": "^2.0.6",
     "fs-extra": "1.0.0",
-    "gatsby": "^0.12.19",
+    "gatsby": "^0.12.48",
     "highlight.js": "^9.2.0",
     "imagemin": "^5.2.2",
     "imagemin-jpeg-recompress": "^5.1.0",
     "imagemin-optipng": "^5.2.1",
     "js-yaml": "^3.5.4",
-    "lodash": "^4.5.0",
+    "lodash": "^4.17.5",
     "markdown-it": "^7.0.1",
     "markdown-it-anchor": "^4.0.0",
     "markdown-it-emoji": "^1.2.0",
     "markdown-it-regexp": "^0.4.0",
     "mkdirp": "^0.5.1",
-    "moment": "^2.11.2",
+    "moment": "^2.19.3",
     "object-assign": "^4.0.1",
     "prompt": "^1.0.0",
     "react-google-analytics": "^0.2.0",
@@ -50,9 +52,10 @@
     "react-responsive-grid": "^0.3.3",
     "react-typography": "^0.15.0",
     "safe-access": "^0.1.0",
-    "typography": "^0.15.0",
+    "typography": "^0.15.12",
     "typography-theme-lincoln": "^0.15.0",
-    "underscore.string": "^3.2.3"
+    "underscore.string": "^3.3.5",
+    "snyk": "^1.116.2"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
@@ -65,5 +68,6 @@
     "npm-run-all": "^3.1.1",
     "sass-variables-loader": "^0.1.3",
     "yarn": "^0.17.9"
-  }
+  },
+  "snyk": true
 }
