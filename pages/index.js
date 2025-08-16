@@ -3,7 +3,6 @@ import { config } from 'config';
 import { routeProp } from '../utils/propTypeValidation';
 import { rhythm } from '../utils/typography';
 import SocialNetworks from '../components/SocialNetworks';
-import Navigation from '../components/Navigation';
 import ProfileImage from '../components/ProfileImage';
 import '../css/landing.scss';
 
@@ -26,7 +25,6 @@ const SiteIndex = () => (
         }}
       />
     </div>
-    <Navigation />
   </div>
   );
 
